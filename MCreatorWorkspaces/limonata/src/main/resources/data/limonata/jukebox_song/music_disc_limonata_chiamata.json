@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.limonata.music_disc_limonata_chiamata.desc"
+  },
+  "length_in_seconds": 30.3,
+  "sound_event": "limonata:music_disc_limonata_chiamata"
+}

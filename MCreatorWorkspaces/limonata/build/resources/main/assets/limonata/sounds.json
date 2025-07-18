@@ -1,0 +1,11 @@
+{
+  "music_disc_limonata_chiamata": {
+    "subtitle": "subtitles.music_disc_limonata_chiamata",
+    "sounds": [
+      {
+        "name": "limonata:limonata_chiamata_audio_only",
+        "stream": true
+      }
+    ]
+  }
+}
