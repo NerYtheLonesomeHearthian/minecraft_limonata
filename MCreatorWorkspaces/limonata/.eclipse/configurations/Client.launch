@@ -2,9 +2,9 @@
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="limonata"></stringAttribute>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="net.neoforged.devlaunch.Main"></stringAttribute>
-    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value=" @C:\\Users\\nery\\MCreatorWorkspaces\\limonata\\build\\moddev\\clientRunProgramArgs.txt"></stringAttribute>
-    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value=" @C:\\Users\\nery\\MCreatorWorkspaces\\limonata\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=mcreator%%C:\\Users\\nery\\MCreatorWorkspaces\\limonata\\bin\\main"></stringAttribute>
-    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Users\nery\MCreatorWorkspaces\limonata\run"></stringAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value=" &quot;@F:\\User Files\\Documents\\GitHub\\minecraft_limonata\\MCreatorWorkspaces\\limonata\\build\\moddev\\clientRunProgramArgs.txt&quot;"></stringAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value=" &quot;@F:\\User Files\\Documents\\GitHub\\minecraft_limonata\\MCreatorWorkspaces\\limonata\\build\\moddev\\clientRunVmArgs.txt&quot; &quot;-Dfml.modFolders=mcreator%%F:\\User Files\\Documents\\GitHub\\minecraft_limonata\\MCreatorWorkspaces\\limonata\\bin\\main&quot;"></stringAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="F:\User Files\Documents\GitHub\minecraft_limonata\MCreatorWorkspaces\limonata\run"></stringAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.STOP_IN_MAIN" value="false"></booleanAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"></booleanAttribute>
 </launchConfiguration>
