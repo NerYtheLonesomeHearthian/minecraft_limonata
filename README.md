@@ -1,2 +1,4 @@
 # minecraft_limonata
-repository for the Minecraft mod Limonata
+Repository for the Minecraft mod Limonata (1.21.1)
+
+This mod was made with MCreator.
