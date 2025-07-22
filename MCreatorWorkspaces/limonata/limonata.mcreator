@@ -13,6 +13,45 @@
           "src/main/resources/assets/limonata/models/item/music_disc_limonata_chiamata.json"
         ]
       }
+    },
+    {
+      "name": "Glass",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/item/GlassItem.java",
+          "src/main/resources/assets/limonata/models/item/glass.json"
+        ]
+      }
+    },
+    {
+      "name": "Limonataglass",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonataglass",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/item/LimonataglassItem.java",
+          "src/main/resources/assets/limonata/models/item/limonataglass.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/advancement/recipes/glassrecipe.json",
+          "src/main/resources/data/limonata/recipe/glassrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -42,7 +81,9 @@
     "en_us": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
       "item.limonata.music_disc_limonata_chiamata": "Music Disc",
-      "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata"
+      "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata",
+      "item.limonata.glass": "Glass",
+      "item.limonata.limonataglass": "Glass of Lemonade"
     }
   },
   "metadata": {

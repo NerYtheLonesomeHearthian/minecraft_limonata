@@ -1,0 +1,8 @@
+{
+  "parent": "limonata:custom/limonata_glass",
+  "textures": {
+    "13": "limonata:block/limonata_glass",
+    "missing": "limonata:block/limonata_glass",
+    "particle": "limonata:item/limonata_glass"
+  }
+}

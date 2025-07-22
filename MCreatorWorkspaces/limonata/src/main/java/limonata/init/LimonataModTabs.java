@@ -22,6 +22,9 @@ public class LimonataModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LimonataModItems.MUSIC_DISC_LIMONATA_CHIAMATA.get());
+			tabData.accept(LimonataModItems.GLASS.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(LimonataModItems.LIMONATAGLASS.get());
 		}
 	}
 }

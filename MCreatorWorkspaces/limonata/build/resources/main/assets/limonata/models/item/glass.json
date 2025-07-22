@@ -1,0 +1,31 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "limonata:custom/glass",
+    "textures": {
+      "13": "limonata:block/limonata_glass",
+      "particle": "limonata:item/limonata_glass"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "limonata:item/glass"
+      }
+    },
+    "fixed": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "limonata:item/glass"
+      }
+    },
+    "ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "limonata:item/glass"
+      }
+    }
+  }
+}

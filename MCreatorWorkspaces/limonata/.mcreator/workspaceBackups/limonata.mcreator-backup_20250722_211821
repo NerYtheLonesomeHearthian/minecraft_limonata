@@ -9,32 +9,8 @@
       "metadata": {
         "files": [
           "src/main/java/limonata/item/MusicDiscLimonataChiamataItem.java",
-          "src/main/resources/assets/limonata/models/item/music_disc_limonata_chiamata.json",
-          "src/main/resources/data/limonata/jukebox_song/music_disc_limonata_chiamata.json"
-        ]
-      }
-    },
-    {
-      "name": "Limonatachiamatadiscrecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "limonatachiamatadiscrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/limonata/recipe/limonatachiamatadiscrecipe.json"
-        ]
-      }
-    },
-    {
-      "name": "Limonatachiamatadiscrecipe2",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "limonatachiamatadiscrecipe_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/limonata/recipe/limonatachiamatadiscrecipe_2.json"
+          "src/main/resources/data/limonata/jukebox_song/music_disc_limonata_chiamata.json",
+          "src/main/resources/assets/limonata/models/item/music_disc_limonata_chiamata.json"
         ]
       }
     }
@@ -53,6 +29,12 @@
   "tag_elements": {
     "ITEMS:minecraft:music_discs": [
       "~CUSTOM:MusicDiscLimonataChiamata"
+    ],
+    "ITEMS:c:music_discs": [
+      "CUSTOM:MusicDiscLimonataChiamata"
+    ],
+    "ITEMS:minecraft:creeper_drop_music_discs": [
+      "CUSTOM:MusicDiscLimonataChiamata"
     ]
   },
   "tab_element_order": {},
@@ -65,11 +47,11 @@
   },
   "metadata": {
     "files": [
-      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/limonata/init/LimonataModSounds.java",
       "src/main/java/limonata/init/LimonataModTabs.java",
       "src/main/resources/assets/limonata/sounds.json",
-      "src/main/java/limonata/init/LimonataModSounds.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/limonata/LimonataMod.java",
       "src/main/java/limonata/init/LimonataModItems.java"
     ]
@@ -93,5 +75,5 @@
     "currentGenerator": "neoforge-1.21.1",
     "modElementsPackage": "limonata"
   },
-  "mcreatorVersion": 202500226612
+  "mcreatorVersion": 202500228610
 }

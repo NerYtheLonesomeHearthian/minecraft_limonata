@@ -1,1 +1,4 @@
 /give @p limonata:music_disc_limonata_chiamata
+/effect give Dev minecraft:hunger
+/summon skeleton
+/effect give @p minecraft:instant_damage
