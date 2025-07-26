@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="Not specified"
+license="MIT License"
 
 [[mods]]
 modId="limonata"
-version="1.0.0"
+version="1.2.0.2"
 displayName="limonata"
-displayURL="https://mcreator.net"
+displayURL="https://github.com/NerYtheLonesomeHearthian/minecraft_limonata"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="nery, MCreator"
+authors="nery"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
