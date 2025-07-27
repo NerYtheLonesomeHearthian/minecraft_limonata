@@ -1,8 +1,8 @@
 {
   "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
-  "item.limonata.music_disc_limonata_chiamata": "Disco Musicale",
-  "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata",
   "item.limonata.glass": "Bicchiere",
-  "item.limonata.limonataglass": "Bicchiere di Limonata",
-  "item.limonata.limonataglass.description_0": "gffchgbfy"
+  "item.limonata.music_disc_limonata_chiamata": "Music Disc",
+  "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata",
+  "item.limonata.glass_of_lemonade": "Glass of Lemonade",
+  "item.limonata.glass_of_lemonade.description_0": "§9Saturation §9(03:00)"
 }

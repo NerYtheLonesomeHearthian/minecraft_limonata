@@ -24,7 +24,7 @@ public class LimonataModTabs {
 			tabData.accept(LimonataModItems.MUSIC_DISC_LIMONATA_CHIAMATA.get());
 			tabData.accept(LimonataModItems.GLASS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-			tabData.accept(LimonataModItems.LIMONATAGLASS.get());
+			tabData.accept(LimonataModItems.GLASS_OF_LEMONADE.get());
 		}
 	}
 }
