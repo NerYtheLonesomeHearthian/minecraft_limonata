@@ -2,3 +2,4 @@
 /effect give Dev minecraft:hunger
 /summon skeleton
 /effect give @p minecraft:instant_damage
+/time set day

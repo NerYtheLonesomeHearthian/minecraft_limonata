@@ -32,11 +32,11 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "limonataglass",
+      "registry_name": "glass_of_lemonade",
       "metadata": {
         "files": [
-          "src/main/java/limonata/item/LimonataglassItem.java",
-          "src/main/resources/assets/limonata/models/item/limonataglass.json"
+          "src/main/resources/assets/limonata/models/item/glass_of_lemonade.json",
+          "src/main/java/limonata/item/LimonataglassItem.java"
         ]
       }
     },
@@ -50,6 +50,24 @@
         "files": [
           "src/main/resources/data/limonata/advancement/recipes/glassrecipe.json",
           "src/main/resources/data/limonata/recipe/glassrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LimonataglassPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonataglass_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/LimonataglassPlayerFinishesUsingItemProcedure.java"
         ]
       }
     }
@@ -66,31 +84,33 @@
     }
   ],
   "tag_elements": {
-    "ITEMS:minecraft:music_discs": [
-      "~CUSTOM:MusicDiscLimonataChiamata"
-    ],
     "ITEMS:c:music_discs": [
       "CUSTOM:MusicDiscLimonataChiamata"
     ],
     "ITEMS:minecraft:creeper_drop_music_discs": [
       "CUSTOM:MusicDiscLimonataChiamata"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:MusicDiscLimonataChiamata"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
+      "item.limonata.glass": "Glass",
       "item.limonata.music_disc_limonata_chiamata": "Music Disc",
       "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata",
-      "item.limonata.glass": "Glass",
-      "item.limonata.limonataglass": "Glass of Lemonade"
+      "item.limonata.glass_of_lemonade": "Glass of Lemonade",
+      "item.limonata.glass_of_lemonade.description_0": "§9Saturation §9(03:00)"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
-      "item.limonata.music_disc_limonata_chiamata": "Disco Musicale",
-      "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata",
       "item.limonata.glass": "Bicchiere",
-      "item.limonata.limonataglass": "Bicchiere di Limonata"
+      "item.limonata.music_disc_limonata_chiamata": "Music Disc",
+      "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata",
+      "item.limonata.glass_of_lemonade": "Glass of Lemonade",
+      "item.limonata.glass_of_lemonade.description_0": "§9Saturation §9(03:00)"
     }
   },
   "metadata": {
@@ -111,7 +131,7 @@
   "workspaceSettings": {
     "modid": "limonata",
     "modName": "limonata",
-    "version": "1.2.0.2",
+    "version": "1.2.0.4",
     "author": "nery",
     "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",
     "license": "MIT License",

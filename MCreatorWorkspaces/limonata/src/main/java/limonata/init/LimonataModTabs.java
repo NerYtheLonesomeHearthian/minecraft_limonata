@@ -25,6 +25,10 @@ public class LimonataModTabs {
 			tabData.accept(LimonataModItems.GLASS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(LimonataModItems.GLASS_OF_LEMONADE.get());
+			tabData.accept(LimonataModItems.LEMON.get());
+			tabData.accept(LimonataModItems.CUTLEMON.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(LimonataModItems.LEMONSEEDS.get());
 		}
 	}
 }

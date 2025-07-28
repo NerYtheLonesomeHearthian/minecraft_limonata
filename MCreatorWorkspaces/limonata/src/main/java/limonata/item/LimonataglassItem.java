@@ -31,7 +31,7 @@ public class LimonataglassItem extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack itemstack, LivingEntity livingEntity) {
-		return 27;
+		return 37;
 	}
 
 	@Override

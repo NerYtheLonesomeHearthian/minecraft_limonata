@@ -70,6 +70,71 @@
           "src/main/java/limonata/procedures/LimonataglassPlayerFinishesUsingItemProcedure.java"
         ]
       }
+    },
+    {
+      "name": "Lemon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/item/LemonItem.java",
+          "src/main/resources/assets/limonata/models/item/lemon.json"
+        ]
+      }
+    },
+    {
+      "name": "Cutlemon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutlemon",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/item/CutlemonItem.java",
+          "src/main/resources/assets/limonata/models/item/cutlemon.json"
+        ]
+      }
+    },
+    {
+      "name": "Lemontocutlemon",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemontocutlemon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/lemontocutlemon.json",
+          "src/main/resources/data/limonata/advancement/recipes/lemontocutlemon.json"
+        ]
+      }
+    },
+    {
+      "name": "Lemonseeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonseeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/models/item/lemonseeds.json",
+          "src/main/java/limonata/item/LemonseedsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cutlemontolemonseeds",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutlemontolemonseeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/advancement/recipes/cutlemontolemonseeds.json",
+          "src/main/resources/data/limonata/recipe/cutlemontolemonseeds.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -102,7 +167,10 @@
       "item.limonata.music_disc_limonata_chiamata": "Music Disc",
       "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata",
       "item.limonata.glass_of_lemonade": "Glass of Lemonade",
-      "item.limonata.glass_of_lemonade.description_0": "§9Saturation §9(03:00)"
+      "item.limonata.glass_of_lemonade.description_0": "§9Saturation §9(03:00)",
+      "item.limonata.lemon": "Lemon",
+      "item.limonata.cutlemon": "Cut Lemon",
+      "item.limonata.lemonseeds": "Lemon Seeds"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -110,7 +178,10 @@
       "item.limonata.music_disc_limonata_chiamata": "Music Disc",
       "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata",
       "item.limonata.glass_of_lemonade": "Glass of Lemonade",
-      "item.limonata.glass_of_lemonade.description_0": "§9Saturation §9(03:00)"
+      "item.limonata.glass_of_lemonade.description_0": "§9Saturation §9(03:00)",
+      "item.limonata.lemon": "Lemon",
+      "item.limonata.cutlemon": "Cut Lemon",
+      "item.limonata.lemonseeds": "Lemon Seeds"
     }
   },
   "metadata": {
@@ -131,7 +202,7 @@
   "workspaceSettings": {
     "modid": "limonata",
     "modName": "limonata",
-    "version": "1.2.0.4",
+    "version": "1.2.0.5",
     "author": "nery",
     "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",
     "license": "MIT License",
