@@ -5,8 +5,11 @@ package limonata.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import limonata.item.MusicDiscLimonataChiamataItem;
 import limonata.item.LimonataglassItem;
@@ -25,6 +28,17 @@ public class LimonataModItems {
 	public static final DeferredItem<Item> LEMON = REGISTRY.register("lemon", LemonItem::new);
 	public static final DeferredItem<Item> CUTLEMON = REGISTRY.register("cutlemon", CutlemonItem::new);
 	public static final DeferredItem<Item> LEMONSEEDS = REGISTRY.register("lemonseeds", LemonseedsItem::new);
+	public static final DeferredItem<Item> LEMON_CROP_0 = block(LimonataModBlocks.LEMON_CROP_0);
+	public static final DeferredItem<Item> LEMON_CROP_2 = block(LimonataModBlocks.LEMON_CROP_2);
+	public static final DeferredItem<Item> LEMON_CROP_1 = block(LimonataModBlocks.LEMON_CROP_1);
+
 	// Start of user code block custom items
 	// End of user code block custom items
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
+		return block(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), properties));
+	}
 }

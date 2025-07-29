@@ -7,5 +7,10 @@
   "item.limonata.glass_of_lemonade.description_0": "§9Saturation §9(03:00)",
   "item.limonata.lemon": "Lemon",
   "item.limonata.cutlemon": "Cut Lemon",
-  "item.limonata.lemonseeds": "Lemon Seeds"
+  "item.limonata.lemonseeds": "Lemon Seeds",
+  "advancements.obtainlemon.descr": "Obtain a Lemon.",
+  "advancements.obtainlemon.title": "It starts here...",
+  "block.limonata.lemon_crop_0": "Lemon Crop",
+  "block.limonata.lemon_crop_2": "Lemon Crop",
+  "block.limonata.lemon_crop_1": "Lemon Crop"
 }

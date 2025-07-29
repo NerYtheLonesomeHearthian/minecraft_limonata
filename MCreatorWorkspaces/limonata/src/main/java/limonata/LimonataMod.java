@@ -21,6 +21,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import limonata.init.LimonataModTabs;
 import limonata.init.LimonataModSounds;
 import limonata.init.LimonataModItems;
+import limonata.init.LimonataModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -40,6 +41,7 @@ public class LimonataMod {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 		LimonataModSounds.REGISTRY.register(modEventBus);
+		LimonataModBlocks.REGISTRY.register(modEventBus);
 
 		LimonataModItems.REGISTRY.register(modEventBus);
 

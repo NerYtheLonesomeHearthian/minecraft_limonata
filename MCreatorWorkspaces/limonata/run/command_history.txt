@@ -3,3 +3,9 @@
 /summon skeleton
 /effect give @p minecraft:instant_damage
 /time set day
+/give @p limonata:lemon_crop_0
+/give @p limonata:lemon_crop_1
+/weather clear
+/gamerule randomTickSpeed 0
+/give @p limonata:lemon_crop_2
+/give @p limonata:lemon_crop_1

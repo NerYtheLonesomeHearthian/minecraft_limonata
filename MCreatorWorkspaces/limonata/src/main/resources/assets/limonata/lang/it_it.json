@@ -1,11 +1,16 @@
 {
   "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
   "item.limonata.glass": "Bicchiere",
-  "item.limonata.music_disc_limonata_chiamata": "Music Disc",
+  "item.limonata.music_disc_limonata_chiamata": "Disco Musicale",
   "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata",
-  "item.limonata.glass_of_lemonade": "Glass of Lemonade",
+  "item.limonata.glass_of_lemonade": "Bicchiere di Limonata",
   "item.limonata.glass_of_lemonade.description_0": "§9Saturation §9(03:00)",
-  "item.limonata.lemon": "Lemon",
-  "item.limonata.cutlemon": "Cut Lemon",
-  "item.limonata.lemonseeds": "Lemon Seeds"
+  "item.limonata.lemon": "Limone",
+  "item.limonata.cutlemon": "Mezzo Limone",
+  "item.limonata.lemonseeds": "Semi di Limone",
+  "advancements.obtainlemon.descr": "Obtain a Lemon.",
+  "advancements.obtainlemon.title": "It starts here...",
+  "block.limonata.lemon_crop_0": "Lemon Crop 0",
+  "block.limonata.lemon_crop_2": "Lemon Crop",
+  "block.limonata.lemon_crop_1": "Lemon Crop"
 }
