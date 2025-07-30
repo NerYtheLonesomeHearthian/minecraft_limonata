@@ -9,3 +9,30 @@
 /gamerule randomTickSpeed 0
 /give @p limonata:lemon_crop_2
 /give @p limonata:lemon_crop_1
+/give @p limonata:lemon_crop_3
+/gamerule randomTickSpeed 200
+/gamerule randomTickSpeed 0
+/gamerule randomTickSpeed 200
+/gamerule randomTickSpeed 0
+/gamerule randomTickSpeed 200
+/gamerule randomTickSpeed 0
+/give @p limonata:lemon_crop_4
+/gamerule randomTickSpeed 200
+/gamerule randomTickSpeed 0
+/TIME SET DAY
+/time set day
+/give @p limonata:lemon_crop_5
+/time set day
+/give @p limonata:lemon_crop_6
+/time set day
+/locate biome #c:is_savanna
+/tp @s -1642 64 1926
+/tp @s 314 64 905
+/time set day
+/give @p limonata:lemon_crop_5_5
+/give @p limonata:lemon_crop_5
+/gamerule randomTickSpeed 300
+/gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 200
+/gamerule randomTickSpeed 0
+/time set day

@@ -31,6 +31,11 @@ public class LimonataModItems {
 	public static final DeferredItem<Item> LEMON_CROP_0 = block(LimonataModBlocks.LEMON_CROP_0);
 	public static final DeferredItem<Item> LEMON_CROP_2 = block(LimonataModBlocks.LEMON_CROP_2);
 	public static final DeferredItem<Item> LEMON_CROP_1 = block(LimonataModBlocks.LEMON_CROP_1);
+	public static final DeferredItem<Item> LEMON_CROP_3 = block(LimonataModBlocks.LEMON_CROP_3);
+	public static final DeferredItem<Item> LEMON_CROP_4 = block(LimonataModBlocks.LEMON_CROP_4);
+	public static final DeferredItem<Item> LEMON_CROP_5 = block(LimonataModBlocks.LEMON_CROP_5);
+	public static final DeferredItem<Item> LEMON_CROP_6 = block(LimonataModBlocks.LEMON_CROP_6);
+	public static final DeferredItem<Item> LEMON_CROP_5_5 = block(LimonataModBlocks.LEMON_CROP_5_5);
 
 	// Start of user code block custom items
 	// End of user code block custom items

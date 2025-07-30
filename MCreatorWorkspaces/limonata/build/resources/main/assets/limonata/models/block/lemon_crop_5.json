@@ -1,0 +1,9 @@
+{
+  "parent": "limonata:custom/lemon_crop_5",
+  "textures": {
+    "all": "limonata:block/lemon_crop_5",
+    "particle": "limonata:block/all_crop_green",
+    "0": "limonata:block/lemon_crop_5"
+  },
+  "render_type": "cutout"
+}

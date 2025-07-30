@@ -106,6 +106,12 @@
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": true,
+    "bonemealSuccessCondition": {
+      "name": "LemonCropBoneMealSuccessCondition"
+    },
+    "onBonemealSuccess": {
+      "name": "LemonCrop1OnBoneMealSuccess"
+    },
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
     "vibrationSensitivityRadius": {
@@ -127,6 +133,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onNeighbourBlockChanges": {
+      "name": "LemonCropNeighbourBlockChanges"
+    },
+    "onTickUpdate": {
+      "name": "LemonCropOnTickUpdate"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lemon_crop_5-5"
+      },
+      "name": "default"
+    }
+  }
+}

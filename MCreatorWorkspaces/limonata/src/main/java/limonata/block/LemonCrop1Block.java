@@ -20,6 +20,11 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
+import limonata.procedures.LemonCropOnTickUpdateProcedure;
+import limonata.procedures.LemonCropNeighbourBlockChangesProcedure;
+import limonata.procedures.LemonCropBoneMealSuccessConditionProcedure;
+import limonata.procedures.LemonCrop1OnBoneMealSuccessProcedure;
+
 import limonata.init.LimonataModItems;
 
 public class LemonCrop1Block extends Block implements BonemealableBlock {
@@ -58,16 +63,29 @@ public class LemonCrop1Block extends Block implements BonemealableBlock {
 	}
 
 	@Override
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
+		LemonCropNeighbourBlockChangesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@Override
+	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.randomTick(blockstate, world, pos, random);
+		LemonCropOnTickUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@Override
 	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate) {
 		return true;
 	}
 
 	@Override
 	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		return true;
+		return LemonCropBoneMealSuccessConditionProcedure.execute();
 	}
 
 	@Override
 	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
+		LemonCrop1OnBoneMealSuccessProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

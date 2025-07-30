@@ -26,12 +26,12 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 8.0,
+        "mx": 5.9,
         "my": -1.0,
-        "mz": 5.0,
-        "Mx": 10.0,
+        "mz": 7.25,
+        "Mx": 10.1,
         "My": 1.0,
-        "Mz": 11.0,
+        "Mz": 9.1,
         "subtract": false
       }
     ],
@@ -106,6 +106,12 @@
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": true,
+    "bonemealSuccessCondition": {
+      "name": "LemonCropBoneMealSuccessCondition"
+    },
+    "onBonemealSuccess": {
+      "name": "LemonCrop0OnBoneMealSuccess"
+    },
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
     "vibrationSensitivityRadius": {
@@ -127,6 +133,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onNeighbourBlockChanges": {
+      "name": "LemonCropNeighbourBlockChanges"
+    },
+    "onTickUpdate": {
+      "name": "LemonCropOnTickUpdate"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
