@@ -5,7 +5,7 @@
     "renderType": 1,
     "texture": "limonata_glass",
     "customModelName": "glass:default",
-    "guiTexture": "glass",
+    "guiTexture": "",
     "customProperties": {},
     "states": [],
     "name": "Glass",

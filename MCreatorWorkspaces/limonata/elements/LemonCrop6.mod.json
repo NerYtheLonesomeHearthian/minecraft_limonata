@@ -130,6 +130,9 @@
     "onNeighbourBlockChanges": {
       "name": "LemonCropNeighbourBlockChanges"
     },
+    "onTickUpdate": {
+      "name": "LemonCropOnTickUpdate"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -23,12 +23,16 @@ public class LimonataModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LimonataModItems.MUSIC_DISC_LIMONATA_CHIAMATA.get());
 			tabData.accept(LimonataModItems.GLASS.get());
+			tabData.accept(LimonataModBlocks.TEST.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(LimonataModItems.GLASS_OF_LEMONADE.get());
 			tabData.accept(LimonataModItems.LEMON.get());
 			tabData.accept(LimonataModItems.CUTLEMON.get());
+			tabData.accept(LimonataModItems.ICE_CUBES.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(LimonataModItems.LEMONSEEDS.get());
+			tabData.accept(LimonataModBlocks.LEMON_LEAVES.get().asItem());
+			tabData.accept(LimonataModBlocks.LEMON_LEAVES_LEMON.get().asItem());
 		}
 	}
 }

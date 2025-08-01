@@ -1,38 +1,50 @@
-/give @p limonata:music_disc_limonata_chiamata
-/effect give Dev minecraft:hunger
-/summon skeleton
-/effect give @p minecraft:instant_damage
+/tp @s -1801 80 -66291
+/locate biome minecraft:old_growth_birch_forest
+/tp @s -1731 99 -66399
+/tp @s -1731987 99 -66399
+/locate biome minecraft:old_growth_birch_forest
+/tp @s -1731379 91 -66111
+/tp @p 56556 200 2876987
+/locate biome minecraft:birch_forest
+/tp @s 56396 200 2876731
+/locate biome minecraft:old_growth_birch_forest
+/tp @s 55865 101 2876256
 /time set day
-/give @p limonata:lemon_crop_0
-/give @p limonata:lemon_crop_1
-/weather clear
-/gamerule randomTickSpeed 0
-/give @p limonata:lemon_crop_2
-/give @p limonata:lemon_crop_1
-/give @p limonata:lemon_crop_3
-/gamerule randomTickSpeed 200
-/gamerule randomTickSpeed 0
-/gamerule randomTickSpeed 200
-/gamerule randomTickSpeed 0
-/gamerule randomTickSpeed 200
-/gamerule randomTickSpeed 0
-/give @p limonata:lemon_crop_4
-/gamerule randomTickSpeed 200
-/gamerule randomTickSpeed 0
-/TIME SET DAY
-/time set day
-/give @p limonata:lemon_crop_5
-/time set day
-/give @p limonata:lemon_crop_6
-/time set day
-/locate biome #c:is_savanna
-/tp @s -1642 64 1926
-/tp @s 314 64 905
-/time set day
-/give @p limonata:lemon_crop_5_5
-/give @p limonata:lemon_crop_5
 /gamerule randomTickSpeed 300
 /gamerule randomTickSpeed 3000
-/gamerule randomTickSpeed 200
+/gamerule randomTickSpeed 300
+/gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 30000
+/gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 300
 /gamerule randomTickSpeed 0
+/gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 300
+/gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 300
 /time set day
+/gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 300
+/gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 300
+/gamerule randomTickSpeed 900
+/gamerule randomTickSpeed 600
+/gamerule randomTickSpeed 900
+/time set day
+/gamerule randomTickSpeed 900
+/time set day
+/gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 12
+/gamerule randomTickSpeed 120990
+/gamerule randomTickSpeed 900
+/gamerule randomTickSpeed 0
+/gamerule randomTickSpeed 900
+/gamerule randomTickSpeed 0
+/gamerule randomTickSpeed 900
+/time set day
+/weather clear
+/give @s minecraft:item_frame[entity_data={id:"minecraft:item_frame",Invisible:1b}]
+/time set day
+/gamerule randomTickSpeed 3
+/tick freeze

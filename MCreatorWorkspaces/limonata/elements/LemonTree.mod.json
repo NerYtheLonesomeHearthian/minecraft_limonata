@@ -1,0 +1,20 @@
+{
+  "_fv": 79,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "mutated_birch_forest"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_tree_azalea\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"1\"></mutation><field name=\"foliage_density\">50</field><field name=\"base_height\">4</field><field name=\"height_variation_a\">2</field><field name=\"height_variation_b\">0</field><field name=\"min_height_for_leaves\">3</field><field name=\"force_dirt\">TRUE</field><field name=\"ignore_vines\">TRUE</field><value name=\"dirt\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">Blocks.DIRT#0</field></block></value><value name=\"trunk\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">Blocks.LOG#0</field></block></value><value name=\"foliage\"><block type=\"state_provider_weighted\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"2\"></mutation><field name=\"weight0\">66</field><field name=\"weight1\">16</field><value name=\"entry0\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:LemonLeaves</field></block></value><value name=\"entry1\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:LemonLeavesLemon</field></block></value></block></value><value name=\"root_placer\"><block type=\"root_placer_none\"></block></value><value name=\"bend_length\"><block type=\"int_provider_constant\"><field name=\"value\">1</field></block></value><value name=\"decorator0\"><block type=\"tree_decorator_beehive\"><field name=\"probability\">0.05</field></block></value></block></value><next><block type=\"placement_rarity\"><field name=\"rarity\">135</field><next><block type=\"placement_in_square\"><next><block type=\"placement_heightmap\"><field name=\"heightmap\">OCEAN_FLOOR_WG</field><next><block type=\"placement_biome_filter\"><next><block type=\"placement_block_predicate_filter\"><value name=\"condition\"><block type=\"block_predicate_matching_blocks\"><field name=\"x\">0</field><field name=\"y\">-1</field><field name=\"z\">0</field><value name=\"blockSet\"><block type=\"block_holderset_tag\"><field name=\"tag\">minecraft:dirt</field></block></value></block></value></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

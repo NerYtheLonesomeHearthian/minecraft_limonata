@@ -15,6 +15,7 @@ import limonata.item.MusicDiscLimonataChiamataItem;
 import limonata.item.LimonataglassItem;
 import limonata.item.LemonseedsItem;
 import limonata.item.LemonItem;
+import limonata.item.IceCubesItem;
 import limonata.item.GlassItem;
 import limonata.item.CutlemonItem;
 
@@ -36,6 +37,10 @@ public class LimonataModItems {
 	public static final DeferredItem<Item> LEMON_CROP_5 = block(LimonataModBlocks.LEMON_CROP_5);
 	public static final DeferredItem<Item> LEMON_CROP_6 = block(LimonataModBlocks.LEMON_CROP_6);
 	public static final DeferredItem<Item> LEMON_CROP_5_5 = block(LimonataModBlocks.LEMON_CROP_5_5);
+	public static final DeferredItem<Item> LEMON_LEAVES = block(LimonataModBlocks.LEMON_LEAVES);
+	public static final DeferredItem<Item> LEMON_LEAVES_LEMON = block(LimonataModBlocks.LEMON_LEAVES_LEMON);
+	public static final DeferredItem<Item> ICE_CUBES = REGISTRY.register("ice_cubes", IceCubesItem::new);
+	public static final DeferredItem<Item> TEST = block(LimonataModBlocks.TEST);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -20,8 +20,10 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import limonata.init.LimonataModTabs;
 import limonata.init.LimonataModSounds;
+import limonata.init.LimonataModMenus;
 import limonata.init.LimonataModItems;
 import limonata.init.LimonataModBlocks;
+import limonata.init.LimonataModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -42,10 +44,12 @@ public class LimonataMod {
 		modEventBus.addListener(this::registerNetworking);
 		LimonataModSounds.REGISTRY.register(modEventBus);
 		LimonataModBlocks.REGISTRY.register(modEventBus);
-
+		LimonataModBlockEntities.REGISTRY.register(modEventBus);
 		LimonataModItems.REGISTRY.register(modEventBus);
 
 		LimonataModTabs.REGISTRY.register(modEventBus);
+
+		LimonataModMenus.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

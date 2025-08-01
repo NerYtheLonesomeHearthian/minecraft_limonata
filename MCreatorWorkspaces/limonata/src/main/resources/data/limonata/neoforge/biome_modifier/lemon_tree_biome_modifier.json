@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "plains",
+    "birch_forest",
+    "old_growth_birch_forest"
+  ],
+  "features": "limonata:lemon_tree",
+  "step": "surface_structures"
+}

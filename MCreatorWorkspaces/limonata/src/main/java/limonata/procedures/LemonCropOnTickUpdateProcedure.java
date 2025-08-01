@@ -9,6 +9,8 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
@@ -79,7 +81,7 @@ public class LemonCropOnTickUpdateProcedure {
 								|| (world.getBlockState(BlockPos.containing(x, y, z - 1))).is(BlockTags.create(ResourceLocation.parse("limonata:lemon_crop"))))) {
 					points = points / 1.2;
 				}
-				rand = Math.random();
+				rand = Math.random() / 2;
 				if (rand <= points) {
 					if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.LEMON_CROP_0.get()) {
 						world.setBlock(BlockPos.containing(x, y, z), LimonataModBlocks.LEMON_CROP_1.get().defaultBlockState(), 3);
@@ -95,6 +97,11 @@ public class LemonCropOnTickUpdateProcedure {
 						world.setBlock(BlockPos.containing(x, y, z), LimonataModBlocks.LEMON_CROP_5_5.get().defaultBlockState(), 3);
 					} else if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.LEMON_CROP_5_5.get()) {
 						world.setBlock(BlockPos.containing(x, y, z), LimonataModBlocks.LEMON_CROP_6.get().defaultBlockState(), 3);
+					} else if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.LEMON_CROP_6.get()) {
+						world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
+						if (world instanceof ServerLevel _level)
+							_level.holderOrThrow(ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.parse("limonata:lemon_tree"))).value().place(_level, _level.getChunkSource().getGenerator(), _level.getRandom(),
+									BlockPos.containing(x, y, z));
 					}
 				}
 			}

@@ -7,14 +7,26 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:frozen_river": "2025-07-29 19:38:55 +0200",
+      "minecraft:snowy_slopes": "2025-07-31 14:34:13 +0200",
+      "minecraft:beach": "2025-07-31 14:38:43 +0200",
+      "minecraft:forest": "2025-07-31 14:38:04 +0200",
       "minecraft:taiga": "2025-07-29 19:39:31 +0200",
+      "minecraft:sparse_jungle": "2025-07-31 14:43:47 +0200",
       "minecraft:river": "2025-07-30 19:09:20 +0200",
-      "minecraft:grove": "2025-07-29 19:39:29 +0200",
       "minecraft:snowy_plains": "2025-07-22 21:23:33 +0200",
+      "minecraft:stony_shore": "2025-07-31 14:44:03 +0200",
       "minecraft:snowy_taiga": "2025-07-29 19:39:27 +0200",
+      "minecraft:old_growth_birch_forest": "2025-07-31 14:36:01 +0200",
+      "minecraft:frozen_river": "2025-07-29 19:38:55 +0200",
+      "minecraft:windswept_forest": "2025-07-31 14:40:51 +0200",
+      "minecraft:ocean": "2025-07-31 14:39:55 +0200",
+      "minecraft:grove": "2025-07-29 19:39:29 +0200",
+      "minecraft:meadow": "2025-07-31 14:42:34 +0200",
+      "minecraft:birch_forest": "2025-07-31 14:34:40 +0200",
       "minecraft:snowy_beach": "2025-06-30 01:33:53 +0200",
-      "minecraft:windswept_savanna": "2025-07-30 19:09:12 +0200"
+      "minecraft:windswept_savanna": "2025-07-30 19:09:12 +0200",
+      "minecraft:plains": "2025-07-31 14:33:56 +0200",
+      "minecraft:deep_lukewarm_ocean": "2025-07-31 14:39:40 +0200"
     },
     "done": false
   },
@@ -465,6 +477,138 @@
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2025-07-30 20:59:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2025-07-31 12:37:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2025-07-31 12:37:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2025-07-31 12:37:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-07-31 12:37:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2025-07-31 12:37:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2025-07-31 12:37:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2025-07-31 12:37:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_smelting_deepslate_emerald_ore": {
+    "criteria": {
+      "has_deepslate_emerald_ore": "2025-07-31 12:42:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_blasting_deepslate_emerald_ore": {
+    "criteria": {
+      "has_deepslate_emerald_ore": "2025-07-31 12:42:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-07-31 12:42:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-07-31 14:48:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-07-31 14:48:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2025-07-31 14:48:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-07-31 15:04:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-08-01 17:29:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-08-01 17:29:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-08-01 17:29:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-08-01 17:29:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-08-01 17:29:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-08-01 18:52:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2025-08-01 18:52:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2025-08-01 18:52:26 +0200"
     },
     "done": true
   },

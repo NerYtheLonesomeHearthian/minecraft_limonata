@@ -15,8 +15,11 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
+import limonata.procedures.LemonCropOnTickUpdateProcedure;
 import limonata.procedures.LemonCropNeighbourBlockChangesProcedure;
 
 import limonata.init.LimonataModItems;
@@ -60,5 +63,11 @@ public class LemonCrop6Block extends Block {
 	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
 		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
 		LemonCropNeighbourBlockChangesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@Override
+	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.randomTick(blockstate, world, pos, random);
+		LemonCropOnTickUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }
