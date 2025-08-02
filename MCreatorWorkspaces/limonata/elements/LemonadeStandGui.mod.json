@@ -59,7 +59,7 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 187,
+          "x": 188,
           "y": 118,
           "locked": false
         }
@@ -204,7 +204,7 @@
         "data": {
           "image": "glass_gui.png",
           "use1Xscale": false,
-          "x": 188,
+          "x": 189,
           "y": 119,
           "locked": false
         }
@@ -265,6 +265,16 @@
           "use1Xscale": false,
           "x": 278,
           "y": 74,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glass1_gui.png",
+          "use1Xscale": false,
+          "x": 240,
+          "y": 54,
           "locked": false
         }
       }

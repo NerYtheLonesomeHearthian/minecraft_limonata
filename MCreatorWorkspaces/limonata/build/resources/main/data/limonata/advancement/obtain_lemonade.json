@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "limonata:lemonade_achievement_item"
+    },
+    "title": {
+      "translate": "advancements.obtain_lemonade.title"
+    },
+    "description": {
+      "translate": "advancements.obtain_lemonade.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_lemonade_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "limonata:glass_of_lemonade"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999999999999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "limonata:obtainlemon"
+}

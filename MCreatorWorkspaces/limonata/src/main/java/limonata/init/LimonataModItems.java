@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 import limonata.item.MusicDiscLimonataChiamataItem;
 import limonata.item.LimonataglassItem;
 import limonata.item.LemonseedsItem;
+import limonata.item.LemonadeAchievementItemItem;
 import limonata.item.LemonItem;
 import limonata.item.IceCubesItem;
 import limonata.item.GlassItem;
@@ -40,7 +41,8 @@ public class LimonataModItems {
 	public static final DeferredItem<Item> LEMON_LEAVES = block(LimonataModBlocks.LEMON_LEAVES);
 	public static final DeferredItem<Item> LEMON_LEAVES_LEMON = block(LimonataModBlocks.LEMON_LEAVES_LEMON);
 	public static final DeferredItem<Item> ICE_CUBES = REGISTRY.register("ice_cubes", IceCubesItem::new);
-	public static final DeferredItem<Item> TEST = block(LimonataModBlocks.TEST);
+	public static final DeferredItem<Item> LEMONADE_STAND = block(LimonataModBlocks.LEMONADE_STAND);
+	public static final DeferredItem<Item> LEMONADE_ACHIEVEMENT_ITEM = REGISTRY.register("lemonade_achievement_item", LemonadeAchievementItemItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

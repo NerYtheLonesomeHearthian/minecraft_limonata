@@ -16,14 +16,14 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import limonata.block.entity.TestBlockEntity;
+import limonata.block.entity.LemonadeStandBlockEntity;
 
 import limonata.LimonataMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class LimonataModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, LimonataMod.MODID);
-	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<TestBlockEntity>> TEST = register("test", LimonataModBlocks.TEST, TestBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<LemonadeStandBlockEntity>> LEMONADE_STAND = register("lemonade_stand", LimonataModBlocks.LEMONADE_STAND, LemonadeStandBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -33,6 +33,6 @@ public class LimonataModBlockEntities {
 
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
-		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, TEST.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, LEMONADE_STAND.get(), SidedInvWrapper::new);
 	}
 }

@@ -8,7 +8,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 
 import net.minecraft.world.level.block.Block;
 
-import limonata.block.TestBlock;
+import limonata.block.LemonadeStandBlock;
 import limonata.block.LemonLeavesLemonBlock;
 import limonata.block.LemonLeavesBlock;
 import limonata.block.LemonCrop6Block;
@@ -34,7 +34,7 @@ public class LimonataModBlocks {
 	public static final DeferredBlock<Block> LEMON_CROP_5_5 = REGISTRY.register("lemon_crop_5_5", LemonCrop55Block::new);
 	public static final DeferredBlock<Block> LEMON_LEAVES = REGISTRY.register("lemon_leaves", LemonLeavesBlock::new);
 	public static final DeferredBlock<Block> LEMON_LEAVES_LEMON = REGISTRY.register("lemon_leaves_lemon", LemonLeavesLemonBlock::new);
-	public static final DeferredBlock<Block> TEST = REGISTRY.register("test", TestBlock::new);
+	public static final DeferredBlock<Block> LEMONADE_STAND = REGISTRY.register("lemonade_stand", LemonadeStandBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

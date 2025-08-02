@@ -54,11 +54,12 @@ public class LemonadeStandGuiScreen extends AbstractContainerScreen<LemonadeStan
 		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/questionmark_gui.png"), this.leftPos + 96, this.topPos + 61, 0, 0, 16, 16, 16, 16);
 		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/bamboo_gui.png"), this.leftPos + 62, this.topPos + 42, 0, 0, 16, 16, 16, 16);
 		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/cutlemon_gui.png"), this.leftPos + 44, this.topPos + 78, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/glass_gui.png"), this.leftPos + 62, this.topPos + 106, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/glass_gui.png"), this.leftPos + 63, this.topPos + 106, 0, 0, 16, 16, 16, 16);
 		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/sugar_gui.png"), this.leftPos + 62, this.topPos + 78, 0, 0, 16, 16, 16, 16);
 		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/water_bucket_gui.png"), this.leftPos + 26, this.topPos + 106, 0, 0, 16, 16, 16, 16);
 		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/icecubes_gui.png"), this.leftPos + 26, this.topPos + 42, 0, 0, 16, 16, 16, 16);
 		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/glassoflemonade_gui.png"), this.leftPos + 152, this.topPos + 61, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/glass1_gui.png"), this.leftPos + 114, this.topPos + 41, 0, 0, 36, 57, 36, 57);
 		RenderSystem.disableBlend();
 	}
 

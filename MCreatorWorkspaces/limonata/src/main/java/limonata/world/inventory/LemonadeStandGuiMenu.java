@@ -41,7 +41,7 @@ public class LemonadeStandGuiMenu extends AbstractContainerMenu implements Limon
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 18)
+			if (!this.containsKey(key) && this.size() >= 19)
 				return null;
 			return super.put(key, value);
 		}
@@ -108,7 +108,7 @@ public class LemonadeStandGuiMenu extends AbstractContainerMenu implements Limon
 				return LimonataModItems.ICE_CUBES.get() == stack.getItem();
 			}
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 62, 106) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 63, 106) {
 			private final int slot = 1;
 			private int x = LemonadeStandGuiMenu.this.x;
 			private int y = LemonadeStandGuiMenu.this.y;
@@ -356,7 +356,7 @@ public class LemonadeStandGuiMenu extends AbstractContainerMenu implements Limon
 			double x = menu.x;
 			double y = menu.y;
 			double z = menu.z;
-			LemonadeStandGuiWhileThisGUIIsOpenTickProcedure.execute(entity);
+			LemonadeStandGuiWhileThisGUIIsOpenTickProcedure.execute(world, x, y, z, entity);
 		}
 	}
 }

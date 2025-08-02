@@ -4,9 +4,10 @@ license="MIT License"
 
 [[mods]]
 modId="limonata"
-version="1.2.0.5"
+version="1.2.0.6"
 displayName="limonata"
 displayURL="https://github.com/NerYtheLonesomeHearthian/minecraft_limonata"
+logoFile="logo.png"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="nery"
 
