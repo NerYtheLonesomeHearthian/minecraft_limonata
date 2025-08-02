@@ -9,9 +9,13 @@ This is a mod primarily made for me and my group of friends, the Limonari.
 
 The contents are slim for now, but I am actively developing small updates.
 
-For now, the things added are:
 
-- a music disc (Limonata Chiamata)
+For now, the things added are:
+- Added a music disc (Limonata Chiamata)
+- Added lemonade as a drink, as well as a glass to drink it from. Both models are custom made in Blockbench. 
+- Added the Lemon Tree, from which you can get Lemons.
+- Added a fully functional Lemon crop in vanilla style, witch which you can farm Lemons.
+- Added various achievements.
 
 There probably will not be any big addition such as new dimensions or game-breaking recipes.
 
