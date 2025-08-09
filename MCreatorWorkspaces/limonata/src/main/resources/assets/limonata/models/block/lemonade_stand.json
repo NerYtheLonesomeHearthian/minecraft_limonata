@@ -3,10 +3,10 @@
   "textures": {
     "down": "minecraft:block/blast_furnace_front",
     "up": "minecraft:block/blast_furnace_front",
-    "north": "minecraft:block/blast_furnace_front",
-    "east": "minecraft:block/blast_furnace_front",
-    "south": "minecraft:block/blast_furnace_front",
-    "west": "minecraft:block/blast_furnace_front",
+    "north": "limonata:block/temp_limo_block",
+    "east": "limonata:block/temp_limo_block",
+    "south": "limonata:block/temp_limo_block",
+    "west": "limonata:block/temp_limo_block",
     "particle": "minecraft:block/blast_furnace_front"
   },
   "render_type": "solid"

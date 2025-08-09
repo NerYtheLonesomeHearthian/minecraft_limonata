@@ -21,7 +21,7 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 182,
+          "x": 174,
           "y": 18,
           "locked": false
         }
@@ -40,8 +40,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 154,
-          "y": 50,
+          "x": 145,
+          "y": 33,
           "locked": false
         }
       },
@@ -50,8 +50,8 @@
         "data": {
           "image": "icecubes_gui.png",
           "use1Xscale": false,
-          "x": 155,
-          "y": 51,
+          "x": 146,
+          "y": 34,
           "locked": false
         }
       },
@@ -70,7 +70,7 @@
           },
           "dropItemsWhenNotBound": false,
           "x": 241,
-          "y": 118,
+          "y": 117,
           "locked": false
         }
       },
@@ -80,7 +80,7 @@
           "image": "glass_gui.png",
           "use1Xscale": false,
           "x": 242,
-          "y": 119,
+          "y": 118,
           "locked": false
         }
       },
@@ -98,8 +98,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 265,
-          "y": 37,
+          "x": 193,
+          "y": 33,
           "locked": false
         }
       },
@@ -108,8 +108,8 @@
         "data": {
           "image": "bamboo_gui.png",
           "use1Xscale": false,
-          "x": 266,
-          "y": 38,
+          "x": 194,
+          "y": 34,
           "locked": false
         }
       },
@@ -127,8 +127,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 165,
-          "y": 71,
+          "x": 195,
+          "y": 77,
           "locked": false
         }
       },
@@ -137,8 +137,8 @@
         "data": {
           "image": "sugar_gui.png",
           "use1Xscale": false,
-          "x": 166,
-          "y": 72,
+          "x": 196,
+          "y": 78,
           "locked": false
         }
       },
@@ -156,8 +156,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 144,
-          "y": 71,
+          "x": 143,
+          "y": 77,
           "locked": false
         }
       },
@@ -166,8 +166,8 @@
         "data": {
           "image": "cutlemon_gui.png",
           "use1Xscale": false,
-          "x": 145,
-          "y": 72,
+          "x": 144,
+          "y": 78,
           "locked": false
         }
       },
@@ -185,8 +185,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 151,
-          "y": 118,
+          "x": 133,
+          "y": 117,
           "locked": false
         }
       },
@@ -195,8 +195,8 @@
         "data": {
           "image": "water_bucket_gui.png",
           "use1Xscale": false,
-          "x": 152,
-          "y": 119,
+          "x": 134,
+          "y": 118,
           "locked": false
         }
       },
@@ -214,8 +214,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 198,
-          "y": 71,
+          "x": 205,
+          "y": 117,
           "locked": false
         }
       },
@@ -224,8 +224,8 @@
         "data": {
           "image": "questionmark_gui.png",
           "use1Xscale": false,
-          "x": 199,
-          "y": 72,
+          "x": 206,
+          "y": 118,
           "locked": false
         }
       },
@@ -238,7 +238,7 @@
           },
           "dropItemsWhenNotBound": false,
           "x": 277,
-          "y": 118,
+          "y": 117,
           "locked": false
         }
       },
@@ -248,7 +248,7 @@
           "image": "glassoflemonade_gui.png",
           "use1Xscale": false,
           "x": 278,
-          "y": 119,
+          "y": 118,
           "locked": false
         }
       },
@@ -263,8 +263,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 188,
-          "y": 75,
+          "x": 197,
+          "y": 122,
           "locked": false
         }
       },
@@ -273,8 +273,8 @@
         "data": {
           "image": "glass1_gui.png",
           "use1Xscale": false,
-          "x": 232,
-          "y": 53,
+          "x": 160,
+          "y": 49,
           "locked": false
         }
       },
@@ -283,7 +283,7 @@
         "data": {
           "image": "lemonadestandgui_waterlevel.png",
           "use1Xscale": false,
-          "x": 169,
+          "x": 151,
           "y": 124,
           "locked": false
         }
@@ -296,7 +296,7 @@
           "displayCondition": {
             "name": "LmnstandGUIwaterBar0"
           },
-          "x": 171,
+          "x": 153,
           "y": 125,
           "locked": false
         }
@@ -309,7 +309,7 @@
           "displayCondition": {
             "name": "LmnstandGUIwaterBar1"
           },
-          "x": 171,
+          "x": 153,
           "y": 125,
           "locked": false
         }
@@ -322,8 +322,71 @@
           "displayCondition": {
             "name": "LmnstandGUIwaterBar2"
           },
-          "x": 171,
+          "x": 153,
           "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "furnace.png",
+          "use1Xscale": false,
+          "x": 221,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cooking_pot_mestolo.png",
+          "use1Xscale": false,
+          "x": 264,
+          "y": 119,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "furnace_gui_big-slot.png",
+          "use1Xscale": false,
+          "x": 255,
+          "y": 52,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 8,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 259,
+          "y": 56,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadestandgui_coil.png",
+          "use1Xscale": false,
+          "x": 172,
+          "y": 105,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadestandgui_finisharow.png",
+          "use1Xscale": false,
+          "x": 267,
+          "y": 77,
           "locked": false
         }
       }

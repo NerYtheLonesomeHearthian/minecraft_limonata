@@ -3,11 +3,11 @@
   "_type": "block",
   "definition": {
     "texture": "minecraft:blast_furnace_front",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
+    "textureTop": "minecraft:blast_furnace_front",
+    "textureLeft": "temp_limo_block",
+    "textureFront": "temp_limo_block",
+    "textureRight": "temp_limo_block",
+    "textureBack": "temp_limo_block",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -118,12 +118,13 @@
     "hasInventory": true,
     "guiBoundTo": "LemonadeStandGui",
     "openGUIOnRightClick": true,
-    "inventorySize": 8,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [
-      7
+      7,
+      8
     ],
     "inventoryInSlotIDs": [
       1,

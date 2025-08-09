@@ -18,70 +18,55 @@ import limonata.init.LimonataModItems;
 
 public class LemonadeStandGuiWhileThisGUIIsOpenTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 1 || getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 2
-				|| getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 3) {
-			if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadeStandTimer") == 0) {
+		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 0) {
+			if ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 5).copy()).getItem() == Items.WATER_BUCKET) {
 				if (!world.isClientSide()) {
 					BlockPos _bp = BlockPos.containing(x, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
-						_blockEntity.getPersistentData().putDouble("lemonadeStandTimer", 20);
+						_blockEntity.getPersistentData().putDouble("waterLevelGUI", 3);
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
-			} else {
-				if (!world.isClientSide()) {
-					BlockPos _bp = BlockPos.containing(x, y, z);
-					BlockEntity _blockEntity = world.getBlockEntity(_bp);
-					BlockState _bs = world.getBlockState(_bp);
-					if (_blockEntity != null)
-						_blockEntity.getPersistentData().putDouble("lemonadeStandTimer", (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadeStandTimer") - 1));
-					if (world instanceof Level _level)
-						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable)
+					_itemHandlerModifiable.setStackInSlot(5, ItemStack.EMPTY);
+				if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+					ItemStack _setstack = new ItemStack(Items.BUCKET).copy();
+					_setstack.setCount(1);
+					_itemHandlerModifiable.setStackInSlot(5, _setstack);
 				}
 			}
 		}
-		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 0) {
-			if (!world.isClientSide()) {
-				BlockPos _bp = BlockPos.containing(x, y, z);
-				BlockEntity _blockEntity = world.getBlockEntity(_bp);
-				BlockState _bs = world.getBlockState(_bp);
-				if (_blockEntity != null)
-					_blockEntity.getPersistentData().putDouble("lemonadeStandTimer", 0);
-				if (world instanceof Level _level)
-					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-			}
-			if ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 5).copy()).getItem() == Items.WATER_BUCKET) {
-				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadeStandTimer") == 0) {
+		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 1 || getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 2
+				|| getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 3) {
+			if ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 0).copy()).getItem() == LimonataModItems.ICE_CUBES.get() && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 1).copy()).getItem() == LimonataModItems.GLASS.get()
+					&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).copy()).getItem() == Blocks.BAMBOO.asItem() && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 3).copy()).getItem() == Items.SUGAR
+					&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).copy()).getItem() == LimonataModItems.CUTLEMON.get()
+					&& ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).copy()).getItem() == LimonataModItems.GLASS_OF_LEMONADE.get() && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).getCount() <= 63
+							|| itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).getCount() == 0)) {
+				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") == 0) {
 					if (!world.isClientSide()) {
 						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
-							_blockEntity.getPersistentData().putDouble("waterLevelGUI", 3);
+							_blockEntity.getPersistentData().putDouble("lemonadePreparationTime", 225);
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
-					if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable)
-						_itemHandlerModifiable.setStackInSlot(5, ItemStack.EMPTY);
-					if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
-						ItemStack _setstack = new ItemStack(Items.BUCKET).copy();
-						_setstack.setCount(1);
-						_itemHandlerModifiable.setStackInSlot(5, _setstack);
+				} else {
+					if (!world.isClientSide()) {
+						BlockPos _bp = BlockPos.containing(x, y, z);
+						BlockEntity _blockEntity = world.getBlockEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_blockEntity != null)
+							_blockEntity.getPersistentData().putDouble("lemonadePreparationTime", (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") - 1));
+						if (world instanceof Level _level)
+							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
 				}
-			}
-		}
-		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 1 || getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 2
-				|| getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 3) {
-			if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadeStandTimer") == 0) {
-				if ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 0).copy()).getItem() == LimonataModItems.ICE_CUBES.get()
-						&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 1).copy()).getItem() == LimonataModItems.GLASS.get()
-						&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).copy()).getItem() == Blocks.BAMBOO.asItem() && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 3).copy()).getItem() == Items.SUGAR
-						&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).copy()).getItem() == LimonataModItems.CUTLEMON.get()
-						&& ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).copy()).getItem() == LimonataModItems.GLASS_OF_LEMONADE.get() && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).getCount() <= 63
-								|| itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).getCount() == 0)) {
+				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") == 225) {
 					if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 						ItemStack _setstack = new ItemStack(LimonataModItems.GLASS_OF_LEMONADE.get()).copy();
 						_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).getCount() + 1);

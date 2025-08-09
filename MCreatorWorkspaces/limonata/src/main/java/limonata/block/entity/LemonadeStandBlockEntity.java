@@ -27,7 +27,7 @@ import java.util.stream.IntStream;
 import io.netty.buffer.Unpooled;
 
 public class LemonadeStandBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.withSize(8, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.withSize(9, ItemStack.EMPTY);
 
 	public LemonadeStandBlockEntity(BlockPos position, BlockState state) {
 		super(LimonataModBlockEntities.LEMONADE_STAND.get(), position, state);
@@ -105,6 +105,8 @@ public class LemonadeStandBlockEntity extends RandomizableContainerBlockEntity i
 	@Override
 	public boolean canPlaceItem(int index, ItemStack stack) {
 		if (index == 7)
+			return false;
+		if (index == 8)
 			return false;
 		return true;
 	}
