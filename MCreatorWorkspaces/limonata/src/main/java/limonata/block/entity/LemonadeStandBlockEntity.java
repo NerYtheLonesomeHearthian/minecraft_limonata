@@ -78,6 +78,11 @@ public class LemonadeStandBlockEntity extends RandomizableContainerBlockEntity i
 	}
 
 	@Override
+	public int getMaxStackSize() {
+		return 64;
+	}
+
+	@Override
 	public AbstractContainerMenu createMenu(int id, Inventory inventory) {
 		return new LemonadeStandGuiMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
 	}
@@ -99,7 +104,7 @@ public class LemonadeStandBlockEntity extends RandomizableContainerBlockEntity i
 
 	@Override
 	public boolean canPlaceItem(int index, ItemStack stack) {
-		if (index == 5)
+		if (index == 7)
 			return false;
 		return true;
 	}
@@ -124,9 +129,9 @@ public class LemonadeStandBlockEntity extends RandomizableContainerBlockEntity i
 			return false;
 		if (index == 4)
 			return false;
-		if (index == 6)
+		if (index == 5)
 			return false;
-		if (index == 7)
+		if (index == 6)
 			return false;
 		return true;
 	}

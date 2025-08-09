@@ -5,10 +5,7 @@ import net.neoforged.neoforge.items.SlotItemHandler;
 import net.neoforged.neoforge.items.ItemStackHandler;
 import net.neoforged.neoforge.items.IItemHandlerModifiable;
 import net.neoforged.neoforge.items.IItemHandler;
-import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import net.neoforged.neoforge.capabilities.Capabilities;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BaseContainerBlockEntity;
@@ -26,8 +23,6 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import limonata.procedures.LemonadeStandGuiWhileThisGUIIsOpenTickProcedure;
-
 import limonata.init.LimonataModMenus;
 import limonata.init.LimonataModItems;
 
@@ -36,12 +31,11 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Collections;
 
-@EventBusSubscriber
 public class LemonadeStandGuiMenu extends AbstractContainerMenu implements LimonataModMenus.MenuAccessor {
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 19)
+			if (!this.containsKey(key) && this.size() >= 23)
 				return null;
 			return super.put(key, value);
 		}
@@ -98,7 +92,7 @@ public class LemonadeStandGuiMenu extends AbstractContainerMenu implements Limon
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 26, 42) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 29, 38) {
 			private final int slot = 0;
 			private int x = LemonadeStandGuiMenu.this.x;
 			private int y = LemonadeStandGuiMenu.this.y;
@@ -108,7 +102,7 @@ public class LemonadeStandGuiMenu extends AbstractContainerMenu implements Limon
 				return LimonataModItems.ICE_CUBES.get() == stack.getItem();
 			}
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 63, 106) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 116, 106) {
 			private final int slot = 1;
 			private int x = LemonadeStandGuiMenu.this.x;
 			private int y = LemonadeStandGuiMenu.this.y;
@@ -118,7 +112,7 @@ public class LemonadeStandGuiMenu extends AbstractContainerMenu implements Limon
 				return LimonataModItems.GLASS.get() == stack.getItem();
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 62, 42) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 140, 25) {
 			private final int slot = 2;
 			private int x = LemonadeStandGuiMenu.this.x;
 			private int y = LemonadeStandGuiMenu.this.y;
@@ -128,7 +122,7 @@ public class LemonadeStandGuiMenu extends AbstractContainerMenu implements Limon
 				return Blocks.BAMBOO.asItem() == stack.getItem();
 			}
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 62, 78) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 40, 59) {
 			private final int slot = 3;
 			private int x = LemonadeStandGuiMenu.this.x;
 			private int y = LemonadeStandGuiMenu.this.y;
@@ -138,23 +132,8 @@ public class LemonadeStandGuiMenu extends AbstractContainerMenu implements Limon
 				return Items.SUGAR == stack.getItem();
 			}
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 96, 61) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 19, 59) {
 			private final int slot = 4;
-			private int x = LemonadeStandGuiMenu.this.x;
-			private int y = LemonadeStandGuiMenu.this.y;
-		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 152, 61) {
-			private final int slot = 5;
-			private int x = LemonadeStandGuiMenu.this.x;
-			private int y = LemonadeStandGuiMenu.this.y;
-
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 44, 78) {
-			private final int slot = 6;
 			private int x = LemonadeStandGuiMenu.this.x;
 			private int y = LemonadeStandGuiMenu.this.y;
 
@@ -163,14 +142,29 @@ public class LemonadeStandGuiMenu extends AbstractContainerMenu implements Limon
 				return LimonataModItems.CUTLEMON.get() == stack.getItem();
 			}
 		}));
-		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 26, 106) {
-			private final int slot = 7;
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 26, 106) {
+			private final int slot = 5;
 			private int x = LemonadeStandGuiMenu.this.x;
 			private int y = LemonadeStandGuiMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return Items.WATER_BUCKET == stack.getItem();
+			}
+		}));
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 73, 59) {
+			private final int slot = 6;
+			private int x = LemonadeStandGuiMenu.this.x;
+			private int y = LemonadeStandGuiMenu.this.y;
+		}));
+		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 152, 106) {
+			private final int slot = 7;
+			private int x = LemonadeStandGuiMenu.this.x;
+			private int y = LemonadeStandGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
 			}
 		}));
 		for (int si = 0; si < 3; ++si)
@@ -346,17 +340,5 @@ public class LemonadeStandGuiMenu extends AbstractContainerMenu implements Limon
 	@Override
 	public Map<String, Object> getMenuState() {
 		return menuState;
-	}
-
-	@SubscribeEvent
-	public static void onPlayerTick(PlayerTickEvent.Post event) {
-		Player entity = event.getEntity();
-		if (entity.containerMenu instanceof LemonadeStandGuiMenu menu) {
-			Level world = menu.world;
-			double x = menu.x;
-			double y = menu.y;
-			double z = menu.z;
-			LemonadeStandGuiWhileThisGUIIsOpenTickProcedure.execute(world, x, y, z, entity);
-		}
 	}
 }

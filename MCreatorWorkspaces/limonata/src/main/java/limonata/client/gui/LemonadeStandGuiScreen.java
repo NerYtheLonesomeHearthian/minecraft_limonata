@@ -10,6 +10,10 @@ import net.minecraft.client.gui.GuiGraphics;
 
 import limonata.world.inventory.LemonadeStandGuiMenu;
 
+import limonata.procedures.LmnstandGUIwaterBar2Procedure;
+import limonata.procedures.LmnstandGUIwaterBar1Procedure;
+import limonata.procedures.LmnstandGUIwaterBar0Procedure;
+
 import limonata.init.LimonataModScreens;
 
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -51,15 +55,25 @@ public class LemonadeStandGuiScreen extends AbstractContainerScreen<LemonadeStan
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/questionmark_gui.png"), this.leftPos + 96, this.topPos + 61, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/bamboo_gui.png"), this.leftPos + 62, this.topPos + 42, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/cutlemon_gui.png"), this.leftPos + 44, this.topPos + 78, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/glass_gui.png"), this.leftPos + 63, this.topPos + 106, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/sugar_gui.png"), this.leftPos + 62, this.topPos + 78, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/icecubes_gui.png"), this.leftPos + 29, this.topPos + 38, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/glass_gui.png"), this.leftPos + 116, this.topPos + 106, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/bamboo_gui.png"), this.leftPos + 140, this.topPos + 25, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/sugar_gui.png"), this.leftPos + 40, this.topPos + 59, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/cutlemon_gui.png"), this.leftPos + 19, this.topPos + 59, 0, 0, 16, 16, 16, 16);
 		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/water_bucket_gui.png"), this.leftPos + 26, this.topPos + 106, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/icecubes_gui.png"), this.leftPos + 26, this.topPos + 42, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/glassoflemonade_gui.png"), this.leftPos + 152, this.topPos + 61, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/glass1_gui.png"), this.leftPos + 114, this.topPos + 41, 0, 0, 36, 57, 36, 57);
+		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/questionmark_gui.png"), this.leftPos + 73, this.topPos + 59, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/glassoflemonade_gui.png"), this.leftPos + 152, this.topPos + 106, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/glass1_gui.png"), this.leftPos + 106, this.topPos + 40, 0, 0, 36, 57, 36, 57);
+		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/lemonadestandgui_waterlevel.png"), this.leftPos + 43, this.topPos + 111, 0, 0, 21, 6, 21, 6);
+		if (LmnstandGUIwaterBar0Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/water_fuel_length_33.png"), this.leftPos + 45, this.topPos + 112, 0, 0, 18, 4, 18, 4);
+		}
+		if (LmnstandGUIwaterBar1Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/water_fuel_length_66.png"), this.leftPos + 45, this.topPos + 112, 0, 0, 18, 4, 18, 4);
+		}
+		if (LmnstandGUIwaterBar2Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/water_fuel_length.png"), this.leftPos + 45, this.topPos + 112, 0, 0, 18, 4, 18, 4);
+		}
 		RenderSystem.disableBlend();
 	}
 
@@ -75,7 +89,7 @@ public class LemonadeStandGuiScreen extends AbstractContainerScreen<LemonadeStan
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.limonata.lemonade_stand_gui.label_lemoande_stand"), 56, 5, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.limonata.lemonade_stand_gui.label_empty"), 85, 63, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.limonata.lemonade_stand_gui.label_empty"), 62, 62, -12829636, false);
 	}
 
 	@Override

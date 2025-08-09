@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "limonata:item/cutlemon2"
+    "layer0": "limonata:item/cutlemon_2_better"
   }
 }

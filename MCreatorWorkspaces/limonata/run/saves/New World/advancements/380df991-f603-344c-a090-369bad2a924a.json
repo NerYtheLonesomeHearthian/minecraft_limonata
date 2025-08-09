@@ -612,5 +612,17 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-08-08 15:46:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-08-08 18:37:39 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

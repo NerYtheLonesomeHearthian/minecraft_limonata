@@ -1,7 +1,3 @@
-/tp @s -1801 80 -66291
-/locate biome minecraft:old_growth_birch_forest
-/tp @s -1731 99 -66399
-/tp @s -1731987 99 -66399
 /locate biome minecraft:old_growth_birch_forest
 /tp @s -1731379 91 -66111
 /tp @p 56556 200 2876987
@@ -48,3 +44,7 @@
 /time set day
 /gamerule randomTickSpeed 3
 /tick freeze
+/give @p limonata:lemonade_stand
+/time set day
+/weather clear
+/gamerule randomTickSpeed 300

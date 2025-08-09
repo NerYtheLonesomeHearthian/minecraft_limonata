@@ -40,8 +40,18 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 151,
-          "y": 54,
+          "x": 154,
+          "y": 50,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icecubes_gui.png",
+          "use1Xscale": false,
+          "x": 155,
+          "y": 51,
           "locked": false
         }
       },
@@ -59,8 +69,18 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 188,
+          "x": 241,
           "y": 118,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glass_gui.png",
+          "use1Xscale": false,
+          "x": 242,
+          "y": 119,
           "locked": false
         }
       },
@@ -78,8 +98,18 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 187,
-          "y": 54,
+          "x": 265,
+          "y": 37,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bamboo_gui.png",
+          "use1Xscale": false,
+          "x": 266,
+          "y": 38,
           "locked": false
         }
       },
@@ -97,66 +127,18 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 187,
-          "y": 90,
-          "locked": false
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 4,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": false,
-          "x": 221,
-          "y": 73,
-          "locked": false
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 5,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": false,
-          "x": 277,
-          "y": 73,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_empty",
-          "text": {
-            "fixedValue": "+"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 211,
-          "y": 76,
+          "x": 165,
+          "y": 71,
           "locked": false
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "questionmark_gui.png",
+          "image": "sugar_gui.png",
           "use1Xscale": false,
-          "x": 222,
-          "y": 74,
+          "x": 166,
+          "y": 72,
           "locked": false
         }
       },
@@ -169,23 +151,13 @@
           "disablePlacement": {
             "fixedValue": false
           },
-          "id": 6,
+          "id": 4,
           "disablePickup": {
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 169,
-          "y": 90,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "bamboo_gui.png",
-          "use1Xscale": false,
-          "x": 188,
-          "y": 55,
+          "x": 144,
+          "y": 71,
           "locked": false
         }
       },
@@ -194,28 +166,8 @@
         "data": {
           "image": "cutlemon_gui.png",
           "use1Xscale": false,
-          "x": 170,
-          "y": 91,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "glass_gui.png",
-          "use1Xscale": false,
-          "x": 189,
-          "y": 119,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "sugar_gui.png",
-          "use1Xscale": false,
-          "x": 188,
-          "y": 91,
+          "x": 145,
+          "y": 72,
           "locked": false
         }
       },
@@ -228,7 +180,7 @@
           "disablePlacement": {
             "fixedValue": false
           },
-          "id": 7,
+          "id": 5,
           "disablePickup": {
             "fixedValue": false
           },
@@ -249,12 +201,44 @@
         }
       },
       {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 198,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
         "type": "image",
         "data": {
-          "image": "icecubes_gui.png",
+          "image": "questionmark_gui.png",
           "use1Xscale": false,
-          "x": 152,
-          "y": 55,
+          "x": 199,
+          "y": 72,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 277,
+          "y": 118,
           "locked": false
         }
       },
@@ -264,7 +248,23 @@
           "image": "glassoflemonade_gui.png",
           "use1Xscale": false,
           "x": 278,
-          "y": 74,
+          "y": 119,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "+"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 188,
+          "y": 75,
           "locked": false
         }
       },
@@ -273,15 +273,61 @@
         "data": {
           "image": "glass1_gui.png",
           "use1Xscale": false,
-          "x": 240,
-          "y": 54,
+          "x": 232,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadestandgui_waterlevel.png",
+          "use1Xscale": false,
+          "x": 169,
+          "y": 124,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "water_fuel_length_33.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LmnstandGUIwaterBar0"
+          },
+          "x": 171,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "water_fuel_length_66.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LmnstandGUIwaterBar1"
+          },
+          "x": 171,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "water_fuel_length.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LmnstandGUIwaterBar2"
+          },
+          "x": 171,
+          "y": 125,
           "locked": false
         }
       }
     ],
-    "onTick": {
-      "name": "LemonadeStandGuiWhileThisGUIIsOpenTick"
-    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,
