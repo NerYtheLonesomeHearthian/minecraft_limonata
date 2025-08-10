@@ -38,5 +38,7 @@
   "item.limonata.lemonade_achievement_item": "LemonadeAchievementItem",
   "advancements.lemon_crop_tree_surprise_achievement.title": "Surprise!",
   "advancements.lemon_crop_tree_surprise_achievement.descr": "Learn how Lemon Trees work around here.",
-  "item.limonata.draft_lemonade": "Draft Lemonade"
+  "item.limonata.draft_lemonade": "Draft Lemonade",
+  "subtitles.brew1": "",
+  "subtitles.brew2": ""
 }

@@ -6,7 +6,8 @@ import net.minecraft.core.BlockPos;
 
 public class LmnstandGUIbrewingProgress0Procedure {
 	public static boolean execute(LevelAccessor world, double x, double y, double z) {
-		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") >= 0 && getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") <= 10) {
+		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") == 221
+				|| getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") >= 0 && getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") <= 10) {
 			return true;
 		}
 		return false;

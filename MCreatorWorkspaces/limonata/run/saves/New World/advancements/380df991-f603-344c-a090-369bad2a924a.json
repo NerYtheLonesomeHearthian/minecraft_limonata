@@ -126,12 +126,6 @@
     },
     "done": true
   },
-  "limonata:recipes/glassrecipe": {
-    "criteria": {
-      "has_ingredient_0": "2025-07-22 21:28:39 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2025-07-22 21:28:39 +0200"
@@ -165,18 +159,6 @@
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2025-07-22 21:30:45 +0200"
-    },
-    "done": true
-  },
-  "limonata:recipes/lemontocutlemon": {
-    "criteria": {
-      "has_ingredient_1": "2025-07-28 12:44:59 +0200"
-    },
-    "done": true
-  },
-  "limonata:recipes/cutlemontolemonseeds": {
-    "criteria": {
-      "has_ingredient_0": "2025-07-28 12:44:59 +0200"
     },
     "done": true
   },

@@ -123,6 +123,8 @@ public class LemonadeStandBlockEntity extends RandomizableContainerBlockEntity i
 
 	@Override
 	public boolean canTakeItemThroughFace(int index, ItemStack itemstack, Direction direction) {
+		if (index == 0)
+			return false;
 		if (index == 1)
 			return false;
 		if (index == 2)
@@ -134,6 +136,8 @@ public class LemonadeStandBlockEntity extends RandomizableContainerBlockEntity i
 		if (index == 5)
 			return false;
 		if (index == 6)
+			return false;
+		if (index == 8)
 			return false;
 		return true;
 	}

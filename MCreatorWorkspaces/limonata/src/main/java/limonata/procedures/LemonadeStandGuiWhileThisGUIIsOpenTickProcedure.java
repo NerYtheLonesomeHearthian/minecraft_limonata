@@ -12,6 +12,9 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
 import limonata.init.LimonataModItems;
@@ -19,24 +22,13 @@ import limonata.init.LimonataModItems;
 public class LemonadeStandGuiWhileThisGUIIsOpenTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 0) {
-			if (!world.isClientSide()) {
-				BlockPos _bp = BlockPos.containing(x, y, z);
-				BlockEntity _blockEntity = world.getBlockEntity(_bp);
-				BlockState _bs = world.getBlockState(_bp);
-				if (_blockEntity != null)
-					_blockEntity.getPersistentData().putDouble("lemonadePreparationTime", 0);
-				if (world instanceof Level _level)
-					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-			}
 			if ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 5).copy()).getItem() == Items.WATER_BUCKET) {
-				if (!world.isClientSide()) {
-					BlockPos _bp = BlockPos.containing(x, y, z);
-					BlockEntity _blockEntity = world.getBlockEntity(_bp);
-					BlockState _bs = world.getBlockState(_bp);
-					if (_blockEntity != null)
-						_blockEntity.getPersistentData().putDouble("lemonadePreparationTime", 0);
-					if (world instanceof Level _level)
-						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("limonata:brew1")), SoundSource.BLOCKS, 1, 1);
+					} else {
+						_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("limonata:brew1")), SoundSource.BLOCKS, 1, 1, false);
+					}
 				}
 				if (!world.isClientSide()) {
 					BlockPos _bp = BlockPos.containing(x, y, z);
@@ -62,7 +54,7 @@ public class LemonadeStandGuiWhileThisGUIIsOpenTickProcedure {
 					&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 3).copy()).getItem() == Items.SUGAR && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).copy()).getItem() == LimonataModItems.CUTLEMON.get()
 					&& ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).copy()).getItem() == LimonataModItems.DRAFT_LEMONADE.get() && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).getCount() <= 63
 							|| itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).getCount() == 0)) {
-				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") == 220) {
+				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") == 221) {
 					if (!world.isClientSide()) {
 						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -83,7 +75,14 @@ public class LemonadeStandGuiWhileThisGUIIsOpenTickProcedure {
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
 				}
-				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") == 220) {
+				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") == 221) {
+					if (world instanceof Level _level) {
+						if (!_level.isClientSide()) {
+							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("limonata:brew2")), SoundSource.BLOCKS, 1, 1);
+						} else {
+							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("limonata:brew2")), SoundSource.BLOCKS, 1, 1, false);
+						}
+					}
 					if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 						ItemStack _setstack = new ItemStack(LimonataModItems.DRAFT_LEMONADE.get()).copy();
 						_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).getCount() + 1);

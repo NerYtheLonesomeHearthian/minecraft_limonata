@@ -7,5 +7,21 @@
         "stream": true
       }
     ]
+  },
+  "brew1": {
+    "sounds": [
+      {
+        "name": "limonata:brew1",
+        "stream": false
+      }
+    ]
+  },
+  "brew2": {
+    "sounds": [
+      {
+        "name": "limonata:brew2",
+        "stream": false
+      }
+    ]
   }
 }

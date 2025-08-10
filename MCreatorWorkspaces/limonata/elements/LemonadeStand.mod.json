@@ -40,8 +40,8 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 2.5,
+    "resistance": 2.5,
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
@@ -71,14 +71,14 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
-    "noteBlockInstrument": "harp",
+    "colorOnMap": "WOOD",
+    "noteBlockInstrument": "bass",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "ignitedByLava": false,
+    "ignitedByLava": true,
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -89,7 +89,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "WOOD"
     },
     "breakSound": {
       "value": ""
@@ -127,12 +127,14 @@
       8
     ],
     "inventoryInSlotIDs": [
+      0,
       1,
       2,
       3,
       4,
       5,
-      6
+      6,
+      8
     ],
     "hasEnergyStorage": false,
     "energyInitial": 0,
