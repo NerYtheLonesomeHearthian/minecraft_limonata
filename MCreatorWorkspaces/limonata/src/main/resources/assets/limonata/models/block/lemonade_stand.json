@@ -1,13 +1,9 @@
 {
-  "parent": "block/cube",
+  "parent": "limonata:custom/lemonade_stand",
   "textures": {
-    "down": "minecraft:block/blast_furnace_front",
-    "up": "minecraft:block/blast_furnace_front",
-    "north": "limonata:block/temp_limo_block",
-    "east": "limonata:block/temp_limo_block",
-    "south": "limonata:block/temp_limo_block",
-    "west": "limonata:block/temp_limo_block",
-    "particle": "minecraft:block/blast_furnace_front"
+    "all": "limonata:block/lemonade_stand",
+    "particle": "limonata:block/lemonade_stand",
+    "0": "limonata:block/lemonade_stand"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }
