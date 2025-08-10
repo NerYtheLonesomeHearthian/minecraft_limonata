@@ -1017,6 +1017,20 @@
         ]
       },
       "path": "~/lemonadeStand"
+    },
+    {
+      "name": "DraftLemonade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "draft_lemonade",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/item/DraftLemonadeItem.java",
+          "src/main/resources/assets/limonata/models/item/draft_lemonade.json"
+        ]
+      },
+      "path": "~/lemonadeStand"
     }
   ],
   "variable_elements": [],
@@ -1150,7 +1164,8 @@
       "advancements.obtain_lemonade.title": "Lemonade!!",
       "item.limonata.lemonade_achievement_item": "LemonadeAchievementItem",
       "advancements.lemon_crop_tree_surprise_achievement.title": "Surprise!",
-      "advancements.lemon_crop_tree_surprise_achievement.descr": "Learn how Lemon Trees work around here."
+      "advancements.lemon_crop_tree_surprise_achievement.descr": "Learn how Lemon Trees work around here.",
+      "item.limonata.draft_lemonade": "Draft Lemonade"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -1191,7 +1206,8 @@
       "advancements.obtain_lemonade.title": "Lemonade!!",
       "item.limonata.lemonade_achievement_item": "LemonadeAchievementItem",
       "advancements.lemon_crop_tree_surprise_achievement.title": "Surprise!",
-      "advancements.lemon_crop_tree_surprise_achievement.descr": "Learn how Lemon Trees work around here."
+      "advancements.lemon_crop_tree_surprise_achievement.descr": "Learn how Lemon Trees work around here.",
+      "item.limonata.draft_lemonade": "Draft Lemonade"
     }
   },
   "metadata": {

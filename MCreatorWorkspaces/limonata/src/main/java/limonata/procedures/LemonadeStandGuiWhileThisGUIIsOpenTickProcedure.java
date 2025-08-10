@@ -19,7 +19,25 @@ import limonata.init.LimonataModItems;
 public class LemonadeStandGuiWhileThisGUIIsOpenTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 0) {
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putDouble("lemonadePreparationTime", 0);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 5).copy()).getItem() == Items.WATER_BUCKET) {
+				if (!world.isClientSide()) {
+					BlockPos _bp = BlockPos.containing(x, y, z);
+					BlockEntity _blockEntity = world.getBlockEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_blockEntity != null)
+						_blockEntity.getPersistentData().putDouble("lemonadePreparationTime", 0);
+					if (world instanceof Level _level)
+						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				}
 				if (!world.isClientSide()) {
 					BlockPos _bp = BlockPos.containing(x, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -40,18 +58,17 @@ public class LemonadeStandGuiWhileThisGUIIsOpenTickProcedure {
 		}
 		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 1 || getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 2
 				|| getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 3) {
-			if ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 0).copy()).getItem() == LimonataModItems.ICE_CUBES.get() && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 1).copy()).getItem() == LimonataModItems.GLASS.get()
-					&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).copy()).getItem() == Blocks.BAMBOO.asItem() && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 3).copy()).getItem() == Items.SUGAR
-					&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).copy()).getItem() == LimonataModItems.CUTLEMON.get()
-					&& ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).copy()).getItem() == LimonataModItems.GLASS_OF_LEMONADE.get() && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).getCount() <= 63
-							|| itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).getCount() == 0)) {
-				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") == 0) {
+			if ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 0).copy()).getItem() == LimonataModItems.ICE_CUBES.get() && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).copy()).getItem() == Blocks.BAMBOO.asItem()
+					&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 3).copy()).getItem() == Items.SUGAR && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).copy()).getItem() == LimonataModItems.CUTLEMON.get()
+					&& ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).copy()).getItem() == LimonataModItems.DRAFT_LEMONADE.get() && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).getCount() <= 63
+							|| itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).getCount() == 0)) {
+				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") == 225) {
 					if (!world.isClientSide()) {
 						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
-							_blockEntity.getPersistentData().putDouble("lemonadePreparationTime", 225);
+							_blockEntity.getPersistentData().putDouble("lemonadePreparationTime", 0);
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -61,26 +78,21 @@ public class LemonadeStandGuiWhileThisGUIIsOpenTickProcedure {
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
-							_blockEntity.getPersistentData().putDouble("lemonadePreparationTime", (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") - 1));
+							_blockEntity.getPersistentData().putDouble("lemonadePreparationTime", (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") + 1));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
 				}
 				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") == 225) {
 					if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
-						ItemStack _setstack = new ItemStack(LimonataModItems.GLASS_OF_LEMONADE.get()).copy();
-						_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).getCount() + 1);
-						_itemHandlerModifiable.setStackInSlot(7, _setstack);
+						ItemStack _setstack = new ItemStack(LimonataModItems.DRAFT_LEMONADE.get()).copy();
+						_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).getCount() + 1);
+						_itemHandlerModifiable.setStackInSlot(8, _setstack);
 					}
 					if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 						ItemStack _setstack = new ItemStack(LimonataModItems.ICE_CUBES.get()).copy();
 						_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 0).getCount() - 1);
 						_itemHandlerModifiable.setStackInSlot(0, _setstack);
-					}
-					if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
-						ItemStack _setstack = new ItemStack(LimonataModItems.GLASS.get()).copy();
-						_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 1).getCount() - 1);
-						_itemHandlerModifiable.setStackInSlot(1, _setstack);
 					}
 					if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 						ItemStack _setstack = new ItemStack(Blocks.BAMBOO).copy();
@@ -106,6 +118,27 @@ public class LemonadeStandGuiWhileThisGUIIsOpenTickProcedure {
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
+				}
+			}
+		}
+		if ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).copy()).getItem() == LimonataModItems.DRAFT_LEMONADE.get()) {
+			if ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 1).copy()).getItem() == LimonataModItems.GLASS.get()
+					&& ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).copy()).getItem() == LimonataModItems.GLASS_OF_LEMONADE.get() && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).getCount() <= 63
+							|| itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).getCount() == 0)) {
+				if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+					ItemStack _setstack = new ItemStack(LimonataModItems.GLASS.get()).copy();
+					_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 1).getCount() - 1);
+					_itemHandlerModifiable.setStackInSlot(1, _setstack);
+				}
+				if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+					ItemStack _setstack = new ItemStack(LimonataModItems.DRAFT_LEMONADE.get()).copy();
+					_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).getCount() - 1);
+					_itemHandlerModifiable.setStackInSlot(8, _setstack);
+				}
+				if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+					ItemStack _setstack = new ItemStack(LimonataModItems.GLASS_OF_LEMONADE.get()).copy();
+					_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).getCount() + 1);
+					_itemHandlerModifiable.setStackInSlot(7, _setstack);
 				}
 			}
 		}

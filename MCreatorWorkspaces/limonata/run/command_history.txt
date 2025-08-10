@@ -1,5 +1,3 @@
-/tp @p 56556 200 2876987
-/locate biome minecraft:birch_forest
 /tp @s 56396 200 2876731
 /locate biome minecraft:old_growth_birch_forest
 /tp @s 55865 101 2876256
@@ -48,3 +46,5 @@
 /gamerule randomTickSpeed 300
 /weather clear
 /gamerule randomTickSpeed 3
+/time set day
+/gamerule randomTickSpeed 300
