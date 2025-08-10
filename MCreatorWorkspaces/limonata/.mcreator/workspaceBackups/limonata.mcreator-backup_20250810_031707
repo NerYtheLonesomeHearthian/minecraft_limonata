@@ -1031,6 +1031,102 @@
         ]
       },
       "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress0",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress0Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress1Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress2Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
     }
   ],
   "variable_elements": [],

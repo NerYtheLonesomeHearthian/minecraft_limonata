@@ -62,7 +62,7 @@ public class LemonadeStandGuiWhileThisGUIIsOpenTickProcedure {
 					&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 3).copy()).getItem() == Items.SUGAR && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).copy()).getItem() == LimonataModItems.CUTLEMON.get()
 					&& ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).copy()).getItem() == LimonataModItems.DRAFT_LEMONADE.get() && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).getCount() <= 63
 							|| itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).getCount() == 0)) {
-				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") == 225) {
+				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") == 220) {
 					if (!world.isClientSide()) {
 						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -83,7 +83,7 @@ public class LemonadeStandGuiWhileThisGUIIsOpenTickProcedure {
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
 				}
-				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") == 225) {
+				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") == 220) {
 					if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 						ItemStack _setstack = new ItemStack(LimonataModItems.DRAFT_LEMONADE.get()).copy();
 						_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).getCount() + 1);
