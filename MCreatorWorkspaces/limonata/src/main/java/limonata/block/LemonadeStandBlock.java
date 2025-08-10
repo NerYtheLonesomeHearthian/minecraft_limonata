@@ -57,7 +57,7 @@ public class LemonadeStandBlock extends Block implements EntityBlock {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return box(0, 0, 0, 32, 16, 16);
+		return box(-0.1, 0, 0.9, 32, 16.1, 15.1);
 	}
 
 	@Override

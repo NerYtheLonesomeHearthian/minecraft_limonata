@@ -26,12 +26,12 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
+        "mx": -0.1,
         "my": 0.0,
-        "mz": 0.0,
+        "mz": 0.9,
         "Mx": 32.0,
-        "My": 16.0,
-        "Mz": 16.0,
+        "My": 16.1,
+        "Mz": 15.1,
         "subtract": false
       }
     ],
@@ -50,7 +50,7 @@
     "immuneToFire": false,
     "creativeTabs": [
       {
-        "value": "TOOLS"
+        "value": "TRANSPORTATION"
       }
     ],
     "destroyTool": "Not specified",

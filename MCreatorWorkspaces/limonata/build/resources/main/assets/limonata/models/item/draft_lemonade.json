@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "limonata:item/placeholder"
+    "layer0": "limonata:item/draft_lemonade_provvisorio"
   }
 }

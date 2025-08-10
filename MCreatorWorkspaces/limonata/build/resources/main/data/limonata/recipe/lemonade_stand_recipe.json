@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "dde",
+    "ffg"
+  ],
+  "key": {
+    "a": {
+      "item": "limonata:glass"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "minecraft:bamboo"
+    },
+    "d": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "e": {
+      "item": "limonata:cutlemon"
+    },
+    "f": {
+      "tag": "minecraft:wooden_fences"
+    },
+    "g": {
+      "item": "limonata:ice_cubes"
+    }
+  },
+  "result": {
+    "id": "limonata:lemonade_stand",
+    "count": 1
+  }
+}

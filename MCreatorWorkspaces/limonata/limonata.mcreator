@@ -1744,6 +1744,19 @@
         ]
       },
       "path": "~/achievements"
+    },
+    {
+      "name": "LemonadeStandRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonade_stand_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/lemonade_stand_recipe.json"
+        ]
+      },
+      "path": "~/lemonadeStand"
     }
   ],
   "variable_elements": [],
@@ -1855,7 +1868,6 @@
   "tab_element_order": {
     "TOOLS": [
       "MusicDiscLimonataChiamata",
-      "LemonadeStand",
       "Glass"
     ],
     "FOOD": [
@@ -2008,7 +2020,7 @@
   "workspaceSettings": {
     "modid": "limonata",
     "modName": "limonata",
-    "version": "1.2.0.6",
+    "version": "1.3.0",
     "author": "nery",
     "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",
     "license": "MIT License",

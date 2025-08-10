@@ -1731,6 +1731,19 @@
         ]
       },
       "path": "~/lemonadeStand"
+    },
+    {
+      "name": "ObtainLemonadeStand",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_lemonade_stand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/advancement/obtain_lemonade_stand.json"
+        ]
+      },
+      "path": "~/achievements"
     }
   ],
   "variable_elements": [],
@@ -1895,7 +1908,9 @@
       "advancements.lemon_crop_tree_surprise_achievement.descr": "Learn how Lemon Trees work around here.",
       "item.limonata.draft_lemonade": "Draft Lemonade",
       "subtitles.brew1": "",
-      "subtitles.brew2": ""
+      "subtitles.brew2": "",
+      "advancements.obtain_lemonade_stand.descr": "Craft a Lemonade Stand.",
+      "advancements.obtain_lemonade_stand.title": "Here\u0027s your workbench."
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -1939,7 +1954,9 @@
       "advancements.lemon_crop_tree_surprise_achievement.descr": "Learn how Lemon Trees work around here.",
       "item.limonata.draft_lemonade": "Draft Lemonade",
       "subtitles.brew1": "",
-      "subtitles.brew2": ""
+      "subtitles.brew2": "",
+      "advancements.obtain_lemonade_stand.descr": "Craft a Lemonade Stand.",
+      "advancements.obtain_lemonade_stand.title": "Here\u0027s your workbench."
     }
   },
   "metadata": {

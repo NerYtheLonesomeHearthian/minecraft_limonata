@@ -1,0 +1,56 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Lemon"
+      },
+      {
+        "value": "CUSTOM:Cutlemon"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Glass"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Blocks.BAMBOO"
+      },
+      {
+        "value": "TAG:minecraft:wooden_slabs"
+      },
+      {
+        "value": "TAG:minecraft:wooden_slabs"
+      },
+      {
+        "value": "CUSTOM:Cutlemon"
+      },
+      {
+        "value": "TAG:minecraft:wooden_fences"
+      },
+      {
+        "value": "TAG:minecraft:wooden_fences"
+      },
+      {
+        "value": "CUSTOM:IceCubes"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LemonadeStand"
+    },
+    "name": "lemonade_stand_recipe",
+    "namespace": "mod"
+  }
+}
