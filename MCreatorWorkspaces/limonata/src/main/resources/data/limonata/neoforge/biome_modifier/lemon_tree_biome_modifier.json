@@ -1,9 +1,11 @@
 {
   "type": "neoforge:add_features",
   "biomes": [
+    "meadow",
+    "windswept_hills",
+    "windswept_gravelly_hills",
     "plains",
-    "birch_forest",
-    "old_growth_birch_forest"
+    "sunflower_plains"
   ],
   "features": "limonata:lemon_tree",
   "step": "surface_structures"

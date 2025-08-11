@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "limonata:block/lemonade_stand"
+    },
+    "facing=east": {
+      "model": "limonata:block/lemonade_stand",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "limonata:block/lemonade_stand",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "limonata:block/lemonade_stand",
+      "y": 270
     }
   }
 }

@@ -10,7 +10,7 @@
     "textureBack": "temp_limo_block",
     "renderType": 2,
     "customModelName": "lemonade_stand:default",
-    "rotationMode": 0,
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -26,12 +26,84 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": -0.1,
+        "mx": 3.0,
+        "my": 0.1,
+        "mz": 11.0,
+        "Mx": 6.0,
+        "My": 12.1,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
         "my": 0.0,
-        "mz": 0.9,
+        "mz": 2.0,
+        "Mx": 6.0,
+        "My": 12.0,
+        "Mz": 5.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.5,
+        "my": 2.0,
+        "mz": 5.0,
+        "Mx": 5.5,
+        "My": 4.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 22.0,
+        "my": 0.0,
+        "mz": 11.0,
+        "Mx": 25.0,
+        "My": 12.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 22.0,
+        "my": 0.0,
+        "mz": 2.0,
+        "Mx": 25.0,
+        "My": 12.0,
+        "Mz": 5.0,
+        "subtract": false
+      },
+      {
+        "mx": 22.5,
+        "my": 2.0,
+        "mz": 5.0,
+        "Mx": 24.5,
+        "My": 4.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 22.5,
+        "my": 8.0,
+        "mz": 5.0,
+        "Mx": 24.5,
+        "My": 10.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 12.0,
+        "mz": 1.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 15.0,
+        "subtract": false
+      },
+      {
+        "mx": 16.0,
+        "my": 12.0,
+        "mz": 1.0,
         "Mx": 32.0,
-        "My": 16.1,
-        "Mz": 15.1,
+        "My": 16.0,
+        "Mz": 15.0,
         "subtract": false
       }
     ],

@@ -1,0 +1,2038 @@
+{
+  "mod_elements": [
+    {
+      "name": "MusicDiscLimonataChiamata",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_limonata_chiamata",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/item/MusicDiscLimonataChiamataItem.java",
+          "src/main/resources/data/limonata/jukebox_song/music_disc_limonata_chiamata.json",
+          "src/main/resources/assets/limonata/models/item/music_disc_limonata_chiamata.json"
+        ]
+      },
+      "path": "~/disc"
+    },
+    {
+      "name": "Glass",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/item/GlassItem.java",
+          "src/main/resources/assets/limonata/models/item/glass.json"
+        ]
+      },
+      "path": "~/glass"
+    },
+    {
+      "name": "Limonataglass",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_of_lemonade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/models/item/glass_of_lemonade.json",
+          "src/main/java/limonata/item/LimonataglassItem.java"
+        ]
+      },
+      "path": "~/glass"
+    },
+    {
+      "name": "Glassrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/glassrecipe.json"
+        ]
+      },
+      "path": "~/glass"
+    },
+    {
+      "name": "LimonataglassPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonataglass_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/LimonataglassPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/glass"
+    },
+    {
+      "name": "Lemon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/item/LemonItem.java",
+          "src/main/resources/assets/limonata/models/item/lemon.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "Cutlemon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutlemon",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/item/CutlemonItem.java",
+          "src/main/resources/assets/limonata/models/item/cutlemon.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "Lemontocutlemon",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemontocutlemon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/lemontocutlemon.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "Lemonseeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonseeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/models/item/lemonseeds.json",
+          "src/main/java/limonata/item/LemonseedsItem.java"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "Cutlemontolemonseeds",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutlemontolemonseeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/cutlemontolemonseeds.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "Obtainlemon",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtainlemon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/advancement/obtainlemon.json"
+        ]
+      },
+      "path": "~/achievements"
+    },
+    {
+      "name": "LemonCrop0",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_0",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/block/LemonCrop0Block.java",
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_0.json",
+          "src/main/resources/assets/limonata/models/item/lemon_crop_0.json",
+          "src/main/resources/assets/limonata/models/block/lemon_crop_0.json",
+          "src/main/resources/assets/limonata/blockstates/lemon_crop_0.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonseedsRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonseeds_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/LemonseedsRightclickedOnBlockProcedure.java"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCrop2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/models/item/lemon_crop_2.json",
+          "src/main/resources/assets/limonata/blockstates/lemon_crop_2.json",
+          "src/main/java/limonata/block/LemonCrop2Block.java",
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_2.json",
+          "src/main/resources/assets/limonata/models/block/lemon_crop_2.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCrop1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_1.json",
+          "src/main/resources/assets/limonata/blockstates/lemon_crop_1.json",
+          "src/main/java/limonata/block/LemonCrop1Block.java",
+          "src/main/resources/assets/limonata/models/item/lemon_crop_1.json",
+          "src/main/resources/assets/limonata/models/block/lemon_crop_1.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCrop3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_3.json",
+          "src/main/resources/assets/limonata/models/item/lemon_crop_3.json",
+          "src/main/resources/assets/limonata/blockstates/lemon_crop_3.json",
+          "src/main/resources/assets/limonata/models/block/lemon_crop_3.json",
+          "src/main/java/limonata/block/LemonCrop3Block.java"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCrop4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/blockstates/lemon_crop_4.json",
+          "src/main/resources/assets/limonata/models/block/lemon_crop_4.json",
+          "src/main/java/limonata/block/LemonCrop4Block.java",
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_4.json",
+          "src/main/resources/assets/limonata/models/item/lemon_crop_4.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCrop5",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_5",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/block/LemonCrop5Block.java",
+          "src/main/resources/assets/limonata/models/item/lemon_crop_5.json",
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_5.json",
+          "src/main/resources/assets/limonata/blockstates/lemon_crop_5.json",
+          "src/main/resources/assets/limonata/models/block/lemon_crop_5.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCrop6",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/blockstates/lemon_crop_6.json",
+          "src/main/java/limonata/block/LemonCrop6Block.java",
+          "src/main/resources/assets/limonata/models/item/lemon_crop_6.json",
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_6.json",
+          "src/main/resources/assets/limonata/models/block/lemon_crop_6.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCropBoneMealSuccessCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_bone_meal_success_condition",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LemonCropBoneMealSuccessConditionProcedure.java"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCrop0OnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_0_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/LemonCrop0OnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCrop1OnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_1_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/LemonCrop1OnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCrop2OnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_2_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/LemonCrop2OnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCrop3OnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_3_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/LemonCrop3OnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCrop4OnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_4_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/LemonCrop4OnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCrop55",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_5_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/blockstates/lemon_crop_5_5.json",
+          "src/main/resources/assets/limonata/models/block/lemon_crop_5_5.json",
+          "src/main/java/limonata/block/LemonCrop55Block.java",
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_5_5.json",
+          "src/main/resources/assets/limonata/models/item/lemon_crop_5_5.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCrop5OnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_5_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/LemonCrop5OnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCrop55OnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_55_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/LemonCrop55OnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCropOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/LemonCropOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonCropNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/LemonCropNeighbourBlockChangesProcedure.java"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/blockstates/lemon_leaves.json",
+          "src/main/java/limonata/block/LemonLeavesBlock.java",
+          "src/main/resources/assets/limonata/models/item/lemon_leaves.json",
+          "src/main/resources/assets/limonata/models/block/lemon_leaves.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonLeavesLemon",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_leaves_lemon",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/block/LemonLeavesLemonBlock.java",
+          "src/main/resources/assets/limonata/blockstates/lemon_leaves_lemon.json",
+          "src/main/resources/assets/limonata/models/item/lemon_leaves_lemon.json",
+          "src/main/resources/assets/limonata/models/block/lemon_leaves_lemon.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/neoforge/biome_modifier/lemon_tree_biome_modifier.json",
+          "src/main/resources/data/limonata/worldgen/configured_feature/lemon_tree.json",
+          "src/main/resources/data/limonata/worldgen/placed_feature/lemon_tree.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonLeavesLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_leaves_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_leaves.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonLeavesLemonLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_leaves_lemon_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_leaves_lemon.json"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonLeavesShears",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_leaves_shears",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LemonLeavesShearsProcedure.java"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonLeavesLemonShears",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_leaves_lemon_shears",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LemonLeavesLemonShearsProcedure.java"
+        ]
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonLeavesExtension",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_leaves_extension",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonLeavesLemonExtension",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_leaves_lemon_extension",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/lemonCrop"
+    },
+    {
+      "name": "LemonadeStandGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonade_stand_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/client/gui/LemonadeStandGuiScreen.java",
+          "src/main/java/limonata/world/inventory/LemonadeStandGuiMenu.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "IceCubes",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cubes",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/item/IceCubesItem.java",
+          "src/main/resources/assets/limonata/models/item/ice_cubes.json"
+        ]
+      },
+      "path": "~/other_items"
+    },
+    {
+      "name": "IceToIceCubes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_to_ice_cubes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/ice_to_ice_cubes.json"
+        ]
+      },
+      "path": "~/other_items"
+    },
+    {
+      "name": "LemonadeStandGuiWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonade_stand_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/LemonadeStandGuiWhileThisGUIIsOpenTickProcedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LemonadeStand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonade_stand",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/block/LemonadeStandBlock.java",
+          "src/main/resources/assets/limonata/models/block/lemonade_stand.json",
+          "src/main/java/limonata/block/entity/LemonadeStandBlockEntity.java",
+          "src/main/resources/assets/limonata/models/item/lemonade_stand.json",
+          "src/main/resources/assets/limonata/blockstates/lemonade_stand.json",
+          "src/main/resources/data/limonata/loot_table/blocks/lemonade_stand.json"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "ObtainLemonade",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_lemonade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/advancement/obtain_lemonade.json"
+        ]
+      },
+      "path": "~/achievements"
+    },
+    {
+      "name": "LemonadeAchievementItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonade_achievement_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/models/item/lemonade_achievement_item.json",
+          "src/main/java/limonata/item/LemonadeAchievementItemItem.java"
+        ]
+      },
+      "path": "~/achievements"
+    },
+    {
+      "name": "LemonCropTreeSurpriseAchievement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crop_tree_surprise_achievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/advancement/lemon_crop_tree_surprise_achievement.json"
+        ]
+      },
+      "path": "~/achievements"
+    },
+    {
+      "name": "LmnstandGUIwaterBar0",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_iwater_bar_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIwaterBar0Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIwaterBar1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_iwater_bar_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIwaterBar1Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIwaterBar2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_iwater_bar_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIwaterBar2Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "DraftLemonade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "draft_lemonade",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/item/DraftLemonadeItem.java",
+          "src/main/resources/assets/limonata/models/item/draft_lemonade.json"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress0",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress0Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress1Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress2Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress3Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress4Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress5Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_6",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress6Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_7",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress7Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress8",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_8",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress8Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress9",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_9",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress9Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_10",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress10Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress11",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_11",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress11Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress12",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_12",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress12Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress13",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_13",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress13Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress14",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_14",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress14Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress15",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_15",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress15Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress16",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_16",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress16Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress17",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_17",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress17Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress18",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_18",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress18Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress19",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_19",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress19Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress20",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_20",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress20Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LmnstandGUIbrewingProgress21",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmnstand_gu_ibrewing_progress_21",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LmnstandGUIbrewingProgress21Procedure.java"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    },
+    {
+      "name": "ObtainLemonadeStand",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_lemonade_stand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/advancement/obtain_lemonade_stand.json"
+        ]
+      },
+      "path": "~/achievements"
+    },
+    {
+      "name": "LemonadeStandRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonade_stand_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/lemonade_stand_recipe.json"
+        ]
+      },
+      "path": "~/lemonadeStand"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "music_disc_limonata_chiamata",
+      "files": [
+        "limonata_chiamata_audio_only"
+      ],
+      "category": "record",
+      "subtitle": "limonata chiamata"
+    },
+    {
+      "name": "brew1",
+      "files": [
+        "brew1"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "brew2",
+      "files": [
+        "brew2"
+      ],
+      "category": "block",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:c:music_discs": [
+      "CUSTOM:MusicDiscLimonataChiamata"
+    ],
+    "ITEMS:minecraft:creeper_drop_music_discs": [
+      "CUSTOM:MusicDiscLimonataChiamata"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:MusicDiscLimonataChiamata"
+    ],
+    "BLOCKS:limonata:lemon_crop": [
+      "CUSTOM:LemonCrop0",
+      "CUSTOM:LemonCrop2",
+      "CUSTOM:LemonCrop1",
+      "CUSTOM:LemonCrop3",
+      "CUSTOM:LemonCrop4",
+      "CUSTOM:LemonCrop5",
+      "CUSTOM:LemonCrop6",
+      "CUSTOM:LemonCrop55"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:LemonLeavesLemon",
+      "~CUSTOM:LemonLeaves"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:LemonLeavesLemon",
+      "~CUSTOM:LemonLeaves"
+    ],
+    "BLOCKS:minecraft:bee_growables": [
+      "CUSTOM:LemonCrop0",
+      "CUSTOM:LemonCrop2",
+      "CUSTOM:LemonCrop1",
+      "CUSTOM:LemonCrop3",
+      "CUSTOM:LemonCrop4",
+      "CUSTOM:LemonCrop5",
+      "CUSTOM:LemonCrop6",
+      "CUSTOM:LemonCrop55"
+    ],
+    "BLOCKS:minecraft:sword_efficient": [
+      "CUSTOM:LemonCrop0",
+      "CUSTOM:LemonCrop2",
+      "CUSTOM:LemonCrop1",
+      "CUSTOM:LemonCrop3",
+      "CUSTOM:LemonCrop4",
+      "CUSTOM:LemonCrop5",
+      "CUSTOM:LemonCrop6",
+      "CUSTOM:LemonCrop55"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "CUSTOM:LemonCrop0",
+      "CUSTOM:LemonCrop2",
+      "CUSTOM:LemonCrop1",
+      "CUSTOM:LemonCrop3",
+      "CUSTOM:LemonCrop4",
+      "CUSTOM:LemonCrop5",
+      "CUSTOM:LemonCrop6",
+      "CUSTOM:LemonCrop55"
+    ],
+    "BLOCKS:minecraft:mantains_farmland": [
+      "CUSTOM:LemonCrop0",
+      "CUSTOM:LemonCrop2",
+      "CUSTOM:LemonCrop1",
+      "CUSTOM:LemonCrop3",
+      "CUSTOM:LemonCrop4",
+      "CUSTOM:LemonCrop5",
+      "CUSTOM:LemonCrop6",
+      "CUSTOM:LemonCrop55"
+    ],
+    "BLOCKS:minecraft:crops": [
+      "CUSTOM:LemonCrop0",
+      "CUSTOM:LemonCrop2",
+      "CUSTOM:LemonCrop1",
+      "CUSTOM:LemonCrop3",
+      "CUSTOM:LemonCrop4",
+      "CUSTOM:LemonCrop5",
+      "CUSTOM:LemonCrop6",
+      "CUSTOM:LemonCrop55"
+    ]
+  },
+  "tab_element_order": {
+    "TOOLS": [
+      "MusicDiscLimonataChiamata",
+      "Glass"
+    ],
+    "FOOD": [
+      "Lemon",
+      "Cutlemon",
+      "IceCubes",
+      "Limonataglass"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
+      "item.limonata.glass": "Glass",
+      "item.limonata.music_disc_limonata_chiamata": "Music Disc",
+      "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata",
+      "item.limonata.glass_of_lemonade": "Glass of Lemonade",
+      "item.limonata.glass_of_lemonade.description_0": "§9Saturation §9(03:00)",
+      "item.limonata.lemon": "Lemon",
+      "item.limonata.cutlemon": "Cut Lemon",
+      "item.limonata.lemonseeds": "Lemon Seeds",
+      "advancements.obtainlemon.descr": "Obtain a Lemon.",
+      "advancements.obtainlemon.title": "It starts here...",
+      "block.limonata.lemon_crop_0": "Lemon Crop",
+      "block.limonata.lemon_crop_2": "Lemon Crop",
+      "block.limonata.lemon_crop_1": "Lemon Crop",
+      "block.limonata.lemon_crop_3": "Lemon Crop",
+      "block.limonata.lemon_crop_4": "Lemon Crop",
+      "block.limonata.lemon_crop_5": "Lemon Crop",
+      "block.limonata.lemon_crop_6": "Lemon Crop",
+      "block.limonata.lemon_crop_5_5": "Lemon Crop",
+      "block.limonata.lemon_leaves": "Lemon Leaves",
+      "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
+      "gui.limonata.lemonade_stand_gui.label_lemoande_stand": "Lemonade Stand",
+      "gui.limonata.lemonade_stand_gui.label_empty": "+",
+      "item.limonata.ice_cubes": "Ice Cubes",
+      "gui.limonata.lemonade_stand_gui.button_go": "Go",
+      "gui.limonata.lemonade_stand_gui.label_empty1": "___",
+      "gui.limonata.lemonade_stand_gui.label_empty6": "|",
+      "gui.limonata.lemonade_stand_gui.label_empty7": "*******",
+      "gui.limonata.lemonade_stand_gui.label_empty8": "****",
+      "gui.limonata.lemonade_stand_gui.label_empty2": "\\",
+      "gui.limonata.lemonade_stand_gui.label_empty3": "___",
+      "gui.limonata.lemonade_stand_gui.label_empty4": "|",
+      "gui.limonata.lemonade_stand_gui.label_empty5": "/",
+      "block.limonata.lemonade_stand": "Lemonade Stand",
+      "advancements.obtain_lemonade.descr": "Obtain a Glass of Lemonade.",
+      "advancements.obtain_lemonade.title": "Lemonade!!",
+      "item.limonata.lemonade_achievement_item": "LemonadeAchievementItem",
+      "advancements.lemon_crop_tree_surprise_achievement.title": "Surprise!",
+      "advancements.lemon_crop_tree_surprise_achievement.descr": "Learn how Lemon Trees work around here.",
+      "item.limonata.draft_lemonade": "Draft Lemonade",
+      "subtitles.brew1": "",
+      "subtitles.brew2": "",
+      "advancements.obtain_lemonade_stand.descr": "Craft a Lemonade Stand.",
+      "advancements.obtain_lemonade_stand.title": "Here\u0027s your workbench."
+    },
+    "it_it": {
+      "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
+      "item.limonata.glass": "Bicchiere",
+      "item.limonata.music_disc_limonata_chiamata": "Disco Musicale",
+      "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata",
+      "item.limonata.glass_of_lemonade": "Bicchiere di Limonata",
+      "item.limonata.glass_of_lemonade.description_0": "§9Saturazione §9(03:00)",
+      "item.limonata.lemon": "Limone",
+      "item.limonata.cutlemon": "Mezzo Limone",
+      "item.limonata.lemonseeds": "Semi di Limone",
+      "advancements.obtainlemon.descr": "Ottieni un Limone.",
+      "advancements.obtainlemon.title": "L\u0027inizio",
+      "block.limonata.lemon_crop_0": "Campo di Limoni",
+      "block.limonata.lemon_crop_2": "Campo di Limoni",
+      "block.limonata.lemon_crop_1": "Campo di Limoni",
+      "block.limonata.lemon_crop_3": "Campo di Limoni",
+      "block.limonata.lemon_crop_4": "Campo di Limoni",
+      "block.limonata.lemon_crop_5": "Campo di Limoni",
+      "block.limonata.lemon_crop_6": "Campo di Limoni",
+      "block.limonata.lemon_crop_5_5": "Campo di Limoni",
+      "block.limonata.lemon_leaves": "Foglie di Limone",
+      "block.limonata.lemon_leaves_lemon": "Foglie di Limone con Limoni",
+      "gui.limonata.lemonade_stand_gui.label_lemoande_stand": "Chiosco della Limonata",
+      "gui.limonata.lemonade_stand_gui.label_empty": "+",
+      "item.limonata.ice_cubes": "Cubetti di Ghiaccio",
+      "gui.limonata.lemonade_stand_gui.button_go": "Go",
+      "gui.limonata.lemonade_stand_gui.label_empty1": "___",
+      "gui.limonata.lemonade_stand_gui.label_empty6": "|",
+      "gui.limonata.lemonade_stand_gui.label_empty7": "*******",
+      "gui.limonata.lemonade_stand_gui.label_empty8": "****",
+      "gui.limonata.lemonade_stand_gui.label_empty2": "\\",
+      "gui.limonata.lemonade_stand_gui.label_empty3": "___",
+      "gui.limonata.lemonade_stand_gui.label_empty4": "|",
+      "gui.limonata.lemonade_stand_gui.label_empty5": "/",
+      "block.limonata.lemonade_stand": "Lemonade Stand",
+      "advancements.obtain_lemonade.descr": "Obtain a Glass of Lemonade.",
+      "advancements.obtain_lemonade.title": "Lemonade!!",
+      "item.limonata.lemonade_achievement_item": "LemonadeAchievementItem",
+      "advancements.lemon_crop_tree_surprise_achievement.title": "Surprise!",
+      "advancements.lemon_crop_tree_surprise_achievement.descr": "Learn how Lemon Trees work around here.",
+      "item.limonata.draft_lemonade": "Draft Lemonade",
+      "subtitles.brew1": "",
+      "subtitles.brew2": "",
+      "advancements.obtain_lemonade_stand.descr": "Craft a Lemonade Stand.",
+      "advancements.obtain_lemonade_stand.title": "Here\u0027s your workbench."
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/limonata/LimonataMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/limonata/sounds.json",
+      "src/main/java/limonata/init/LimonataModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/limonata/init/LimonataModSounds.java",
+      "src/main/java/limonata/init/LimonataModScreens.java",
+      "src/main/java/limonata/init/LimonataModMenus.java",
+      "src/main/java/limonata/network/MenuStateUpdateMessage.java",
+      "src/main/java/limonata/init/LimonataModBlocks.java",
+      "src/main/java/limonata/init/LimonataModBlockEntities.java",
+      "src/main/java/limonata/init/LimonataModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "disc",
+        "children": []
+      },
+      {
+        "name": "glass",
+        "children": []
+      },
+      {
+        "name": "lemonCrop",
+        "children": []
+      },
+      {
+        "name": "other_items",
+        "children": []
+      },
+      {
+        "name": "achievements",
+        "children": []
+      },
+      {
+        "name": "lemonadeStand",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "limonata",
+    "modName": "limonata",
+    "version": "1.3.0",
+    "author": "nery",
+    "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "limonata_glass_render4",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "limonata"
+  },
+  "mcreatorVersion": 202500228610
+}

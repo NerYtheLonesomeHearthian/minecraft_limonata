@@ -1,50 +1,50 @@
 /time set day
 /gamerule randomTickSpeed 300
-/gamerule randomTickSpeed 3000
-/gamerule randomTickSpeed 300
-/gamerule randomTickSpeed 3000
-/gamerule randomTickSpeed 30000
-/gamerule randomTickSpeed 3000
-/gamerule randomTickSpeed 300
-/gamerule randomTickSpeed 0
-/gamerule randomTickSpeed 3
-/gamerule randomTickSpeed 300
-/gamerule randomTickSpeed 3
-/gamerule randomTickSpeed 300
-/time set day
-/gamerule randomTickSpeed 3
-/gamerule randomTickSpeed 3000
-/gamerule randomTickSpeed 300
-/gamerule randomTickSpeed 3
-/gamerule randomTickSpeed 300
-/gamerule randomTickSpeed 900
-/gamerule randomTickSpeed 600
-/gamerule randomTickSpeed 900
-/time set day
-/gamerule randomTickSpeed 900
-/time set day
-/gamerule randomTickSpeed 3
-/gamerule randomTickSpeed 12
-/gamerule randomTickSpeed 120990
-/gamerule randomTickSpeed 900
-/gamerule randomTickSpeed 0
-/gamerule randomTickSpeed 900
-/gamerule randomTickSpeed 0
-/gamerule randomTickSpeed 900
-/time set day
-/weather clear
-/give @s minecraft:item_frame[entity_data={id:"minecraft:item_frame",Invisible:1b}]
-/time set day
-/gamerule randomTickSpeed 3
-/tick freeze
-/give @p limonata:lemonade_stand
-/time set day
-/weather clear
-/gamerule randomTickSpeed 300
-/weather clear
-/gamerule randomTickSpeed 3
-/time set day
-/gamerule randomTickSpeed 300
 /time set day
 /weather clear
 /gamerule randomTickSpeed 3
+/tp @p 55621 69.00 2876254
+/gamerule keepInventory true
+/kill
+/give @p command_block
+/tp @p 291 63.00 887
+/locate biome minecraft:meadow
+/tp @s 57733 69 2877918
+/tp @s 57733 69 2877
+/locate biome minecraft:meadow
+/tp @s 57093 69 2205
+/locate biome wind
+/locate biome minecraft:windswept_hills
+/tp @s 55307 151 3448
+/tp @s 55307 151 344809
+/locate biome minecraft:windswept_hills
+/tp @s 55691 151 344009
+/tp @s 55691 151 34400
+/locate biome minecraft:windswept_hills
+/tp @s 55019 151 32960
+/time set day
+/locate biome minecraft:windswept_gravelly_hills
+/tp @s 54926 122 32838
+/tp @s 54926 122 3283809
+/locate biome minecraft:windswept_gravelly_hills
+/tp @s 58574 122 3287361
+/tp @s 58574 122 328736
+/locate biome minecraft:windswept_gravelly_hills
+/tp @s 55630 122 332448
+/tp @s 55630 122 33244
+/locate biome minecraft:windswept_gravelly_hills
+/tp @s 54926 122 32828
+/tp @s 5492634 122 32828
+/locate biome minecraft:windswept_gravelly_hills
+/tp @s 5494138 122 34236
+/tp @s 5494138 122 342366
+/locate biome minecraft:windswept_gravelly_hills
+/tp @s 5497914 122 341566
+/locate biome minecraft:plains
+/tp @s 5497897 127 341691
+/locate biome minecraft:sunflower_plains
+/tp @s 5497552 187 341478
+/tp @s 5497552 187 3414780
+/locate biome minecraft:sunflower_plains
+/tp @s 5497104 187 3415196
+/kill
