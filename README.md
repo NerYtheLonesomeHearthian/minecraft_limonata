@@ -16,6 +16,7 @@ For now, the things added are:
 - Added the Lemon Tree, from which you can get Lemons.
 - Added a fully functional Lemon crop in vanilla style, witch which you can farm Lemons.
 - Added various achievements.
+- Added the Lemonade Stand, a workbench (with a fully custom 3D model made in Blockbench) with which you can brew Lemonade. It has a custom GUI I'm very proud of.
 
 There probably will not be any big addition such as new dimensions or game-breaking recipes.
 
