@@ -793,5 +793,11 @@
     },
     "done": true
   },
+  "limonata:obtain_lemonade": {
+    "criteria": {
+      "obtain_lemonade_0": "2025-08-11 14:59:59 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

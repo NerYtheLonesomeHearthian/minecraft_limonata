@@ -33,5 +33,6 @@
   "subtitles.brew1": "",
   "subtitles.brew2": "",
   "advancements.obtain_lemonade_stand.descr": "Crafta un Chiosco della Limonata.",
-  "advancements.obtain_lemonade_stand.title": "Questo è il tuo banco da lavoro."
+  "advancements.obtain_lemonade_stand.title": "Questo è il tuo banco da lavoro.",
+  "item.limonata.lemonade_stand_achievement_item": "LemonadeAchievementItem"
 }

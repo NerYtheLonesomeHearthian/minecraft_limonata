@@ -1757,6 +1757,20 @@
         ]
       },
       "path": "~/lemonadeStand"
+    },
+    {
+      "name": "LemonadeStandAchievementItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonade_stand_achievement_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/models/item/lemonade_stand_achievement_item.json",
+          "src/main/java/limonata/item/LemonadeStandAchievementItemItem.java"
+        ]
+      },
+      "path": "~/achievements"
     }
   ],
   "variable_elements": [],
@@ -1903,15 +1917,6 @@
       "gui.limonata.lemonade_stand_gui.label_lemoande_stand": "Lemonade Stand",
       "gui.limonata.lemonade_stand_gui.label_empty": "+",
       "item.limonata.ice_cubes": "Ice Cubes",
-      "gui.limonata.lemonade_stand_gui.button_go": "Go",
-      "gui.limonata.lemonade_stand_gui.label_empty1": "___",
-      "gui.limonata.lemonade_stand_gui.label_empty6": "|",
-      "gui.limonata.lemonade_stand_gui.label_empty7": "*******",
-      "gui.limonata.lemonade_stand_gui.label_empty8": "****",
-      "gui.limonata.lemonade_stand_gui.label_empty2": "\\",
-      "gui.limonata.lemonade_stand_gui.label_empty3": "___",
-      "gui.limonata.lemonade_stand_gui.label_empty4": "|",
-      "gui.limonata.lemonade_stand_gui.label_empty5": "/",
       "block.limonata.lemonade_stand": "Lemonade Stand",
       "advancements.obtain_lemonade.descr": "Obtain a Glass of Lemonade.",
       "advancements.obtain_lemonade.title": "Lemonade!!",
@@ -1922,7 +1927,8 @@
       "subtitles.brew1": "",
       "subtitles.brew2": "",
       "advancements.obtain_lemonade_stand.descr": "Craft a Lemonade Stand.",
-      "advancements.obtain_lemonade_stand.title": "Here\u0027s your workbench."
+      "advancements.obtain_lemonade_stand.title": "Here\u0027s your workbench.",
+      "item.limonata.lemonade_stand_achievement_item": "LemonadeStandAchievementItem"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -1949,26 +1955,18 @@
       "gui.limonata.lemonade_stand_gui.label_lemoande_stand": "Chiosco della Limonata",
       "gui.limonata.lemonade_stand_gui.label_empty": "+",
       "item.limonata.ice_cubes": "Cubetti di Ghiaccio",
-      "gui.limonata.lemonade_stand_gui.button_go": "Go",
-      "gui.limonata.lemonade_stand_gui.label_empty1": "___",
-      "gui.limonata.lemonade_stand_gui.label_empty6": "|",
-      "gui.limonata.lemonade_stand_gui.label_empty7": "*******",
-      "gui.limonata.lemonade_stand_gui.label_empty8": "****",
-      "gui.limonata.lemonade_stand_gui.label_empty2": "\\",
-      "gui.limonata.lemonade_stand_gui.label_empty3": "___",
-      "gui.limonata.lemonade_stand_gui.label_empty4": "|",
-      "gui.limonata.lemonade_stand_gui.label_empty5": "/",
-      "block.limonata.lemonade_stand": "Lemonade Stand",
-      "advancements.obtain_lemonade.descr": "Obtain a Glass of Lemonade.",
-      "advancements.obtain_lemonade.title": "Lemonade!!",
+      "block.limonata.lemonade_stand": "Chiosco della Limonata",
+      "advancements.obtain_lemonade.descr": "Ottieni un Bicchiere di Limonata.",
+      "advancements.obtain_lemonade.title": "Limonata!!",
       "item.limonata.lemonade_achievement_item": "LemonadeAchievementItem",
-      "advancements.lemon_crop_tree_surprise_achievement.title": "Surprise!",
-      "advancements.lemon_crop_tree_surprise_achievement.descr": "Learn how Lemon Trees work around here.",
-      "item.limonata.draft_lemonade": "Draft Lemonade",
+      "advancements.lemon_crop_tree_surprise_achievement.title": "Sorpresa!",
+      "advancements.lemon_crop_tree_surprise_achievement.descr": "Impara come funzionano gli Alberi di Limoni da queste parti.",
+      "item.limonata.draft_lemonade": "Limonata alla Spina",
       "subtitles.brew1": "",
       "subtitles.brew2": "",
-      "advancements.obtain_lemonade_stand.descr": "Craft a Lemonade Stand.",
-      "advancements.obtain_lemonade_stand.title": "Here\u0027s your workbench."
+      "advancements.obtain_lemonade_stand.descr": "Crafta un Chiosco della Limonata.",
+      "advancements.obtain_lemonade_stand.title": "Questo è il tuo banco da lavoro.",
+      "item.limonata.lemonade_stand_achievement_item": "LemonadeAchievementItem"
     }
   },
   "metadata": {
@@ -2020,7 +2018,7 @@
   "workspaceSettings": {
     "modid": "limonata",
     "modName": "limonata",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "author": "nery",
     "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",
     "license": "MIT License",
