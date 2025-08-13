@@ -1,50 +1,50 @@
-/time set day
-/gamerule randomTickSpeed 300
-/time set day
+/tp @p 893264 67 89237
+/locate biome plains
+/tp @s 893466 78 89474
+/tp @s 893466 78 8947490
+/locate biome plains
+/tp @s 893146 78 8947170
+/tp @s 8931464 78 8947170
+/locate biome plains
+/tp @s 8931976 78 8947586
 /weather clear
-/gamerule randomTickSpeed 3
-/tp @p 55621 69.00 2876254
-/gamerule keepInventory true
-/kill
-/give @p command_block
-/tp @p 291 63.00 887
+/tp @s 8931976 78 89475865
+/tp @s 89319756 78 8947586
+/tp @s 8931976 78 2947586
+/locate biome plains
+/tp @s 8931976 78 294758
+/locate biome plains
+/tp @s 2931976 78 294758
+/locate biome plains
+/tp @s 2931656 78 294438
+/tp @s 2931656 78 29443
+/locate biome plains
+/tp @s 2931718 78 29604
+/locate biome me
 /locate biome minecraft:meadow
-/tp @s 57733 69 2877918
-/tp @s 57733 69 2877
+/tp @s 2931206 189 30308
+/tp @s 293126 189 30308
 /locate biome minecraft:meadow
-/tp @s 57093 69 2205
-/locate biome wind
-/locate biome minecraft:windswept_hills
-/tp @s 55307 151 3448
-/tp @s 55307 151 344809
-/locate biome minecraft:windswept_hills
-/tp @s 55691 151 344009
-/tp @s 55691 151 34400
-/locate biome minecraft:windswept_hills
-/tp @s 55019 151 32960
-/time set day
-/locate biome minecraft:windswept_gravelly_hills
-/tp @s 54926 122 32838
-/tp @s 54926 122 3283809
-/locate biome minecraft:windswept_gravelly_hills
-/tp @s 58574 122 3287361
-/tp @s 58574 122 328736
-/locate biome minecraft:windswept_gravelly_hills
-/tp @s 55630 122 332448
-/tp @s 55630 122 33244
-/locate biome minecraft:windswept_gravelly_hills
-/tp @s 54926 122 32828
-/tp @s 5492634 122 32828
-/locate biome minecraft:windswept_gravelly_hills
-/tp @s 5494138 122 34236
-/tp @s 5494138 122 342366
-/locate biome minecraft:windswept_gravelly_hills
-/tp @s 5497914 122 341566
+/tp @s 293190 189 30180
 /locate biome minecraft:plains
-/tp @s 5497897 127 341691
-/locate biome minecraft:sunflower_plains
-/tp @s 5497552 187 341478
-/tp @s 5497552 187 3414780
-/locate biome minecraft:sunflower_plains
-/tp @s 5497104 187 3415196
-/kill
+/tp @s 293286 215 30116
+/tp @s 293190 189 60180
+/locate biome minecraft:plains
+/tp @s 293190 189 60180
+/locate biome minecraft:mea
+/locate biome minecraft:meadow
+/tp @s 293496 247 59733
+/tp @s 293496 247 5973355
+/locate biome minecraft:meadow
+/tp @s 294392 247 5973323
+/locate biome minecraft:plains
+/tp @s 294552 247 5973163
+/locate biome minecraft:meadow
+/tp @s 294947 209 5973185
+/tp @s 7294947 209 5973185
+/locate biome minecraft:meadow
+/tp @s 7295043 209 5972897
+/locate biome minecraft:plains
+/tp @s 7294843 209 5973128
+/locate biome minecraft:meadow
+/tp @s 7294391 81 5972968

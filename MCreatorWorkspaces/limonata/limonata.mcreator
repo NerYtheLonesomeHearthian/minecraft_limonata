@@ -1877,6 +1877,13 @@
       "CUSTOM:LemonCrop5",
       "CUSTOM:LemonCrop6",
       "CUSTOM:LemonCrop55"
+    ],
+    "BIOMES:limonata:lemon_tree_spawns_here": [
+      "meadow",
+      "plains",
+      "mutated_plains",
+      "mountains",
+      "mutated_extreme_hills"
     ]
   },
   "tab_element_order": {
@@ -1913,7 +1920,7 @@
       "block.limonata.lemon_crop_6": "Lemon Crop",
       "block.limonata.lemon_crop_5_5": "Lemon Crop",
       "block.limonata.lemon_leaves": "Lemon Leaves",
-      "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
+      "block.limonata.lemon_leaves_lemon": "Lemon Leaves with Lemons",
       "gui.limonata.lemonade_stand_gui.label_lemoande_stand": "Lemonade Stand",
       "gui.limonata.lemonade_stand_gui.label_empty": "+",
       "item.limonata.ice_cubes": "Ice Cubes",

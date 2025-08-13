@@ -4,11 +4,11 @@ license="MIT License"
 
 [[mods]]
 modId="limonata"
-version="1.3.1"
+version="1.3.2"
 displayName="limonata"
 displayURL="https://github.com/NerYtheLonesomeHearthian/minecraft_limonata"
 logoFile="logo.png"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Made with passion - and using mod maker MCreator (https://mcreator.net/about)"
 authors="nery"
 
 # Start of user code block mod configuration
