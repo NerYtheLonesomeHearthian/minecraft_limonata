@@ -94,11 +94,11 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cutlemon",
+      "registry_name": "cut_lemon",
       "metadata": {
         "files": [
           "src/main/java/limonata/item/CutlemonItem.java",
-          "src/main/resources/assets/limonata/models/item/cutlemon.json"
+          "src/main/resources/assets/limonata/models/item/cut_lemon.json"
         ]
       },
       "path": "~/lemonCrop"
@@ -121,10 +121,10 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lemonseeds",
+      "registry_name": "lemon_seeds",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/models/item/lemonseeds.json",
+          "src/main/resources/assets/limonata/models/item/lemon_seeds.json",
           "src/main/java/limonata/item/LemonseedsItem.java"
         ]
       },
@@ -1893,9 +1893,9 @@
     ],
     "FOOD": [
       "Lemon",
-      "Cutlemon",
       "IceCubes",
-      "Limonataglass"
+      "Limonataglass",
+      "Cutlemon"
     ]
   },
   "language_map": {
@@ -1907,8 +1907,6 @@
       "item.limonata.glass_of_lemonade": "Glass of Lemonade",
       "item.limonata.glass_of_lemonade.description_0": "§9Saturation §9(03:00)",
       "item.limonata.lemon": "Lemon",
-      "item.limonata.cutlemon": "Cut Lemon",
-      "item.limonata.lemonseeds": "Lemon Seeds",
       "advancements.obtainlemon.descr": "Obtain a Lemon.",
       "advancements.obtainlemon.title": "Limonata",
       "block.limonata.lemon_crop_0": "Lemon Crop",
@@ -1919,8 +1917,6 @@
       "block.limonata.lemon_crop_5": "Lemon Crop",
       "block.limonata.lemon_crop_6": "Lemon Crop",
       "block.limonata.lemon_crop_5_5": "Lemon Crop",
-      "block.limonata.lemon_leaves": "Lemon Leaves",
-      "block.limonata.lemon_leaves_lemon": "Lemon Leaves with Lemons",
       "gui.limonata.lemonade_stand_gui.label_lemoande_stand": "Lemonade Stand",
       "gui.limonata.lemonade_stand_gui.label_empty": "+",
       "item.limonata.ice_cubes": "Ice Cubes",
@@ -1935,7 +1931,11 @@
       "subtitles.brew2": "",
       "advancements.obtain_lemonade_stand.descr": "Craft a Lemonade Stand.",
       "advancements.obtain_lemonade_stand.title": "Here\u0027s your workbench.",
-      "item.limonata.lemonade_stand_achievement_item": "LemonadeStandAchievementItem"
+      "item.limonata.lemonade_stand_achievement_item": "LemonadeStandAchievementItem",
+      "item.limonata.cut_lemon": "Cut Lemon",
+      "item.limonata.lemon_seeds": "Lemon Seeds",
+      "block.limonata.lemon_leaves": "Lemon Leaves",
+      "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -1945,8 +1945,6 @@
       "item.limonata.glass_of_lemonade": "Bicchiere di Limonata",
       "item.limonata.glass_of_lemonade.description_0": "§9Saturazione §9(03:00)",
       "item.limonata.lemon": "Limone",
-      "item.limonata.cutlemon": "Mezzo Limone",
-      "item.limonata.lemonseeds": "Semi di Limone",
       "advancements.obtainlemon.descr": "Ottieni un Limone.",
       "advancements.obtainlemon.title": "L\u0027inizio",
       "block.limonata.lemon_crop_0": "Campo di Limoni",
@@ -1957,8 +1955,6 @@
       "block.limonata.lemon_crop_5": "Campo di Limoni",
       "block.limonata.lemon_crop_6": "Campo di Limoni",
       "block.limonata.lemon_crop_5_5": "Campo di Limoni",
-      "block.limonata.lemon_leaves": "Foglie di Limone",
-      "block.limonata.lemon_leaves_lemon": "Foglie di Limone con Limoni",
       "gui.limonata.lemonade_stand_gui.label_lemoande_stand": "Chiosco della Limonata",
       "gui.limonata.lemonade_stand_gui.label_empty": "+",
       "item.limonata.ice_cubes": "Cubetti di Ghiaccio",
@@ -1973,7 +1969,11 @@
       "subtitles.brew2": "",
       "advancements.obtain_lemonade_stand.descr": "Crafta un Chiosco della Limonata.",
       "advancements.obtain_lemonade_stand.title": "Questo è il tuo banco da lavoro.",
-      "item.limonata.lemonade_stand_achievement_item": "LemonadeAchievementItem"
+      "item.limonata.lemonade_stand_achievement_item": "LemonadeAchievementItem",
+      "item.limonata.cut_lemon": "Cut Lemon",
+      "item.limonata.lemon_seeds": "Lemon Seeds",
+      "block.limonata.lemon_leaves": "Lemon Leaves",
+      "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons"
     }
   },
   "metadata": {

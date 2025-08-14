@@ -139,7 +139,7 @@ public class LemonadeStandGuiMenu extends AbstractContainerMenu implements Limon
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return LimonataModItems.CUTLEMON.get() == stack.getItem();
+				return LimonataModItems.CUT_LEMON.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 8, 105) {

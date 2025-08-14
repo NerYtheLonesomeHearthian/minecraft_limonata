@@ -51,7 +51,7 @@ public class LemonCrop6Block extends Block {
 
 	@Override
 	public ItemStack getCloneItemStack(LevelReader level, BlockPos pos, BlockState state) {
-		return new ItemStack(LimonataModItems.LEMONSEEDS.get());
+		return new ItemStack(LimonataModItems.LEMON_SEEDS.get());
 	}
 
 	@Override

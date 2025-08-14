@@ -51,7 +51,7 @@ public class LemonadeStandGuiWhileThisGUIIsOpenTickProcedure {
 		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 1 || getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 2
 				|| getBlockNBTNumber(world, BlockPos.containing(x, y, z), "waterLevelGUI") == 3) {
 			if ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 0).copy()).getItem() == LimonataModItems.ICE_CUBES.get() && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).copy()).getItem() == Blocks.BAMBOO.asItem()
-					&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 3).copy()).getItem() == Items.SUGAR && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).copy()).getItem() == LimonataModItems.CUTLEMON.get()
+					&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 3).copy()).getItem() == Items.SUGAR && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).copy()).getItem() == LimonataModItems.CUT_LEMON.get()
 					&& ((itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).copy()).getItem() == LimonataModItems.DRAFT_LEMONADE.get() && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).getCount() <= 63
 							|| itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).getCount() == 0)) {
 				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "lemonadePreparationTime") == 221) {
@@ -104,7 +104,7 @@ public class LemonadeStandGuiWhileThisGUIIsOpenTickProcedure {
 						_itemHandlerModifiable.setStackInSlot(3, _setstack);
 					}
 					if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
-						ItemStack _setstack = new ItemStack(LimonataModItems.CUTLEMON.get()).copy();
+						ItemStack _setstack = new ItemStack(LimonataModItems.CUT_LEMON.get()).copy();
 						_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).getCount() - 1);
 						_itemHandlerModifiable.setStackInSlot(4, _setstack);
 					}

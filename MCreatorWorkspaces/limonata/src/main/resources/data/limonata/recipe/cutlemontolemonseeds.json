@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "limonata:cutlemon"
+      "item": "limonata:cut_lemon"
     }
   ],
   "result": {
-    "id": "limonata:lemonseeds",
+    "id": "limonata:lemon_seeds",
     "count": 3
   }
 }

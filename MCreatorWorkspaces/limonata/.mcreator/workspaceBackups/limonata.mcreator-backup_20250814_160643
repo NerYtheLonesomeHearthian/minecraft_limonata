@@ -94,11 +94,11 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cutlemon",
+      "registry_name": "cut_lemon",
       "metadata": {
         "files": [
           "src/main/java/limonata/item/CutlemonItem.java",
-          "src/main/resources/assets/limonata/models/item/cutlemon.json"
+          "src/main/resources/assets/limonata/models/item/cut_lemon.json"
         ]
       },
       "path": "~/lemonCrop"
@@ -1877,6 +1877,13 @@
       "CUSTOM:LemonCrop5",
       "CUSTOM:LemonCrop6",
       "CUSTOM:LemonCrop55"
+    ],
+    "BIOMES:limonata:lemon_tree_spawns_here": [
+      "meadow",
+      "plains",
+      "mutated_plains",
+      "mountains",
+      "mutated_extreme_hills"
     ]
   },
   "tab_element_order": {
@@ -1886,9 +1893,9 @@
     ],
     "FOOD": [
       "Lemon",
-      "Cutlemon",
       "IceCubes",
-      "Limonataglass"
+      "Limonataglass",
+      "Cutlemon"
     ]
   },
   "language_map": {
@@ -1900,7 +1907,6 @@
       "item.limonata.glass_of_lemonade": "Glass of Lemonade",
       "item.limonata.glass_of_lemonade.description_0": "§9Saturation §9(03:00)",
       "item.limonata.lemon": "Lemon",
-      "item.limonata.cutlemon": "Cut Lemon",
       "item.limonata.lemonseeds": "Lemon Seeds",
       "advancements.obtainlemon.descr": "Obtain a Lemon.",
       "advancements.obtainlemon.title": "Limonata",
@@ -1928,7 +1934,8 @@
       "subtitles.brew2": "",
       "advancements.obtain_lemonade_stand.descr": "Craft a Lemonade Stand.",
       "advancements.obtain_lemonade_stand.title": "Here\u0027s your workbench.",
-      "item.limonata.lemonade_stand_achievement_item": "LemonadeStandAchievementItem"
+      "item.limonata.lemonade_stand_achievement_item": "LemonadeStandAchievementItem",
+      "item.limonata.cut_lemon": "Cut Lemon"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -1938,7 +1945,6 @@
       "item.limonata.glass_of_lemonade": "Bicchiere di Limonata",
       "item.limonata.glass_of_lemonade.description_0": "§9Saturazione §9(03:00)",
       "item.limonata.lemon": "Limone",
-      "item.limonata.cutlemon": "Mezzo Limone",
       "item.limonata.lemonseeds": "Semi di Limone",
       "advancements.obtainlemon.descr": "Ottieni un Limone.",
       "advancements.obtainlemon.title": "L\u0027inizio",
@@ -1966,7 +1972,8 @@
       "subtitles.brew2": "",
       "advancements.obtain_lemonade_stand.descr": "Crafta un Chiosco della Limonata.",
       "advancements.obtain_lemonade_stand.title": "Questo è il tuo banco da lavoro.",
-      "item.limonata.lemonade_stand_achievement_item": "LemonadeAchievementItem"
+      "item.limonata.lemonade_stand_achievement_item": "LemonadeAchievementItem",
+      "item.limonata.cut_lemon": "Cut Lemon"
     }
   },
   "metadata": {

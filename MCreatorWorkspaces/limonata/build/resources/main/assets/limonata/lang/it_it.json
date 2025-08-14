@@ -6,8 +6,6 @@
   "item.limonata.glass_of_lemonade": "Bicchiere di Limonata",
   "item.limonata.glass_of_lemonade.description_0": "§9Saturazione §9(03:00)",
   "item.limonata.lemon": "Limone",
-  "item.limonata.cutlemon": "Mezzo Limone",
-  "item.limonata.lemonseeds": "Semi di Limone",
   "advancements.obtainlemon.descr": "Ottieni un Limone.",
   "advancements.obtainlemon.title": "L\u0027inizio",
   "block.limonata.lemon_crop_0": "Campo di Limoni",
@@ -34,5 +32,7 @@
   "subtitles.brew2": "",
   "advancements.obtain_lemonade_stand.descr": "Crafta un Chiosco della Limonata.",
   "advancements.obtain_lemonade_stand.title": "Questo è il tuo banco da lavoro.",
-  "item.limonata.lemonade_stand_achievement_item": "LemonadeAchievementItem"
+  "item.limonata.lemonade_stand_achievement_item": "LemonadeAchievementItem",
+  "item.limonata.cut_lemon": "Cut Lemon",
+  "item.limonata.lemon_seeds": "Lemon Seeds"
 }
