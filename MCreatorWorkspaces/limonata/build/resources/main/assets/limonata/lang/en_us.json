@@ -16,8 +16,6 @@
   "block.limonata.lemon_crop_5": "Lemon Crop",
   "block.limonata.lemon_crop_6": "Lemon Crop",
   "block.limonata.lemon_crop_5_5": "Lemon Crop",
-  "block.limonata.lemon_leaves": "Lemon Leaves",
-  "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
   "gui.limonata.lemonade_stand_gui.label_lemoande_stand": "Lemonade Stand",
   "gui.limonata.lemonade_stand_gui.label_empty": "+",
   "item.limonata.ice_cubes": "Ice Cubes",
@@ -34,5 +32,8 @@
   "advancements.obtain_lemonade_stand.title": "Here\u0027s your workbench.",
   "item.limonata.lemonade_stand_achievement_item": "LemonadeStandAchievementItem",
   "item.limonata.cut_lemon": "Cut Lemon",
-  "item.limonata.lemon_seeds": "Lemon Seeds"
+  "item.limonata.lemon_seeds": "Lemon Seeds",
+  "block.limonata.lemon_leaves": "Lemon Leaves",
+  "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
+  "block.limonata.lemon_crate": "Lemon Crate"
 }

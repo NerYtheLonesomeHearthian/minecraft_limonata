@@ -26,6 +26,7 @@ public class LimonataModTabs {
 			tabData.accept(LimonataModBlocks.LEMON_LEAVES_LEMON.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(LimonataModBlocks.LEMONADE_STAND.get().asItem());
+			tabData.accept(LimonataModBlocks.LEMON_CRATE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LimonataModItems.MUSIC_DISC_LIMONATA_CHIAMATA.get());
 			tabData.accept(LimonataModItems.GLASS.get());

@@ -16,8 +16,6 @@
   "block.limonata.lemon_crop_5": "Campo di Limoni",
   "block.limonata.lemon_crop_6": "Campo di Limoni",
   "block.limonata.lemon_crop_5_5": "Campo di Limoni",
-  "block.limonata.lemon_leaves": "Foglie di Limone",
-  "block.limonata.lemon_leaves_lemon": "Foglie di Limone con Limoni",
   "gui.limonata.lemonade_stand_gui.label_lemoande_stand": "Chiosco della Limonata",
   "gui.limonata.lemonade_stand_gui.label_empty": "+",
   "item.limonata.ice_cubes": "Cubetti di Ghiaccio",
@@ -32,7 +30,10 @@
   "subtitles.brew2": "",
   "advancements.obtain_lemonade_stand.descr": "Crafta un Chiosco della Limonata.",
   "advancements.obtain_lemonade_stand.title": "Questo è il tuo banco da lavoro.",
-  "item.limonata.lemonade_stand_achievement_item": "LemonadeAchievementItem",
-  "item.limonata.cut_lemon": "Cut Lemon",
-  "item.limonata.lemon_seeds": "Lemon Seeds"
+  "item.limonata.lemonade_stand_achievement_item": "LemonadeStandAchievementItem",
+  "item.limonata.cut_lemon": "Mezzo Limone",
+  "item.limonata.lemon_seeds": "Semi di Limone",
+  "block.limonata.lemon_leaves": "Lemon Leaves",
+  "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
+  "block.limonata.lemon_crate": "Cassa di Limoni"
 }

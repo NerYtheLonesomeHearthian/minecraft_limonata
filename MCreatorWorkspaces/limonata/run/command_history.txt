@@ -1,4 +1,3 @@
-/tp @p 893264 67 89237
 /locate biome plains
 /tp @s 893466 78 89474
 /tp @s 893466 78 8947490
@@ -48,3 +47,4 @@
 /tp @s 7294843 209 5973128
 /locate biome minecraft:meadow
 /tp @s 7294391 81 5972968
+/kill

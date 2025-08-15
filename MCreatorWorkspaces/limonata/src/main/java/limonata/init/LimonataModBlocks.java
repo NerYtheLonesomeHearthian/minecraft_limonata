@@ -19,6 +19,7 @@ import limonata.block.LemonCrop3Block;
 import limonata.block.LemonCrop2Block;
 import limonata.block.LemonCrop1Block;
 import limonata.block.LemonCrop0Block;
+import limonata.block.LemonCrateBlock;
 
 import limonata.LimonataMod;
 
@@ -35,6 +36,7 @@ public class LimonataModBlocks {
 	public static final DeferredBlock<Block> LEMON_LEAVES = REGISTRY.register("lemon_leaves", LemonLeavesBlock::new);
 	public static final DeferredBlock<Block> LEMON_LEAVES_LEMON = REGISTRY.register("lemon_leaves_lemon", LemonLeavesLemonBlock::new);
 	public static final DeferredBlock<Block> LEMONADE_STAND = REGISTRY.register("lemonade_stand", LemonadeStandBlock::new);
+	public static final DeferredBlock<Block> LEMON_CRATE = REGISTRY.register("lemon_crate", LemonCrateBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

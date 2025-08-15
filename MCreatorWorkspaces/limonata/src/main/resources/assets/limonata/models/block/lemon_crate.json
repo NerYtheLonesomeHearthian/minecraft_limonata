@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "limonata:block/crate_bottom",
+    "up": "limonata:block/lemon_cate_top",
+    "north": "limonata:block/lemon_crate_side",
+    "east": "limonata:block/lemon_crate_side",
+    "south": "limonata:block/lemon_crate_side",
+    "west": "limonata:block/lemon_crate_side",
+    "particle": "limonata:block/crate_bottom"
+  },
+  "render_type": "solid"
+}

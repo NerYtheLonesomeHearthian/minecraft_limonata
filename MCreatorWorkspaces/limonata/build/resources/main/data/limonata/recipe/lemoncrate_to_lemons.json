@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "limonata:lemon_crate"
+    }
+  ],
+  "result": {
+    "id": "limonata:lemon",
+    "count": 9
+  }
+}

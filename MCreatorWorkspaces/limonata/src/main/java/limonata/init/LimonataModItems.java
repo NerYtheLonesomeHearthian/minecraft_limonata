@@ -47,6 +47,7 @@ public class LimonataModItems {
 	public static final DeferredItem<Item> LEMONADE_ACHIEVEMENT_ITEM = REGISTRY.register("lemonade_achievement_item", LemonadeAchievementItemItem::new);
 	public static final DeferredItem<Item> DRAFT_LEMONADE = REGISTRY.register("draft_lemonade", DraftLemonadeItem::new);
 	public static final DeferredItem<Item> LEMONADE_STAND_ACHIEVEMENT_ITEM = REGISTRY.register("lemonade_stand_achievement_item", LemonadeStandAchievementItemItem::new);
+	public static final DeferredItem<Item> LEMON_CRATE = block(LimonataModBlocks.LEMON_CRATE);
 
 	// Start of user code block custom items
 	// End of user code block custom items
