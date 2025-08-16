@@ -1814,6 +1814,17 @@
         ]
       },
       "path": "~/lemons"
+    },
+    {
+      "name": "LimonataCreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonata_creative_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/organization"
     }
   ],
   "variable_elements": [],
@@ -1928,7 +1939,16 @@
       "mutated_plains",
       "mountains",
       "mutated_extreme_hills"
-    ]
+    ],
+    "BLOCKS:c:storage_blocks": [
+      "CUSTOM:LemonCrate"
+    ],
+    "BLOCKS:c:storage_blocks/lemon": [
+      "CUSTOM:LemonCrate"
+    ],
+    "ITEMS:c:foods": [],
+    "ITEMS:c:fruit": [],
+    "ITEMS:c:fruits": []
   },
   "tab_element_order": {
     "TOOLS": [
@@ -1936,10 +1956,28 @@
       "Glass"
     ],
     "FOOD": [
-      "Lemon",
-      "IceCubes",
       "Limonataglass",
-      "Cutlemon"
+      "Lemon",
+      "Cutlemon",
+      "IceCubes"
+    ],
+    "DECORATIONS": [
+      "LemonLeaves",
+      "LemonLeavesLemon",
+      "Lemonseeds"
+    ],
+    "CUSTOM:LimonataCreativeTab": [
+      "MusicDiscLimonataChiamata",
+      "LemonadeStand",
+      "Glass",
+      "Limonataglass",
+      "LemonCrate",
+      "Lemon",
+      "Cutlemon",
+      "Lemonseeds",
+      "LemonLeaves",
+      "LemonLeavesLemon",
+      "IceCubes"
     ]
   },
   "language_map": {
@@ -1980,7 +2018,8 @@
       "item.limonata.lemon_seeds": "Lemon Seeds",
       "block.limonata.lemon_leaves": "Lemon Leaves",
       "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
-      "block.limonata.lemon_crate": "Lemon Crate"
+      "block.limonata.lemon_crate": "Lemon Crate",
+      "item_group.limonata.limonata_creative_tab": "Limonata"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -2014,12 +2053,13 @@
       "subtitles.brew2": "",
       "advancements.obtain_lemonade_stand.descr": "Crafta un Chiosco della Limonata.",
       "advancements.obtain_lemonade_stand.title": "Questo è il tuo banco da lavoro.",
-      "item.limonata.lemonade_stand_achievement_item": "LemonadeAchievementItem",
+      "item.limonata.lemonade_stand_achievement_item": "LemonadeStandAchievementItem",
       "item.limonata.cut_lemon": "Mezzo Limone",
-      "item.limonata.lemon_seeds": "Lemon Seeds",
+      "item.limonata.lemon_seeds": "Semi di Limone",
       "block.limonata.lemon_leaves": "Lemon Leaves",
       "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
-      "block.limonata.lemon_crate": "Lemon Crate"
+      "block.limonata.lemon_crate": "Cassa di Limoni",
+      "item_group.limonata.limonata_creative_tab": "Limonata"
     }
   },
   "metadata": {
@@ -2068,6 +2108,10 @@
       },
       {
         "name": "lemons",
+        "children": []
+      },
+      {
+        "name": "organization",
         "children": []
       }
     ]

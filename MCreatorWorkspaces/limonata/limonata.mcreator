@@ -1945,6 +1945,55 @@
     ],
     "BLOCKS:c:storage_blocks/lemon": [
       "CUSTOM:LemonCrate"
+    ],
+    "ITEMS:c:foods": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
+    ],
+    "ITEMS:c:fruit": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
+    ],
+    "ITEMS:c:fruits": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
+    ],
+    "ITEMS:c:animal_foods": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon",
+      "CUSTOM:Lemonseeds"
+    ],
+    "ITEMS:c:foods/vegetables": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
+    ],
+    "ITEMS:c:foods/vegetable": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
+    ],
+    "ITEMS:minecraft:pig_food": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
+    ],
+    "ITEMS:minecraft:villager_plantable_seeds": [
+      "CUSTOM:Lemonseeds"
+    ],
+    "ITEMS:c:crops": [
+      "CUSTOM:Lemon"
+    ],
+    "ITEMS:minecraft:parrot_food": [
+      "CUSTOM:Lemonseeds"
+    ],
+    "ITEMS:createaddition:plant_food": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
+    ],
+    "ITEMS:c:drinks": [
+      "CUSTOM:Limonataglass"
+    ],
+    "ITEMS:create:upright_on_belt": [
+      "CUSTOM:Glass",
+      "CUSTOM:Limonataglass"
     ]
   },
   "tab_element_order": {

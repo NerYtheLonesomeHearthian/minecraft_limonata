@@ -27,7 +27,7 @@
           "src/main/resources/assets/limonata/models/item/glass.json"
         ]
       },
-      "path": "~/glass"
+      "path": "~/glasses_limonata"
     },
     {
       "name": "Limonataglass",
@@ -41,7 +41,7 @@
           "src/main/java/limonata/item/LimonataglassItem.java"
         ]
       },
-      "path": "~/glass"
+      "path": "~/glasses_limonata"
     },
     {
       "name": "Glassrecipe",
@@ -54,7 +54,7 @@
           "src/main/resources/data/limonata/recipe/glassrecipe.json"
         ]
       },
-      "path": "~/glass"
+      "path": "~/glasses_limonata"
     },
     {
       "name": "LimonataglassPlayerFinishesUsingItem",
@@ -73,7 +73,7 @@
           "src/main/java/limonata/procedures/LimonataglassPlayerFinishesUsingItemProcedure.java"
         ]
       },
-      "path": "~/glass"
+      "path": "~/glasses_limonata"
     },
     {
       "name": "Lemon",
@@ -87,7 +87,7 @@
           "src/main/resources/assets/limonata/models/item/lemon.json"
         ]
       },
-      "path": "~/lemonCrop"
+      "path": "~/lemons"
     },
     {
       "name": "Cutlemon",
@@ -101,7 +101,7 @@
           "src/main/resources/assets/limonata/models/item/cut_lemon.json"
         ]
       },
-      "path": "~/lemonCrop"
+      "path": "~/lemons"
     },
     {
       "name": "Lemontocutlemon",
@@ -114,7 +114,7 @@
           "src/main/resources/data/limonata/recipe/lemontocutlemon.json"
         ]
       },
-      "path": "~/lemonCrop"
+      "path": "~/lemons"
     },
     {
       "name": "Lemonseeds",
@@ -1786,7 +1786,45 @@
           "src/main/resources/data/limonata/loot_table/blocks/lemon_crate.json",
           "src/main/resources/assets/limonata/models/item/lemon_crate.json"
         ]
-      }
+      },
+      "path": "~/lemons"
+    },
+    {
+      "name": "LemonsToLemoncrate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemons_to_lemoncrate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/lemons_to_lemoncrate.json"
+        ]
+      },
+      "path": "~/lemons"
+    },
+    {
+      "name": "LemoncrateToLemons",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemoncrate_to_lemons",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/lemoncrate_to_lemons.json"
+        ]
+      },
+      "path": "~/lemons"
+    },
+    {
+      "name": "LimonataCreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonata_creative_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/organization"
     }
   ],
   "variable_elements": [],
@@ -1901,6 +1939,49 @@
       "mutated_plains",
       "mountains",
       "mutated_extreme_hills"
+    ],
+    "BLOCKS:c:storage_blocks": [
+      "CUSTOM:LemonCrate"
+    ],
+    "BLOCKS:c:storage_blocks/lemon": [
+      "CUSTOM:LemonCrate"
+    ],
+    "ITEMS:c:foods": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
+    ],
+    "ITEMS:c:fruit": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
+    ],
+    "ITEMS:c:fruits": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
+    ],
+    "ITEMS:c:animal_foods": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
+    ],
+    "ITEMS:c:foods/vegetables": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
+    ],
+    "ITEMS:c:foods/vegetable": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
+    ],
+    "ITEMS:minecraft:pig_food": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
+    ],
+    "ITEMS:minecraft:villager_plantable_seeds": [
+      "CUSTOM:Lemonseeds"
+    ],
+    "ITEMS:c:crops": [
+      "CUSTOM:Lemon"
+    ],
+    "ITEMS:minecraft:parrot_food": [
+      "CUSTOM:Lemonseeds"
     ]
   },
   "tab_element_order": {
@@ -1909,10 +1990,28 @@
       "Glass"
     ],
     "FOOD": [
-      "Lemon",
-      "IceCubes",
       "Limonataglass",
-      "Cutlemon"
+      "Lemon",
+      "Cutlemon",
+      "IceCubes"
+    ],
+    "DECORATIONS": [
+      "LemonLeaves",
+      "LemonLeavesLemon",
+      "Lemonseeds"
+    ],
+    "CUSTOM:LimonataCreativeTab": [
+      "MusicDiscLimonataChiamata",
+      "LemonadeStand",
+      "Glass",
+      "Limonataglass",
+      "LemonCrate",
+      "Lemon",
+      "Cutlemon",
+      "Lemonseeds",
+      "LemonLeaves",
+      "LemonLeavesLemon",
+      "IceCubes"
     ]
   },
   "language_map": {
@@ -1953,7 +2052,8 @@
       "item.limonata.lemon_seeds": "Lemon Seeds",
       "block.limonata.lemon_leaves": "Lemon Leaves",
       "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
-      "block.limonata.lemon_crate": "Lemon Crate"
+      "block.limonata.lemon_crate": "Lemon Crate",
+      "item_group.limonata.limonata_creative_tab": "Limonata"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -1987,12 +2087,13 @@
       "subtitles.brew2": "",
       "advancements.obtain_lemonade_stand.descr": "Crafta un Chiosco della Limonata.",
       "advancements.obtain_lemonade_stand.title": "Questo è il tuo banco da lavoro.",
-      "item.limonata.lemonade_stand_achievement_item": "LemonadeAchievementItem",
-      "item.limonata.cut_lemon": "Cut Lemon",
-      "item.limonata.lemon_seeds": "Lemon Seeds",
+      "item.limonata.lemonade_stand_achievement_item": "LemonadeStandAchievementItem",
+      "item.limonata.cut_lemon": "Mezzo Limone",
+      "item.limonata.lemon_seeds": "Semi di Limone",
       "block.limonata.lemon_leaves": "Lemon Leaves",
       "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
-      "block.limonata.lemon_crate": "Lemon Crate"
+      "block.limonata.lemon_crate": "Cassa di Limoni",
+      "item_group.limonata.limonata_creative_tab": "Limonata"
     }
   },
   "metadata": {
@@ -2020,7 +2121,7 @@
         "children": []
       },
       {
-        "name": "glass",
+        "name": "glasses_limonata",
         "children": []
       },
       {
@@ -2037,6 +2138,14 @@
       },
       {
         "name": "lemonadeStand",
+        "children": []
+      },
+      {
+        "name": "lemons",
+        "children": []
+      },
+      {
+        "name": "organization",
         "children": []
       }
     ]
