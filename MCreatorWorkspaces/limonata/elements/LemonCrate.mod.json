@@ -51,6 +51,9 @@
     "creativeTabs": [
       {
         "value": "TRANSPORTATION"
+      },
+      {
+        "value": "CUSTOM:LimonataCreativeTab"
       }
     ],
     "destroyTool": "axe",

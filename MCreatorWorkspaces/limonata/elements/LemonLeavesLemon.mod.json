@@ -52,6 +52,9 @@
     "creativeTabs": [
       {
         "value": "DECORATIONS"
+      },
+      {
+        "value": "CUSTOM:LimonataCreativeTab"
       }
     ],
     "destroyTool": "hoe",

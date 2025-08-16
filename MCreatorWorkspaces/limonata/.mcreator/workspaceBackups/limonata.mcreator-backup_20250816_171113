@@ -27,7 +27,7 @@
           "src/main/resources/assets/limonata/models/item/glass.json"
         ]
       },
-      "path": "~/glass"
+      "path": "~/glasses_limonata"
     },
     {
       "name": "Limonataglass",
@@ -41,7 +41,7 @@
           "src/main/java/limonata/item/LimonataglassItem.java"
         ]
       },
-      "path": "~/glass"
+      "path": "~/glasses_limonata"
     },
     {
       "name": "Glassrecipe",
@@ -54,7 +54,7 @@
           "src/main/resources/data/limonata/recipe/glassrecipe.json"
         ]
       },
-      "path": "~/glass"
+      "path": "~/glasses_limonata"
     },
     {
       "name": "LimonataglassPlayerFinishesUsingItem",
@@ -73,7 +73,7 @@
           "src/main/java/limonata/procedures/LimonataglassPlayerFinishesUsingItemProcedure.java"
         ]
       },
-      "path": "~/glass"
+      "path": "~/glasses_limonata"
     },
     {
       "name": "Lemon",
@@ -87,7 +87,7 @@
           "src/main/resources/assets/limonata/models/item/lemon.json"
         ]
       },
-      "path": "~/lemonCrop"
+      "path": "~/lemons"
     },
     {
       "name": "Cutlemon",
@@ -101,7 +101,7 @@
           "src/main/resources/assets/limonata/models/item/cut_lemon.json"
         ]
       },
-      "path": "~/lemonCrop"
+      "path": "~/lemons"
     },
     {
       "name": "Lemontocutlemon",
@@ -114,17 +114,17 @@
           "src/main/resources/data/limonata/recipe/lemontocutlemon.json"
         ]
       },
-      "path": "~/lemonCrop"
+      "path": "~/lemons"
     },
     {
       "name": "Lemonseeds",
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lemonseeds",
+      "registry_name": "lemon_seeds",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/models/item/lemonseeds.json",
+          "src/main/resources/assets/limonata/models/item/lemon_seeds.json",
           "src/main/java/limonata/item/LemonseedsItem.java"
         ]
       },
@@ -1771,6 +1771,49 @@
         ]
       },
       "path": "~/achievements"
+    },
+    {
+      "name": "LemonCrate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_crate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/blockstates/lemon_crate.json",
+          "src/main/resources/assets/limonata/models/block/lemon_crate.json",
+          "src/main/java/limonata/block/LemonCrateBlock.java",
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crate.json",
+          "src/main/resources/assets/limonata/models/item/lemon_crate.json"
+        ]
+      },
+      "path": "~/lemons"
+    },
+    {
+      "name": "LemonsToLemoncrate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemons_to_lemoncrate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/lemons_to_lemoncrate.json"
+        ]
+      },
+      "path": "~/lemons"
+    },
+    {
+      "name": "LemoncrateToLemons",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemoncrate_to_lemons",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/lemoncrate_to_lemons.json"
+        ]
+      },
+      "path": "~/lemons"
     }
   ],
   "variable_elements": [],
@@ -1849,6 +1892,7 @@
       "CUSTOM:LemonCrop55"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:LemonCrate",
       "CUSTOM:LemonCrop0",
       "CUSTOM:LemonCrop2",
       "CUSTOM:LemonCrop1",
@@ -1884,6 +1928,12 @@
       "mutated_plains",
       "mountains",
       "mutated_extreme_hills"
+    ],
+    "BLOCKS:c:storage_blocks": [
+      "CUSTOM:LemonCrate"
+    ],
+    "BLOCKS:c:storage_blocks/lemon": [
+      "CUSTOM:LemonCrate"
     ]
   },
   "tab_element_order": {
@@ -1892,10 +1942,15 @@
       "Glass"
     ],
     "FOOD": [
-      "Lemon",
-      "IceCubes",
       "Limonataglass",
-      "Cutlemon"
+      "Lemon",
+      "Cutlemon",
+      "IceCubes"
+    ],
+    "DECORATIONS": [
+      "LemonLeaves",
+      "LemonLeavesLemon",
+      "Lemonseeds"
     ]
   },
   "language_map": {
@@ -1907,7 +1962,6 @@
       "item.limonata.glass_of_lemonade": "Glass of Lemonade",
       "item.limonata.glass_of_lemonade.description_0": "§9Saturation §9(03:00)",
       "item.limonata.lemon": "Lemon",
-      "item.limonata.lemonseeds": "Lemon Seeds",
       "advancements.obtainlemon.descr": "Obtain a Lemon.",
       "advancements.obtainlemon.title": "Limonata",
       "block.limonata.lemon_crop_0": "Lemon Crop",
@@ -1918,8 +1972,6 @@
       "block.limonata.lemon_crop_5": "Lemon Crop",
       "block.limonata.lemon_crop_6": "Lemon Crop",
       "block.limonata.lemon_crop_5_5": "Lemon Crop",
-      "block.limonata.lemon_leaves": "Lemon Leaves",
-      "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
       "gui.limonata.lemonade_stand_gui.label_lemoande_stand": "Lemonade Stand",
       "gui.limonata.lemonade_stand_gui.label_empty": "+",
       "item.limonata.ice_cubes": "Ice Cubes",
@@ -1935,7 +1987,11 @@
       "advancements.obtain_lemonade_stand.descr": "Craft a Lemonade Stand.",
       "advancements.obtain_lemonade_stand.title": "Here\u0027s your workbench.",
       "item.limonata.lemonade_stand_achievement_item": "LemonadeStandAchievementItem",
-      "item.limonata.cut_lemon": "Cut Lemon"
+      "item.limonata.cut_lemon": "Cut Lemon",
+      "item.limonata.lemon_seeds": "Lemon Seeds",
+      "block.limonata.lemon_leaves": "Lemon Leaves",
+      "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
+      "block.limonata.lemon_crate": "Lemon Crate"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -1945,7 +2001,6 @@
       "item.limonata.glass_of_lemonade": "Bicchiere di Limonata",
       "item.limonata.glass_of_lemonade.description_0": "§9Saturazione §9(03:00)",
       "item.limonata.lemon": "Limone",
-      "item.limonata.lemonseeds": "Semi di Limone",
       "advancements.obtainlemon.descr": "Ottieni un Limone.",
       "advancements.obtainlemon.title": "L\u0027inizio",
       "block.limonata.lemon_crop_0": "Campo di Limoni",
@@ -1956,8 +2011,6 @@
       "block.limonata.lemon_crop_5": "Campo di Limoni",
       "block.limonata.lemon_crop_6": "Campo di Limoni",
       "block.limonata.lemon_crop_5_5": "Campo di Limoni",
-      "block.limonata.lemon_leaves": "Foglie di Limone",
-      "block.limonata.lemon_leaves_lemon": "Foglie di Limone con Limoni",
       "gui.limonata.lemonade_stand_gui.label_lemoande_stand": "Chiosco della Limonata",
       "gui.limonata.lemonade_stand_gui.label_empty": "+",
       "item.limonata.ice_cubes": "Cubetti di Ghiaccio",
@@ -1972,8 +2025,12 @@
       "subtitles.brew2": "",
       "advancements.obtain_lemonade_stand.descr": "Crafta un Chiosco della Limonata.",
       "advancements.obtain_lemonade_stand.title": "Questo è il tuo banco da lavoro.",
-      "item.limonata.lemonade_stand_achievement_item": "LemonadeAchievementItem",
-      "item.limonata.cut_lemon": "Cut Lemon"
+      "item.limonata.lemonade_stand_achievement_item": "LemonadeStandAchievementItem",
+      "item.limonata.cut_lemon": "Mezzo Limone",
+      "item.limonata.lemon_seeds": "Semi di Limone",
+      "block.limonata.lemon_leaves": "Lemon Leaves",
+      "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
+      "block.limonata.lemon_crate": "Cassa di Limoni"
     }
   },
   "metadata": {
@@ -2001,7 +2058,7 @@
         "children": []
       },
       {
-        "name": "glass",
+        "name": "glasses_limonata",
         "children": []
       },
       {
@@ -2018,6 +2075,10 @@
       },
       {
         "name": "lemonadeStand",
+        "children": []
+      },
+      {
+        "name": "lemons",
         "children": []
       }
     ]

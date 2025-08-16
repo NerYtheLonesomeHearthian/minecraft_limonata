@@ -123,6 +123,9 @@
     "creativeTabs": [
       {
         "value": "TRANSPORTATION"
+      },
+      {
+        "value": "CUSTOM:LimonataCreativeTab"
       }
     ],
     "destroyTool": "Not specified",

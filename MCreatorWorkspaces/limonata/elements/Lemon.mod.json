@@ -13,6 +13,9 @@
     "creativeTabs": [
       {
         "value": "FOOD"
+      },
+      {
+        "value": "CUSTOM:LimonataCreativeTab"
       }
     ],
     "stackSize": 64,

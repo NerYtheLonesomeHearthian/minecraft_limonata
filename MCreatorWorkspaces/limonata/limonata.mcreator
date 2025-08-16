@@ -1814,6 +1814,17 @@
         ]
       },
       "path": "~/lemons"
+    },
+    {
+      "name": "LimonataCreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonata_creative_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/organization"
     }
   ],
   "variable_elements": [],
@@ -1942,10 +1953,28 @@
       "Glass"
     ],
     "FOOD": [
-      "Lemon",
-      "IceCubes",
       "Limonataglass",
-      "Cutlemon"
+      "Lemon",
+      "Cutlemon",
+      "IceCubes"
+    ],
+    "DECORATIONS": [
+      "LemonLeaves",
+      "LemonLeavesLemon",
+      "Lemonseeds"
+    ],
+    "CUSTOM:LimonataCreativeTab": [
+      "MusicDiscLimonataChiamata",
+      "LemonadeStand",
+      "Glass",
+      "Limonataglass",
+      "LemonCrate",
+      "Lemon",
+      "Cutlemon",
+      "Lemonseeds",
+      "LemonLeaves",
+      "LemonLeavesLemon",
+      "IceCubes"
     ]
   },
   "language_map": {
@@ -1986,7 +2015,8 @@
       "item.limonata.lemon_seeds": "Lemon Seeds",
       "block.limonata.lemon_leaves": "Lemon Leaves",
       "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
-      "block.limonata.lemon_crate": "Lemon Crate"
+      "block.limonata.lemon_crate": "Lemon Crate",
+      "item_group.limonata.limonata_creative_tab": "Limonata"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -2025,7 +2055,8 @@
       "item.limonata.lemon_seeds": "Semi di Limone",
       "block.limonata.lemon_leaves": "Lemon Leaves",
       "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
-      "block.limonata.lemon_crate": "Cassa di Limoni"
+      "block.limonata.lemon_crate": "Cassa di Limoni",
+      "item_group.limonata.limonata_creative_tab": "Limonata"
     }
   },
   "metadata": {
@@ -2074,6 +2105,10 @@
       },
       {
         "name": "lemons",
+        "children": []
+      },
+      {
+        "name": "organization",
         "children": []
       }
     ]
