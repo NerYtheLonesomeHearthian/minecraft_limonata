@@ -1960,7 +1960,8 @@
     ],
     "ITEMS:c:animal_foods": [
       "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon"
+      "CUSTOM:Cutlemon",
+      "CUSTOM:Lemonseeds"
     ],
     "ITEMS:c:foods/vegetables": [
       "CUSTOM:Lemon",
@@ -1982,6 +1983,17 @@
     ],
     "ITEMS:minecraft:parrot_food": [
       "CUSTOM:Lemonseeds"
+    ],
+    "ITEMS:createaddition:plant_food": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
+    ],
+    "ITEMS:c:drinks": [
+      "CUSTOM:Limonataglass"
+    ],
+    "ITEMS:create:upright_on_belt": [
+      "CUSTOM:Glass",
+      "CUSTOM:Limonataglass"
     ]
   },
   "tab_element_order": {
@@ -2153,7 +2165,7 @@
   "workspaceSettings": {
     "modid": "limonata",
     "modName": "limonata",
-    "version": "1.3.2",
+    "version": "1.3.3",
     "author": "nery",
     "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",
     "license": "MIT License",

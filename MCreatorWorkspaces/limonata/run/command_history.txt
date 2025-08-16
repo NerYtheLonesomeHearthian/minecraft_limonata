@@ -1,18 +1,4 @@
 /locate biome plains
-/tp @s 893466 78 89474
-/tp @s 893466 78 8947490
-/locate biome plains
-/tp @s 893146 78 8947170
-/tp @s 8931464 78 8947170
-/locate biome plains
-/tp @s 8931976 78 8947586
-/weather clear
-/tp @s 8931976 78 89475865
-/tp @s 89319756 78 8947586
-/tp @s 8931976 78 2947586
-/locate biome plains
-/tp @s 8931976 78 294758
-/locate biome plains
 /tp @s 2931976 78 294758
 /locate biome plains
 /tp @s 2931656 78 294438
@@ -48,3 +34,17 @@
 /locate biome minecraft:meadow
 /tp @s 7294391 81 5972968
 /kill
+/time set day
+/gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 30000
+/gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 3000
+/time set day
+/gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 3000
+/time set day
+/gamerule randomTickSpeed 9000
+/gamerule randomTickSpeed 6000
+/gamerule randomTickSpeed 3000
+/time set day

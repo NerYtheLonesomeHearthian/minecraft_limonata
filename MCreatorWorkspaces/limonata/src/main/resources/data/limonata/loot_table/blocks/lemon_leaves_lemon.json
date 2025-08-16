@@ -158,7 +158,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 24,
+          "weight": 17,
           "functions": [
             {
               "function": "minecraft:set_count",
