@@ -1825,6 +1825,53 @@
         "files": []
       },
       "path": "~/organization"
+    },
+    {
+      "name": "GoldenLemonEatingEffects",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_lemon_eating_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/GoldenLemonEatingEffectsProcedure.java"
+        ]
+      },
+      "path": "~/lemons"
+    },
+    {
+      "name": "GoldenLemon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_lemon",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/item/GoldenLemonItem.java",
+          "src/main/resources/assets/limonata/models/item/golden_lemon.json"
+        ]
+      },
+      "path": "~/lemons"
+    },
+    {
+      "name": "GoldenLemonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_lemon_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/advancement/recipes/golden_lemon_recipe.json",
+          "src/main/resources/data/limonata/recipe/golden_lemon_recipe.json"
+        ]
+      },
+      "path": "~/lemons"
     }
   ],
   "variable_elements": [],
@@ -1948,28 +1995,34 @@
     ],
     "ITEMS:c:foods": [
       "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon"
+      "CUSTOM:Cutlemon",
+      "CUSTOM:GoldenLemon"
     ],
     "ITEMS:c:fruit": [
       "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon"
+      "CUSTOM:Cutlemon",
+      "CUSTOM:GoldenLemon"
     ],
     "ITEMS:c:fruits": [
       "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon"
+      "CUSTOM:Cutlemon",
+      "CUSTOM:GoldenLemon"
     ],
     "ITEMS:c:animal_foods": [
       "CUSTOM:Lemon",
       "CUSTOM:Cutlemon",
-      "CUSTOM:Lemonseeds"
+      "CUSTOM:Lemonseeds",
+      "CUSTOM:GoldenLemon"
     ],
     "ITEMS:c:foods/vegetables": [
       "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon"
+      "CUSTOM:Cutlemon",
+      "CUSTOM:GoldenLemon"
     ],
     "ITEMS:c:foods/vegetable": [
       "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon"
+      "CUSTOM:Cutlemon",
+      "CUSTOM:GoldenLemon"
     ],
     "ITEMS:minecraft:pig_food": [
       "CUSTOM:Lemon",
@@ -1986,7 +2039,8 @@
     ],
     "ITEMS:createaddition:plant_food": [
       "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon"
+      "CUSTOM:Cutlemon",
+      "CUSTOM:GoldenLemon"
     ],
     "ITEMS:c:drinks": [
       "CUSTOM:Limonataglass"
@@ -1994,6 +2048,22 @@
     "ITEMS:create:upright_on_belt": [
       "CUSTOM:Glass",
       "CUSTOM:Limonataglass"
+    ],
+    "ITEMS:c:foods/fruits": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon",
+      "CUSTOM:GoldenLemon"
+    ],
+    "ITEMS:c:foods/fruit": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon",
+      "CUSTOM:GoldenLemon"
+    ],
+    "ITEMS:c:foods/golden": [
+      "CUSTOM:GoldenLemon"
+    ],
+    "ITEMS:minecraft:piglin_loved": [
+      "CUSTOM:GoldenLemon"
     ]
   },
   "tab_element_order": {
@@ -2005,7 +2075,8 @@
       "Limonataglass",
       "Lemon",
       "Cutlemon",
-      "IceCubes"
+      "IceCubes",
+      "GoldenLemon"
     ],
     "DECORATIONS": [
       "LemonLeaves",
@@ -2023,7 +2094,8 @@
       "Lemonseeds",
       "LemonLeaves",
       "LemonLeavesLemon",
-      "IceCubes"
+      "IceCubes",
+      "GoldenLemon"
     ]
   },
   "language_map": {
@@ -2065,7 +2137,8 @@
       "block.limonata.lemon_leaves": "Lemon Leaves",
       "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
       "block.limonata.lemon_crate": "Lemon Crate",
-      "item_group.limonata.limonata_creative_tab": "Limonata"
+      "item_group.limonata.limonata_creative_tab": "Limonata",
+      "item.limonata.golden_lemon": "Golden Lemon"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -2105,18 +2178,19 @@
       "block.limonata.lemon_leaves": "Lemon Leaves",
       "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
       "block.limonata.lemon_crate": "Cassa di Limoni",
-      "item_group.limonata.limonata_creative_tab": "Limonata"
+      "item_group.limonata.limonata_creative_tab": "Limonata",
+      "item.limonata.golden_lemon": "Golden Lemon"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/limonata/LimonataMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
-      "src/main/resources/assets/limonata/sounds.json",
+      "src/main/java/limonata/init/LimonataModSounds.java",
       "src/main/java/limonata/init/LimonataModTabs.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/limonata/init/LimonataModSounds.java",
+      "src/main/resources/assets/limonata/sounds.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/limonata/LimonataMod.java",
       "src/main/java/limonata/init/LimonataModScreens.java",
       "src/main/java/limonata/init/LimonataModMenus.java",
       "src/main/java/limonata/network/MenuStateUpdateMessage.java",

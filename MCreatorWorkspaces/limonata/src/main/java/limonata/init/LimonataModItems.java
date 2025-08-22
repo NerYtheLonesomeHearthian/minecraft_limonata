@@ -18,6 +18,7 @@ import limonata.item.LemonadeStandAchievementItemItem;
 import limonata.item.LemonadeAchievementItemItem;
 import limonata.item.LemonItem;
 import limonata.item.IceCubesItem;
+import limonata.item.GoldenLemonItem;
 import limonata.item.GlassItem;
 import limonata.item.DraftLemonadeItem;
 import limonata.item.CutlemonItem;
@@ -48,6 +49,7 @@ public class LimonataModItems {
 	public static final DeferredItem<Item> DRAFT_LEMONADE = REGISTRY.register("draft_lemonade", DraftLemonadeItem::new);
 	public static final DeferredItem<Item> LEMONADE_STAND_ACHIEVEMENT_ITEM = REGISTRY.register("lemonade_stand_achievement_item", LemonadeStandAchievementItemItem::new);
 	public static final DeferredItem<Item> LEMON_CRATE = block(LimonataModBlocks.LEMON_CRATE);
+	public static final DeferredItem<Item> GOLDEN_LEMON = REGISTRY.register("golden_lemon", GoldenLemonItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

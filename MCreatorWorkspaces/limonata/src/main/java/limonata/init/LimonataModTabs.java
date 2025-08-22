@@ -33,6 +33,7 @@ public class LimonataModTabs {
 				tabData.accept(LimonataModBlocks.LEMON_LEAVES.get().asItem());
 				tabData.accept(LimonataModBlocks.LEMON_LEAVES_LEMON.get().asItem());
 				tabData.accept(LimonataModItems.ICE_CUBES.get());
+				tabData.accept(LimonataModItems.GOLDEN_LEMON.get());
 			}).build());
 
 	@SubscribeEvent
@@ -48,6 +49,7 @@ public class LimonataModTabs {
 			tabData.accept(LimonataModItems.LEMON.get());
 			tabData.accept(LimonataModItems.CUT_LEMON.get());
 			tabData.accept(LimonataModItems.ICE_CUBES.get());
+			tabData.accept(LimonataModItems.GOLDEN_LEMON.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(LimonataModBlocks.LEMON_LEAVES.get().asItem());
 			tabData.accept(LimonataModBlocks.LEMON_LEAVES_LEMON.get().asItem());

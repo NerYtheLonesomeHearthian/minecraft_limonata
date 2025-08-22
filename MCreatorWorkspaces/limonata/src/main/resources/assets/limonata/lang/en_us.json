@@ -36,5 +36,6 @@
   "block.limonata.lemon_leaves": "Lemon Leaves",
   "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
   "block.limonata.lemon_crate": "Lemon Crate",
-  "item_group.limonata.limonata_creative_tab": "Limonata"
+  "item_group.limonata.limonata_creative_tab": "Limonata",
+  "item.limonata.golden_lemon": "Golden Lemon"
 }

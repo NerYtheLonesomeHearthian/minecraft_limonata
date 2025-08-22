@@ -1825,6 +1825,25 @@
         "files": []
       },
       "path": "~/organization"
+    },
+    {
+      "name": "GoldenLemonEatingEffects",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_lemon_eating_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/GoldenLemonEatingEffectsProcedure.java"
+        ]
+      },
+      "path": "~/lemons"
     }
   ],
   "variable_elements": [],
@@ -2110,13 +2129,13 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/limonata/LimonataMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
-      "src/main/resources/assets/limonata/sounds.json",
+      "src/main/java/limonata/init/LimonataModSounds.java",
       "src/main/java/limonata/init/LimonataModTabs.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/limonata/init/LimonataModSounds.java",
+      "src/main/resources/assets/limonata/sounds.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/limonata/LimonataMod.java",
       "src/main/java/limonata/init/LimonataModScreens.java",
       "src/main/java/limonata/init/LimonataModMenus.java",
       "src/main/java/limonata/network/MenuStateUpdateMessage.java",

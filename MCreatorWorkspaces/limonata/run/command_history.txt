@@ -1,6 +1,3 @@
-/locate biome plains
-/tp @s 2931976 78 294758
-/locate biome plains
 /tp @s 2931656 78 294438
 /tp @s 2931656 78 29443
 /locate biome plains
@@ -48,3 +45,6 @@
 /gamerule randomTickSpeed 6000
 /gamerule randomTickSpeed 3000
 /time set day
+/effect clear Dev
+/gamerule keepInventory false
+/kill
