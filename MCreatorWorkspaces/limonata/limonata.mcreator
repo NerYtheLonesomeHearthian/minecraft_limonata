@@ -1998,30 +1998,10 @@
       "CUSTOM:Cutlemon",
       "CUSTOM:GoldenLemon"
     ],
-    "ITEMS:c:fruit": [
-      "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon",
-      "CUSTOM:GoldenLemon"
-    ],
-    "ITEMS:c:fruits": [
-      "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon",
-      "CUSTOM:GoldenLemon"
-    ],
     "ITEMS:c:animal_foods": [
       "CUSTOM:Lemon",
       "CUSTOM:Cutlemon",
       "CUSTOM:Lemonseeds",
-      "CUSTOM:GoldenLemon"
-    ],
-    "ITEMS:c:foods/vegetables": [
-      "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon",
-      "CUSTOM:GoldenLemon"
-    ],
-    "ITEMS:c:foods/vegetable": [
-      "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon",
       "CUSTOM:GoldenLemon"
     ],
     "ITEMS:minecraft:pig_food": [
@@ -2048,11 +2028,6 @@
     "ITEMS:create:upright_on_belt": [
       "CUSTOM:Glass",
       "CUSTOM:Limonataglass"
-    ],
-    "ITEMS:c:foods/fruits": [
-      "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon",
-      "CUSTOM:GoldenLemon"
     ],
     "ITEMS:c:foods/fruit": [
       "CUSTOM:Lemon",
@@ -2239,7 +2214,7 @@
   "workspaceSettings": {
     "modid": "limonata",
     "modName": "limonata",
-    "version": "1.3.3",
+    "version": "1.3.3.1",
     "author": "nery",
     "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",
     "license": "MIT License",

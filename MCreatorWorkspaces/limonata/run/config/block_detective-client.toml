@@ -1,0 +1,60 @@
+#General
+[general]
+	#Activate the Update-Checker
+	update-checker = true
+
+#Tooltips
+[tooltip]
+	#Shows a more detailed text instead of the small shift hint under the item
+	show_long_shift_text = false
+	#Enable item tooltips
+	enable_item_tooltips = true
+	#Show the registry name in the item tooltips
+	show_registry_name = true
+	#Show the destroy time in the item tooltips
+	show_destroy_time = true
+	#Show the explosion resistance in the item tooltips
+	show_explosion_resistance = true
+	#Show the jump factor in the item tooltips
+	show_jump_factor = true
+	#Show the light level in the item tooltips
+	show_light_level = true
+	#Show the speed factor in the item tooltips
+	show_speed_factor = true
+	#Show the friction in the item tooltips
+	show_friction = true
+	#Show if the block is flammable in the item tooltips
+	show_if_flammable = true
+	#Show if the block is solid in the item tooltips
+	show_if_solid = true
+	#Show the noteblock instrument in the item tooltips
+	show_instrument = true
+	#Show the map color of this block in the item tooltips
+	show_map_color = true
+
+#JEI Pages
+[jei]
+	#Enable JEI (Just enough items Mod) item info pages
+	enable_jei_item_pages = true
+	#Show the registry name in the JEI item page
+	show_registry_name_jei = true
+	#Show the destroy time in the JEI item page
+	show_destroy_time_jei = true
+	#Show the explosion resistance in the JEI item page
+	show_explosion_resistance_jei = true
+	#Show the light level in the JEI item page
+	show_light_level_jei = true
+	#Show the jump factor in the JEI item page
+	show_jump_factor_jei = true
+	#Show the speed factor in the JEI item page
+	show_speed_factor_jei = true
+	#Show the friction in the JEI item page
+	show_friction_jei = true
+	#Show if the block is flammable in the JEI item page
+	show_if_flammable_jei = true
+	#Show if the block is solid in the JEI item page
+	show_if_solid_jei = true
+	#Show the noteblock instrument in the JEI item page
+	show_instrument_jei = true
+	#Show the map color of this block in the JEI item page
+	show_map_color_jei = true

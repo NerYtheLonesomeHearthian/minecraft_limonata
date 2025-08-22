@@ -11,7 +11,7 @@ import limonata.procedures.GoldenLemonEatingEffectsProcedure;
 
 public class GoldenLemonItem extends Item {
 	public GoldenLemonItem() {
-		super(new Item.Properties().rarity(Rarity.RARE).food((new FoodProperties.Builder()).nutrition(4).saturationModifier(9.6f).alwaysEdible().build()));
+		super(new Item.Properties().rarity(Rarity.RARE).food((new FoodProperties.Builder()).nutrition(4).saturationModifier(1.2f).alwaysEdible().build()));
 	}
 
 	@Override

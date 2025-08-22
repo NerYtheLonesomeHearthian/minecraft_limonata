@@ -1858,6 +1858,20 @@
         ]
       },
       "path": "~/lemons"
+    },
+    {
+      "name": "GoldenLemonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_lemon_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/advancement/recipes/golden_lemon_recipe.json",
+          "src/main/resources/data/limonata/recipe/golden_lemon_recipe.json"
+        ]
+      },
+      "path": "~/lemons"
     }
   ],
   "variable_elements": [],
@@ -1981,28 +1995,24 @@
     ],
     "ITEMS:c:foods": [
       "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon"
-    ],
-    "ITEMS:c:fruit": [
-      "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon"
-    ],
-    "ITEMS:c:fruits": [
-      "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon"
+      "CUSTOM:Cutlemon",
+      "CUSTOM:GoldenLemon"
     ],
     "ITEMS:c:animal_foods": [
       "CUSTOM:Lemon",
       "CUSTOM:Cutlemon",
-      "CUSTOM:Lemonseeds"
+      "CUSTOM:Lemonseeds",
+      "CUSTOM:GoldenLemon"
     ],
     "ITEMS:c:foods/vegetables": [
       "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon"
+      "CUSTOM:Cutlemon",
+      "CUSTOM:GoldenLemon"
     ],
     "ITEMS:c:foods/vegetable": [
       "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon"
+      "CUSTOM:Cutlemon",
+      "CUSTOM:GoldenLemon"
     ],
     "ITEMS:minecraft:pig_food": [
       "CUSTOM:Lemon",
@@ -2019,7 +2029,8 @@
     ],
     "ITEMS:createaddition:plant_food": [
       "CUSTOM:Lemon",
-      "CUSTOM:Cutlemon"
+      "CUSTOM:Cutlemon",
+      "CUSTOM:GoldenLemon"
     ],
     "ITEMS:c:drinks": [
       "CUSTOM:Limonataglass"
@@ -2027,6 +2038,22 @@
     "ITEMS:create:upright_on_belt": [
       "CUSTOM:Glass",
       "CUSTOM:Limonataglass"
+    ],
+    "ITEMS:c:foods/fruits": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon",
+      "CUSTOM:GoldenLemon"
+    ],
+    "ITEMS:c:foods/fruit": [
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon",
+      "CUSTOM:GoldenLemon"
+    ],
+    "ITEMS:c:foods/golden": [
+      "CUSTOM:GoldenLemon"
+    ],
+    "ITEMS:minecraft:piglin_loved": [
+      "CUSTOM:GoldenLemon"
     ]
   },
   "tab_element_order": {
@@ -2106,43 +2133,43 @@
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
       "item.limonata.glass": "Bicchiere",
-      "item.limonata.music_disc_limonata_chiamata": "Disco Musicale",
+      "item.limonata.music_disc_limonata_chiamata": "Disco musicale",
       "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata",
       "item.limonata.glass_of_lemonade": "Bicchiere di Limonata",
       "item.limonata.glass_of_lemonade.description_0": "§9Saturazione §9(03:00)",
       "item.limonata.lemon": "Limone",
-      "advancements.obtainlemon.descr": "Ottieni un Limone.",
+      "advancements.obtainlemon.descr": "Ottieni un limone.",
       "advancements.obtainlemon.title": "L\u0027inizio",
-      "block.limonata.lemon_crop_0": "Campo di Limoni",
-      "block.limonata.lemon_crop_2": "Campo di Limoni",
-      "block.limonata.lemon_crop_1": "Campo di Limoni",
-      "block.limonata.lemon_crop_3": "Campo di Limoni",
-      "block.limonata.lemon_crop_4": "Campo di Limoni",
-      "block.limonata.lemon_crop_5": "Campo di Limoni",
-      "block.limonata.lemon_crop_6": "Campo di Limoni",
-      "block.limonata.lemon_crop_5_5": "Campo di Limoni",
+      "block.limonata.lemon_crop_0": "Campo di limoni",
+      "block.limonata.lemon_crop_2": "Campo di limoni",
+      "block.limonata.lemon_crop_1": "Campo di limoni",
+      "block.limonata.lemon_crop_3": "Campo di limoni",
+      "block.limonata.lemon_crop_4": "Campo di limoni",
+      "block.limonata.lemon_crop_5": "Campo di limoni",
+      "block.limonata.lemon_crop_6": "Campo di limoni",
+      "block.limonata.lemon_crop_5_5": "Campo di limoni",
       "gui.limonata.lemonade_stand_gui.label_lemoande_stand": "Chiosco della Limonata",
       "gui.limonata.lemonade_stand_gui.label_empty": "+",
-      "item.limonata.ice_cubes": "Cubetti di Ghiaccio",
+      "item.limonata.ice_cubes": "Cubetti di ghiaccio",
       "block.limonata.lemonade_stand": "Chiosco della Limonata",
       "advancements.obtain_lemonade.descr": "Ottieni un Bicchiere di Limonata.",
       "advancements.obtain_lemonade.title": "Limonata!!",
       "item.limonata.lemonade_achievement_item": "LemonadeAchievementItem",
       "advancements.lemon_crop_tree_surprise_achievement.title": "Sorpresa!",
-      "advancements.lemon_crop_tree_surprise_achievement.descr": "Impara come funzionano gli Alberi di Limoni da queste parti.",
-      "item.limonata.draft_lemonade": "Limonata alla Spina",
+      "advancements.lemon_crop_tree_surprise_achievement.descr": "Impara come funzionano gli alberi di limoni da queste parti.",
+      "item.limonata.draft_lemonade": "Limonata alla spina",
       "subtitles.brew1": "",
       "subtitles.brew2": "",
       "advancements.obtain_lemonade_stand.descr": "Crafta un Chiosco della Limonata.",
       "advancements.obtain_lemonade_stand.title": "Questo è il tuo banco da lavoro.",
       "item.limonata.lemonade_stand_achievement_item": "LemonadeStandAchievementItem",
-      "item.limonata.cut_lemon": "Mezzo Limone",
-      "item.limonata.lemon_seeds": "Semi di Limone",
-      "block.limonata.lemon_leaves": "Lemon Leaves",
-      "block.limonata.lemon_leaves_lemon": "Lemon Leaves With Lemons",
-      "block.limonata.lemon_crate": "Cassa di Limoni",
+      "item.limonata.cut_lemon": "Mezzo limone",
+      "item.limonata.lemon_seeds": "Semi di limone",
+      "block.limonata.lemon_leaves": "Fogflie di limone",
+      "block.limonata.lemon_leaves_lemon": "Foglie di limone con limoni",
+      "block.limonata.lemon_crate": "Campo di limoni",
       "item_group.limonata.limonata_creative_tab": "Limonata",
-      "item.limonata.golden_lemon": "Golden Lemon"
+      "item.limonata.golden_lemon": "Limone d\u0027oro"
     }
   },
   "metadata": {
@@ -2202,7 +2229,7 @@
   "workspaceSettings": {
     "modid": "limonata",
     "modName": "limonata",
-    "version": "1.3.3",
+    "version": "1.3.3.1",
     "author": "nery",
     "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",
     "license": "MIT License",
