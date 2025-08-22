@@ -19,6 +19,7 @@ For now, the things added are:
 - Added the Lemonade Stand, a workbench (with a fully custom 3D model made in Blockbench) with which you can brew Lemonade. It has a custom GUI I'm very proud of.
 - Added the Lemon Crate block in the Farmer's Delight style.
 - Added the mod dedicated creative tab.
+- Added the Golden Lemon, a golden food similar to the golden apple.
 
 There probably will not be any big addition such as new dimensions or game-breaking recipes.
 
