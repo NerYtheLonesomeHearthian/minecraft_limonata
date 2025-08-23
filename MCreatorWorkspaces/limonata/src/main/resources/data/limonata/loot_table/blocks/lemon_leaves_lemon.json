@@ -158,7 +158,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 21,
+          "weight": 24,
           "conditions": [
             {
               "condition": "minecraft:match_tool",
