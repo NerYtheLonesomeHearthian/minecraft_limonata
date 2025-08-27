@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "limonata:glass_of_lemonade",
     "limonata:glass"
   ]
 }

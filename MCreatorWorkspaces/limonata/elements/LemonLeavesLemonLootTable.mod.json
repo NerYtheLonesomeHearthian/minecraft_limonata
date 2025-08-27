@@ -90,14 +90,14 @@
             "item": {
               "value": "Blocks.AIR"
             },
-            "weight": 24,
+            "weight": 9,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
             "explosionDecay": false,
-            "silkTouchMode": 1
+            "silkTouchMode": 2
           }
         ]
       }

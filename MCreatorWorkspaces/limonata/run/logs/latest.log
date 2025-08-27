@@ -1,604 +1,1048 @@
-[23Aug2025 00:39:46.952] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.176, --assetIndex, 17, --assetsDir, C:\\Users\\nery\\.mcreator\\gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.39, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.176, --fml.neoFormVersion, 20240808.144430]
-[23Aug2025 00:39:46.954] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.7+6-LTS
-[23Aug2025 00:39:46.956] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[23Aug2025 00:39:47.076] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[23Aug2025 00:39:47.144] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[23Aug2025 00:39:47.292] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[23Aug2025 00:39:47.370] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/nery/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
-[23Aug2025 00:39:47.560] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 3090/PCIe/SSE2 GL version 4.6.0 NVIDIA 560.94, NVIDIA Corporation
-[23Aug2025 00:39:47.883] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 15 dependencies adding them to mods collection
-[23Aug2025 00:39:47.885] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[27Aug2025 01:41:04.423] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.176, --assetIndex, 17, --assetsDir, C:\\Users\\neryj\\.mcreator\\gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.39, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.176, --fml.neoFormVersion, 20240808.144430]
+[27Aug2025 01:41:04.428] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.7+6-LTS
+[27Aug2025 01:41:04.429] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[27Aug2025 01:41:04.547] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[27Aug2025 01:41:04.615] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[27Aug2025 01:41:04.772] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[27Aug2025 01:41:04.851] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/neryj/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[27Aug2025 01:41:05.060] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1650/PCIe/SSE2 GL version 4.6.0 NVIDIA 576.52, NVIDIA Corporation
+[27Aug2025 01:41:05.426] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 18 dependencies adding them to mods collection
+[27Aug2025 01:41:05.427] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
 		AppleSkin 3.0.7+mc1.21 (appleskin)
 		Block Detective 2.1.0 (block_detective)
+		Create 6.0.6 (create)
 		EMI 1.1.22+1.21.1+neoforge (emi)
 		EMI Loot 0.7.6+1.21+neoforge (emi_loot)
+		Flywheel 1.0.4 (flywheel)
 		Fzzy Config 0.7.2+1.21+neoforge (fzzy_config)
 		Just Enough Items 19.22.1.316 (jei)
 		Kotlin For Forge 5.9.0 (kotlinforforge)
 		limonata 1.3.3.1 (limonata)
 		Minecraft 1.21.1 (minecraft)
 		NeoForge 21.1.176 (neoforge)
+		Ponder 1.0.56 (ponder)
 		Tag Tooltips 1.2.0 (tagtooltips)
-[23Aug2025 00:39:48.594] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[23Aug2025 00:39:48.597] [main/INFO] [mixin/]: Compatibility level set to JAVA_18
-[23Aug2025 00:39:48.599] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[23Aug2025 00:39:48.610] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.176, --gameDir, ., --assetsDir, C:\Users\nery\.mcreator\gradle\caches\neoformruntime\assets, --assetIndex, 17]
-[23Aug2025 00:39:48.655] [main/WARN] [mixin/]: Reference map 'tagtooltips.refmap.json' for tagtooltips.mixins.json could not be read. If this is a development environment you can ignore this message
-[23Aug2025 00:39:48.854] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[23Aug2025 00:39:49.891] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 277 milliseconds
-[23Aug2025 00:39:53.638] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23Aug2025 00:39:53.639] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23Aug2025 00:39:53.641] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[23Aug2025 00:39:53.641] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[23Aug2025 00:39:53.642] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23Aug2025 00:39:53.769] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/F:/User%20Files/Documents/GitHub/minecraft_limonata/MCreatorWorkspaces/limonata/build/moddev/artifacts/neoforge-21.1.176.jar%23197!/assets/.mcassetsroot' uses unexpected schema
-[23Aug2025 00:39:53.769] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/F:/User%20Files/Documents/GitHub/minecraft_limonata/MCreatorWorkspaces/limonata/build/moddev/artifacts/neoforge-21.1.176.jar%23197!/data/.mcassetsroot' uses unexpected schema
-[23Aug2025 00:39:53.789] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23Aug2025 00:39:53.796] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[23Aug2025 00:39:53.867] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[23Aug2025 00:39:54.300] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.176, for MC 1.21.1
-[23Aug2025 00:39:54.422] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[23Aug2025 00:39:54.424] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 1.743 milliseconds
-[23Aug2025 00:39:54.540] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[23Aug2025 00:39:54.645] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config fzzy_config:keybinds in 268ms
-[23Aug2025 00:39:54.801] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config :emi_loot_config in 112ms
-[23Aug2025 00:39:55.364] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
-[23Aug2025 00:39:55.498] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/emi, mod/tagtooltips, mod/block_detective, mod/kotlinforforge, mod/fzzy_config, mod/appleskin, mod/neoforge, mod/limonata, mod/emi_loot, mod/jei
-[23Aug2025 00:39:55.577] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [block_detective] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/BlockDetective_NEO.json
-[23Aug2025 00:39:55.616] [Worker-Main-13/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
-[23Aug2025 00:39:55.660] [Worker-Main-10/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
-[23Aug2025 00:39:56.053] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [block_detective] Found status: UP_TO_DATE Current: 2.1.0 Target: null
-[23Aug2025 00:39:56.852] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[23Aug2025 00:39:56.852] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[23Aug2025 00:39:56.899] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (High Definition Audio Device)
-[23Aug2025 00:39:56.900] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[23Aug2025 00:39:56.980] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x2 minecraft:textures/atlas/blocks.png-atlas
-[23Aug2025 00:39:56.987] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[23Aug2025 00:39:56.988] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[23Aug2025 00:39:56.988] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[23Aug2025 00:39:56.988] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[23Aug2025 00:39:56.990] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[23Aug2025 00:39:56.990] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[23Aug2025 00:39:56.990] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[23Aug2025 00:39:56.990] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[23Aug2025 00:39:57.134] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[23Aug2025 00:39:57.135] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[23Aug2025 00:39:57.136] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[23Aug2025 00:39:57.136] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[23Aug2025 00:39:57.136] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[23Aug2025 00:39:57.153] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[23Aug2025 00:39:57.208] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[23Aug2025 00:39:57.210] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
-[23Aug2025 00:40:18.677] [Worker-Main-1/INFO] [emi_loot/]: parsing loot tables
-[23Aug2025 00:40:18.742] [Worker-Main-1/INFO] [emi_loot/]: finished parsing loot tables
-[23Aug2025 00:40:18.914] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1298 recipes
-[23Aug2025 00:40:19.028] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1404 advancements
-[23Aug2025 00:40:19.031] [Render thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:water
-[23Aug2025 00:40:19.339] [Render thread/INFO] [EMI/]: [EMI] Recipes synchronized, waiting for tags to reload EMI...
-[23Aug2025 00:40:19.437] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
-[23Aug2025 00:40:19.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[23Aug2025 00:40:20.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[23Aug2025 00:40:20.206] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Aug2025 00:40:20.240] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[23Aug2025 00:40:20.241] [Server thread/WARN] [net.neoforged.neoforge.common.TagConventionLogWarning/]: 
-   Dev warning - Legacy Tags detected. Please migrate your 'forge' namespace tags to the 'c' namespace! See net.neoforged.neoforge.common.Tags.java for all tags.
-   NOTE: Many tags have been moved around or renamed. Some new ones were added so please review the new tags.
-    And make sure you follow tag conventions for new tags! The convention is `c` with nouns generally being plural and adjectives being singular.
-   You can disable this message in NeoForge's common config by setting `logLegacyTagWarnings` to "SILENCED" or see individual tags with "DEV_VERBOSE".
-
-[23Aug2025 00:40:20.245] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 225 ms
-[23Aug2025 00:40:20.306] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 22, from 10
-[23Aug2025 00:40:20.307] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 22, from 0
-[23Aug2025 00:40:20.603] [Render thread/INFO] [fzzy_config/]: Saved config emi_loot_config to file F:\User Files\Documents\GitHub\minecraft_limonata\MCreatorWorkspaces\limonata\run\config\emi_loot_config.toml
-[23Aug2025 00:40:20.654] [Render thread/INFO] [EMI/]: [EMI] Recipes synchronized, waiting for tags to reload EMI...
-[23Aug2025 00:40:20.813] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:ea8d68b7] logged in with entity id 50 at (288.27281491164854, 63.0, 880.8187841785921)
-[23Aug2025 00:40:20.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[23Aug2025 00:40:21.063] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
-[23Aug2025 00:40:21.073] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
-[23Aug2025 00:40:21.074] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 835.6 microseconds
-[23Aug2025 00:40:21.074] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
-[23Aug2025 00:40:21.077] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 1.995 milliseconds
-[23Aug2025 00:40:21.080] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
-[23Aug2025 00:40:21.121] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 46 duplicate items were found in 'Functional Blocks' creative tab's: displayItems
+[27Aug2025 01:41:06.162] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[27Aug2025 01:41:06.164] [main/INFO] [mixin/]: Compatibility level set to JAVA_18
+[27Aug2025 01:41:06.165] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[27Aug2025 01:41:06.180] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.176, --gameDir, ., --assetsDir, C:\Users\neryj\.mcreator\gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[27Aug2025 01:41:06.208] [main/WARN] [mixin/]: Reference map 'tagtooltips.refmap.json' for tagtooltips.mixins.json could not be read. If this is a development environment you can ignore this message
+[27Aug2025 01:41:06.212] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder.mixins.json could not be read. If this is a development environment you can ignore this message
+[27Aug2025 01:41:06.212] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[27Aug2025 01:41:06.213] [main/WARN] [mixin/]: Reference map 'create.refmap.json' for create.mixins.json could not be read. If this is a development environment you can ignore this message
+[27Aug2025 01:41:06.609] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[27Aug2025 01:41:07.792] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 311 milliseconds
+[27Aug2025 01:41:11.548] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[27Aug2025 01:41:11.549] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[27Aug2025 01:41:11.551] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[27Aug2025 01:41:11.551] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[27Aug2025 01:41:11.552] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[27Aug2025 01:41:11.672] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/neryj/Documents/GitHub/minecraft_limonata/MCreatorWorkspaces/limonata/build/moddev/artifacts/neoforge-21.1.176.jar%23198!/assets/.mcassetsroot' uses unexpected schema
+[27Aug2025 01:41:11.672] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/neryj/Documents/GitHub/minecraft_limonata/MCreatorWorkspaces/limonata/build/moddev/artifacts/neoforge-21.1.176.jar%23198!/data/.mcassetsroot' uses unexpected schema
+[27Aug2025 01:41:11.691] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[27Aug2025 01:41:11.698] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[27Aug2025 01:41:11.771] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[27Aug2025 01:41:11.980] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.176, for MC 1.21.1
+[27Aug2025 01:41:12.088] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[27Aug2025 01:41:12.099] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 20ad05b5e525166018d21e88c96986f867c7088f
+[27Aug2025 01:41:12.101] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 12.92 milliseconds
+[27Aug2025 01:41:12.241] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[27Aug2025 01:41:12.360] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config fzzy_config:keybinds in 313ms
+[27Aug2025 01:41:12.497] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config :emi_loot_config in 102ms
+[27Aug2025 01:41:14.475] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[27Aug2025 01:41:14.694] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/emi, mod/tagtooltips, mod/appleskin, mod/jei, mod/block_detective, mod/kotlinforforge, mod/fzzy_config, mod/flywheel, mod/ponder, mod/create, mod/neoforge, mod/limonata, mod/emi_loot
+[27Aug2025 01:41:14.768] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [block_detective] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/BlockDetective_NEO.json
+[27Aug2025 01:41:14.774] [Worker-Main-7/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[27Aug2025 01:41:14.906] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[27Aug2025 01:41:15.197] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [block_detective] Found status: UP_TO_DATE Current: 2.1.0 Target: null
+[27Aug2025 01:41:16.584] [Worker-Main-3/INFO] [PonderIndex/]: Registering Ponder Scenes took 46.21 ms
+[27Aug2025 01:41:16.588] [Worker-Main-3/INFO] [PonderIndex/]: Registering Ponder Tags took 3.417 ms
+[27Aug2025 01:41:16.692] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[27Aug2025 01:41:16.692] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[27Aug2025 01:41:16.749] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphones (Flyingtiger966)
+[27Aug2025 01:41:16.749] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[27Aug2025 01:41:16.811] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x2 minecraft:textures/atlas/blocks.png-atlas
+[27Aug2025 01:41:16.823] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[27Aug2025 01:41:16.823] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[27Aug2025 01:41:16.824] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[27Aug2025 01:41:16.824] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[27Aug2025 01:41:16.826] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[27Aug2025 01:41:16.826] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[27Aug2025 01:41:16.827] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[27Aug2025 01:41:16.827] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[27Aug2025 01:41:16.877] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[27Aug2025 01:41:16.878] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[27Aug2025 01:41:16.878] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[27Aug2025 01:41:16.878] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[27Aug2025 01:41:16.878] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[27Aug2025 01:41:16.897] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[27Aug2025 01:41:16.936] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[27Aug2025 01:41:16.960] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 20.985 ms
+[27Aug2025 01:41:16.978] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 58 train hat configurations.
+[27Aug2025 01:41:16.979] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[27Aug2025 01:43:39.654] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[27Aug2025 01:43:39.657] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[27Aug2025 01:43:40.076] [Worker-Main-5/INFO] [emi_loot/]: parsing loot tables
+[27Aug2025 01:43:40.132] [Worker-Main-5/INFO] [emi_loot/]: finished parsing loot tables
+[27Aug2025 01:43:40.352] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 2789 recipes
+[27Aug2025 01:43:40.482] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2479 advancements
+[27Aug2025 01:43:40.491] [Render thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:water
+[27Aug2025 01:43:41.184] [Render thread/INFO] [EMI/]: [EMI] Recipes synchronized, waiting for tags to reload EMI...
+[27Aug2025 01:43:41.282] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[27Aug2025 01:43:41.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[27Aug2025 01:43:42.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[27Aug2025 01:43:42.255] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Aug2025 01:43:42.325] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[27Aug2025 01:43:42.330] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 245 ms
+[27Aug2025 01:43:42.393] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 22, from 10
+[27Aug2025 01:43:42.393] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 22, from 0
+[27Aug2025 01:43:42.632] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[27Aug2025 01:43:42.633] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[27Aug2025 01:43:42.693] [Render thread/INFO] [fzzy_config/]: Saved config emi_loot_config to file C:\Users\neryj\Documents\GitHub\minecraft_limonata\MCreatorWorkspaces\limonata\run\config\emi_loot_config.toml
+[27Aug2025 01:43:42.742] [Render thread/INFO] [EMI/]: [EMI] Recipes synchronized, waiting for tags to reload EMI...
+[27Aug2025 01:43:42.873] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:3f31b849] logged in with entity id 50 at (347.6472403028436, 63.0, 902.2603527774058)
+[27Aug2025 01:43:43.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[27Aug2025 01:43:43.012] [Render thread/INFO] [flywheel/]: Started 6 worker threads
+[27Aug2025 01:43:43.215] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[27Aug2025 01:43:43.220] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[27Aug2025 01:43:43.220] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 619.2 microseconds
+[27Aug2025 01:43:43.220] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[27Aug2025 01:43:43.221] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 1.166 milliseconds
+[27Aug2025 01:43:43.223] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[27Aug2025 01:43:43.261] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 46 duplicate items were found in 'Functional Blocks' creative tab's: displayItems
 This may indicate that these types of item need a subtype interpreter added to JEI:
 [minecraft:painting]
-[23Aug2025 00:40:21.127] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 9 duplicate items were found in 'Tools & Utilities' creative tab's: displayItems
+[27Aug2025 01:43:43.268] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 9 duplicate items were found in 'Tools & Utilities' creative tab's: displayItems
 This may indicate that these types of item need a subtype interpreter added to JEI:
 [minecraft:firework_rocket, minecraft:goat_horn]
-[23Aug2025 00:40:21.130] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 45 duplicate items were found in 'Combat' creative tab's: displayItems
+[27Aug2025 01:43:43.272] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 45 duplicate items were found in 'Combat' creative tab's: displayItems
 This may indicate that these types of item need a subtype interpreter added to JEI:
 [minecraft:tipped_arrow]
-[23Aug2025 00:40:21.137] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 147 duplicate items were found in 'Food & Drinks' creative tab's: displayItems
+[27Aug2025 01:43:43.278] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 147 duplicate items were found in 'Food & Drinks' creative tab's: displayItems
 This may indicate that these types of item need a subtype interpreter added to JEI:
-[minecraft:suspicious_stew, minecraft:lingering_potion, minecraft:splash_potion, minecraft:potion, minecraft:ominous_bottle]
-[23Aug2025 00:40:21.147] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 41 duplicate items were found in 'Ingredients' creative tab's: displayItems
+[minecraft:suspicious_stew, minecraft:potion, minecraft:lingering_potion, minecraft:splash_potion, minecraft:ominous_bottle]
+[27Aug2025 01:43:43.286] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 43 duplicate items were found in 'Ingredients' creative tab's: displayItems
 This may indicate that these types of item need a subtype interpreter added to JEI:
 [minecraft:enchanted_book]
-[23Aug2025 00:40:21.167] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 87.07 milliseconds
-[23Aug2025 00:40:21.168] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 87.98 milliseconds
-[23Aug2025 00:40:21.168] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
-[23Aug2025 00:40:21.168] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 529.4 microseconds
-[23Aug2025 00:40:21.169] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
-[23Aug2025 00:40:21.169] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 722.1 microseconds
-[23Aug2025 00:40:21.190] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
-[23Aug2025 00:40:21.191] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 551.0 microseconds
-[23Aug2025 00:40:21.209] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
-[23Aug2025 00:40:21.234] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 23.61 milliseconds
-[23Aug2025 00:40:21.240] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 30.70 milliseconds
-[23Aug2025 00:40:21.242] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
-[23Aug2025 00:40:21.248] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 4.840 milliseconds
-[23Aug2025 00:40:21.249] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
-[23Aug2025 00:40:21.250] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 512.3 microseconds
-[23Aug2025 00:40:21.250] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
-[23Aug2025 00:40:21.267] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 16.96 milliseconds
-[23Aug2025 00:40:21.268] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
-[23Aug2025 00:40:21.269] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 474.6 microseconds
-[23Aug2025 00:40:21.271] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
-[23Aug2025 00:40:21.427] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: block_detective:jei_plugin took 156.2 milliseconds
-[23Aug2025 00:40:21.456] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal took 28.36 milliseconds
-[23Aug2025 00:40:21.456] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 185.6 milliseconds
-[23Aug2025 00:40:21.464] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
-[23Aug2025 00:40:21.465] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 615.6 microseconds
-[23Aug2025 00:40:21.473] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
-[23Aug2025 00:40:21.477] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
-[23Aug2025 00:40:21.478] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 595.8 microseconds
-[23Aug2025 00:40:21.483] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
-[23Aug2025 00:40:21.486] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 3.670 milliseconds
-[23Aug2025 00:40:21.488] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 14.09 milliseconds
-[23Aug2025 00:40:21.488] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
-[23Aug2025 00:40:21.489] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 550.2 microseconds
-[23Aug2025 00:40:21.489] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 425.0 milliseconds
-[23Aug2025 00:40:21.489] [Render thread/INFO] [EMI/]: [EMI] Tags synchronized, reloading EMI
-[23Aug2025 00:40:21.489] [Render thread/INFO] [EMI/]: [EMI] Starting Reload
-[23Aug2025 00:40:21.490] [Thread-16/INFO] [EMI/]: [EMI] Starting EMI reload...
-[23Aug2025 00:40:21.490] [Thread-16/INFO] [EMI/]: [EMI] Clearing data
-[23Aug2025 00:40:21.506] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 197 advancements
-[23Aug2025 00:40:21.557] [Thread-16/INFO] [EMI/]: [EMI] Initializing plugin from emi
-[23Aug2025 00:40:21.565] [Thread-16/INFO] [EMI/]: [EMI] Initialized plugin from emi in 8ms
-[23Aug2025 00:40:21.565] [Thread-16/INFO] [EMI/]: [EMI] Initializing plugin from emi_loot
-[23Aug2025 00:40:21.567] [Thread-16/INFO] [EMI/]: [EMI] Initialized plugin from emi_loot in 2ms
-[23Aug2025 00:40:21.567] [Thread-16/INFO] [EMI/]: [EMI] Initializing plugin from jemi
-[23Aug2025 00:40:21.567] [Thread-16/INFO] [EMI/]: [EMI] Initialized plugin from jemi in 0ms
-[23Aug2025 00:40:21.569] [Thread-16/INFO] [EMI/]: [EMI] Processing tags
-[23Aug2025 00:40:21.574] [Thread-16/ERROR] [EMI/]: [EMI] Untranslated tag #c:foods/fruits
-[23Aug2025 00:40:21.574] [Thread-16/ERROR] [EMI/]: [EMI] Untranslated tag #create:upright_on_belt
-[23Aug2025 00:40:21.574] [Thread-16/ERROR] [EMI/]: [EMI] Untranslated tag #createaddition:plant_food
-[23Aug2025 00:40:21.574] [Thread-16/INFO] [EMI/]: [EMI]  Tag warning can be disabled in the config, EMI docs describe how to add a translation or exclude tags.
-[23Aug2025 00:40:21.589] [Thread-16/INFO] [EMI/]: [EMI] Constructing index
-[23Aug2025 00:40:21.594] [Thread-16/INFO] [EMI/]: [EMI] Reloading item groups on client thread...
-[23Aug2025 00:40:21.711] [Thread-16/INFO] [EMI/]: [EMI] Reloading item groups on client thread took 117ms
-[23Aug2025 00:40:21.719] [Thread-16/INFO] [EMI/]: [EMI] Loading plugin from emi
-[23Aug2025 00:40:21.893] [Thread-16/INFO] [EMI/]: [EMI] Reloaded plugin from emi in 174ms
-[23Aug2025 00:40:21.893] [Thread-16/INFO] [EMI/]: [EMI] Loading plugin from emi_loot
-[23Aug2025 00:40:21.897] [ForkJoinPool.commonPool-worker-10/INFO] [emi_loot/]: Built 59 chest loot recipes in 1ms
-[23Aug2025 00:40:21.900] [ForkJoinPool.commonPool-worker-11/INFO] [emi_loot/]: Built 980 block loot recipes in 3ms
-[23Aug2025 00:40:21.908] [ForkJoinPool.commonPool-worker-11/INFO] [emi_loot/]: Built 6 archaeology loot recipes in 6ms
-[23Aug2025 00:40:21.914] [ForkJoinPool.commonPool-worker-10/INFO] [emi_loot/]: Built 20 gameplay loot recipes in 15ms
-[23Aug2025 00:40:21.919] [ForkJoinPool.commonPool-worker-18/INFO] [emi_loot/]: Built 78 mob loot recipes in 21ms
-[23Aug2025 00:40:21.921] [Thread-16/INFO] [emi_loot/]: Registered gameplay loot recipes after 17ms
-[23Aug2025 00:40:21.921] [Thread-16/INFO] [emi_loot/]: Registered archaeology loot recipes after 17ms
-[23Aug2025 00:40:21.924] [Thread-16/INFO] [emi_loot/]: Registered mob loot recipes after 20ms
-[23Aug2025 00:40:21.924] [Thread-16/INFO] [emi_loot/]: Registered chest loot recipes after 20ms
-[23Aug2025 00:40:21.924] [Thread-16/INFO] [emi_loot/]: Registered all loot recipes after 20ms
-[23Aug2025 00:40:21.924] [Thread-16/INFO] [EMI/]: [EMI] Reloaded plugin from emi_loot in 31ms
-[23Aug2025 00:40:21.924] [Thread-16/INFO] [EMI/]: [EMI] Loading plugin from jemi
-[23Aug2025 00:40:21.924] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Waiting for JEI to finish reloading...
-[23Aug2025 00:40:21.924] [Thread-16/INFO] [EMI/]: [EMI] Waiting for JEI to finish...
-[23Aug2025 00:40:21.924] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] JEI reloaded!
-[23Aug2025 00:40:21.928] [Thread-16/INFO] [EMI/]: [EMI] Loading information from JEI...
-[23Aug2025 00:40:21.938] [Thread-16/INFO] [EMI/]: [EMI] Processing JEI stacks...
-[23Aug2025 00:40:21.939] [Thread-16/INFO] [EMI/]: [EMI] Processing JEI subtypes...
-[23Aug2025 00:40:21.942] [Thread-16/INFO] [EMI/]: [EMI] Processing JEI recipes...
-[23Aug2025 00:40:21.947] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Crafting
-[23Aug2025 00:40:21.947] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Crafting
-[23Aug2025 00:40:21.951] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Anvil
-[23Aug2025 00:40:21.951] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Anvil
-[23Aug2025 00:40:21.951] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Blasting
-[23Aug2025 00:40:21.951] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Blasting
-[23Aug2025 00:40:21.951] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Brewing
-[23Aug2025 00:40:21.951] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Brewing
-[23Aug2025 00:40:21.951] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Campfire Cooking
-[23Aug2025 00:40:21.951] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Campfire Cooking
-[23Aug2025 00:40:21.951] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Composting
-[23Aug2025 00:40:21.951] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Composting
-[23Aug2025 00:40:21.952] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Fuel
-[23Aug2025 00:40:21.952] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Fuel
-[23Aug2025 00:40:21.952] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Grindstone
-[23Aug2025 00:40:21.952] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Grindstone
-[23Aug2025 00:40:21.952] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Smelting
-[23Aug2025 00:40:21.952] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Smelting
-[23Aug2025 00:40:21.953] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Smithing Table
-[23Aug2025 00:40:21.953] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Smithing Table
-[23Aug2025 00:40:21.953] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Smoking
-[23Aug2025 00:40:21.953] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Smoking
-[23Aug2025 00:40:21.953] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Stonecutting
-[23Aug2025 00:40:21.953] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Stonecutting
-[23Aug2025 00:40:21.953] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Block Tags
-[23Aug2025 00:40:21.953] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Block Tags
-[23Aug2025 00:40:21.998] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Fluid Tags
-[23Aug2025 00:40:21.998] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Fluid Tags
-[23Aug2025 00:40:21.999] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Item Tags
-[23Aug2025 00:40:21.999] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Item Tags
-[23Aug2025 00:40:22.009] [Thread-16/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Information
-[23Aug2025 00:40:22.009] [Thread-16/INFO] [EMI/]: [EMI] Loading JEI data for Information
-[23Aug2025 00:40:22.199] [Thread-16/INFO] [EMI/]: [EMI] Reloaded plugin from jemi in 275ms
-[23Aug2025 00:40:22.199] [Thread-16/INFO] [EMI/]: [EMI] Baking index
-[23Aug2025 00:40:22.221] [Thread-16/INFO] [EMI/]: [EMI] Registering late recipes
-[23Aug2025 00:40:22.221] [Thread-16/INFO] [EMI/]: [EMI] Baking recipes
-[23Aug2025 00:40:22.248] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/light_blue
-[23Aug2025 00:40:22.248] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sands/colorless
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/mangrove_logs
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/slabs
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fences
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/soul_fire_base_blocks
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/magenta
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/slime
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests/ender
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/purple
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/banners
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/slabs
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/wheat
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/gold
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores_in_ground/stone
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/bone_meal
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/gray
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/quartz
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/cyan
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stone_buttons
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins/normal
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_buttons
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glazed_terracottas
-[23Aug2025 00:40:22.249] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/smelts_to_glass
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_pressure_plates
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/trapdoors
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/spruce_logs
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/anvil
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/oak_logs
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_trapdoors
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_stairs
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stone_bricks
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/red_slabs
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/planks
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/gold
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/leaves
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/copper
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/doors
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/raw_copper
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/green
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/beds
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/copper_ores
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/white
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/netherite_scrap
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/stripped_woods
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/candles
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/redstone
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/lapis
-[23Aug2025 00:40:22.250] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/iron
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/buttons
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/gold_ores
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/bamboo_blocks
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/uncolored_slabs
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/sand
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dark_oak_logs
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/light_gray
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/emerald_ores
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stairs
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_bearing_ground/netherrack
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/concretes
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/logs_that_burn
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/jungle_logs
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wart_blocks
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks/tinted
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/infested
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_panes/colorless
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/mossy
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/red_stairs
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/deepslate
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/player_workstations/furnaces
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/blocks
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores_in_ground/netherrack
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/emerald
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/raw_gold
-[23Aug2025 00:40:22.251] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests/wooden
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/coal_ores
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_bearing_ground/stone
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/birch_logs
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/diamond_ores
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/tall_flowers
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sands
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/uncolored_blocks
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/barrels
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/iron
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins/jack_o_lanterns
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/end_stones
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/brown
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/orange
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wool
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dirt
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/gravels
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/pink
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins/carved
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fence_gates
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/signs
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/flowers
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/coal
-[23Aug2025 00:40:22.252] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/acacia_logs
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests/trapped
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/completes_find_tree_tutorial
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/villager_job_sites
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_panes
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/fences
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/bookshelves
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/raw_iron
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/yellow
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/cherry_logs
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/warped_stems
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/stones
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores_in_ground/deepslate
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/barrels/wooden
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/diamond
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/netherite
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/redstone
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_rates/dense
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones
-[23Aug2025 00:40:22.253] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/lapis_ores
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/redstone_ores
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_doors
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chains
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/coal
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks/cheap
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/rails
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/diamond
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/red_blocks
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/netherracks
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fences/nether_brick
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/obsidians/normal
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/blue
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/normal
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/fence_gates
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/player_workstations/crafting_tables
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/stairs
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_slabs
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/small_flowers
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/emerald
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sands/red
-[23Aug2025 00:40:22.254] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/copper
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/saplings
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dampens_vibrations
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fences/wooden
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_bearing_ground/deepslate
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wool_carpets
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/lapis
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/obsidians/crying
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/clusters
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/piglin_repellents
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/crimson_stems
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/buds
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/terracotta
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/obsidians
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/budding_blocks
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/uncolored_stairs
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fence_gates/wooden
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/dried_kelp
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/iron_ores
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_fences
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/stripped_logs
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_rates/singular
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/red
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/black
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/logs
-[23Aug2025 00:40:22.255] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks/colorless
-[23Aug2025 00:40:22.256] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_rates/sparse
-[23Aug2025 00:40:22.256] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/walls
-[23Aug2025 00:40:22.256] [Thread-16/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/lime
-[23Aug2025 00:40:22.292] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
-[23Aug2025 00:40:22.304] [Thread-16/INFO] [EMI/]: [EMI] Baked 6040 recipes in 80ms
-[23Aug2025 00:40:22.312] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/light_blue
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sands/colorless
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/mangrove_logs
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/slabs
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fences
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/soul_fire_base_blocks
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/magenta
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/slime
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests/ender
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/purple
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/banners
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/slabs
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/wheat
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/gold
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores_in_ground/stone
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/bone_meal
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/gray
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/quartz
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/cyan
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stone_buttons
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins/normal
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_buttons
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glazed_terracottas
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/smelts_to_glass
-[23Aug2025 00:40:22.314] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_pressure_plates
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/trapdoors
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/spruce_logs
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/anvil
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/oak_logs
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_trapdoors
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_stairs
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stone_bricks
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/red_slabs
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/planks
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/gold
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/leaves
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/copper
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/doors
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/raw_copper
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/green
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/beds
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/copper_ores
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/white
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/netherite_scrap
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/stripped_woods
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/candles
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/redstone
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/lapis
-[23Aug2025 00:40:22.315] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/iron
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/buttons
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/gold_ores
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/bamboo_blocks
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/uncolored_slabs
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/sand
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dark_oak_logs
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/light_gray
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/emerald_ores
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stairs
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_bearing_ground/netherrack
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/concretes
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/logs_that_burn
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/jungle_logs
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wart_blocks
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks/tinted
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/infested
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_panes/colorless
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/mossy
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/red_stairs
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/deepslate
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/player_workstations/furnaces
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/blocks
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores_in_ground/netherrack
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/emerald
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/raw_gold
-[23Aug2025 00:40:22.316] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests/wooden
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/coal_ores
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_bearing_ground/stone
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/birch_logs
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/diamond_ores
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/tall_flowers
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sands
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/uncolored_blocks
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/barrels
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/iron
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins/jack_o_lanterns
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/end_stones
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/brown
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/orange
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wool
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dirt
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/gravels
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/pink
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins/carved
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fence_gates
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/signs
-[23Aug2025 00:40:22.317] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/flowers
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/coal
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/acacia_logs
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests/trapped
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/completes_find_tree_tutorial
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/villager_job_sites
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_panes
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/fences
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/bookshelves
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/raw_iron
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/yellow
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/cherry_logs
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/warped_stems
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/stones
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores_in_ground/deepslate
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/barrels/wooden
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/diamond
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/netherite
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/redstone
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_rates/dense
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/lapis_ores
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/redstone_ores
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_doors
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chains
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/coal
-[23Aug2025 00:40:22.318] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks/cheap
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/rails
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/diamond
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/red_blocks
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/netherracks
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fences/nether_brick
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/obsidians/normal
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/blue
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/normal
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/fence_gates
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/player_workstations/crafting_tables
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/stairs
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_slabs
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/small_flowers
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/emerald
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sands/red
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/copper
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/saplings
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dampens_vibrations
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fences/wooden
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_bearing_ground/deepslate
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wool_carpets
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/lapis
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/obsidians/crying
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/clusters
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/piglin_repellents
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/crimson_stems
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/buds
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/terracotta
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/obsidians
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/budding_blocks
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/uncolored_stairs
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fence_gates/wooden
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/dried_kelp
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/iron_ores
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_fences
-[23Aug2025 00:40:22.319] [Thread-16/INFO] [EMI/]: [EMI] Baking search
-[23Aug2025 00:40:22.319] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/stripped_logs
-[23Aug2025 00:40:22.321] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_rates/singular
-[23Aug2025 00:40:22.321] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/red
-[23Aug2025 00:40:22.321] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/black
-[23Aug2025 00:40:22.321] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/logs
-[23Aug2025 00:40:22.321] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks/colorless
-[23Aug2025 00:40:22.321] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_rates/sparse
-[23Aug2025 00:40:22.321] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/walls
-[23Aug2025 00:40:22.321] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/lime
-[23Aug2025 00:40:22.359] [Thread-17/INFO] [EMI/]: [EMI] Baked recipes after reload in 58ms
-[23Aug2025 00:40:22.559] [Thread-16/INFO] [EMI/]: [EMI] Finishing up
-[23Aug2025 00:40:22.586] [Thread-16/INFO] [EMI/]: [EMI] Reloaded EMI in 1096ms
-[23Aug2025 00:41:35.892] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[23Aug2025 00:41:35.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[23Aug2025 00:41:35.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[23Aug2025 00:41:35.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[23Aug2025 00:41:36.281] [Render thread/INFO] [EMI/]: [EMI] Disconnecting from server, EMI data cleared
-[23Aug2025 00:41:36.282] [Thread-27/INFO] [EMI/]: [EMI] Clearing data
-[23Aug2025 00:41:36.283] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
-[23Aug2025 00:41:36.283] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
-[23Aug2025 00:41:36.283] [Render thread/INFO] [mezz.jei.neoforge.plugins.neoforge.NeoForgeGuiPlugin/]: Stopping JEI GUI
-[23Aug2025 00:41:36.284] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 669.2 microseconds
-[23Aug2025 00:41:36.346] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[23Aug2025 00:41:36.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[23Aug2025 00:41:36.373] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[23Aug2025 00:41:36.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[23Aug2025 00:41:36.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[23Aug2025 00:41:36.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[23Aug2025 00:41:36.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[23Aug2025 00:41:36.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[23Aug2025 00:41:36.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[23Aug2025 00:41:36.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[23Aug2025 00:41:36.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23Aug2025 00:41:36.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23Aug2025 00:41:36.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23Aug2025 00:41:37.266] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[27Aug2025 01:43:43.313] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 89.71 milliseconds
+[27Aug2025 01:43:43.313] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 90.29 milliseconds
+[27Aug2025 01:43:43.313] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
+[27Aug2025 01:43:43.317] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 2.765 milliseconds
+[27Aug2025 01:43:43.317] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
+[27Aug2025 01:43:43.318] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 742.4 microseconds
+[27Aug2025 01:43:43.329] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
+[27Aug2025 01:43:43.329] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 428.6 microseconds
+[27Aug2025 01:43:43.341] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[27Aug2025 01:43:43.353] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 11.86 milliseconds
+[27Aug2025 01:43:43.382] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 29.23 milliseconds
+[27Aug2025 01:43:43.386] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 44.48 milliseconds
+[27Aug2025 01:43:43.386] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[27Aug2025 01:43:43.389] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 2.533 milliseconds
+[27Aug2025 01:43:43.390] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[27Aug2025 01:43:43.391] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 1.143 milliseconds
+[27Aug2025 01:43:43.392] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[27Aug2025 01:43:43.399] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 7.292 milliseconds
+[27Aug2025 01:43:43.399] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[27Aug2025 01:43:43.401] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 448.9 microseconds
+[27Aug2025 01:43:43.401] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[27Aug2025 01:43:43.684] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: block_detective:jei_plugin took 282.5 milliseconds
+[27Aug2025 01:43:43.759] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 74.04 milliseconds
+[27Aug2025 01:43:43.794] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal took 34.88 milliseconds
+[27Aug2025 01:43:43.794] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 392.2 milliseconds
+[27Aug2025 01:43:43.800] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[27Aug2025 01:43:43.801] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 1.656 milliseconds
+[27Aug2025 01:43:43.806] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[27Aug2025 01:43:43.811] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[27Aug2025 01:43:43.812] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 1.598 milliseconds
+[27Aug2025 01:43:43.814] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[27Aug2025 01:43:43.816] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 1.499 milliseconds
+[27Aug2025 01:43:43.816] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 9.817 milliseconds
+[27Aug2025 01:43:43.816] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[27Aug2025 01:43:43.816] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 383.8 microseconds
+[27Aug2025 01:43:43.816] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 602.4 milliseconds
+[27Aug2025 01:43:43.816] [Render thread/INFO] [EMI/]: [EMI] Tags synchronized, reloading EMI
+[27Aug2025 01:43:43.816] [Render thread/INFO] [EMI/]: [EMI] Starting Reload
+[27Aug2025 01:43:43.818] [Thread-17/INFO] [EMI/]: [EMI] Starting EMI reload...
+[27Aug2025 01:43:43.818] [Thread-17/INFO] [EMI/]: [EMI] Clearing data
+[27Aug2025 01:43:43.831] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 219 advancements
+[27Aug2025 01:43:43.839] [Thread-17/INFO] [EMI/]: [EMI] Initializing plugin from emi
+[27Aug2025 01:43:43.843] [Thread-17/INFO] [EMI/]: [EMI] Initialized plugin from emi in 4ms
+[27Aug2025 01:43:43.843] [Thread-17/INFO] [EMI/]: [EMI] Initializing plugin from emi_loot
+[27Aug2025 01:43:43.844] [Thread-17/INFO] [EMI/]: [EMI] Initialized plugin from emi_loot in 1ms
+[27Aug2025 01:43:43.844] [Thread-17/INFO] [EMI/]: [EMI] Initializing plugin from jemi
+[27Aug2025 01:43:43.844] [Thread-17/INFO] [EMI/]: [EMI] Initialized plugin from jemi in 0ms
+[27Aug2025 01:43:43.846] [Thread-17/INFO] [EMI/]: [EMI] Processing tags
+[27Aug2025 01:43:43.849] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:doughs
+[27Aug2025 01:43:43.849] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:doughs/wheat
+[27Aug2025 01:43:43.849] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:dusts/obsidian
+[27Aug2025 01:43:43.849] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:flours
+[27Aug2025 01:43:43.849] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:flours/wheat
+[27Aug2025 01:43:43.849] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:ingots/brass
+[27Aug2025 01:43:43.849] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:ingots/zinc
+[27Aug2025 01:43:43.849] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:nuggets/brass
+[27Aug2025 01:43:43.849] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:nuggets/zinc
+[27Aug2025 01:43:43.849] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:ores/zinc
+[27Aug2025 01:43:43.849] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:plates/brass
+[27Aug2025 01:43:43.849] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:plates/cardboard
+[27Aug2025 01:43:43.849] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:plates/obsidian
+[27Aug2025 01:43:43.849] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:raw_materials/zinc
+[27Aug2025 01:43:43.849] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:storage_blocks/andesite_alloy
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:storage_blocks/brass
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:storage_blocks/cardboard
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:storage_blocks/raw_zinc
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:storage_blocks/zinc
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:blaze_burner_fuel/special
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:casing
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:chain_rideable
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:contraption_controlled
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:create_ingots
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:crushed_raw_materials
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:deployable_drink
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:dyed_table_cloths
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:invalid_for_track_paving
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:packages
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:postboxes
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:pressurized_air_sources
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:pulpifiable
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:sandpaper
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:seats
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:sleepers
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:stone_types/andesite
+[27Aug2025 01:43:43.850] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:stone_types/asurine
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:stone_types/calcite
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:stone_types/crimsite
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:stone_types/deepslate
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:stone_types/diorite
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:stone_types/dripstone
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:stone_types/granite
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:stone_types/limestone
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:stone_types/ochrum
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:stone_types/scorchia
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:stone_types/scoria
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:stone_types/tuff
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:stone_types/veridium
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:table_cloths
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:toolboxes
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:tracks
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:upright_on_belt
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:valve_handles
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #createaddition:plant_food
+[27Aug2025 01:43:43.851] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #curios:head
+[27Aug2025 01:43:43.851] [Thread-17/INFO] [EMI/]: [EMI]  Tag warning can be disabled in the config, EMI docs describe how to add a translation or exclude tags.
+[27Aug2025 01:43:43.866] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:chocolates
+[27Aug2025 01:43:43.866] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:teas
+[27Aug2025 01:43:43.866] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:bottomless/allow
+[27Aug2025 01:43:43.866] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:fan_processing_catalysts/blasting
+[27Aug2025 01:43:43.866] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #create:fan_processing_catalysts/splashing
+[27Aug2025 01:43:43.866] [Thread-17/INFO] [EMI/]: [EMI]  Tag warning can be disabled in the config, EMI docs describe how to add a translation or exclude tags.
+[27Aug2025 01:43:43.866] [Thread-17/INFO] [EMI/]: [EMI] Constructing index
+[27Aug2025 01:43:43.870] [Thread-17/INFO] [EMI/]: [EMI] Reloading item groups on client thread...
+[27Aug2025 01:43:43.897] [Thread-17/INFO] [EMI/]: [EMI] Reloading item groups on client thread took 28ms
+[27Aug2025 01:43:43.912] [Thread-17/INFO] [EMI/]: [EMI] Loading plugin from emi
+[27Aug2025 01:43:44.048] [Thread-17/INFO] [EMI/]: [EMI] Reloaded plugin from emi in 136ms
+[27Aug2025 01:43:44.048] [Thread-17/INFO] [EMI/]: [EMI] Loading plugin from emi_loot
+[27Aug2025 01:43:44.049] [ForkJoinPool.commonPool-worker-7/INFO] [emi_loot/]: Built 59 chest loot recipes in 0ms
+[27Aug2025 01:43:44.053] [ForkJoinPool.commonPool-worker-10/INFO] [emi_loot/]: Built 6 archaeology loot recipes in 0ms
+[27Aug2025 01:43:44.053] [ForkJoinPool.commonPool-worker-2/INFO] [emi_loot/]: Built 20 gameplay loot recipes in 2ms
+[27Aug2025 01:43:44.054] [Thread-17/INFO] [emi_loot/]: Registered gameplay loot recipes after 1ms
+[27Aug2025 01:43:44.054] [ForkJoinPool.commonPool-worker-11/INFO] [emi_loot/]: Built 1619 block loot recipes in 4ms
+[27Aug2025 01:43:44.054] [Thread-17/INFO] [emi_loot/]: Registered archaeology loot recipes after 1ms
+[27Aug2025 01:43:44.054] [ForkJoinPool.commonPool-worker-7/INFO] [emi_loot/]: Built 78 mob loot recipes in 3ms
+[27Aug2025 01:43:44.054] [Thread-17/INFO] [emi_loot/]: Registered mob loot recipes after 2ms
+[27Aug2025 01:43:44.054] [Thread-17/INFO] [emi_loot/]: Registered chest loot recipes after 2ms
+[27Aug2025 01:43:44.054] [Thread-17/INFO] [emi_loot/]: Registered all loot recipes after 2ms
+[27Aug2025 01:43:44.054] [Thread-17/INFO] [EMI/]: [EMI] Reloaded plugin from emi_loot in 6ms
+[27Aug2025 01:43:44.054] [Thread-17/INFO] [EMI/]: [EMI] Loading plugin from jemi
+[27Aug2025 01:43:44.055] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Waiting for JEI to finish reloading...
+[27Aug2025 01:43:44.055] [Thread-17/INFO] [EMI/]: [EMI] Waiting for JEI to finish...
+[27Aug2025 01:43:44.055] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] JEI reloaded!
+[27Aug2025 01:43:44.057] [Thread-17/INFO] [EMI/]: [EMI] Loading information from JEI...
+[27Aug2025 01:43:44.059] [Thread-17/INFO] [EMI/]: [EMI] Processing JEI stacks...
+[27Aug2025 01:43:44.060] [Thread-17/INFO] [EMI/]: [EMI] Processing JEI subtypes...
+[27Aug2025 01:43:44.061] [Thread-17/INFO] [EMI/]: [EMI] Processing JEI recipes...
+[27Aug2025 01:43:44.062] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Crafting
+[27Aug2025 01:43:44.062] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Crafting
+[27Aug2025 01:43:44.071] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Anvil
+[27Aug2025 01:43:44.071] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Anvil
+[27Aug2025 01:43:44.071] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Blasting
+[27Aug2025 01:43:44.071] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Blasting
+[27Aug2025 01:43:44.071] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Brewing
+[27Aug2025 01:43:44.071] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Brewing
+[27Aug2025 01:43:44.071] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Campfire Cooking
+[27Aug2025 01:43:44.071] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Campfire Cooking
+[27Aug2025 01:43:44.071] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Composting
+[27Aug2025 01:43:44.071] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Composting
+[27Aug2025 01:43:44.071] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Fuel
+[27Aug2025 01:43:44.071] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Fuel
+[27Aug2025 01:43:44.071] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Grindstone
+[27Aug2025 01:43:44.071] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Grindstone
+[27Aug2025 01:43:44.073] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Smelting
+[27Aug2025 01:43:44.073] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Smelting
+[27Aug2025 01:43:44.073] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Smithing Table
+[27Aug2025 01:43:44.073] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Smithing Table
+[27Aug2025 01:43:44.073] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Smoking
+[27Aug2025 01:43:44.073] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Smoking
+[27Aug2025 01:43:44.073] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Stonecutting
+[27Aug2025 01:43:44.073] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Stonecutting
+[27Aug2025 01:43:44.073] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Block Tags
+[27Aug2025 01:43:44.073] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Block Tags
+[27Aug2025 01:43:44.106] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Fluid Tags
+[27Aug2025 01:43:44.106] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Fluid Tags
+[27Aug2025 01:43:44.107] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Item Tags
+[27Aug2025 01:43:44.107] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Item Tags
+[27Aug2025 01:43:44.122] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Information
+[27Aug2025 01:43:44.122] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Information
+[27Aug2025 01:43:44.500] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Automated Brewing
+[27Aug2025 01:43:44.501] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Automated Brewing
+[27Aug2025 01:43:44.531] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Automated Packing
+[27Aug2025 01:43:44.531] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Automated Packing
+[27Aug2025 01:43:44.532] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Automated Shaped Crafting
+[27Aug2025 01:43:44.532] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Automated Shaped Crafting
+[27Aug2025 01:43:44.545] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Automated Shapeless Crafting
+[27Aug2025 01:43:44.545] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Automated Shapeless Crafting
+[27Aug2025 01:43:44.550] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Block Cutting
+[27Aug2025 01:43:44.550] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Block Cutting
+[27Aug2025 01:43:44.553] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Crushing
+[27Aug2025 01:43:44.553] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Crushing
+[27Aug2025 01:43:44.554] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Deploying
+[27Aug2025 01:43:44.554] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Deploying
+[27Aug2025 01:43:44.555] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Item Draining
+[27Aug2025 01:43:44.555] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Item Draining
+[27Aug2025 01:43:44.556] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Bulk Blasting
+[27Aug2025 01:43:44.556] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Bulk Blasting
+[27Aug2025 01:43:44.556] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Bulk Haunting
+[27Aug2025 01:43:44.556] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Bulk Haunting
+[27Aug2025 01:43:44.556] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Bulk Smoking
+[27Aug2025 01:43:44.556] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Bulk Smoking
+[27Aug2025 01:43:44.556] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Bulk Washing
+[27Aug2025 01:43:44.556] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Bulk Washing
+[27Aug2025 01:43:44.556] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Manual Item Application
+[27Aug2025 01:43:44.556] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Manual Item Application
+[27Aug2025 01:43:44.558] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Mechanical Crafting
+[27Aug2025 01:43:44.558] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Mechanical Crafting
+[27Aug2025 01:43:44.558] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Milling
+[27Aug2025 01:43:44.558] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Milling
+[27Aug2025 01:43:44.558] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Mixing
+[27Aug2025 01:43:44.558] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Mixing
+[27Aug2025 01:43:44.559] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Mysterious Conversion
+[27Aug2025 01:43:44.559] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Mysterious Conversion
+[27Aug2025 01:43:44.559] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Compacting
+[27Aug2025 01:43:44.559] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Compacting
+[27Aug2025 01:43:44.559] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Pressing
+[27Aug2025 01:43:44.559] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Pressing
+[27Aug2025 01:43:44.559] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Sandpaper Polishing
+[27Aug2025 01:43:44.559] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Sandpaper Polishing
+[27Aug2025 01:43:44.559] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Sawing
+[27Aug2025 01:43:44.559] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Sawing
+[27Aug2025 01:43:44.560] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Recipe Sequence
+[27Aug2025 01:43:44.560] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Recipe Sequence
+[27Aug2025 01:43:44.560] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Filling by Spout
+[27Aug2025 01:43:44.560] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Filling by Spout
+[27Aug2025 01:43:44.561] [Thread-17/INFO] [EMI/]: [EMI] Reloaded plugin from jemi in 506ms
+[27Aug2025 01:43:44.561] [Thread-17/INFO] [EMI/]: [EMI] Baking index
+[27Aug2025 01:43:44.590] [Thread-17/INFO] [EMI/]: [EMI] Registering late recipes
+[27Aug2025 01:43:44.590] [Thread-17/INFO] [EMI/]: [EMI] Baking recipes
+[27Aug2025 01:43:44.663] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/light_blue
+[27Aug2025 01:43:44.663] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/large_fern
+[27Aug2025 01:43:44.663] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/soul_fire_base_blocks
+[27Aug2025 01:43:44.663] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fences
+[27Aug2025 01:43:44.663] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/magenta
+[27Aug2025 01:43:44.663] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/deepslate_tiles
+[27Aug2025 01:43:44.663] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/slime
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/valve_handles
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/prismarine
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/granite
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/rose_bush
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/cut_sandstone
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/waxed_cut_copper
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/gray
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/wheat
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/gold
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores_in_ground/stone
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/bone_meal
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/raw_zinc
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/quartz
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/snow_block
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_buttons
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glazed_terracottas
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_pressure_plates
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/spruce_logs
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/waxed_weathered_cut_copper
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dried_kelp_block
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/oak_logs
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_trapdoors
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/fan_processing_catalysts/blasting
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dark_oak_wood
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/waxed_exposed_cut_copper
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/gold
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/copper_ingot
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/copper
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/experience_block
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/beds
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/bone
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/white
+[27Aug2025 01:43:44.664] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/stripped_woods
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/netherite_scrap
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/uncolored_slabs
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/candles
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/gold_ores
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/table_cloths
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/buttons
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/mangrove_wood
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/bamboo_blocks
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/iron
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/raw_copper
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/light_gray
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/wither_rose
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stairs
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_bearing_ground/netherrack
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/cornflower
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/terracotta
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/logs_that_burn
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_andesite
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/blue_orchid
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/jungle_logs
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/sandstone
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/birch_wood
+[27Aug2025 01:43:44.665] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_cherry_wood
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/raw_gold
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores_in_ground/netherrack
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/emerald
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/mossy
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests/wooden
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/coal_ores
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_crimson_hyphae
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/diamond_ores
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sands
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/poppy
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/iron
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/barrels
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/tracks
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/calcite
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins/jack_o_lanterns
+[27Aug2025 01:43:44.667] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/emerald_block
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_dark_oak_wood
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/slime_block
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/orange
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/fern
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/ink_sac
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/short_grass
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dripstone_block
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/postboxes
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/gravels
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/pink
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/brass_block_from_compacting
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/toolboxes
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/acacia_logs
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/lily_of_the_valley
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_panes
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/saddle
+[27Aug2025 01:43:44.668] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/peony
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/oxidized_cut_copper
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/sugar_cane
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/coal
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/yellow
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/jungle_wood
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/gold_ingot_from_nuggets
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/gold_block
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/barrels/wooden
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/cherry_logs
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/stones
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/iron_ingot_from_nuggets
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/zinc
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/warped_stems
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_diorite
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/andesite_alloy
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chains
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/coal
+[27Aug2025 01:43:44.669] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks/cheap
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_oak_wood
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/warped_hyphae
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/leather
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/glowstone
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/beetroot
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/zinc_ingot_from_compacting
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/stairs
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/tall_grass
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/clay
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/magma_block
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_mangrove_wood
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sands/red
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/saplings
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/copper
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/cherry_wood
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/weathered_cut_copper
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fences/wooden
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/cardboard
+[27Aug2025 01:43:44.670] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/lapis
+[27Aug2025 01:43:44.671] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/white_wool_from_string
+[27Aug2025 01:43:44.671] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/raw_copper_block
+[27Aug2025 01:43:44.671] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/clusters
+[27Aug2025 01:43:44.671] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/obsidians/crying
+[27Aug2025 01:43:44.671] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/red_tulip
+[27Aug2025 01:43:44.671] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_spruce_wood
+[27Aug2025 01:43:44.671] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/budding_blocks
+[27Aug2025 01:43:44.671] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/uncolored_stairs
+[27Aug2025 01:43:44.671] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fence_gates/wooden
+[27Aug2025 01:43:44.671] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/raw_zinc_block
+[27Aug2025 01:43:44.671] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/lapis_lazuli
+[27Aug2025 01:43:44.671] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_rates/singular
+[27Aug2025 01:43:44.671] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/andesite
+[27Aug2025 01:43:44.671] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/dried_kelp
+[27Aug2025 01:43:44.671] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/black
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/acacia_wood
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/honey_block
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/netherite_block
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/crimson_hyphae
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_rates/sparse
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/cut_copper
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/seats
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/iron_block
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/charcoal
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/clay
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/iron_trapdoor
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sands/colorless
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/mangrove_logs
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/slabs
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/oxeye_daisy
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests/ender
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/purple
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/slabs
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/banners
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/bone_block
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/oak_wood
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/cyan
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stone_buttons
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/potions
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins/normal
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/smelts_to_glass
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/deepslate_bricks
+[27Aug2025 01:43:44.672] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/nether_bricks
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/trapdoors
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/tuff_bricks
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 3 recipes loaded with the same id: jei:/minecraft/anvil
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/sandstone
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_stairs
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_blackstone
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 4 recipes loaded with the same id: jei:/minecraft/stone_bricks
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/red_slabs
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/crafting_table
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/planks
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/leaves
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/allium
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_birch_wood
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/doors
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/green
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 8 recipes loaded with the same id: emi_loot:/block_drops/minecraft/blocks/empty
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/copper_ores
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/redstone
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/lapis
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/spruce_wood
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dark_oak_logs
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/sand
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/wheat
+[27Aug2025 01:43:44.673] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/emerald_ores
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/orange_tulip
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/raw_gold_block
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/cut_red_sandstone
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/concretes
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/coal_block
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks/tinted
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wart_blocks
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/infested
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_panes/colorless
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/red_stairs
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/pink_tulip
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/player_workstations/furnaces
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/deepslate
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_bearing_ground/stone
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/blocks
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/birch_logs
+[27Aug2025 01:43:44.675] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_blackstone_bricks
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/tall_flowers
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_acacia_wood
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/amethyst_block
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/uncolored_blocks
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/end_stones
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/brown
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/brass
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wool
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/cactus
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/zinc
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dirt
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins/carved
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fence_gates
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/signs
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/brass_ingot_from_compacting
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/flowers
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/coal
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests/trapped
+[27Aug2025 01:43:44.676] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/lapis_block
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/mud_bricks
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/completes_find_tree_tutorial
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/snow
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/villager_job_sites
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/white_tulip
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/fences
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/cobblestone
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/raw_iron
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_warped_hyphae
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_deepslate
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/bookshelves
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/waxed_oxidized_cut_copper
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores_in_ground/deepslate
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/exposed_cut_copper
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/diamond
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/redstone_ores
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/redstone
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_rates/dense
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_doors
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/lapis_ores
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/netherite
+[27Aug2025 01:43:44.677] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/andesite_alloy_block
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/cocoa_beans
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/dripstone_block
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_jungle_wood
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/casing
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/honeycomb_block
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/quartz_bricks
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/rails
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/player_workstations/crafting_tables
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/diamond
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/red_blocks
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/netherracks
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fences/nether_brick
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/obsidians/normal
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/normal
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/copper_block
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/fence_gates
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/blue
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/raw_iron_block
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_slabs
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/small_flowers
+[27Aug2025 01:43:44.678] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/emerald
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/azure_bluet
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dampens_vibrations
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/red_sandstone
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_bearing_ground/deepslate
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wool_carpets
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/sunflower
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/piglin_repellents
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/crimson_stems
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/redstone_block
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/lilac
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/zinc_block_from_compacting
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/buds
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/end_stone_bricks
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 3 recipes loaded with the same id: jei:/minecraft/terracotta
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/purpur_block
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/dandelion
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_granite
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/iron_ores
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/obsidians
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_fences
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/bricks
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/stripped_logs
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/red
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/quartz_block
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/logs
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks/colorless
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/bone_meal
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_tuff
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/diamond_block
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/walls
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/lime
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_basalt
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/sea_pickle
+[27Aug2025 01:43:44.679] [Thread-17/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/cardboard_block
+[27Aug2025 01:43:44.696] [Thread-17/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/white not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.696] [Thread-17/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/orange not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.696] [Thread-17/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/magenta not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.696] [Thread-17/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/light_blue not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.696] [Thread-17/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/yellow not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.696] [Thread-17/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/lime not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.696] [Thread-17/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/pink not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.696] [Thread-17/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/gray not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.696] [Thread-17/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/light_gray not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.696] [Thread-17/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/cyan not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.696] [Thread-17/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/purple not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.696] [Thread-17/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/blue not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.696] [Thread-17/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/green not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.696] [Thread-17/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/red not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.697] [Thread-17/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/black not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.786] [Thread-17/INFO] [EMI/]: [EMI] Baked 11285 recipes in 195ms
+[27Aug2025 01:43:44.793] [Thread-17/INFO] [EMI/]: [EMI] Baking search
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/light_blue
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/large_fern
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/soul_fire_base_blocks
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fences
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/magenta
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/deepslate_tiles
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/slime
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/valve_handles
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/prismarine
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/granite
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/rose_bush
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/cut_sandstone
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/waxed_cut_copper
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/gray
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/wheat
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/gold
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores_in_ground/stone
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/bone_meal
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/raw_zinc
+[27Aug2025 01:43:44.800] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/quartz
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/snow_block
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_buttons
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glazed_terracottas
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_pressure_plates
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/spruce_logs
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/waxed_weathered_cut_copper
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dried_kelp_block
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/oak_logs
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_trapdoors
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/fan_processing_catalysts/blasting
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dark_oak_wood
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/waxed_exposed_cut_copper
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/gold
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/copper_ingot
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/copper
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/experience_block
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/beds
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/bone
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/white
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/stripped_woods
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/netherite_scrap
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/uncolored_slabs
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/candles
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/gold_ores
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/table_cloths
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/buttons
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/mangrove_wood
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/bamboo_blocks
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/iron
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/raw_copper
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/light_gray
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/wither_rose
+[27Aug2025 01:43:44.801] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stairs
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_bearing_ground/netherrack
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/cornflower
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/terracotta
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/logs_that_burn
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_andesite
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/blue_orchid
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/jungle_logs
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/sandstone
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/birch_wood
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_cherry_wood
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/raw_gold
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores_in_ground/netherrack
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/emerald
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/mossy
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests/wooden
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/coal_ores
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_crimson_hyphae
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/diamond_ores
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sands
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/poppy
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/iron
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/barrels
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/tracks
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/calcite
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins/jack_o_lanterns
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/emerald_block
+[27Aug2025 01:43:44.802] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_dark_oak_wood
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/slime_block
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/orange
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/fern
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/ink_sac
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/short_grass
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dripstone_block
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/postboxes
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/gravels
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/pink
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/brass_block_from_compacting
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/toolboxes
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/acacia_logs
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/lily_of_the_valley
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_panes
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/saddle
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/peony
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/oxidized_cut_copper
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/sugar_cane
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/coal
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/yellow
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/jungle_wood
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/gold_ingot_from_nuggets
+[27Aug2025 01:43:44.803] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/gold_block
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/barrels/wooden
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/cherry_logs
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/stones
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/iron_ingot_from_nuggets
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/zinc
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/warped_stems
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_diorite
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/andesite_alloy
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chains
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/coal
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks/cheap
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_oak_wood
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/warped_hyphae
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/leather
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/glowstone
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/beetroot
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/zinc_ingot_from_compacting
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/stairs
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/tall_grass
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/clay
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/magma_block
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_mangrove_wood
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sands/red
+[27Aug2025 01:43:44.804] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/saplings
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/copper
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/cherry_wood
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/weathered_cut_copper
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fences/wooden
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/cardboard
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/lapis
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/white_wool_from_string
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/raw_copper_block
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/clusters
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/obsidians/crying
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/red_tulip
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_spruce_wood
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/budding_blocks
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/uncolored_stairs
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fence_gates/wooden
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/raw_zinc_block
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/lapis_lazuli
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_rates/singular
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/andesite
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/dried_kelp
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/black
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/acacia_wood
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/honey_block
+[27Aug2025 01:43:44.805] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/netherite_block
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/crimson_hyphae
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_rates/sparse
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/cut_copper
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/seats
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/iron_block
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/charcoal
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/clay
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/iron_trapdoor
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sands/colorless
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/mangrove_logs
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/slabs
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/oxeye_daisy
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests/ender
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/purple
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/slabs
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/banners
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/bone_block
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/oak_wood
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/cyan
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stone_buttons
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/potions
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins/normal
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/smelts_to_glass
+[27Aug2025 01:43:44.806] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/deepslate_bricks
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/nether_bricks
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/trapdoors
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/tuff_bricks
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 3 recipes loaded with the same id: jei:/minecraft/anvil
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/sandstone
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_stairs
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_blackstone
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 4 recipes loaded with the same id: jei:/minecraft/stone_bricks
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/red_slabs
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/crafting_table
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/planks
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/leaves
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/allium
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_birch_wood
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/doors
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/green
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 8 recipes loaded with the same id: emi_loot:/block_drops/minecraft/blocks/empty
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/copper_ores
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/redstone
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/lapis
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/spruce_wood
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dark_oak_logs
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/sand
+[27Aug2025 01:43:44.807] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/wheat
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/emerald_ores
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/orange_tulip
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/raw_gold_block
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/cut_red_sandstone
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/concretes
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/coal_block
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks/tinted
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wart_blocks
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/infested
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_panes/colorless
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/red_stairs
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/pink_tulip
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/player_workstations/furnaces
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/deepslate
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_bearing_ground/stone
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/blocks
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/birch_logs
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_blackstone_bricks
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/tall_flowers
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_acacia_wood
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/amethyst_block
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/uncolored_blocks
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/end_stones
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/brown
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/brass
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wool
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/cactus
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/zinc
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dirt
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/pumpkins/carved
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fence_gates
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/signs
+[27Aug2025 01:43:44.808] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/brass_ingot_from_compacting
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/flowers
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/coal
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/chests/trapped
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/lapis_block
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/mud_bricks
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/completes_find_tree_tutorial
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/snow
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/villager_job_sites
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/white_tulip
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/fences
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/cobblestone
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/raw_iron
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_warped_hyphae
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_deepslate
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/bookshelves
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/waxed_oxidized_cut_copper
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores_in_ground/deepslate
+[27Aug2025 01:43:44.809] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/exposed_cut_copper
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/diamond
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/redstone_ores
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/redstone
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_rates/dense
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_doors
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/lapis_ores
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/netherite
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/andesite_alloy_block
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/cocoa_beans
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/dripstone_block
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/stripped_jungle_wood
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/casing
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/honeycomb_block
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/quartz_bricks
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/rails
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/player_workstations/crafting_tables
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks/diamond
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/sandstone/red_blocks
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/netherracks
+[27Aug2025 01:43:44.810] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/fences/nether_brick
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/obsidians/normal
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/cobblestones/normal
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/copper_block
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/fence_gates
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/blue
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/raw_iron_block
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_slabs
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/small_flowers
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ores/emerald
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/azure_bluet
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/dampens_vibrations
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/red_sandstone
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/ore_bearing_ground/deepslate
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wool_carpets
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/storage_blocks
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/sunflower
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/piglin_repellents
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/crimson_stems
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/redstone_block
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/lilac
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/zinc_block_from_compacting
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/buds
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/end_stone_bricks
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 3 recipes loaded with the same id: jei:/minecraft/terracotta
+[27Aug2025 01:43:44.811] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/purpur_block
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/dandelion
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_granite
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/iron_ores
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/obsidians
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/wooden_fences
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/bricks
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/stripped_logs
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/red
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/quartz_block
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/logs
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/glass_blocks/colorless
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/bone_meal
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_tuff
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/diamond_block
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/walls
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/c/dyed/lime
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/minecraft/polished_basalt
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/milling/sea_pickle
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] 2 recipes loaded with the same id: jei:/create/crafting/materials/cardboard_block
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/white not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/orange not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/magenta not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/light_blue not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/yellow not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.812] [Thread-18/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/lime not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.813] [Thread-18/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/pink not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.813] [Thread-18/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/gray not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.813] [Thread-18/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/light_gray not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.813] [Thread-18/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/cyan not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.813] [Thread-18/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/purple not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.813] [Thread-18/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/blue not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.813] [Thread-18/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/green not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.813] [Thread-18/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/red not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.813] [Thread-18/ERROR] [EMI/]: [EMI] Recipe create:create.toolbox.color/black not present in recipe manager. Consider prefixing its path with '/' if it is synthetic.
+[27Aug2025 01:43:44.886] [Thread-18/INFO] [EMI/]: [EMI] Baked recipes after reload in 101ms
+[27Aug2025 01:43:45.079] [Thread-17/INFO] [EMI/]: [EMI] Finishing up
+[27Aug2025 01:43:45.094] [Thread-17/INFO] [EMI/]: [EMI] Reloaded EMI in 1276ms
+[27Aug2025 01:44:33.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 1000]
+[27Aug2025 01:44:33.581] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
+[27Aug2025 01:46:32.526] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[27Aug2025 01:46:32.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[27Aug2025 01:46:32.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[27Aug2025 01:46:32.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[27Aug2025 01:46:33.028] [Render thread/INFO] [EMI/]: [EMI] Disconnecting from server, EMI data cleared
+[27Aug2025 01:46:33.029] [Thread-26/INFO] [EMI/]: [EMI] Clearing data
+[27Aug2025 01:46:33.030] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[27Aug2025 01:46:33.031] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[27Aug2025 01:46:33.033] [Render thread/INFO] [mezz.jei.neoforge.plugins.neoforge.NeoForgeGuiPlugin/]: Stopping JEI GUI
+[27Aug2025 01:46:33.034] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 1.840 milliseconds
+[27Aug2025 01:46:33.130] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[27Aug2025 01:46:33.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[27Aug2025 01:46:33.142] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[27Aug2025 01:46:33.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[27Aug2025 01:46:33.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[27Aug2025 01:46:33.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[27Aug2025 01:46:33.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[27Aug2025 01:46:33.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[27Aug2025 01:46:33.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[27Aug2025 01:46:33.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[27Aug2025 01:46:33.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[27Aug2025 01:46:33.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[27Aug2025 01:46:33.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[27Aug2025 01:46:34.716] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
