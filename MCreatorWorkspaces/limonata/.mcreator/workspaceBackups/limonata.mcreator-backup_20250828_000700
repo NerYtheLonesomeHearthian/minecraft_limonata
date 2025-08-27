@@ -2024,9 +2024,7 @@
     "ITEMS:c:drinks": [
       "CUSTOM:Limonataglass"
     ],
-    "ITEMS:create:upright_on_belt": [
-      "CUSTOM:Glass"
-    ],
+    "ITEMS:create:upright_on_belt": [],
     "ITEMS:c:foods/fruit": [
       "CUSTOM:Lemon",
       "CUSTOM:Cutlemon",

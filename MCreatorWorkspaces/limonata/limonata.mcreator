@@ -124,8 +124,8 @@
       "registry_name": "lemon_seeds",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/models/item/lemon_seeds.json",
-          "src/main/java/limonata/item/LemonseedsItem.java"
+          "src/main/java/limonata/item/LemonseedsItem.java",
+          "src/main/resources/assets/limonata/models/item/lemon_seeds.json"
         ]
       },
       "path": "~/lemonCrop"
@@ -629,10 +629,10 @@
       "registry_name": "lemon_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/blockstates/lemon_leaves.json",
+          "src/main/resources/assets/limonata/models/block/lemon_leaves.json",
           "src/main/java/limonata/block/LemonLeavesBlock.java",
           "src/main/resources/assets/limonata/models/item/lemon_leaves.json",
-          "src/main/resources/assets/limonata/models/block/lemon_leaves.json"
+          "src/main/resources/assets/limonata/blockstates/lemon_leaves.json"
         ]
       },
       "path": "~/lemonCrop"
@@ -810,8 +810,8 @@
       "registry_name": "ice_cubes",
       "metadata": {
         "files": [
-          "src/main/java/limonata/item/IceCubesItem.java",
-          "src/main/resources/assets/limonata/models/item/ice_cubes.json"
+          "src/main/resources/assets/limonata/models/item/ice_cubes.json",
+          "src/main/java/limonata/item/IceCubesItem.java"
         ]
       },
       "path": "~/other_items"
@@ -868,12 +868,12 @@
       "registry_name": "lemonade_stand",
       "metadata": {
         "files": [
-          "src/main/java/limonata/block/LemonadeStandBlock.java",
-          "src/main/resources/assets/limonata/models/block/lemonade_stand.json",
-          "src/main/java/limonata/block/entity/LemonadeStandBlockEntity.java",
-          "src/main/resources/assets/limonata/models/item/lemonade_stand.json",
+          "src/main/resources/data/limonata/loot_table/blocks/lemonade_stand.json",
           "src/main/resources/assets/limonata/blockstates/lemonade_stand.json",
-          "src/main/resources/data/limonata/loot_table/blocks/lemonade_stand.json"
+          "src/main/resources/assets/limonata/models/block/lemonade_stand.json",
+          "src/main/resources/assets/limonata/models/item/lemonade_stand.json",
+          "src/main/java/limonata/block/LemonadeStandBlock.java",
+          "src/main/java/limonata/block/entity/LemonadeStandBlockEntity.java"
         ]
       },
       "path": "~/lemonadeStand"
@@ -1022,8 +1022,8 @@
       "registry_name": "draft_lemonade",
       "metadata": {
         "files": [
-          "src/main/java/limonata/item/DraftLemonadeItem.java",
-          "src/main/resources/assets/limonata/models/item/draft_lemonade.json"
+          "src/main/resources/assets/limonata/models/item/draft_lemonade.json",
+          "src/main/java/limonata/item/DraftLemonadeItem.java"
         ]
       },
       "path": "~/lemonadeStand"
@@ -1780,11 +1780,11 @@
       "registry_name": "lemon_crate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/blockstates/lemon_crate.json",
-          "src/main/resources/assets/limonata/models/block/lemon_crate.json",
           "src/main/java/limonata/block/LemonCrateBlock.java",
-          "src/main/resources/data/limonata/loot_table/blocks/lemon_crate.json",
-          "src/main/resources/assets/limonata/models/item/lemon_crate.json"
+          "src/main/resources/assets/limonata/models/item/lemon_crate.json",
+          "src/main/resources/assets/limonata/models/block/lemon_crate.json",
+          "src/main/resources/assets/limonata/blockstates/lemon_crate.json",
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crate.json"
         ]
       },
       "path": "~/lemons"
@@ -2039,21 +2039,15 @@
   },
   "tab_element_order": {
     "TOOLS": [
-      "MusicDiscLimonataChiamata",
-      "Glass"
+      "MusicDiscLimonataChiamata"
     ],
     "FOOD": [
       "Limonataglass",
       "Lemon",
       "Cutlemon",
-      "IceCubes",
       "GoldenLemon"
     ],
-    "DECORATIONS": [
-      "LemonLeaves",
-      "LemonLeavesLemon",
-      "Lemonseeds"
-    ],
+    "DECORATIONS": [],
     "CUSTOM:LimonataCreativeTab": [
       "MusicDiscLimonataChiamata",
       "LemonadeStand",
@@ -2062,11 +2056,11 @@
       "LemonCrate",
       "Lemon",
       "Cutlemon",
+      "GoldenLemon",
       "Lemonseeds",
       "LemonLeaves",
       "LemonLeavesLemon",
-      "IceCubes",
-      "GoldenLemon"
+      "IceCubes"
     ]
   },
   "language_map": {
@@ -2155,13 +2149,13 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/limonata/LimonataMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
-      "src/main/resources/assets/limonata/sounds.json",
+      "src/main/java/limonata/init/LimonataModSounds.java",
       "src/main/java/limonata/init/LimonataModTabs.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/limonata/init/LimonataModSounds.java",
+      "src/main/resources/assets/limonata/sounds.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/limonata/LimonataMod.java",
       "src/main/java/limonata/init/LimonataModScreens.java",
       "src/main/java/limonata/init/LimonataModMenus.java",
       "src/main/java/limonata/network/MenuStateUpdateMessage.java",

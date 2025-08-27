@@ -12,9 +12,6 @@
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "DECORATIONS"
-      },
-      {
         "value": "CUSTOM:LimonataCreativeTab"
       }
     ],

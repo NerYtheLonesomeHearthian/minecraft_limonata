@@ -29,31 +29,22 @@ public class LimonataModTabs {
 				tabData.accept(LimonataModBlocks.LEMON_CRATE.get().asItem());
 				tabData.accept(LimonataModItems.LEMON.get());
 				tabData.accept(LimonataModItems.CUT_LEMON.get());
+				tabData.accept(LimonataModItems.GOLDEN_LEMON.get());
 				tabData.accept(LimonataModItems.LEMON_SEEDS.get());
 				tabData.accept(LimonataModBlocks.LEMON_LEAVES.get().asItem());
 				tabData.accept(LimonataModBlocks.LEMON_LEAVES_LEMON.get().asItem());
 				tabData.accept(LimonataModItems.ICE_CUBES.get());
-				tabData.accept(LimonataModItems.GOLDEN_LEMON.get());
 			}).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
-			tabData.accept(LimonataModBlocks.LEMONADE_STAND.get().asItem());
-			tabData.accept(LimonataModBlocks.LEMON_CRATE.get().asItem());
-		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LimonataModItems.MUSIC_DISC_LIMONATA_CHIAMATA.get());
-			tabData.accept(LimonataModItems.GLASS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(LimonataModItems.GLASS_OF_LEMONADE.get());
 			tabData.accept(LimonataModItems.LEMON.get());
 			tabData.accept(LimonataModItems.CUT_LEMON.get());
-			tabData.accept(LimonataModItems.ICE_CUBES.get());
 			tabData.accept(LimonataModItems.GOLDEN_LEMON.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(LimonataModBlocks.LEMON_LEAVES.get().asItem());
-			tabData.accept(LimonataModBlocks.LEMON_LEAVES_LEMON.get().asItem());
-			tabData.accept(LimonataModItems.LEMON_SEEDS.get());
 		}
 	}
 }
