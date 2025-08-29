@@ -11,6 +11,11 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import limonata.item.TripleLemonadeItem;
+import limonata.item.QuintupleLemonadeItem;
+import limonata.item.QuadrupleLemonadeItem;
+import limonata.item.PowderLemonadeItem;
+import limonata.item.NetherBricksLemonadeItem;
 import limonata.item.MusicDiscLimonataChiamataItem;
 import limonata.item.LimonataglassItem;
 import limonata.item.LemonseedsItem;
@@ -21,7 +26,10 @@ import limonata.item.IceCubesItem;
 import limonata.item.GoldenLemonItem;
 import limonata.item.GlassItem;
 import limonata.item.DraftLemonadeItem;
+import limonata.item.DoubleLemonadeItem;
 import limonata.item.CutlemonItem;
+import limonata.item.CementLemonadeItem;
+import limonata.item.BricksLemonadeItem;
 
 import limonata.LimonataMod;
 
@@ -50,6 +58,14 @@ public class LimonataModItems {
 	public static final DeferredItem<Item> LEMONADE_STAND_ACHIEVEMENT_ITEM = REGISTRY.register("lemonade_stand_achievement_item", LemonadeStandAchievementItemItem::new);
 	public static final DeferredItem<Item> LEMON_CRATE = block(LimonataModBlocks.LEMON_CRATE);
 	public static final DeferredItem<Item> GOLDEN_LEMON = REGISTRY.register("golden_lemon", GoldenLemonItem::new);
+	public static final DeferredItem<Item> DOUBLE_LEMONADE = REGISTRY.register("double_lemonade", DoubleLemonadeItem::new);
+	public static final DeferredItem<Item> TRIPLE_LEMONADE = REGISTRY.register("triple_lemonade", TripleLemonadeItem::new);
+	public static final DeferredItem<Item> QUADRUPLE_LEMONADE = REGISTRY.register("quadruple_lemonade", QuadrupleLemonadeItem::new);
+	public static final DeferredItem<Item> QUINTUPLE_LEMONADE = REGISTRY.register("quintuple_lemonade", QuintupleLemonadeItem::new);
+	public static final DeferredItem<Item> CEMENT_LEMONADE = REGISTRY.register("cement_lemonade", CementLemonadeItem::new);
+	public static final DeferredItem<Item> NETHER_BRICKS_LEMONADE = REGISTRY.register("nether_bricks_lemonade", NetherBricksLemonadeItem::new);
+	public static final DeferredItem<Item> POWDER_LEMONADE = REGISTRY.register("powder_lemonade", PowderLemonadeItem::new);
+	public static final DeferredItem<Item> BRICKS_LEMONADE = REGISTRY.register("bricks_lemonade", BricksLemonadeItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

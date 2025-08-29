@@ -1,0 +1,73 @@
+{
+  "_fv": 79,
+  "_type": "item",
+  "definition": {
+    "renderType": 1,
+    "texture": "limonata_glass",
+    "customModelName": "triple_lemonade:default",
+    "guiTexture": "",
+    "customProperties": {},
+    "states": [],
+    "name": "Triple Lemonade",
+    "rarity": "UNCOMMON",
+    "creativeTabs": [
+      {
+        "value": "FOOD"
+      },
+      {
+        "value": "CUSTOM:LimonataCreativeTab"
+      }
+    ],
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 37,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [
+        "§9Saturation II §9(01:00)"
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "onFinishUsingItem": {
+      "name": "TripleLemonadeEffect"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "Arrow"
+    },
+    "projectileDisableAmmoCheck": false,
+    "isFood": true,
+    "nutritionalValue": 7,
+    "saturation": 1.1,
+    "eatResultItem": {
+      "value": "CUSTOM:Glass"
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0,
+    "providedBannerPatterns": []
+  }
+}

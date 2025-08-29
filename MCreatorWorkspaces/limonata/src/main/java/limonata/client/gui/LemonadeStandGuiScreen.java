@@ -167,6 +167,7 @@ public class LemonadeStandGuiScreen extends AbstractContainerScreen<LemonadeStan
 		if (LmnstandGUIbrewingProgress21Procedure.execute(world, x, y, z)) {
 			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_21.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
+		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/lemonadestandgui_addspecialingredientarrow.png"), this.leftPos + 96, this.topPos + 81, 0, 0, 43, 22, 43, 22);
 		RenderSystem.disableBlend();
 	}
 

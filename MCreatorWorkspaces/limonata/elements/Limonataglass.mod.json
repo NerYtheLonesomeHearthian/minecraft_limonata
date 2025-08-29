@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 1,
     "texture": "limonata_glass",
-    "customModelName": "limonata_glass:default",
+    "customModelName": "limonata_glass_thin:default",
     "guiTexture": "",
     "customProperties": {},
     "states": [],
@@ -33,18 +33,13 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": [
-        "§9Saturation §9(03:00)"
-      ]
+      "fixedValue": []
     },
     "glowCondition": {
       "fixedValue": false
     },
     "inventorySize": 9,
     "inventoryStackSize": 99,
-    "onFinishUsingItem": {
-      "name": "LimonataglassPlayerFinishesUsingItem"
-    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
@@ -54,7 +49,7 @@
     "projectileDisableAmmoCheck": false,
     "isFood": true,
     "nutritionalValue": 7,
-    "saturation": 1.4000000000000001,
+    "saturation": 0.7,
     "eatResultItem": {
       "value": "CUSTOM:Glass"
     },

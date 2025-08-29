@@ -675,6 +675,16 @@
           "y": 57,
           "locked": false
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadestandgui_addspecialingredientarrow.png",
+          "use1Xscale": false,
+          "x": 222,
+          "y": 94,
+          "locked": false
+        }
       }
     ],
     "gridSettings": {

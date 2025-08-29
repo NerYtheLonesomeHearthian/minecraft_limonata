@@ -1,5 +1,5 @@
 {
-  "parent": "limonata:custom/limonata_glass",
+  "parent": "limonata:custom/limonata_glass_thin",
   "textures": {
     "13": "limonata:block/limonata_glass",
     "missing": "limonata:block/limonata_glass",

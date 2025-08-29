@@ -34,6 +34,14 @@ public class LimonataModTabs {
 				tabData.accept(LimonataModBlocks.LEMON_LEAVES.get().asItem());
 				tabData.accept(LimonataModBlocks.LEMON_LEAVES_LEMON.get().asItem());
 				tabData.accept(LimonataModItems.ICE_CUBES.get());
+				tabData.accept(LimonataModItems.DOUBLE_LEMONADE.get());
+				tabData.accept(LimonataModItems.TRIPLE_LEMONADE.get());
+				tabData.accept(LimonataModItems.QUADRUPLE_LEMONADE.get());
+				tabData.accept(LimonataModItems.QUINTUPLE_LEMONADE.get());
+				tabData.accept(LimonataModItems.CEMENT_LEMONADE.get());
+				tabData.accept(LimonataModItems.NETHER_BRICKS_LEMONADE.get());
+				tabData.accept(LimonataModItems.POWDER_LEMONADE.get());
+				tabData.accept(LimonataModItems.BRICKS_LEMONADE.get());
 			}).build());
 
 	@SubscribeEvent
@@ -45,6 +53,14 @@ public class LimonataModTabs {
 			tabData.accept(LimonataModItems.LEMON.get());
 			tabData.accept(LimonataModItems.CUT_LEMON.get());
 			tabData.accept(LimonataModItems.GOLDEN_LEMON.get());
+			tabData.accept(LimonataModItems.DOUBLE_LEMONADE.get());
+			tabData.accept(LimonataModItems.TRIPLE_LEMONADE.get());
+			tabData.accept(LimonataModItems.QUADRUPLE_LEMONADE.get());
+			tabData.accept(LimonataModItems.QUINTUPLE_LEMONADE.get());
+			tabData.accept(LimonataModItems.CEMENT_LEMONADE.get());
+			tabData.accept(LimonataModItems.NETHER_BRICKS_LEMONADE.get());
+			tabData.accept(LimonataModItems.POWDER_LEMONADE.get());
+			tabData.accept(LimonataModItems.BRICKS_LEMONADE.get());
 		}
 	}
 }

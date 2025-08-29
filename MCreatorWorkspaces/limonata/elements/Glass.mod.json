@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 1,
     "texture": "limonata_glass",
-    "customModelName": "glass:default",
+    "customModelName": "glass_thin:default",
     "guiTexture": "",
     "customProperties": {},
     "states": [],
