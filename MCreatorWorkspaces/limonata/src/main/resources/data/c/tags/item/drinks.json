@@ -1,6 +1,14 @@
 {
   "replace": false,
   "values": [
-    "limonata:glass_of_lemonade"
+    "limonata:glass_of_lemonade",
+    "limonata:triple_lemonade",
+    "limonata:quintuple_lemonade",
+    "limonata:cement_lemonade",
+    "limonata:nether_bricks_lemonade",
+    "limonata:powder_lemonade",
+    "limonata:double_lemonade",
+    "limonata:quadruple_lemonade",
+    "limonata:bricks_lemonade"
   ]
 }

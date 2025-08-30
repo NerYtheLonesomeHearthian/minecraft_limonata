@@ -2091,6 +2091,39 @@
         ]
       },
       "path": "~/glasses_limonata"
+    },
+    {
+      "name": "BricksLemonade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricks_lemonade",
+      "metadata": {
+        "files": [
+          "src/main/java/limonata/item/BricksLemonadeItem.java",
+          "src/main/resources/assets/limonata/models/item/bricks_lemonade.json"
+        ]
+      },
+      "path": "~/glasses_limonata"
+    },
+    {
+      "name": "BricksLemonadeEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricks_lemonade_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/BricksLemonadeEffectProcedure.java"
+        ]
+      },
+      "path": "~/glasses_limonata"
     }
   ],
   "variable_elements": [],
@@ -2272,7 +2305,8 @@
       "QuintupleLemonade",
       "CementLemonade",
       "NetherBricksLemonade",
-      "PowderLemonade"
+      "PowderLemonade",
+      "BricksLemonade"
     ],
     "DECORATIONS": [],
     "CUSTOM:LimonataCreativeTab": [
@@ -2294,7 +2328,8 @@
       "QuintupleLemonade",
       "CementLemonade",
       "NetherBricksLemonade",
-      "PowderLemonade"
+      "PowderLemonade",
+      "BricksLemonade"
     ]
   },
   "language_map": {
@@ -2353,7 +2388,9 @@
       "item.limonata.nether_bricks_lemonade.description_1": "§9Slowness II §9(01:00)",
       "item.limonata.nether_bricks_lemonade.description_0": "§9Fire resistance §9(02:30)",
       "item.limonata.powder_lemonade": "Powder Lemonade",
-      "item.limonata.powder_lemonade.description_0": "§9Slow falling §9(00:30)"
+      "item.limonata.powder_lemonade.description_0": "§9Slow falling §9(00:30)",
+      "item.limonata.bricks_lemonade": "Bricks Lemonade",
+      "item.limonata.bricks_lemonade.description_0": "§9Resistance III §9(01:30)"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -2410,7 +2447,9 @@
       "item.limonata.nether_bricks_lemonade.description_1": "§9Slowness II §9(01:00)",
       "item.limonata.nether_bricks_lemonade.description_0": "...why?",
       "item.limonata.powder_lemonade": "Nether Bricks Lemonade",
-      "item.limonata.powder_lemonade.description_0": "§9Fire resistance §9(2:30)"
+      "item.limonata.powder_lemonade.description_0": "§9Fire resistance §9(2:30)",
+      "item.limonata.bricks_lemonade": "Powder Lemonade",
+      "item.limonata.bricks_lemonade.description_0": "§9Slow falling §9(00:30)"
     }
   },
   "metadata": {
@@ -2470,7 +2509,7 @@
   "workspaceSettings": {
     "modid": "limonata",
     "modName": "limonata",
-    "version": "1.3.3.2",
+    "version": "1.3.4",
     "author": "nery",
     "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",
     "license": "MIT License",
