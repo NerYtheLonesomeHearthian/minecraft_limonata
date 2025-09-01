@@ -42,6 +42,9 @@ public class LimonataModTabs {
 				tabData.accept(LimonataModItems.NETHER_BRICKS_LEMONADE.get());
 				tabData.accept(LimonataModItems.POWDER_LEMONADE.get());
 				tabData.accept(LimonataModItems.BRICKS_LEMONADE.get());
+				tabData.accept(LimonataModItems.GOLDEN_LEMONADE.get());
+				tabData.accept(LimonataModItems.ENCHANTED_GOLDEN_LEMON.get());
+				tabData.accept(LimonataModItems.ENCHANTED_GOLDEN_LEMONADE.get());
 			}).build());
 
 	@SubscribeEvent
@@ -61,6 +64,9 @@ public class LimonataModTabs {
 			tabData.accept(LimonataModItems.NETHER_BRICKS_LEMONADE.get());
 			tabData.accept(LimonataModItems.POWDER_LEMONADE.get());
 			tabData.accept(LimonataModItems.BRICKS_LEMONADE.get());
+			tabData.accept(LimonataModItems.GOLDEN_LEMONADE.get());
+			tabData.accept(LimonataModItems.ENCHANTED_GOLDEN_LEMON.get());
+			tabData.accept(LimonataModItems.ENCHANTED_GOLDEN_LEMONADE.get());
 		}
 	}
 }

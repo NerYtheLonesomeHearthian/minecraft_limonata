@@ -34,7 +34,7 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "§9Fire resistance §9(02:30)"
+        "§9Fire Resistance §9(02:30)"
       ]
     },
     "glowCondition": {
@@ -59,7 +59,7 @@
       "value": "CUSTOM:Glass"
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "drink",
     "isMusicDisc": false,
     "musicDiscMusic": {

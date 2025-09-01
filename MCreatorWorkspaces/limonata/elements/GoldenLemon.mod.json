@@ -33,7 +33,10 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§9Absorption I §9(02:00)",
+        "§9Regeneration II §9(00:05)"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

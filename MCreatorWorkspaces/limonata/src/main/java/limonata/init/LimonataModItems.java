@@ -23,8 +23,11 @@ import limonata.item.LemonadeStandAchievementItemItem;
 import limonata.item.LemonadeAchievementItemItem;
 import limonata.item.LemonItem;
 import limonata.item.IceCubesItem;
+import limonata.item.GoldenLemonadeItem;
 import limonata.item.GoldenLemonItem;
 import limonata.item.GlassItem;
+import limonata.item.EnchantedGoldenLemonadeItem;
+import limonata.item.EnchantedGoldenLemonItem;
 import limonata.item.DraftLemonadeItem;
 import limonata.item.DoubleLemonadeItem;
 import limonata.item.CutlemonItem;
@@ -66,6 +69,9 @@ public class LimonataModItems {
 	public static final DeferredItem<Item> NETHER_BRICKS_LEMONADE = REGISTRY.register("nether_bricks_lemonade", NetherBricksLemonadeItem::new);
 	public static final DeferredItem<Item> POWDER_LEMONADE = REGISTRY.register("powder_lemonade", PowderLemonadeItem::new);
 	public static final DeferredItem<Item> BRICKS_LEMONADE = REGISTRY.register("bricks_lemonade", BricksLemonadeItem::new);
+	public static final DeferredItem<Item> GOLDEN_LEMONADE = REGISTRY.register("golden_lemonade", GoldenLemonadeItem::new);
+	public static final DeferredItem<Item> ENCHANTED_GOLDEN_LEMON = REGISTRY.register("enchanted_golden_lemon", EnchantedGoldenLemonItem::new);
+	public static final DeferredItem<Item> ENCHANTED_GOLDEN_LEMONADE = REGISTRY.register("enchanted_golden_lemonade", EnchantedGoldenLemonadeItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

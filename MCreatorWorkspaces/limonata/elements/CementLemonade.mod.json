@@ -34,7 +34,7 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "...why?",
+        "I EAT CEMENT",
         "§9Slowness II §9(01:00)"
       ]
     },
@@ -60,7 +60,7 @@
       "value": "CUSTOM:Glass"
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "drink",
     "isMusicDisc": false,
     "musicDiscMusic": {

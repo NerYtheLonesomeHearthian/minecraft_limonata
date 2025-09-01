@@ -1,5 +1,3 @@
-/tp @s 293126 189 30308
-/locate biome minecraft:meadow
 /tp @s 293190 189 30180
 /locate biome minecraft:plains
 /tp @s 293286 215 30116
@@ -48,3 +46,5 @@
 /tick rate 60
 /tick rate 20
 /time set day
+/tick rate 20
+/effect clear Dev

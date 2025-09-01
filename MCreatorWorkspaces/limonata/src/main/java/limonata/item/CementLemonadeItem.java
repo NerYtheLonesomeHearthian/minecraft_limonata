@@ -22,7 +22,7 @@ import java.util.List;
 
 public class CementLemonadeItem extends Item {
 	public CementLemonadeItem() {
-		super(new Item.Properties().rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(7).saturationModifier(0.5f).build()));
+		super(new Item.Properties().rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(7).saturationModifier(0.5f).alwaysEdible().build()));
 	}
 
 	@Override
