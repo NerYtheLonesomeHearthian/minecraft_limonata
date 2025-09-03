@@ -2223,6 +2223,65 @@
         ]
       },
       "path": "~/glasses_limonata"
+    },
+    {
+      "name": "LemonadeFluidDrip",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonade_fluid_drip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/particles/lemonade_fluid_drip.json",
+          "src/main/java/limonata/client/particle/LemonadeFluidDripParticle.java"
+        ]
+      },
+      "path": "~/create_comp"
+    },
+    {
+      "name": "Lemonade",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/blockstates/lemonade.json",
+          "src/main/resources/assets/limonata/models/item/lemonade_bucket.json",
+          "src/main/java/limonata/fluid/types/LemonadeFluidType.java",
+          "src/main/java/limonata/item/LemonadeItem.java",
+          "src/main/java/limonata/fluid/LemonadeFluid.java",
+          "src/main/resources/assets/limonata/models/block/lemonade.json",
+          "src/main/java/limonata/block/LemonadeBlock.java"
+        ]
+      },
+      "path": "~/create_comp"
+    },
+    {
+      "name": "LemonadeCreateEmptying",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lemonade_create_emptying",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/lemonade_create_emptying.json"
+        ]
+      },
+      "path": "~/create_comp"
+    },
+    {
+      "name": "LemonadeCreateFillingGlass",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lemonade_create_filling_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/lemonade_create_filling_glass.json"
+        ]
+      },
+      "path": "~/create_comp"
     }
   ],
   "variable_elements": [],
@@ -2384,7 +2443,9 @@
       "CUSTOM:PowderLemonade",
       "CUSTOM:BricksLemonade"
     ],
-    "ITEMS:create:upright_on_belt": [],
+    "ITEMS:create:upright_on_belt": [
+      "CUSTOM:Lemonade.bucket"
+    ],
     "ITEMS:c:foods/fruit": [
       "CUSTOM:Lemon",
       "CUSTOM:Cutlemon",
@@ -2395,6 +2456,13 @@
     ],
     "ITEMS:minecraft:piglin_loved": [
       "CUSTOM:GoldenLemon"
+    ],
+    "ITEMS:c:buckets": [
+      "CUSTOM:Test.bucket",
+      "CUSTOM:Lemonade.bucket"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Lemonade"
     ]
   },
   "tab_element_order": {
@@ -2402,7 +2470,6 @@
       "MusicDiscLimonataChiamata"
     ],
     "FOOD": [
-      "Limonataglass",
       "Lemon",
       "Cutlemon",
       "GoldenLemon",
@@ -2416,14 +2483,14 @@
       "BricksLemonade",
       "GoldenLemonade",
       "EnchantedGoldenLemon",
-      "EnchantedGoldenLemonade"
+      "EnchantedGoldenLemonade",
+      "Limonataglass"
     ],
     "DECORATIONS": [],
     "CUSTOM:LimonataCreativeTab": [
       "MusicDiscLimonataChiamata",
       "LemonadeStand",
       "Glass",
-      "Limonataglass",
       "LemonCrate",
       "Lemon",
       "Cutlemon",
@@ -2442,7 +2509,9 @@
       "BricksLemonade",
       "GoldenLemonade",
       "EnchantedGoldenLemon",
-      "EnchantedGoldenLemonade"
+      "EnchantedGoldenLemonade",
+      "Limonataglass",
+      "Lemonade"
     ]
   },
   "language_map": {
@@ -2451,7 +2520,6 @@
       "item.limonata.glass": "Glass",
       "item.limonata.music_disc_limonata_chiamata": "Music Disc",
       "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata",
-      "item.limonata.glass_of_lemonade": "Glass of Lemonade",
       "item.limonata.lemon": "Lemon",
       "advancements.obtainlemon.descr": "Obtain a Lemon.",
       "advancements.obtainlemon.title": "Limonata",
@@ -2516,14 +2584,18 @@
       "item.limonata.enchanted_golden_lemonade.description_1": "§9Regeneration IV §9(00:40)",
       "item.limonata.enchanted_golden_lemonade": "Enchanted Golden Lemonade",
       "item.limonata.enchanted_golden_lemonade.description_3": "§9Resistance II §9(10:00)",
-      "item.limonata.enchanted_golden_lemonade.description_2": "§9Fire Resistance §9(15:00)"
+      "item.limonata.enchanted_golden_lemonade.description_2": "§9Fire Resistance §9(15:00)",
+      "item.limonata.glass_of_lemonade": "Glass of Lemonade",
+      "fluid_type.limonata.lemonade": "Lemonade",
+      "item.limonata.lemonade_bucket": "Lemonade Bucket",
+      "fluid.limonata.lemonade": "Lemonade",
+      "block.limonata.lemonade": "Lemonade"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
       "item.limonata.glass": "Bicchiere",
       "item.limonata.music_disc_limonata_chiamata": "Disco musicale",
       "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata",
-      "item.limonata.glass_of_lemonade": "Bicchiere di Limonata",
       "item.limonata.lemon": "Limone",
       "advancements.obtainlemon.descr": "Ottieni un limone.",
       "advancements.obtainlemon.title": "L\u0027inizio",
@@ -2588,7 +2660,12 @@
       "item.limonata.enchanted_golden_lemonade.description_1": "§9Regeneration IV §9(00:10)",
       "item.limonata.enchanted_golden_lemonade": "Golden Lemonade",
       "item.limonata.enchanted_golden_lemonade.description_3": "§9Resistance II §9(10:00)",
-      "item.limonata.enchanted_golden_lemonade.description_2": "§9Fire Resistance §9(15:00)"
+      "item.limonata.enchanted_golden_lemonade.description_2": "§9Fire Resistance §9(15:00)",
+      "item.limonata.glass_of_lemonade": "Glass of Lemonade",
+      "fluid_type.limonata.lemonade": "Lemonade",
+      "item.limonata.lemonade_bucket": "Lemonade Bucket",
+      "fluid.limonata.lemonade": "Lemonade",
+      "block.limonata.lemonade": "Lemonade"
     }
   },
   "metadata": {
@@ -2600,9 +2677,13 @@
       "src/main/resources/assets/limonata/sounds.json",
       "src/main/resources/pack.mcmeta",
       "src/main/java/limonata/LimonataMod.java",
+      "src/main/java/limonata/init/LimonataModFluids.java",
+      "src/main/java/limonata/init/LimonataModFluidTypes.java",
       "src/main/java/limonata/init/LimonataModScreens.java",
       "src/main/java/limonata/init/LimonataModMenus.java",
       "src/main/java/limonata/network/MenuStateUpdateMessage.java",
+      "src/main/java/limonata/init/LimonataModParticles.java",
+      "src/main/java/limonata/init/LimonataModParticleTypes.java",
       "src/main/java/limonata/init/LimonataModBlocks.java",
       "src/main/java/limonata/init/LimonataModBlockEntities.java",
       "src/main/java/limonata/init/LimonataModItems.java"
@@ -2642,13 +2723,17 @@
       {
         "name": "organization",
         "children": []
+      },
+      {
+        "name": "create_comp",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "limonata",
     "modName": "limonata",
-    "version": "1.3.4",
+    "version": "1.4",
     "author": "nery",
     "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",
     "license": "MIT License",

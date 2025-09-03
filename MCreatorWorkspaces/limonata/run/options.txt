@@ -1,5 +1,5 @@
 version:3955
-ao:false
+ao:true
 biomeBlendRadius:2
 enableVsync:false
 entityDistanceScaling:1.0

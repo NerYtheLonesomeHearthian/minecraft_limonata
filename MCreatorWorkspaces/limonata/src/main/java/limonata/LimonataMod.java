@@ -20,8 +20,11 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import limonata.init.LimonataModTabs;
 import limonata.init.LimonataModSounds;
+import limonata.init.LimonataModParticleTypes;
 import limonata.init.LimonataModMenus;
 import limonata.init.LimonataModItems;
+import limonata.init.LimonataModFluids;
+import limonata.init.LimonataModFluidTypes;
 import limonata.init.LimonataModBlocks;
 import limonata.init.LimonataModBlockEntities;
 
@@ -50,6 +53,10 @@ public class LimonataMod {
 		LimonataModTabs.REGISTRY.register(modEventBus);
 
 		LimonataModMenus.REGISTRY.register(modEventBus);
+		LimonataModParticleTypes.REGISTRY.register(modEventBus);
+
+		LimonataModFluids.REGISTRY.register(modEventBus);
+		LimonataModFluidTypes.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

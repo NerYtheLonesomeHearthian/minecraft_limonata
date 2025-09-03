@@ -3,7 +3,6 @@
   "item.limonata.glass": "Bicchiere",
   "item.limonata.music_disc_limonata_chiamata": "Disco musicale",
   "item.limonata.music_disc_limonata_chiamata.desc": "limonata - Limonata Chiamata",
-  "item.limonata.glass_of_lemonade": "Bicchiere di Limonata",
   "item.limonata.lemon": "Limone",
   "advancements.obtainlemon.descr": "Ottieni un limone.",
   "advancements.obtainlemon.title": "L\u0027inizio",
@@ -68,5 +67,10 @@
   "item.limonata.enchanted_golden_lemonade.description_1": "§9Regeneration IV §9(00:10)",
   "item.limonata.enchanted_golden_lemonade": "Golden Lemonade",
   "item.limonata.enchanted_golden_lemonade.description_3": "§9Resistance II §9(10:00)",
-  "item.limonata.enchanted_golden_lemonade.description_2": "§9Fire Resistance §9(15:00)"
+  "item.limonata.enchanted_golden_lemonade.description_2": "§9Fire Resistance §9(15:00)",
+  "item.limonata.glass_of_lemonade": "Glass of Lemonade",
+  "fluid_type.limonata.lemonade": "Lemonade",
+  "item.limonata.lemonade_bucket": "Lemonade Bucket",
+  "fluid.limonata.lemonade": "Lemonade",
+  "block.limonata.lemonade": "Lemonade"
 }

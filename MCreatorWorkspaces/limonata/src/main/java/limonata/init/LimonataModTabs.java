@@ -25,7 +25,6 @@ public class LimonataModTabs {
 				tabData.accept(LimonataModItems.MUSIC_DISC_LIMONATA_CHIAMATA.get());
 				tabData.accept(LimonataModBlocks.LEMONADE_STAND.get().asItem());
 				tabData.accept(LimonataModItems.GLASS.get());
-				tabData.accept(LimonataModItems.GLASS_OF_LEMONADE.get());
 				tabData.accept(LimonataModBlocks.LEMON_CRATE.get().asItem());
 				tabData.accept(LimonataModItems.LEMON.get());
 				tabData.accept(LimonataModItems.CUT_LEMON.get());
@@ -45,6 +44,8 @@ public class LimonataModTabs {
 				tabData.accept(LimonataModItems.GOLDEN_LEMONADE.get());
 				tabData.accept(LimonataModItems.ENCHANTED_GOLDEN_LEMON.get());
 				tabData.accept(LimonataModItems.ENCHANTED_GOLDEN_LEMONADE.get());
+				tabData.accept(LimonataModItems.GLASS_OF_LEMONADE.get());
+				tabData.accept(LimonataModItems.LEMONADE_BUCKET.get());
 			}).build());
 
 	@SubscribeEvent
@@ -52,7 +53,6 @@ public class LimonataModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LimonataModItems.MUSIC_DISC_LIMONATA_CHIAMATA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-			tabData.accept(LimonataModItems.GLASS_OF_LEMONADE.get());
 			tabData.accept(LimonataModItems.LEMON.get());
 			tabData.accept(LimonataModItems.CUT_LEMON.get());
 			tabData.accept(LimonataModItems.GOLDEN_LEMON.get());
@@ -67,6 +67,7 @@ public class LimonataModTabs {
 			tabData.accept(LimonataModItems.GOLDEN_LEMONADE.get());
 			tabData.accept(LimonataModItems.ENCHANTED_GOLDEN_LEMON.get());
 			tabData.accept(LimonataModItems.ENCHANTED_GOLDEN_LEMONADE.get());
+			tabData.accept(LimonataModItems.GLASS_OF_LEMONADE.get());
 		}
 	}
 }

@@ -1,11 +1,31 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:water_bucket",
+    {
+      "type": "fluid",
+      "id": "limonata:lemonade",
+      "amount": 0
+    },
+    "item:limonata:lemonade_bucket",
+    "item:limonata:lemon",
+    {
+      "type": "fluid",
+      "id": "create:honey",
+      "amount": 0
+    },
+    "item:minecraft:honey_bottle",
+    "fluid:minecraft:water",
+    {
+      "type": "tag",
+      "registry": "minecraft:fluid",
+      "id": "create:bottomless/allow",
+      "amount": 1000
+    },
     "item:minecraft:gray_concrete_powder",
     "item:minecraft:blue_concrete_powder",
     "item:limonata:glass_of_lemonade",
     "item:limonata:golden_lemon",
-    "item:limonata:lemon",
     "#item:c:foods/golden"
   ],
   "craft_history": [],
