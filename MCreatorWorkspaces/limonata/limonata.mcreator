@@ -2282,6 +2282,19 @@
         ]
       },
       "path": "~/create_comp"
+    },
+    {
+      "name": "LemonadeCreateEmptyingGlass",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lemonade_create_emptying_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/lemonade_create_emptying_glass.json"
+        ]
+      },
+      "path": "~/create_comp"
     }
   ],
   "variable_elements": [],

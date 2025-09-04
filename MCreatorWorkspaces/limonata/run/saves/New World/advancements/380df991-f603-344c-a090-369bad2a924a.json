@@ -984,9 +984,16 @@
   },
   "create:wrench_goggles": {
     "criteria": {
+      "0": "2025-09-04 11:11:20 +0200",
       "1": "2025-09-03 22:56:26 +0200"
     },
-    "done": false
+    "done": true
+  },
+  "create:glass_pipe": {
+    "criteria": {
+      "0": "2025-09-04 11:11:22 +0200"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }
