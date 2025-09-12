@@ -20,6 +20,8 @@ For now, the things added are:
 - Added the Lemon Crate block in the Farmer's Delight style.
 - Added the mod dedicated creative tab.
 - Added the Golden Lemon, a golden food similar to the golden apple.
+- Added multiple types of lemonade, brewable through the Lemonade Stand.
+- Added a whole water-like Lemonade fluid, compatible with Create's fluid management. It includes a bucket and a bottle.
 
 There probably will not be any big addition such as new dimensions or game-breaking recipes.
 
