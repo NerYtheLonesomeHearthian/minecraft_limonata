@@ -16,7 +16,7 @@
       "fixedValue": 0.0
     },
     "fogEndDistance": {
-      "fixedValue": 48.0
+      "fixedValue": 10.0
     },
     "tintType": "No tint",
     "canMultiply": false,

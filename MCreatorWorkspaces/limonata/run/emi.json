@@ -1,15 +1,15 @@
 {
   "favorites": [],
   "lookup_history": [
-    "item:minecraft:honey_bottle",
-    "item:limonata:lemonade_bottle",
-    "item:limonata:lemonade_bucket",
-    "item:minecraft:water_bucket",
     {
       "type": "fluid",
       "id": "limonata:lemonade",
       "amount": 0
     },
+    "item:minecraft:honey_bottle",
+    "item:limonata:lemonade_bottle",
+    "item:limonata:lemonade_bucket",
+    "item:minecraft:water_bucket",
     "item:limonata:lemon",
     {
       "type": "fluid",

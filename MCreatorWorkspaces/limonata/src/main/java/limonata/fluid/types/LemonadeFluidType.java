@@ -57,7 +57,7 @@ public class LemonadeFluidType extends FluidType {
 				Level world = entity.level();
 				RenderSystem.setShaderFogShape(FogShape.SPHERE);
 				RenderSystem.setShaderFogStart(0f);
-				RenderSystem.setShaderFogEnd(Math.min(48f, renderDistance));
+				RenderSystem.setShaderFogEnd(10f);
 			}
 		}, LimonataModFluidTypes.LEMONADE_TYPE.get());
 	}
