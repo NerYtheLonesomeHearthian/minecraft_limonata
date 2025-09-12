@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "limonata:lemonade_bucket"
+    "limonata:lemonade_bucket",
+    "limonata:lemonade_bottle"
   ]
 }

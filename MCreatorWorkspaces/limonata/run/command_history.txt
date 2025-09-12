@@ -1,4 +1,3 @@
-/locate biome minecraft:plains
 /tp @s 293190 189 60180
 /locate biome minecraft:mea
 /locate biome minecraft:meadow
@@ -48,3 +47,4 @@
 /weather clear
 /time set day
 /weather clear
+/time set day

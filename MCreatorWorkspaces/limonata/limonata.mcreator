@@ -2236,7 +2236,7 @@
           "src/main/java/limonata/client/particle/LemonadeFluidDripParticle.java"
         ]
       },
-      "path": "~/create_comp"
+      "path": "~/lemonade_fluid"
     },
     {
       "name": "Lemonade",
@@ -2255,7 +2255,7 @@
           "src/main/java/limonata/block/LemonadeBlock.java"
         ]
       },
-      "path": "~/create_comp"
+      "path": "~/lemonade_fluid"
     },
     {
       "name": "LemonadeCreateEmptying",
@@ -2271,6 +2271,33 @@
       "path": "~/create_comp"
     },
     {
+      "name": "LemonadeCreateEmptyingGlass",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lemonade_create_emptying_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/lemonade_create_emptying_glass.json"
+        ]
+      },
+      "path": "~/create_comp"
+    },
+    {
+      "name": "LemonadeBottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonade_bottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/models/item/lemonade_bottle.json",
+          "src/main/java/limonata/item/LemonadeBottleItem.java"
+        ]
+      },
+      "path": "~/lemonade_fluid"
+    },
+    {
       "name": "LemonadeCreateFillingGlass",
       "type": "recipe",
       "compiles": true,
@@ -2284,14 +2311,40 @@
       "path": "~/create_comp"
     },
     {
-      "name": "LemonadeCreateEmptyingGlass",
+      "name": "LemonadeCreateFilling",
       "type": "recipe",
       "compiles": true,
       "locked_code": true,
-      "registry_name": "lemonade_create_emptying_glass",
+      "registry_name": "lemonade_create_filling",
       "metadata": {
         "files": [
-          "src/main/resources/data/limonata/recipe/lemonade_create_emptying_glass.json"
+          "src/main/resources/data/limonata/recipe/lemonade_create_filling.json"
+        ]
+      },
+      "path": "~/create_comp"
+    },
+    {
+      "name": "LemonadeCreateFillingBottle",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lemonade_create_filling_bottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/lemonade_create_filling_bottle.json"
+        ]
+      },
+      "path": "~/create_comp"
+    },
+    {
+      "name": "LemonadeCreateEmptyingBottle",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lemonade_create_emptying_bottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/recipe/lemonade_create_emptying_bottle.json"
         ]
       },
       "path": "~/create_comp"
@@ -2454,10 +2507,12 @@
       "CUSTOM:CementLemonade",
       "CUSTOM:NetherBricksLemonade",
       "CUSTOM:PowderLemonade",
-      "CUSTOM:BricksLemonade"
+      "CUSTOM:BricksLemonade",
+      "CUSTOM:LemonadeBottle"
     ],
     "ITEMS:create:upright_on_belt": [
-      "CUSTOM:Lemonade.bucket"
+      "CUSTOM:Lemonade.bucket",
+      "CUSTOM:LemonadeBottle"
     ],
     "ITEMS:c:foods/fruit": [
       "CUSTOM:Lemon",
@@ -2524,7 +2579,8 @@
       "EnchantedGoldenLemon",
       "EnchantedGoldenLemonade",
       "Limonataglass",
-      "Lemonade"
+      "Lemonade",
+      "LemonadeBottle"
     ]
   },
   "language_map": {
@@ -2602,7 +2658,8 @@
       "fluid_type.limonata.lemonade": "Lemonade",
       "item.limonata.lemonade_bucket": "Lemonade Bucket",
       "fluid.limonata.lemonade": "Lemonade",
-      "block.limonata.lemonade": "Lemonade"
+      "block.limonata.lemonade": "Lemonade",
+      "item.limonata.lemonade_bottle": "Lemonade Bottle"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -2678,7 +2735,8 @@
       "fluid_type.limonata.lemonade": "Lemonade",
       "item.limonata.lemonade_bucket": "Lemonade Bucket",
       "fluid.limonata.lemonade": "Lemonade",
-      "block.limonata.lemonade": "Lemonade"
+      "block.limonata.lemonade": "Lemonade",
+      "item.limonata.lemonade_bottle": "Lemonade Bottle"
     }
   },
   "metadata": {
@@ -2740,6 +2798,10 @@
       {
         "name": "create_comp",
         "children": []
+      },
+      {
+        "name": "lemonade_fluid",
+        "children": []
       }
     ]
   },
@@ -2747,6 +2809,7 @@
     "modid": "limonata",
     "modName": "limonata",
     "version": "1.4",
+    "description": "Limonari-made mod, destined to friend use. Adds various little lemonade-inspired things.",
     "author": "nery",
     "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",
     "license": "MIT License",
