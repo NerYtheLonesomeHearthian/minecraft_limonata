@@ -2311,19 +2311,6 @@
       "path": "~/create_comp"
     },
     {
-      "name": "LemonadeCreateFilling",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "lemonade_create_filling",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/limonata/recipe/lemonade_create_filling.json"
-        ]
-      },
-      "path": "~/create_comp"
-    },
-    {
       "name": "LemonadeCreateFillingBottle",
       "type": "recipe",
       "compiles": true,
@@ -2507,10 +2494,12 @@
       "CUSTOM:CementLemonade",
       "CUSTOM:NetherBricksLemonade",
       "CUSTOM:PowderLemonade",
-      "CUSTOM:BricksLemonade"
+      "CUSTOM:BricksLemonade",
+      "CUSTOM:LemonadeBottle"
     ],
     "ITEMS:create:upright_on_belt": [
-      "CUSTOM:Lemonade.bucket"
+      "CUSTOM:Lemonade.bucket",
+      "CUSTOM:LemonadeBottle"
     ],
     "ITEMS:c:foods/fruit": [
       "CUSTOM:Lemon",
@@ -2806,7 +2795,8 @@
   "workspaceSettings": {
     "modid": "limonata",
     "modName": "limonata",
-    "version": "1.4",
+    "version": "1.4.0.1",
+    "description": "Limonari-made mod, destined to friend use. Adds various little lemonade-inspired things.",
     "author": "nery",
     "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",
     "license": "MIT License",
