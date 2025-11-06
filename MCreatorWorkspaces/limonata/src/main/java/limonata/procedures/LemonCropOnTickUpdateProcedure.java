@@ -15,6 +15,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
 import limonata.init.LimonataModItems;
+import limonata.init.LimonataModGameRules;
 import limonata.init.LimonataModBlocks;
 
 public class LemonCropOnTickUpdateProcedure {
@@ -97,11 +98,13 @@ public class LemonCropOnTickUpdateProcedure {
 						world.setBlock(BlockPos.containing(x, y, z), LimonataModBlocks.LEMON_CROP_5_5.get().defaultBlockState(), 3);
 					} else if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.LEMON_CROP_5_5.get()) {
 						world.setBlock(BlockPos.containing(x, y, z), LimonataModBlocks.LEMON_CROP_6.get().defaultBlockState(), 3);
-					} else if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.LEMON_CROP_6.get()) {
-						world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
-						if (world instanceof ServerLevel _level)
-							_level.holderOrThrow(ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.parse("limonata:lemon_tree"))).value().place(_level, _level.getChunkSource().getGenerator(), _level.getRandom(),
-									BlockPos.containing(x, y, z));
+					} else if (world.getLevelData().getGameRules().getBoolean(LimonataModGameRules.DO_LEMON_TREES_GROW_FINAL_STAGE) == true) {
+						if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.LEMON_CROP_6.get()) {
+							world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
+							if (world instanceof ServerLevel _level)
+								_level.holderOrThrow(ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.parse("limonata:lemon_tree"))).value().place(_level, _level.getChunkSource().getGenerator(), _level.getRandom(),
+										BlockPos.containing(x, y, z));
+						}
 					}
 				}
 			}

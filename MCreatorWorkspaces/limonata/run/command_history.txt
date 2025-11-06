@@ -1,7 +1,3 @@
-/tp @s 293190 189 60180
-/locate biome minecraft:mea
-/locate biome minecraft:meadow
-/tp @s 293496 247 59733
 /tp @s 293496 247 5973355
 /locate biome minecraft:meadow
 /tp @s 294392 247 5973323
@@ -48,3 +44,7 @@
 /time set day
 /weather clear
 /time set day
+/gamerule randomTickSpeed 990
+/time set day
+/gamerule doLemonTreesGrowFinalStage false
+/gamerule doLemonTreesGrowFinalStage true

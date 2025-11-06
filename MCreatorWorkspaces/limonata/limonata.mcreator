@@ -2335,6 +2335,18 @@
         ]
       },
       "path": "~/create_comp"
+    },
+    {
+      "name": "DoLemonTreesGrowFinalStage",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "do_lemon_trees_grow_final_stage",
+      "metadata": {
+        "type": "logic",
+        "files": []
+      },
+      "path": "~/lemonCrop"
     }
   ],
   "variable_elements": [],
@@ -2646,7 +2658,9 @@
       "item.limonata.lemonade_bucket": "Lemonade Bucket",
       "fluid.limonata.lemonade": "Lemonade",
       "block.limonata.lemonade": "Lemonade",
-      "item.limonata.lemonade_bottle": "Lemonade Bottle"
+      "item.limonata.lemonade_bottle": "Lemonade Bottle",
+      "gamerule.doLemonTreesGrowFinalStage": "Lemon Tree grows to the final stage",
+      "gamerule.doLemonTreesGrowFinalStage.description": "Allows the Lemon Tree to grow to its final stage."
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -2723,7 +2737,9 @@
       "item.limonata.lemonade_bucket": "Lemonade Bucket",
       "fluid.limonata.lemonade": "Lemonade",
       "block.limonata.lemonade": "Lemonade",
-      "item.limonata.lemonade_bottle": "Lemonade Bottle"
+      "item.limonata.lemonade_bottle": "Lemonade Bottle",
+      "gamerule.doLemonTreesGrowFinalStage": "Lemon Tree gros to the final stage",
+      "gamerule.doLemonTreesGrowFinalStage.description": "Allows the Lemon Tree to grow to its final stage."
     }
   },
   "metadata": {
@@ -2740,6 +2756,7 @@
       "src/main/java/limonata/init/LimonataModScreens.java",
       "src/main/java/limonata/init/LimonataModMenus.java",
       "src/main/java/limonata/network/MenuStateUpdateMessage.java",
+      "src/main/java/limonata/init/LimonataModGameRules.java",
       "src/main/java/limonata/init/LimonataModParticles.java",
       "src/main/java/limonata/init/LimonataModParticleTypes.java",
       "src/main/java/limonata/init/LimonataModBlocks.java",
@@ -2795,7 +2812,7 @@
   "workspaceSettings": {
     "modid": "limonata",
     "modName": "limonata",
-    "version": "1.4.0.1",
+    "version": "1.4.1",
     "description": "Limonari-made mod, destined to friend use. Adds various little lemonade-inspired things.",
     "author": "nery",
     "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",

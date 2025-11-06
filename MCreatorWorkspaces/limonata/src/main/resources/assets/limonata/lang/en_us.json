@@ -73,5 +73,7 @@
   "item.limonata.lemonade_bucket": "Lemonade Bucket",
   "fluid.limonata.lemonade": "Lemonade",
   "block.limonata.lemonade": "Lemonade",
-  "item.limonata.lemonade_bottle": "Lemonade Bottle"
+  "item.limonata.lemonade_bottle": "Lemonade Bottle",
+  "gamerule.doLemonTreesGrowFinalStage": "Lemon Tree grows to the final stage",
+  "gamerule.doLemonTreesGrowFinalStage.description": "Allows the Lemon Tree to grow to its final stage."
 }
