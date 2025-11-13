@@ -11,6 +11,7 @@
       "minecraft:forest": "2025-07-31 14:38:04 +0200",
       "minecraft:taiga": "2025-07-29 19:39:31 +0200",
       "minecraft:deep_ocean": "2025-08-11 12:31:05 +0200",
+      "minecraft:lush_caves": "2025-11-13 22:18:15 +0100",
       "minecraft:frozen_ocean": "2025-09-04 00:20:35 +0200",
       "minecraft:frozen_river": "2025-07-29 19:38:55 +0200",
       "minecraft:windswept_forest": "2025-07-31 14:40:51 +0200",
@@ -928,18 +929,6 @@
     },
     "done": true
   },
-  "limonata:recipes/cutlemontolemonseeds": {
-    "criteria": {
-      "has_ingredient_1": "2025-09-02 01:27:15 +0200"
-    },
-    "done": true
-  },
-  "limonata:recipes/ice_to_ice_cubes": {
-    "criteria": {
-      "has_ingredient_0": "2025-09-03 21:50:31 +0200"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/gearbox": {
     "criteria": {
       "has_item": "2025-09-03 22:23:13 +0200"
@@ -1001,12 +990,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/combat/flint_knife": {
-    "criteria": {
-      "has_stick": "2025-11-06 18:40:31 +0100"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/tree_fertilizer": {
     "criteria": {
       "has_item": "2025-11-06 18:39:43 +0100"
@@ -1019,11 +1002,53 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/combat/flint_knife": {
+    "criteria": {
+      "has_stick": "2025-11-06 18:40:31 +0100"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/decorations/cutting_board": {
     "criteria": {
       "has_stick": "2025-11-06 18:40:31 +0100"
     },
     "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-11-13 20:17:57 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-11-13 20:17:57 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-11-13 20:17:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2025-11-13 20:17:57 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2025-11-13 20:17:57 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "brown_mushroom": "2025-11-13 20:17:58 +0100"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }

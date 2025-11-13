@@ -76,6 +76,10 @@ public class LimonataModItems {
 	public static final DeferredItem<Item> ENCHANTED_GOLDEN_LEMONADE = REGISTRY.register("enchanted_golden_lemonade", EnchantedGoldenLemonadeItem::new);
 	public static final DeferredItem<Item> LEMONADE_BUCKET = REGISTRY.register("lemonade_bucket", LemonadeItem::new);
 	public static final DeferredItem<Item> LEMONADE_BOTTLE = REGISTRY.register("lemonade_bottle", LemonadeBottleItem::new);
+	public static final DeferredItem<Item> LEMON_FUNGUS = block(LimonataModBlocks.LEMON_FUNGUS);
+	public static final DeferredItem<Item> LEMON_FUNGUS_STAGE_2 = block(LimonataModBlocks.LEMON_FUNGUS_STAGE_2);
+	public static final DeferredItem<Item> LEMON_FUNGUS_STAGE_3 = block(LimonataModBlocks.LEMON_FUNGUS_STAGE_3);
+	public static final DeferredItem<Item> LEMON_FUNGUS_STAGE_4 = block(LimonataModBlocks.LEMON_FUNGUS_STAGE_4);
 
 	// Start of user code block custom items
 	// End of user code block custom items

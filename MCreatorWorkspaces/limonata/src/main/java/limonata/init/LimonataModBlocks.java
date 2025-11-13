@@ -8,10 +8,14 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 
 import net.minecraft.world.level.block.Block;
 
+import limonata.block.LemonfungusBlock;
 import limonata.block.LemonadeStandBlock;
 import limonata.block.LemonadeBlock;
 import limonata.block.LemonLeavesLemonBlock;
 import limonata.block.LemonLeavesBlock;
+import limonata.block.LemonFungusStage4Block;
+import limonata.block.LemonFungusStage3Block;
+import limonata.block.LemonFungusStage2Block;
 import limonata.block.LemonCrop6Block;
 import limonata.block.LemonCrop5Block;
 import limonata.block.LemonCrop55Block;
@@ -39,6 +43,10 @@ public class LimonataModBlocks {
 	public static final DeferredBlock<Block> LEMONADE_STAND = REGISTRY.register("lemonade_stand", LemonadeStandBlock::new);
 	public static final DeferredBlock<Block> LEMON_CRATE = REGISTRY.register("lemon_crate", LemonCrateBlock::new);
 	public static final DeferredBlock<Block> LEMONADE = REGISTRY.register("lemonade", LemonadeBlock::new);
+	public static final DeferredBlock<Block> LEMON_FUNGUS = REGISTRY.register("lemon_fungus", LemonfungusBlock::new);
+	public static final DeferredBlock<Block> LEMON_FUNGUS_STAGE_2 = REGISTRY.register("lemon_fungus_stage_2", LemonFungusStage2Block::new);
+	public static final DeferredBlock<Block> LEMON_FUNGUS_STAGE_3 = REGISTRY.register("lemon_fungus_stage_3", LemonFungusStage3Block::new);
+	public static final DeferredBlock<Block> LEMON_FUNGUS_STAGE_4 = REGISTRY.register("lemon_fungus_stage_4", LemonFungusStage4Block::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

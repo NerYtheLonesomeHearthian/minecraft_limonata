@@ -1,0 +1,10 @@
+{
+  "parent": "limonata:custom/lemon_fungus_0",
+  "textures": {
+    "all": "limonata:block/lemon_fungus_0",
+    "particle": "limonata:block/lemon_fungus_0",
+    "3": "limonata:block/lemon_fungus_0",
+    "missing": "limonata:block/lemon_fungus_0"
+  },
+  "render_type": "cutout"
+}

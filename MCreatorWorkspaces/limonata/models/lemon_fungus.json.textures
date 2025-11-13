@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lemon_fungus",
+        "missing": "lemon_fungus"
+      },
+      "name": "default"
+    }
+  }
+}

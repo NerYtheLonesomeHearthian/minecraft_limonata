@@ -75,5 +75,9 @@
   "block.limonata.lemonade": "Lemonade",
   "item.limonata.lemonade_bottle": "Lemonade Bottle",
   "gamerule.doLemonTreesGrowFinalStage": "Lemon Tree gros to the final stage",
-  "gamerule.doLemonTreesGrowFinalStage.description": "Allows the Lemon Tree to grow to its final stage."
+  "gamerule.doLemonTreesGrowFinalStage.description": "Allows the Lemon Tree to grow to its final stage.",
+  "block.limonata.lemon_fungus": "Lemon Fungus",
+  "block.limonata.lemon_fungus_stage_2": "Lemon Fungus",
+  "block.limonata.lemon_fungus_stage_3": "Lemon Fungus",
+  "block.limonata.lemon_fungus_stage_4": "Lemon Fungus"
 }
