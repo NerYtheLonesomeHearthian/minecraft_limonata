@@ -6,7 +6,7 @@
   "item.limonata.lemon": "Lemon",
   "advancements.obtainlemon.descr": "Obtain a Lemon.",
   "advancements.obtainlemon.title": "Limonata",
-  "block.limonata.lemon_crop_0": "Lemon Crop",
+  "block.limonata.lemon_crop_0": "Lemon Seeds",
   "block.limonata.lemon_crop_2": "Lemon Crop",
   "block.limonata.lemon_crop_1": "Lemon Crop",
   "block.limonata.lemon_crop_3": "Lemon Crop",
@@ -76,8 +76,8 @@
   "item.limonata.lemonade_bottle": "Lemonade Bottle",
   "gamerule.doLemonTreesGrowFinalStage": "Lemon Tree grows to the final stage",
   "gamerule.doLemonTreesGrowFinalStage.description": "Allows the Lemon Tree to grow to its final stage.",
-  "block.limonata.lemon_fungus": "Lemon Fungus",
-  "block.limonata.lemon_fungus_stage_2": "Lemon Fungus",
   "block.limonata.lemon_fungus_stage_3": "Lemon Fungus",
-  "block.limonata.lemon_fungus_stage_4": "Lemon Fungus"
+  "block.limonata.lemon_fungus_stage_2": "Lemon Fungus",
+  "block.limonata.lemon_fungus_stage_4": "Lemon Fungus",
+  "block.limonata.lemon_fungus": "Lemon Fungus"
 }

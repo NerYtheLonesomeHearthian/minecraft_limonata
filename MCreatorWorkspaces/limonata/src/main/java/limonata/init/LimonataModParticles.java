@@ -10,7 +10,7 @@ import net.neoforged.api.distmarker.Dist;
 
 import limonata.client.particle.LemonadeFluidDripParticle;
 
-@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+@EventBusSubscriber(Dist.CLIENT)
 public class LimonataModParticles {
 	@SubscribeEvent
 	public static void registerParticles(RegisterParticleProvidersEvent event) {

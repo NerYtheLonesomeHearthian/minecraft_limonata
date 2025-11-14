@@ -25,8 +25,7 @@ public class LemonCropOnTickUpdateProcedure {
 		double count = 0;
 		double row = 0;
 		double points = 0;
-		if ((world.getMaxLocalRawBrightness(BlockPos.containing(x + 0.5, y + 1.5, z + 0.5)) > 7 || world.canSeeSkyFromBelowWater(BlockPos.containing(x, y, z)))
-				&& (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.FARMLAND) {
+		if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.FARMLAND) {
 			if (world.getMaxLocalRawBrightness(BlockPos.containing(x + 0.5, y + 1.5, z + 0.5)) >= 9) {
 				if (!world.getLevelData().isRaining()) {
 					hydrated = false;
@@ -102,7 +101,7 @@ public class LemonCropOnTickUpdateProcedure {
 						if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.LEMON_CROP_6.get()) {
 							world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 							if (world instanceof ServerLevel _level)
-								_level.holderOrThrow(ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.parse("limonata:lemon_tree"))).value().place(_level, _level.getChunkSource().getGenerator(), _level.getRandom(),
+								_level.holderOrThrow(ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.parse("limonata:lemon_tree_crop_spawn"))).value().place(_level, _level.getChunkSource().getGenerator(), _level.getRandom(),
 										BlockPos.containing(x, y, z));
 						}
 					}

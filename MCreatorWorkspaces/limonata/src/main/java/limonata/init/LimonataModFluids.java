@@ -25,7 +25,7 @@ public class LimonataModFluids {
 	public static final DeferredHolder<Fluid, FlowingFluid> LEMONADE = REGISTRY.register("lemonade", () -> new LemonadeFluid.Source());
 	public static final DeferredHolder<Fluid, FlowingFluid> FLOWING_LEMONADE = REGISTRY.register("flowing_lemonade", () -> new LemonadeFluid.Flowing());
 
-	@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	@EventBusSubscriber(Dist.CLIENT)
 	public static class FluidsClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {

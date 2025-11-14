@@ -10,16 +10,20 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.BonemealableBlock;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import limonata.procedures.LemonSeedsCropPlacementConditionProcedure;
 import limonata.procedures.LemonCropOnTickUpdateProcedure;
 import limonata.procedures.LemonCropNeighbourBlockChangesProcedure;
 import limonata.procedures.LemonCropBoneMealSuccessConditionProcedure;
@@ -50,6 +54,22 @@ public class LemonCrop0Block extends Block implements BonemealableBlock {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return box(5.9, -1, 7.25, 10.1, 1, 9.1);
+	}
+
+	@Override
+	public boolean canSurvive(BlockState blockstate, LevelReader worldIn, BlockPos pos) {
+		if (worldIn instanceof LevelAccessor world) {
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			return LemonSeedsCropPlacementConditionProcedure.execute(world, x, y, z);
+		}
+		return super.canSurvive(blockstate, worldIn, pos);
+	}
+
+	@Override
+	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos, BlockPos facingPos) {
+		return !state.canSurvive(world, currentPos) ? Blocks.AIR.defaultBlockState() : super.updateShape(state, facing, facingState, world, currentPos, facingPos);
 	}
 
 	@Override

@@ -20,8 +20,7 @@ public class LemonCropNeighbourBlockChangesProcedure {
 		double count = 0;
 		double row = 0;
 		double points = 0;
-		if (!(world.getMaxLocalRawBrightness(BlockPos.containing(x + 0.5, y + 1.5, z + 0.5)) > 7 || world.canSeeSkyFromBelowWater(BlockPos.containing(x, y, z)))
-				|| !((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.FARMLAND)) {
+		if (!((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.FARMLAND)) {
 			if (world instanceof ServerLevel _level) {
 				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(LimonataModItems.LEMON_SEEDS.get()));
 				entityToSpawn.setPickUpDelay(0);

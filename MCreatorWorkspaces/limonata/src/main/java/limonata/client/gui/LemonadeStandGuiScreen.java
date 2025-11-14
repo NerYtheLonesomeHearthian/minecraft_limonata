@@ -10,31 +10,7 @@ import net.minecraft.client.gui.GuiGraphics;
 
 import limonata.world.inventory.LemonadeStandGuiMenu;
 
-import limonata.procedures.LmnstandGUIwaterBar2Procedure;
-import limonata.procedures.LmnstandGUIwaterBar1Procedure;
-import limonata.procedures.LmnstandGUIwaterBar0Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress9Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress8Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress7Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress6Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress5Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress4Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress3Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress2Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress21Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress20Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress1Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress19Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress18Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress17Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress16Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress15Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress14Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress13Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress12Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress11Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress10Procedure;
-import limonata.procedures.LmnstandGUIbrewingProgress0Procedure;
+import limonata.procedures.*;
 
 import limonata.init.LimonataModScreens;
 

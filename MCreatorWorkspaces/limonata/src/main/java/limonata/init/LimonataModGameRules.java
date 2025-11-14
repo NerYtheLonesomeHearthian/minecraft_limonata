@@ -9,7 +9,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.GameRules;
 
-@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber
 public class LimonataModGameRules {
 	public static GameRules.Key<GameRules.BooleanValue> DO_LEMON_TREES_GROW_FINAL_STAGE;
 

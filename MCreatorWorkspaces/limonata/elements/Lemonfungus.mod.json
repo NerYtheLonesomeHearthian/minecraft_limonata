@@ -15,9 +15,12 @@
     "emissiveRendering": true,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "",
+    "itemTexture": "lemon_fungus",
     "particleTexture": "",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -48,12 +51,18 @@
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:LimonataCreativeTab"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
@@ -67,13 +76,16 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "GOLD",
     "noteBlockInstrument": "harp",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "XZ",
     "aiPathNodeType": "OPEN",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -105,6 +117,9 @@
     "luminance": 0,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
+    "placingCondition": {
+      "name": "LemonFungusPlaceCondition"
+    },
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
@@ -127,6 +142,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onNeighbourBlockChanges": {
+      "name": "LemonFungusNeighbourBlockChanges"
+    },
     "onTickUpdate": {
       "name": "LemonFungusOnTickUpdate"
     },

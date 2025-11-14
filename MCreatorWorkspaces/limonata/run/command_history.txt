@@ -1,50 +1,50 @@
-/gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 300
+/time set night
 /time set day
 /gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 300
+/gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 300
+/gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 300
+/gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 300
 /gamerule randomTickSpeed 3000
-/time set day
-/gamerule randomTickSpeed 9000
-/gamerule randomTickSpeed 6000
+/gamerule randomTickSpeed 3
 /gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 3
+/locate biome minecraft:mushroom_fields
+/tp @s -81 29 -620
+/time set midnight
 /time set day
-/effect clear Dev
-/gamerule keepInventory false
 /kill
-/weather clear
+/give @p limonata:lemon_fungus_stage_3
+/give @p limonata:lemon_fungus_stage_2
+/give @p limonata:lemon_fungus_stage_4
+/give @p limonata:lemon_fungus_stage_2
+/give @p limonata:lemon_crop_0
+/time set day
+/gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 300
+/gamerule randomTickSpeed 3000
+/neoforge tps
+/gamerule randomTickSpeed 30000
+/neoforge tps
+/gamerule randomTickSpeed 60000
+/neoforge tps
+/gamerule randomTickSpeed 90000
+/neoforge tps
+/gamerule randomTickSpeed 120000
+/neoforge tps
+/gamerule randomTickSpeed 190000
+/neoforge tps
+/gamerule randomTickSpeed 290000
+/neoforge tps
+/gamerule randomTickSpeed 3
+/neoforge tps
+/gamerule randomTickSpeed 290000
+/gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 300
 /gamerule randomTickSpeed 3000
 /time set day
-/weather clear
-/tick rate 60
-/tick rate 20
-/time set day
-/tick rate 20
-/effect clear Dev
-/time set day
-/weather clear
-/time set day
-/weather clear
-/time set day
-/gamerule randomTickSpeed 990
-/time set day
-/gamerule doLemonTreesGrowFinalStage false
-/gamerule doLemonTreesGrowFinalStage true
-/give @p limonata:lemon_fungus
-/give @p limonata:lemon_fungus_stage_2
-/give @p limonata:lemon_fungus_stage_3
-/give @p limonata:lemon_fungus_stage_4
-/fill 340 63 933
-/fill 340 63 933 349 63 940 minecraft:mycelium
-/gamerule randomTickSpeed 3
-/weather clear
-/time set night
-/gamerule randomTickSpeed 300
-/gamerule randomTickSpeed 3
-/gamerule randomTickSpeed 300
-/gamerule randomTickSpeed 3
-/gamerule randomTickSpeed 300
-/gamerule randomTickSpeed 3
-/gamerule randomTickSpeed 300
-/time set night
-/time set day
-/gamerule randomTickSpeed 3
-/gamerule randomTickSpeed 300
+/give @p light

@@ -20,7 +20,7 @@ import limonata.block.entity.LemonadeStandBlockEntity;
 
 import limonata.LimonataMod;
 
-@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber
 public class LimonataModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, LimonataMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<LemonadeStandBlockEntity>> LEMONADE_STAND = register("lemonade_stand", LimonataModBlocks.LEMONADE_STAND, LemonadeStandBlockEntity::new);

@@ -15,9 +15,12 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "",
+    "itemTexture": "lemon_seeds",
     "particleTexture": "all_crop_green",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -36,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Lemon Crop",
+    "name": "Lemon Seeds",
     "specialInformation": {
       "fixedValue": []
     },
@@ -54,6 +57,8 @@
       "value": "CUSTOM:Lemonseeds"
     },
     "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
@@ -74,6 +79,9 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "OPEN",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -105,6 +113,9 @@
     "luminance": 0,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
+    "placingCondition": {
+      "name": "LemonSeedsCropPlacementCondition"
+    },
     "isBonemealable": true,
     "bonemealSuccessCondition": {
       "name": "LemonCropBoneMealSuccessCondition"

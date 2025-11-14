@@ -10,7 +10,7 @@
         "value": "CUSTOM:Cutlemon"
       },
       {
-        "value": "CUSTOM:Lemonseeds"
+        "value": "CUSTOM:LemonCrop0"
       }
     ],
     "cookingBookCategory": "MISC",
@@ -48,7 +48,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Lemonseeds"
+      "value": "CUSTOM:LemonCrop0"
     },
     "name": "cutlemontolemonseeds",
     "namespace": "mod"

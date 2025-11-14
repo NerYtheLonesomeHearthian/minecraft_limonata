@@ -10,7 +10,7 @@ import net.neoforged.api.distmarker.Dist;
 
 import limonata.client.gui.LemonadeStandGuiScreen;
 
-@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+@EventBusSubscriber(Dist.CLIENT)
 public class LimonataModScreens {
 	@SubscribeEvent
 	public static void clientLoad(RegisterMenuScreensEvent event) {

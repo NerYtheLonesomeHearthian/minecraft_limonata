@@ -21,10 +21,7 @@ public class LemonFungusOnTickUpdateProcedure {
 		double points = 0;
 		if (world.getMaxLocalRawBrightness(BlockPos.containing(x + 0.5, y + 1.5, z + 0.5)) <= 7 || (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.PODZOL
 				|| (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.MYCELIUM) {
-			points = 0;
-			points = 1 / (Math.floor(25 / points) + 1);
-			rand = Math.random() / 2;
-			if (rand <= points) {
+			if (Math.random() < 0.1) {
 				if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.LEMON_FUNGUS.get()) {
 					{
 						BlockPos _bp = BlockPos.containing(x, y, z);

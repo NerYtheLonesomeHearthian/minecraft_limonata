@@ -18,6 +18,9 @@
     "itemTexture": "",
     "particleTexture": "",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -54,7 +57,9 @@
       "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -67,13 +72,16 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "GOLD",
     "noteBlockInstrument": "harp",
     "creativePickItem": {
       "value": "CUSTOM:Lemonfungus"
     },
     "offsetType": "XZ",
     "aiPathNodeType": "OPEN",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -105,6 +113,9 @@
     "luminance": 0,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
+    "placingCondition": {
+      "name": "LemonFungusPlaceCondition"
+    },
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
@@ -127,6 +138,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onNeighbourBlockChanges": {
+      "name": "LemonFungusNeighbourBlockChanges"
+    },
+    "onTickUpdate": {
+      "name": "LemonFungusOnTickUpdate"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

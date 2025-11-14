@@ -17,7 +17,7 @@ import net.minecraft.core.registries.Registries;
 
 import limonata.LimonataMod;
 
-@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber
 public class LimonataModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, LimonataMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> LIMONATA_CREATIVE_TAB = REGISTRY.register("limonata_creative_tab",
@@ -47,6 +47,7 @@ public class LimonataModTabs {
 				tabData.accept(LimonataModItems.GLASS_OF_LEMONADE.get());
 				tabData.accept(LimonataModItems.LEMONADE_BUCKET.get());
 				tabData.accept(LimonataModItems.LEMONADE_BOTTLE.get());
+				tabData.accept(LimonataModBlocks.LEMON_FUNGUS.get().asItem());
 			}).build());
 
 	@SubscribeEvent

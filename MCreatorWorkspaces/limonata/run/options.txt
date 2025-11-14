@@ -1,5 +1,5 @@
 version:3955
-ao:true
+ao:false
 biomeBlendRadius:2
 enableVsync:false
 entityDistanceScaling:1.0
@@ -14,7 +14,7 @@ glintStrength:0.75
 prioritizeChunkUpdates:0
 fullscreen:false
 gamma:0.5
-graphicsMode:1
+graphicsMode:0
 guiScale:2
 maxFps:260
 mipmapLevels:2
@@ -22,8 +22,8 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"false"
-renderDistance:22
-simulationDistance:22
+renderDistance:5
+simulationDistance:12
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false
@@ -58,7 +58,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -75,9 +75,9 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:true
+skipMultiplayerWarning:false
 hideMatchedNames:true
-joinedFirstServer:true
+joinedFirstServer:false
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
