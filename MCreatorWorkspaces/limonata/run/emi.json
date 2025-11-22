@@ -1,6 +1,15 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:limonata:lemon_seeds",
+    "#item:c:mushrooms",
+    "item:minecraft:brown_mushroom",
+    "#item:c:animal_foods",
+    "item:limonata:lemon_fungus",
+    "item:minecraft:red_mushroom",
+    "item:farmersdelight:brown_mushroom_colony",
+    "item:minecraft:warped_fungus",
+    "item:minecraft:crimson_fungus",
     {
       "type": "fluid",
       "id": "limonata:lemonade",

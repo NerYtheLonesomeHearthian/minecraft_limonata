@@ -27,10 +27,10 @@ public class LimonataModBlocks {
 	public static final DeferredBlock<Block> LEMONADE_STAND;
 	public static final DeferredBlock<Block> LEMON_CRATE;
 	public static final DeferredBlock<Block> LEMONADE;
-	public static final DeferredBlock<Block> LEMON_FUNGUS;
-	public static final DeferredBlock<Block> LEMON_FUNGUS_STAGE_2;
-	public static final DeferredBlock<Block> LEMON_FUNGUS_STAGE_3;
-	public static final DeferredBlock<Block> LEMON_FUNGUS_STAGE_4;
+	public static final DeferredBlock<Block> LEMONSHROOM;
+	public static final DeferredBlock<Block> HATCHLING_LEMONSHROOM;
+	public static final DeferredBlock<Block> GROWN_LEMONSHROOM;
+	public static final DeferredBlock<Block> ADULT_LEMONSHROOM;
 	static {
 		LEMON_SEEDS = REGISTRY.register("lemon_seeds", LemonCrop0Block::new);
 		LEMON_CROP_2 = REGISTRY.register("lemon_crop_2", LemonCrop2Block::new);
@@ -45,10 +45,10 @@ public class LimonataModBlocks {
 		LEMONADE_STAND = REGISTRY.register("lemonade_stand", LemonadeStandBlock::new);
 		LEMON_CRATE = REGISTRY.register("lemon_crate", LemonCrateBlock::new);
 		LEMONADE = REGISTRY.register("lemonade", LemonadeBlock::new);
-		LEMON_FUNGUS = REGISTRY.register("lemon_fungus", LemonfungusBlock::new);
-		LEMON_FUNGUS_STAGE_2 = REGISTRY.register("lemon_fungus_stage_2", LemonFungusStage2Block::new);
-		LEMON_FUNGUS_STAGE_3 = REGISTRY.register("lemon_fungus_stage_3", LemonFungusStage3Block::new);
-		LEMON_FUNGUS_STAGE_4 = REGISTRY.register("lemon_fungus_stage_4", LemonFungusStage4Block::new);
+		LEMONSHROOM = REGISTRY.register("lemonshroom", LemonfungusBlock::new);
+		HATCHLING_LEMONSHROOM = REGISTRY.register("hatchling_lemonshroom", LemonFungusStage2Block::new);
+		GROWN_LEMONSHROOM = REGISTRY.register("grown_lemonshroom", LemonFungusStage3Block::new);
+		ADULT_LEMONSHROOM = REGISTRY.register("adult_lemonshroom", LemonFungusStage4Block::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

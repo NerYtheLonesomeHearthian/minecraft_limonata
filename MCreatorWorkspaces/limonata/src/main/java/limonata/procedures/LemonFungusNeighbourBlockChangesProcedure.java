@@ -22,7 +22,7 @@ public class LemonFungusNeighbourBlockChangesProcedure {
 		double points = 0;
 		if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.AIR) {
 			if (world instanceof ServerLevel _level) {
-				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(LimonataModBlocks.LEMON_FUNGUS.get()));
+				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(LimonataModBlocks.LEMONSHROOM.get()));
 				entityToSpawn.setPickUpDelay(0);
 				_level.addFreshEntity(entityToSpawn);
 			}

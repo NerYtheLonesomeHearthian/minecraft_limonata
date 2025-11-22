@@ -1,8 +1,3 @@
-/kill
-/give @p limonata:lemon_fungus_stage_3
-/give @p limonata:lemon_fungus_stage_2
-/give @p limonata:lemon_fungus_stage_4
-/give @p limonata:lemon_fungus_stage_2
 /give @p limonata:lemon_crop_0
 /time set day
 /gamerule randomTickSpeed 3
@@ -48,3 +43,8 @@
 /advancement revoke @p everything
 /gamerule randomTickSpeed 300
 /gamerule randomTickSpeed 3
+/weather clear
+/give @p limonata:hatchling_lemonshroom
+/give @p limonata:g
+/give @p limonata:grown_lemonshroom
+/give @p limonata:adult_lemonshroom

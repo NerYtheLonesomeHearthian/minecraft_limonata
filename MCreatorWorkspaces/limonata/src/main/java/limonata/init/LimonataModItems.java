@@ -57,10 +57,10 @@ public class LimonataModItems {
 	public static final DeferredItem<Item> ENCHANTED_GOLDEN_LEMONADE;
 	public static final DeferredItem<Item> LEMONADE_BUCKET;
 	public static final DeferredItem<Item> LEMONADE_BOTTLE;
-	public static final DeferredItem<Item> LEMON_FUNGUS;
-	public static final DeferredItem<Item> LEMON_FUNGUS_STAGE_2;
-	public static final DeferredItem<Item> LEMON_FUNGUS_STAGE_3;
-	public static final DeferredItem<Item> LEMON_FUNGUS_STAGE_4;
+	public static final DeferredItem<Item> LEMONSHROOM;
+	public static final DeferredItem<Item> HATCHLING_LEMONSHROOM;
+	public static final DeferredItem<Item> GROWN_LEMONSHROOM;
+	public static final DeferredItem<Item> ADULT_LEMONSHROOM;
 	static {
 		MUSIC_DISC_LIMONATA_CHIAMATA = REGISTRY.register("music_disc_limonata_chiamata", MusicDiscLimonataChiamataItem::new);
 		GLASS = REGISTRY.register("glass", GlassItem::new);
@@ -98,10 +98,10 @@ public class LimonataModItems {
 		ENCHANTED_GOLDEN_LEMONADE = REGISTRY.register("enchanted_golden_lemonade", EnchantedGoldenLemonadeItem::new);
 		LEMONADE_BUCKET = REGISTRY.register("lemonade_bucket", LemonadeItem::new);
 		LEMONADE_BOTTLE = REGISTRY.register("lemonade_bottle", LemonadeBottleItem::new);
-		LEMON_FUNGUS = block(LimonataModBlocks.LEMON_FUNGUS);
-		LEMON_FUNGUS_STAGE_2 = block(LimonataModBlocks.LEMON_FUNGUS_STAGE_2);
-		LEMON_FUNGUS_STAGE_3 = block(LimonataModBlocks.LEMON_FUNGUS_STAGE_3);
-		LEMON_FUNGUS_STAGE_4 = block(LimonataModBlocks.LEMON_FUNGUS_STAGE_4);
+		LEMONSHROOM = block(LimonataModBlocks.LEMONSHROOM);
+		HATCHLING_LEMONSHROOM = block(LimonataModBlocks.HATCHLING_LEMONSHROOM);
+		GROWN_LEMONSHROOM = block(LimonataModBlocks.GROWN_LEMONSHROOM);
+		ADULT_LEMONSHROOM = block(LimonataModBlocks.ADULT_LEMONSHROOM);
 	}
 
 	// Start of user code block custom items

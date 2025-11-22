@@ -15,7 +15,7 @@
     "emissiveRendering": true,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "",
+    "itemTexture": "lemonshroom2",
     "particleTexture": "",
     "blockSetType": "OAK",
     "pottedPlant": {
@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Lemonshroom",
+    "name": "Grown Lemonshroom",
     "specialInformation": {
       "fixedValue": []
     },
@@ -51,15 +51,19 @@
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:LimonataCreativeTab"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Lemonfungus"
+      "value": ""
     },
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -75,7 +79,7 @@
     "colorOnMap": "GOLD",
     "noteBlockInstrument": "harp",
     "creativePickItem": {
-      "value": "CUSTOM:Lemonfungus"
+      "value": ""
     },
     "offsetType": "XZ",
     "aiPathNodeType": "OPEN",

@@ -15,10 +15,10 @@ public class LemonFungusOnTickUpdateProcedure {
 		if (world.getMaxLocalRawBrightness(BlockPos.containing(x + 0.5, y + 1.5, z + 0.5)) <= 7 || (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.PODZOL
 				|| (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.MYCELIUM) {
 			if (Math.random() < 0.1) {
-				if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.LEMON_FUNGUS.get()) {
+				if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.LEMONSHROOM.get()) {
 					{
 						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockState _bs = LimonataModBlocks.LEMON_FUNGUS_STAGE_2.get().defaultBlockState();
+						BlockState _bs = LimonataModBlocks.HATCHLING_LEMONSHROOM.get().defaultBlockState();
 						BlockState _bso = world.getBlockState(_bp);
 						for (Property<?> _propertyOld : _bso.getProperties()) {
 							Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
@@ -30,10 +30,10 @@ public class LemonFungusOnTickUpdateProcedure {
 						}
 						world.setBlock(_bp, _bs, 3);
 					}
-				} else if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.LEMON_FUNGUS_STAGE_2.get()) {
+				} else if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.HATCHLING_LEMONSHROOM.get()) {
 					{
 						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockState _bs = LimonataModBlocks.LEMON_FUNGUS_STAGE_3.get().defaultBlockState();
+						BlockState _bs = LimonataModBlocks.GROWN_LEMONSHROOM.get().defaultBlockState();
 						BlockState _bso = world.getBlockState(_bp);
 						for (Property<?> _propertyOld : _bso.getProperties()) {
 							Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
@@ -45,10 +45,10 @@ public class LemonFungusOnTickUpdateProcedure {
 						}
 						world.setBlock(_bp, _bs, 3);
 					}
-				} else if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.LEMON_FUNGUS_STAGE_3.get()) {
+				} else if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.GROWN_LEMONSHROOM.get()) {
 					{
 						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockState _bs = LimonataModBlocks.LEMON_FUNGUS_STAGE_4.get().defaultBlockState();
+						BlockState _bs = LimonataModBlocks.ADULT_LEMONSHROOM.get().defaultBlockState();
 						BlockState _bso = world.getBlockState(_bp);
 						for (Property<?> _propertyOld : _bso.getProperties()) {
 							Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());

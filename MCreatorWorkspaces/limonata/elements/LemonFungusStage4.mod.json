@@ -15,7 +15,7 @@
     "emissiveRendering": true,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "",
+    "itemTexture": "lemonshroom3",
     "particleTexture": "",
     "blockSetType": "OAK",
     "pottedPlant": {
@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Lemonshroom",
+    "name": "Adult Lemonshroom",
     "specialInformation": {
       "fixedValue": []
     },
@@ -51,7 +51,11 @@
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:LimonataCreativeTab"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -75,7 +79,7 @@
     "colorOnMap": "GOLD",
     "noteBlockInstrument": "harp",
     "creativePickItem": {
-      "value": "CUSTOM:Lemonfungus"
+      "value": ""
     },
     "offsetType": "XZ",
     "aiPathNodeType": "OPEN",

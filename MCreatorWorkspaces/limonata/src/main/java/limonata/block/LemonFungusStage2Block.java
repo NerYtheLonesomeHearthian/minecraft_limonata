@@ -16,7 +16,6 @@ import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
@@ -26,8 +25,6 @@ import net.minecraft.core.BlockPos;
 import limonata.procedures.LemonFungusPlaceConditionProcedure;
 import limonata.procedures.LemonFungusOnTickUpdateProcedure;
 import limonata.procedures.LemonFungusNeighbourBlockChangesProcedure;
-
-import limonata.init.LimonataModBlocks;
 
 public class LemonFungusStage2Block extends Block {
 	public LemonFungusStage2Block() {
@@ -70,11 +67,6 @@ public class LemonFungusStage2Block extends Block {
 	@Override
 	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos, BlockPos facingPos) {
 		return !state.canSurvive(world, currentPos) ? Blocks.AIR.defaultBlockState() : super.updateShape(state, facing, facingState, world, currentPos, facingPos);
-	}
-
-	@Override
-	public ItemStack getCloneItemStack(LevelReader level, BlockPos pos, BlockState state) {
-		return new ItemStack(LimonataModBlocks.LEMON_FUNGUS.get());
 	}
 
 	@Override

@@ -1,0 +1,22 @@
+{
+  "values": {
+    "limonata:lemonshroom": {
+      "chance": 0.65
+    },
+    "limonata:hatchling_lemonshroom": {
+      "chance": 0.7
+    },
+    "limonata:grown_lemonshroom": {
+      "chance": 0.75
+    },
+    "limonata:adult_lemonshroom": {
+      "chance": 0.8
+    },
+    "limonata:lemon": {
+      "chance": 1
+    },
+    "limonata:cut_lemon": {
+      "chance": 0.75
+    }
+  }
+}
