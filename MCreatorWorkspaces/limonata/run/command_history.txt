@@ -1,8 +1,4 @@
 /neoforge tps
-/gamerule randomTickSpeed 30000
-/neoforge tps
-/gamerule randomTickSpeed 60000
-/neoforge tps
 /gamerule randomTickSpeed 90000
 /neoforge tps
 /gamerule randomTickSpeed 120000
@@ -48,3 +44,7 @@
 /gamerule keepInventory true
 /kill
 /weather clear
+/gamerule randomTickSpeed 150
+/gamerule randomTickSpeed 3
+/give @p limonata:lemon_s
+/give @p limonata:lemon_seeds_old
