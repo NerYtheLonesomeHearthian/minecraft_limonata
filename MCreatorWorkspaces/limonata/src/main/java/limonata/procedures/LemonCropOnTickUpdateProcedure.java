@@ -14,7 +14,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
-import limonata.init.LimonataModItems;
 import limonata.init.LimonataModGameRules;
 import limonata.init.LimonataModBlocks;
 
@@ -83,7 +82,7 @@ public class LemonCropOnTickUpdateProcedure {
 				}
 				rand = Math.random() / 2;
 				if (rand <= points) {
-					if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.LEMON_CROP_0.get()) {
+					if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.LEMON_SEEDS.get()) {
 						world.setBlock(BlockPos.containing(x, y, z), LimonataModBlocks.LEMON_CROP_1.get().defaultBlockState(), 3);
 					} else if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LimonataModBlocks.LEMON_CROP_1.get()) {
 						world.setBlock(BlockPos.containing(x, y, z), LimonataModBlocks.LEMON_CROP_2.get().defaultBlockState(), 3);
@@ -109,7 +108,7 @@ public class LemonCropOnTickUpdateProcedure {
 			}
 		} else {
 			if (world instanceof ServerLevel _level) {
-				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(LimonataModItems.LEMON_SEEDS.get()));
+				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(LimonataModBlocks.LEMON_SEEDS.get()));
 				entityToSpawn.setPickUpDelay(0);
 				_level.addFreshEntity(entityToSpawn);
 			}

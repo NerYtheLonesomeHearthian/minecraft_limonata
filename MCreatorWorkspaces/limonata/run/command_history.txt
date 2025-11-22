@@ -1,22 +1,3 @@
-/gamerule randomTickSpeed 300
-/time set night
-/time set day
-/gamerule randomTickSpeed 3
-/gamerule randomTickSpeed 300
-/gamerule randomTickSpeed 3
-/gamerule randomTickSpeed 300
-/gamerule randomTickSpeed 3
-/gamerule randomTickSpeed 300
-/gamerule randomTickSpeed 3
-/gamerule randomTickSpeed 300
-/gamerule randomTickSpeed 3000
-/gamerule randomTickSpeed 3
-/gamerule randomTickSpeed 3000
-/gamerule randomTickSpeed 3
-/locate biome minecraft:mushroom_fields
-/tp @s -81 29 -620
-/time set midnight
-/time set day
 /kill
 /give @p limonata:lemon_fungus_stage_3
 /give @p limonata:lemon_fungus_stage_2
@@ -48,3 +29,22 @@
 /gamerule randomTickSpeed 3000
 /time set day
 /give @p light
+/tick freeze
+/tick unfreeze
+/gamerule randomTickSpeed 3
+/gamerule randomTickSpeed 300
+/time set day
+/gamerule randomTickSpeed 3
+/effect give Dev minecraft:speed infinite 99 true
+/effect give Dev minecraft:jump_boost infinite 19 true
+/tp @p 2982 29 219807
+/gamerule randomTickSpeed 300
+/give @p limonata:lemon_crop_0
+/give @p limonata:lemon_crop_1
+/give @p limonata:lemon_fungus_stage_4
+/effect clear @p
+/gamerule randomTickSpeed 3
+/advancement revoke Dev everything
+/advancement revoke @p everything
+/gamerule randomTickSpeed 300
+/gamerule randomTickSpeed 3

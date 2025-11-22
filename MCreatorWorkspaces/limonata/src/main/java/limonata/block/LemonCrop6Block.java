@@ -22,7 +22,7 @@ import net.minecraft.core.BlockPos;
 import limonata.procedures.LemonCropOnTickUpdateProcedure;
 import limonata.procedures.LemonCropNeighbourBlockChangesProcedure;
 
-import limonata.init.LimonataModItems;
+import limonata.init.LimonataModBlocks;
 
 public class LemonCrop6Block extends Block {
 	public LemonCrop6Block() {
@@ -51,7 +51,7 @@ public class LemonCrop6Block extends Block {
 
 	@Override
 	public ItemStack getCloneItemStack(LevelReader level, BlockPos pos, BlockState state) {
-		return new ItemStack(LimonataModItems.LEMON_SEEDS.get());
+		return new ItemStack(LimonataModBlocks.LEMON_SEEDS.get());
 	}
 
 	@Override

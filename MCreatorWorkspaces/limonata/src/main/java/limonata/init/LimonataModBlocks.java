@@ -14,7 +14,7 @@ import limonata.LimonataMod;
 
 public class LimonataModBlocks {
 	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(LimonataMod.MODID);
-	public static final DeferredBlock<Block> LEMON_CROP_0;
+	public static final DeferredBlock<Block> LEMON_SEEDS;
 	public static final DeferredBlock<Block> LEMON_CROP_2;
 	public static final DeferredBlock<Block> LEMON_CROP_1;
 	public static final DeferredBlock<Block> LEMON_CROP_3;
@@ -32,7 +32,7 @@ public class LimonataModBlocks {
 	public static final DeferredBlock<Block> LEMON_FUNGUS_STAGE_3;
 	public static final DeferredBlock<Block> LEMON_FUNGUS_STAGE_4;
 	static {
-		LEMON_CROP_0 = REGISTRY.register("lemon_crop_0", LemonCrop0Block::new);
+		LEMON_SEEDS = REGISTRY.register("lemon_seeds", LemonCrop0Block::new);
 		LEMON_CROP_2 = REGISTRY.register("lemon_crop_2", LemonCrop2Block::new);
 		LEMON_CROP_1 = REGISTRY.register("lemon_crop_1", LemonCrop1Block::new);
 		LEMON_CROP_3 = REGISTRY.register("lemon_crop_3", LemonCrop3Block::new);

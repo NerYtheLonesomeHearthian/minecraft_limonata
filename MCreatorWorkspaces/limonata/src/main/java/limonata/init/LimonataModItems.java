@@ -26,8 +26,8 @@ public class LimonataModItems {
 	public static final DeferredItem<Item> GLASS_OF_LEMONADE;
 	public static final DeferredItem<Item> LEMON;
 	public static final DeferredItem<Item> CUT_LEMON;
+	public static final DeferredItem<Item> LEMON_SEEDS_OLD;
 	public static final DeferredItem<Item> LEMON_SEEDS;
-	public static final DeferredItem<Item> LEMON_CROP_0;
 	public static final DeferredItem<Item> LEMON_CROP_2;
 	public static final DeferredItem<Item> LEMON_CROP_1;
 	public static final DeferredItem<Item> LEMON_CROP_3;
@@ -67,8 +67,8 @@ public class LimonataModItems {
 		GLASS_OF_LEMONADE = REGISTRY.register("glass_of_lemonade", LimonataglassItem::new);
 		LEMON = REGISTRY.register("lemon", LemonItem::new);
 		CUT_LEMON = REGISTRY.register("cut_lemon", CutlemonItem::new);
-		LEMON_SEEDS = REGISTRY.register("lemon_seeds", LemonseedsItem::new);
-		LEMON_CROP_0 = block(LimonataModBlocks.LEMON_CROP_0);
+		LEMON_SEEDS_OLD = REGISTRY.register("lemon_seeds_old", LemonseedsItem::new);
+		LEMON_SEEDS = block(LimonataModBlocks.LEMON_SEEDS);
 		LEMON_CROP_2 = block(LimonataModBlocks.LEMON_CROP_2);
 		LEMON_CROP_1 = block(LimonataModBlocks.LEMON_CROP_1);
 		LEMON_CROP_3 = block(LimonataModBlocks.LEMON_CROP_3);

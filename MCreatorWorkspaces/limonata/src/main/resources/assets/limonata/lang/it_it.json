@@ -6,7 +6,6 @@
   "item.limonata.lemon": "Limone",
   "advancements.obtainlemon.descr": "Ottieni un limone.",
   "advancements.obtainlemon.title": "L\u0027inizio",
-  "block.limonata.lemon_crop_0": "Campo di limoni",
   "block.limonata.lemon_crop_2": "Campo di limoni",
   "block.limonata.lemon_crop_1": "Campo di limoni",
   "block.limonata.lemon_crop_3": "Campo di limoni",
@@ -30,7 +29,6 @@
   "advancements.obtain_lemonade_stand.title": "Questo è il tuo banco da lavoro.",
   "item.limonata.lemonade_stand_achievement_item": "LemonadeStandAchievementItem",
   "item.limonata.cut_lemon": "Mezzo limone",
-  "item.limonata.lemon_seeds": "Semi di limone",
   "block.limonata.lemon_leaves": "Fogflie di limone",
   "block.limonata.lemon_leaves_lemon": "Foglie di limone con limoni",
   "block.limonata.lemon_crate": "Campo di limoni",
@@ -79,5 +77,7 @@
   "block.limonata.lemon_fungus_stage_3": "Lemon Fungus",
   "block.limonata.lemon_fungus_stage_2": "Lemon Fungus",
   "block.limonata.lemon_fungus_stage_4": "Lemon Fungus",
-  "block.limonata.lemon_fungus": "Lemon Fungus"
+  "block.limonata.lemon_fungus": "Lemon Fungus",
+  "item.limonata.lemon_seeds_old": "Lemon Seeds (old, deprecated)",
+  "block.limonata.lemon_seeds": "Lemon Seeds"
 }

@@ -18,6 +18,9 @@
     "itemTexture": "",
     "particleTexture": "all_crop_green",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -51,7 +54,7 @@
     "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Lemonseeds"
+      "value": "CUSTOM:LemonCrop0"
     },
     "dropAmount": 1,
     "xpAmountMin": 0,
@@ -72,10 +75,13 @@
     "colorOnMap": "FOLIAGE",
     "noteBlockInstrument": "harp",
     "creativePickItem": {
-      "value": "CUSTOM:Lemonseeds"
+      "value": "CUSTOM:LemonCrop0"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "OPEN",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,

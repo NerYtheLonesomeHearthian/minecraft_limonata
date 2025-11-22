@@ -25,7 +25,7 @@ import limonata.procedures.LemonCropNeighbourBlockChangesProcedure;
 import limonata.procedures.LemonCropBoneMealSuccessConditionProcedure;
 import limonata.procedures.LemonCrop5OnBoneMealSuccessProcedure;
 
-import limonata.init.LimonataModItems;
+import limonata.init.LimonataModBlocks;
 
 public class LemonCrop5Block extends Block implements BonemealableBlock {
 	public LemonCrop5Block() {
@@ -54,7 +54,7 @@ public class LemonCrop5Block extends Block implements BonemealableBlock {
 
 	@Override
 	public ItemStack getCloneItemStack(LevelReader level, BlockPos pos, BlockState state) {
-		return new ItemStack(LimonataModItems.LEMON_SEEDS.get());
+		return new ItemStack(LimonataModBlocks.LEMON_SEEDS.get());
 	}
 
 	@Override

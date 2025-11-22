@@ -74,7 +74,7 @@ public class LemonCrop0Block extends Block implements BonemealableBlock {
 
 	@Override
 	public ItemStack getCloneItemStack(LevelReader level, BlockPos pos, BlockState state) {
-		return new ItemStack(LimonataModItems.LEMON_SEEDS.get());
+		return new ItemStack(LimonataModItems.LEMON_SEEDS_OLD.get());
 	}
 
 	@Override

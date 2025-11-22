@@ -29,7 +29,6 @@ public class LimonataModTabs {
 				tabData.accept(LimonataModItems.LEMON.get());
 				tabData.accept(LimonataModItems.CUT_LEMON.get());
 				tabData.accept(LimonataModItems.GOLDEN_LEMON.get());
-				tabData.accept(LimonataModItems.LEMON_SEEDS.get());
 				tabData.accept(LimonataModBlocks.LEMON_LEAVES.get().asItem());
 				tabData.accept(LimonataModBlocks.LEMON_LEAVES_LEMON.get().asItem());
 				tabData.accept(LimonataModItems.ICE_CUBES.get());
@@ -48,6 +47,8 @@ public class LimonataModTabs {
 				tabData.accept(LimonataModItems.LEMONADE_BUCKET.get());
 				tabData.accept(LimonataModItems.LEMONADE_BOTTLE.get());
 				tabData.accept(LimonataModBlocks.LEMON_FUNGUS.get().asItem());
+				tabData.accept(LimonataModItems.LEMON_SEEDS_OLD.get());
+				tabData.accept(LimonataModBlocks.LEMON_SEEDS.get().asItem());
 			}).build());
 
 	@SubscribeEvent

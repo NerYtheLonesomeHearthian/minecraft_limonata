@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "mushroom_fields",
+  "features": "limonata:lemonshroom_gen_feature",
+  "step": "vegetal_decoration"
+}
