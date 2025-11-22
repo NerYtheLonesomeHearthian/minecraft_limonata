@@ -11,11 +11,7 @@
     "animations": [],
     "name": "Lemon Seeds (old, deprecated)",
     "rarity": "COMMON",
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:LimonataCreativeTab"
-      }
-    ],
+    "creativeTabs": [],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

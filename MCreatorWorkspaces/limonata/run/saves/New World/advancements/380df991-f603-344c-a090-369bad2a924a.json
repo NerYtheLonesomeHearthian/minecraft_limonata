@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:mushroom_fields": "2025-11-22 15:59:43 +0100",
       "minecraft:frozen_river": "2025-11-22 15:16:52 +0100",
       "minecraft:taiga": "2025-11-22 12:46:40 +0100",
       "minecraft:grove": "2025-11-22 15:17:02 +0100"
@@ -286,6 +287,24 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2025-11-22 15:17:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-11-22 16:01:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-11-22 16:05:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-11-22 16:01:28 +0100"
     },
     "done": true
   },

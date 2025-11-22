@@ -1,8 +1,3 @@
-/give @p limonata:lemon_crop_0
-/time set day
-/gamerule randomTickSpeed 3
-/gamerule randomTickSpeed 300
-/gamerule randomTickSpeed 3000
 /neoforge tps
 /gamerule randomTickSpeed 30000
 /neoforge tps
@@ -48,3 +43,8 @@
 /give @p limonata:g
 /give @p limonata:grown_lemonshroom
 /give @p limonata:adult_lemonshroom
+/locate biome minecraft:mushroom_fields
+/tp @s -126 82 -630
+/gamerule keepInventory true
+/kill
+/weather clear

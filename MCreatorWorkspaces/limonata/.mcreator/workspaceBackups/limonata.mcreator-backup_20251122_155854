@@ -2353,13 +2353,13 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lemon_fungus",
+      "registry_name": "lemonshroom",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/models/block/lemon_fungus.json",
-          "src/main/resources/assets/limonata/blockstates/lemon_fungus.json",
-          "src/main/resources/assets/limonata/models/item/lemon_fungus.json",
-          "src/main/resources/data/limonata/loot_table/blocks/lemon_fungus.json",
+          "src/main/resources/assets/limonata/models/item/lemonshroom.json",
+          "src/main/resources/data/limonata/loot_table/blocks/lemonshroom.json",
+          "src/main/resources/assets/limonata/blockstates/lemonshroom.json",
+          "src/main/resources/assets/limonata/models/block/lemonshroom.json",
           "src/main/java/limonata/block/LemonfungusBlock.java"
         ]
       },
@@ -2370,13 +2370,13 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lemon_fungus_stage_2",
+      "registry_name": "hatchling_lemonshroom",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/blockstates/lemon_fungus_stage_2.json",
-          "src/main/resources/assets/limonata/models/item/lemon_fungus_stage_2.json",
-          "src/main/resources/assets/limonata/models/block/lemon_fungus_stage_2.json",
-          "src/main/resources/data/limonata/loot_table/blocks/lemon_fungus_stage_2.json",
+          "src/main/resources/assets/limonata/models/block/hatchling_lemonshroom.json",
+          "src/main/resources/data/limonata/loot_table/blocks/hatchling_lemonshroom.json",
+          "src/main/resources/assets/limonata/blockstates/hatchling_lemonshroom.json",
+          "src/main/resources/assets/limonata/models/item/hatchling_lemonshroom.json",
           "src/main/java/limonata/block/LemonFungusStage2Block.java"
         ]
       },
@@ -2387,14 +2387,13 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lemon_fungus_stage_3",
+      "registry_name": "grown_lemonshroom",
       "metadata": {
         "files": [
           "src/main/java/limonata/block/LemonFungusStage3Block.java",
-          "src/main/resources/data/limonata/loot_table/blocks/lemon_fungus_stage_3.json",
-          "src/main/resources/assets/limonata/models/item/lemon_fungus_stage_3.json",
-          "src/main/resources/assets/limonata/blockstates/lemon_fungus_stage_3.json",
-          "src/main/resources/assets/limonata/models/block/lemon_fungus_stage_3.json"
+          "src/main/resources/assets/limonata/models/item/grown_lemonshroom.json",
+          "src/main/resources/assets/limonata/blockstates/grown_lemonshroom.json",
+          "src/main/resources/assets/limonata/models/block/grown_lemonshroom.json"
         ]
       },
       "path": "~/lemonshroom"
@@ -2404,13 +2403,13 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lemon_fungus_stage_4",
+      "registry_name": "adult_lemonshroom",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/blockstates/lemon_fungus_stage_4.json",
-          "src/main/java/limonata/block/LemonFungusStage4Block.java",
-          "src/main/resources/assets/limonata/models/item/lemon_fungus_stage_4.json",
-          "src/main/resources/assets/limonata/models/block/lemon_fungus_stage_4.json"
+          "src/main/resources/assets/limonata/models/block/adult_lemonshroom.json",
+          "src/main/resources/assets/limonata/blockstates/adult_lemonshroom.json",
+          "src/main/resources/assets/limonata/models/item/adult_lemonshroom.json",
+          "src/main/java/limonata/block/LemonFungusStage4Block.java"
         ]
       },
       "path": "~/lemonshroom"
@@ -2473,19 +2472,6 @@
         ],
         "files": [
           "src/main/java/limonata/procedures/LemonFungusNeighbourBlockChangesProcedure.java"
-        ]
-      },
-      "path": "~/lemonshroom"
-    },
-    {
-      "name": "LemonFungusLastStageLootTable",
-      "type": "loottable",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lemon_fungus_last_stage_loot_table",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/limonata/loot_table/blocks/lemon_fungus_stage_4.json"
         ]
       },
       "path": "~/lemonshroom"
@@ -2662,6 +2648,67 @@
         "files": []
       },
       "path": "~/lemonshroom"
+    },
+    {
+      "name": "HatchlingLemonshroomLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hatchling_lemonshroom_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/loot_table/blocks/hatchling_lemonshroom.json"
+        ]
+      },
+      "path": "~/lemonshroom"
+    },
+    {
+      "name": "GrownLemonshroomLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grown_lemonshroom_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/loot_table/blocks/grown_lemonshroom.json"
+        ]
+      },
+      "path": "~/lemonshroom"
+    },
+    {
+      "name": "AdultLemonshroomLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adult_lemonshroom_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/loot_table/blocks/adult_lemonshroom.json"
+        ]
+      },
+      "path": "~/lemonshroom"
+    },
+    {
+      "name": "LemonExt",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_ext",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/lemons"
+    },
+    {
+      "name": "CutLemonExt",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_lemon_ext",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/lemons"
     }
   ],
   "variable_elements": [],
@@ -2892,6 +2939,7 @@
       "Lemon",
       "Cutlemon",
       "GoldenLemon",
+      "EnchantedGoldenLemon",
       "DoubleLemonade",
       "TripleLemonade",
       "QuadrupleLemonade",
@@ -2901,22 +2949,29 @@
       "PowderLemonade",
       "BricksLemonade",
       "GoldenLemonade",
-      "EnchantedGoldenLemon",
       "EnchantedGoldenLemonade",
       "Limonataglass"
     ],
     "DECORATIONS": [],
     "CUSTOM:LimonataCreativeTab": [
       "MusicDiscLimonataChiamata",
-      "LemonadeStand",
-      "Glass",
-      "LemonCrate",
+      "IceCubes",
+      "LemonCrop0",
       "Lemon",
       "Cutlemon",
       "GoldenLemon",
+      "EnchantedGoldenLemon",
+      "LemonCrate",
+      "Lemonade",
+      "LemonadeBottle",
       "LemonLeaves",
       "LemonLeavesLemon",
-      "IceCubes",
+      "Lemonfungus",
+      "LemonFungusStage2",
+      "LemonFungusStage3",
+      "LemonFungusStage4",
+      "LemonadeStand",
+      "Glass",
       "DoubleLemonade",
       "TripleLemonade",
       "QuadrupleLemonade",
@@ -2926,14 +2981,9 @@
       "PowderLemonade",
       "BricksLemonade",
       "GoldenLemonade",
-      "EnchantedGoldenLemon",
       "EnchantedGoldenLemonade",
       "Limonataglass",
-      "Lemonade",
-      "LemonadeBottle",
-      "Lemonfungus",
-      "Lemonseeds",
-      "LemonCrop0"
+      "Lemonseeds"
     ]
   },
   "language_map": {
@@ -3013,12 +3063,12 @@
       "item.limonata.lemonade_bottle": "Lemonade Bottle",
       "gamerule.doLemonTreesGrowFinalStage": "Lemon Tree grows to the final stage",
       "gamerule.doLemonTreesGrowFinalStage.description": "Allows the Lemon Tree to grow to its final stage.",
-      "block.limonata.lemon_fungus_stage_3": "Lemonshroom",
-      "block.limonata.lemon_fungus_stage_2": "Lemonshroom",
-      "block.limonata.lemon_fungus_stage_4": "Lemonshroom",
-      "block.limonata.lemon_fungus": "Lemonshroom",
       "item.limonata.lemon_seeds_old": "Lemon Seeds (old, deprecated)",
-      "block.limonata.lemon_seeds": "Lemon Seeds"
+      "block.limonata.lemon_seeds": "Lemon Seeds",
+      "block.limonata.lemonshroom": "Lemonshroom",
+      "block.limonata.hatchling_lemonshroom": "Hatchling Lemonshroom",
+      "block.limonata.grown_lemonshroom": "Grown Lemonshroom",
+      "block.limonata.adult_lemonshroom": "Adult Lemonshroom"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -3096,12 +3146,12 @@
       "item.limonata.lemonade_bottle": "Lemonade Bottle",
       "gamerule.doLemonTreesGrowFinalStage": "Lemon Tree gros to the final stage",
       "gamerule.doLemonTreesGrowFinalStage.description": "Allows the Lemon Tree to grow to its final stage.",
-      "block.limonata.lemon_fungus_stage_3": "Lemon Fungus",
-      "block.limonata.lemon_fungus_stage_2": "Lemon Fungus",
-      "block.limonata.lemon_fungus_stage_4": "Lemon Fungus",
-      "block.limonata.lemon_fungus": "Lemon Fungus",
       "item.limonata.lemon_seeds_old": "Lemon Seeds (old, deprecated)",
-      "block.limonata.lemon_seeds": "Lemon Seeds"
+      "block.limonata.lemon_seeds": "Lemon Seeds",
+      "block.limonata.lemonshroom": "Lemonshroom",
+      "block.limonata.hatchling_lemonshroom": "Hatchling Lemonshroom",
+      "block.limonata.grown_lemonshroom": "Grown Lemonshroom",
+      "block.limonata.adult_lemonshroom": "Adult Lemonshroom"
     }
   },
   "metadata": {
@@ -3112,6 +3162,7 @@
       "src/main/java/limonata/init/LimonataModMenus.java",
       "src/main/java/limonata/network/MenuStateUpdateMessage.java",
       "src/main/java/limonata/init/LimonataModGameRules.java",
+      "src/main/resources/data/neoforge/data_maps/item/compostables.json",
       "src/main/java/limonata/init/LimonataModParticles.java",
       "src/main/java/limonata/init/LimonataModParticleTypes.java",
       "src/main/java/limonata/init/LimonataModBlocks.java",
