@@ -22,10 +22,11 @@ For now, the things added are:
 - Added the Golden Lemon, a golden food similar to the golden apple.
 - Added multiple types of lemonade, brewable through the Lemonade Stand.
 - Added a whole water-like Lemonade fluid, compatible with Create's fluid management. It includes a bucket and a bottle.
+- Added Lemonshroom, a lemon fungus that can be found on the Mushroom Island. It grows and can produce lemons.
 
 There probably will not be any big addition such as new dimensions or game-breaking recipes.
 
-My intention with this mod is to add small cute additions that are a kind of inside jokes between me and my friends, but also some little features in the themes of lemon&lemonade, which everybody can enjoy. For example at the moment i'm implementing Lemonade as a food/drink as well as lemons with their plant.
+My intention with this mod is to add small cute additions that are a kind of inside jokes between me and my friends, but also some little features in the themes of lemon&lemonade, which everybody can enjoy. More content is coming.
 
 This mod was made with MCreator.
 
