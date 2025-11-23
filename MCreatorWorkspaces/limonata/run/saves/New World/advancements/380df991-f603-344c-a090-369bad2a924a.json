@@ -1,310 +1,139 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2025-11-22 12:46:40 +0100"
+      "unlock_right_away": "2025-11-23 14:56:01 +0100"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:mushroom_fields": "2025-11-22 15:59:43 +0100",
-      "minecraft:frozen_river": "2025-11-22 15:16:52 +0100",
-      "minecraft:taiga": "2025-11-22 12:46:40 +0100",
-      "minecraft:grove": "2025-11-22 15:17:02 +0100"
+      "minecraft:taiga": "2025-11-23 14:56:01 +0100"
     },
     "done": false
-  },
-  "limonata:recipes/lemonade_stand_recipe": {
-    "criteria": {
-      "has_ingredient_0": "2025-11-22 12:47:11 +0100"
-    },
-    "done": true
-  },
-  "limonata:recipes/lemons_to_lemoncrate": {
-    "criteria": {
-      "has_ingredient_0": "2025-11-22 12:47:11 +0100"
-    },
-    "done": true
-  },
-  "create:root": {
-    "criteria": {
-      "0": "2025-11-22 12:47:11 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2025-11-22 12:47:11 +0100"
-    },
-    "done": true
-  },
-  "limonata:obtainlemon": {
-    "criteria": {
-      "obtainlemon_0": "2025-11-22 12:47:11 +0100"
-    },
-    "done": true
-  },
-  "farmersdelight:main/root": {
-    "criteria": {
-      "seeds": "2025-11-22 12:47:11 +0100"
-    },
-    "done": true
-  },
-  "limonata:recipes/golden_lemon_recipe": {
-    "criteria": {
-      "has_ingredient_0": "2025-11-22 12:47:11 +0100"
-    },
-    "done": true
-  },
-  "limonata:recipes/lemontocutlemon": {
-    "criteria": {
-      "has_ingredient_0": "2025-11-22 12:47:11 +0100"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/mushroom_rice": {
-    "criteria": {
-      "has_any_ingredient": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/ladder": {
-    "criteria": {
-      "has_stick": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/rabbit_stew": {
-    "criteria": {
-      "has_any_ingredient": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/mushroom_stew": {
-    "criteria": {
-      "has_any_ingredient": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/combat/flint_knife": {
-    "criteria": {
-      "has_stick": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_brown_mushroom": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_axe": {
-    "criteria": {
-      "has_stick": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/vegetable_noodles": {
-    "criteria": {
-      "has_any_ingredient": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "create:wrench_goggles": {
-    "criteria": {
-      "1": "2025-11-22 13:11:30 +0100"
-    },
-    "done": false
-  },
-  "limonata:recipes/cutlemontolemonseeds": {
-    "criteria": {
-      "has_ingredient_1": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_stick": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_hoe": {
-    "criteria": {
-      "has_stick": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_pickaxe": {
-    "criteria": {
-      "has_stick": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_shovel": {
-    "criteria": {
-      "has_stick": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/wooden_sword": {
-    "criteria": {
-      "has_stick": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_planks": {
-    "criteria": {
-      "has_logs": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/obtain_netherite_hoe": {
-    "criteria": {
-      "netherite_hoe": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/cutting_board": {
-    "criteria": {
-      "has_stick": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/mushroom_stew": {
-    "criteria": {
-      "has_brown_mushroom": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_wood": {
-    "criteria": {
-      "has_log": "2025-11-22 13:11:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
-    "criteria": {
-      "has_warped_fungus": "2025-11-22 13:27:50 +0100"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/dog_food": {
-    "criteria": {
-      "has_any_ingredient": "2025-11-22 15:07:46 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2025-11-22 15:07:46 +0100"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/tree_fertilizer": {
-    "criteria": {
-      "has_item": "2025-11-22 15:07:46 +0100"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/appliances/tree_fertilizer": {
-    "criteria": {
-      "has_item": "2025-11-22 15:07:46 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bone_block": {
-    "criteria": {
-      "has_bone_meal": "2025-11-22 15:07:46 +0100"
-    },
-    "done": true
   },
   "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
-      "in_water": "2025-11-22 15:17:07 +0100"
+      "in_water": "2025-11-23 14:56:01 +0100"
     },
     "done": true
   },
   "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
-      "in_water": "2025-11-22 15:17:07 +0100"
+      "in_water": "2025-11-23 14:56:01 +0100"
     },
     "done": true
   },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
-      "in_water": "2025-11-22 15:17:07 +0100"
+      "in_water": "2025-11-23 14:56:01 +0100"
     },
     "done": true
   },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "in_water": "2025-11-22 15:17:07 +0100"
+      "in_water": "2025-11-23 14:56:01 +0100"
     },
     "done": true
   },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "in_water": "2025-11-22 15:17:07 +0100"
+      "in_water": "2025-11-23 14:56:01 +0100"
     },
     "done": true
   },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
-      "in_water": "2025-11-22 15:17:07 +0100"
+      "in_water": "2025-11-23 14:56:01 +0100"
     },
     "done": true
   },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "in_water": "2025-11-22 15:17:07 +0100"
+      "in_water": "2025-11-23 14:56:01 +0100"
     },
     "done": true
   },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "in_water": "2025-11-22 15:17:07 +0100"
+      "in_water": "2025-11-23 14:56:01 +0100"
     },
     "done": true
   },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "in_water": "2025-11-22 15:17:07 +0100"
+      "in_water": "2025-11-23 14:56:01 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_wood": {
+  "minecraft:husbandry/plant_seed": {
     "criteria": {
-      "has_log": "2025-11-22 16:01:28 +0100"
+      "torchflower": "2025-11-23 14:56:05 +0100",
+      "beetroots": "2025-11-23 14:56:05 +0100",
+      "pumpkin_stem": "2025-11-23 14:56:05 +0100",
+      "melon_stem": "2025-11-23 14:56:05 +0100",
+      "nether_wart": "2025-11-23 14:56:05 +0100",
+      "pitcher_pod": "2025-11-23 14:56:05 +0100",
+      "wheat": "2025-11-23 14:56:05 +0100"
     },
     "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2025-11-23 15:56:50 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/crafting_blueprint": {
+    "criteria": {
+      "has_item": "2025-11-23 15:56:50 +0100"
+    },
+    "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "1": "2025-11-23 15:56:50 +0100"
+    },
+    "done": false
   },
   "minecraft:husbandry/root": {
     "criteria": {
-      "consumed_item": "2025-11-22 16:05:04 +0100"
+      "consumed_item": "2025-11-23 15:58:20 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_planks": {
+  "limonata:recipes/cutlemontolemonseeds": {
     "criteria": {
-      "has_logs": "2025-11-22 16:01:28 +0100"
+      "has_ingredient_1": "2025-11-23 15:56:50 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2025-11-23 15:56:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-11-23 15:56:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-11-23 15:56:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2025-11-23 15:56:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-11-23 15:56:50 +0100"
     },
     "done": true
   },

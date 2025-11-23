@@ -79,7 +79,7 @@
     "colorOnMap": "FOLIAGE",
     "noteBlockInstrument": "harp",
     "creativePickItem": {
-      "value": "CUSTOM:Lemonseeds"
+      "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "OPEN",

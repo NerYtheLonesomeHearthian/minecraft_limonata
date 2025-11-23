@@ -40,17 +40,17 @@ public class LimonataModTabs {
 				tabData.accept(LimonataModBlocks.ADULT_LEMONSHROOM.get().asItem());
 				tabData.accept(LimonataModBlocks.LEMONADE_STAND.get().asItem());
 				tabData.accept(LimonataModItems.GLASS.get());
+				tabData.accept(LimonataModItems.GLASS_OF_LEMONADE.get());
 				tabData.accept(LimonataModItems.DOUBLE_LEMONADE.get());
 				tabData.accept(LimonataModItems.TRIPLE_LEMONADE.get());
 				tabData.accept(LimonataModItems.QUADRUPLE_LEMONADE.get());
 				tabData.accept(LimonataModItems.QUINTUPLE_LEMONADE.get());
 				tabData.accept(LimonataModItems.CEMENT_LEMONADE.get());
+				tabData.accept(LimonataModItems.BRICKS_LEMONADE.get());
 				tabData.accept(LimonataModItems.NETHER_BRICKS_LEMONADE.get());
 				tabData.accept(LimonataModItems.POWDER_LEMONADE.get());
-				tabData.accept(LimonataModItems.BRICKS_LEMONADE.get());
 				tabData.accept(LimonataModItems.GOLDEN_LEMONADE.get());
 				tabData.accept(LimonataModItems.ENCHANTED_GOLDEN_LEMONADE.get());
-				tabData.accept(LimonataModItems.GLASS_OF_LEMONADE.get());
 			}).build());
 
 	@SubscribeEvent

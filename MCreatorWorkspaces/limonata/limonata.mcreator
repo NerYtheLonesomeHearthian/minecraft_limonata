@@ -65,8 +65,8 @@
       "registry_name": "lemon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/models/item/lemon.json",
-          "src/main/java/limonata/item/LemonItem.java"
+          "src/main/java/limonata/item/LemonItem.java",
+          "src/main/resources/assets/limonata/models/item/lemon.json"
         ]
       },
       "path": "~/lemons"
@@ -79,8 +79,8 @@
       "registry_name": "cut_lemon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/models/item/cut_lemon.json",
-          "src/main/java/limonata/item/CutlemonItem.java"
+          "src/main/java/limonata/item/CutlemonItem.java",
+          "src/main/resources/assets/limonata/models/item/cut_lemon.json"
         ]
       },
       "path": "~/lemons"
@@ -98,20 +98,6 @@
         ]
       },
       "path": "~/lemons"
-    },
-    {
-      "name": "Lemonseeds",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lemon_seeds_old",
-      "metadata": {
-        "files": [
-          "src/main/java/limonata/item/LemonseedsItem.java",
-          "src/main/resources/assets/limonata/models/item/lemon_seeds_old.json"
-        ]
-      },
-      "path": "~/DEPRECATED_TO-REMOVE"
     },
     {
       "name": "Cutlemontolemonseeds",
@@ -150,47 +136,12 @@
         "files": [
           "src/main/resources/assets/limonata/models/item/lemon_seeds.json",
           "src/main/resources/assets/limonata/models/block/lemon_seeds.json",
-          "src/main/resources/data/limonata/loot_table/blocks/lemon_seeds.json",
+          "src/main/java/limonata/block/LemonCrop0Block.java",
           "src/main/resources/assets/limonata/blockstates/lemon_seeds.json",
-          "src/main/java/limonata/block/LemonCrop0Block.java"
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_seeds.json"
         ]
       },
       "path": "~/lemonCrop"
-    },
-    {
-      "name": "LemonseedsRightclickedOnBlock",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lemonseeds_rightclicked_on_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/limonata/procedures/LemonseedsRightclickedOnBlockProcedure.java"
-        ]
-      },
-      "path": "~/DEPRECATED_TO-REMOVE"
     },
     {
       "name": "LemonCrop2",
@@ -201,10 +152,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/limonata/models/item/lemon_crop_2.json",
-          "src/main/resources/assets/limonata/models/block/lemon_crop_2.json",
           "src/main/resources/assets/limonata/blockstates/lemon_crop_2.json",
           "src/main/java/limonata/block/LemonCrop2Block.java",
-          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_2.json"
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_2.json",
+          "src/main/resources/assets/limonata/models/block/lemon_crop_2.json"
         ]
       },
       "path": "~/lemonCrop"
@@ -217,11 +168,11 @@
       "registry_name": "lemon_crop_1",
       "metadata": {
         "files": [
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_1.json",
           "src/main/resources/assets/limonata/blockstates/lemon_crop_1.json",
           "src/main/java/limonata/block/LemonCrop1Block.java",
-          "src/main/resources/assets/limonata/models/block/lemon_crop_1.json",
           "src/main/resources/assets/limonata/models/item/lemon_crop_1.json",
-          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_1.json"
+          "src/main/resources/assets/limonata/models/block/lemon_crop_1.json"
         ]
       },
       "path": "~/lemonCrop"
@@ -234,11 +185,11 @@
       "registry_name": "lemon_crop_3",
       "metadata": {
         "files": [
-          "src/main/java/limonata/block/LemonCrop3Block.java",
-          "src/main/resources/assets/limonata/models/item/lemon_crop_3.json",
           "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_3.json",
+          "src/main/resources/assets/limonata/models/item/lemon_crop_3.json",
           "src/main/resources/assets/limonata/blockstates/lemon_crop_3.json",
-          "src/main/resources/assets/limonata/models/block/lemon_crop_3.json"
+          "src/main/resources/assets/limonata/models/block/lemon_crop_3.json",
+          "src/main/java/limonata/block/LemonCrop3Block.java"
         ]
       },
       "path": "~/lemonCrop"
@@ -251,11 +202,11 @@
       "registry_name": "lemon_crop_4",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/models/item/lemon_crop_4.json",
           "src/main/resources/assets/limonata/blockstates/lemon_crop_4.json",
+          "src/main/resources/assets/limonata/models/block/lemon_crop_4.json",
           "src/main/java/limonata/block/LemonCrop4Block.java",
           "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_4.json",
-          "src/main/resources/assets/limonata/models/block/lemon_crop_4.json"
+          "src/main/resources/assets/limonata/models/item/lemon_crop_4.json"
         ]
       },
       "path": "~/lemonCrop"
@@ -268,11 +219,11 @@
       "registry_name": "lemon_crop_5",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/models/block/lemon_crop_5.json",
-          "src/main/resources/assets/limonata/blockstates/lemon_crop_5.json",
-          "src/main/resources/assets/limonata/models/item/lemon_crop_5.json",
           "src/main/java/limonata/block/LemonCrop5Block.java",
-          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_5.json"
+          "src/main/resources/assets/limonata/models/item/lemon_crop_5.json",
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_5.json",
+          "src/main/resources/assets/limonata/blockstates/lemon_crop_5.json",
+          "src/main/resources/assets/limonata/models/block/lemon_crop_5.json"
         ]
       },
       "path": "~/lemonCrop"
@@ -286,10 +237,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/limonata/blockstates/lemon_crop_6.json",
-          "src/main/resources/assets/limonata/models/block/lemon_crop_6.json",
           "src/main/java/limonata/block/LemonCrop6Block.java",
           "src/main/resources/assets/limonata/models/item/lemon_crop_6.json",
-          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_6.json"
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_6.json",
+          "src/main/resources/assets/limonata/models/block/lemon_crop_6.json"
         ]
       },
       "path": "~/lemonCrop"
@@ -472,11 +423,11 @@
       "registry_name": "lemon_crop_5_5",
       "metadata": {
         "files": [
-          "src/main/java/limonata/block/LemonCrop55Block.java",
-          "src/main/resources/assets/limonata/models/block/lemon_crop_5_5.json",
-          "src/main/resources/assets/limonata/models/item/lemon_crop_5_5.json",
           "src/main/resources/assets/limonata/blockstates/lemon_crop_5_5.json",
-          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_5_5.json"
+          "src/main/resources/assets/limonata/models/block/lemon_crop_5_5.json",
+          "src/main/java/limonata/block/LemonCrop55Block.java",
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crop_5_5.json",
+          "src/main/resources/assets/limonata/models/item/lemon_crop_5_5.json"
         ]
       },
       "path": "~/lemonCrop"
@@ -613,10 +564,10 @@
       "registry_name": "lemon_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/models/block/lemon_leaves.json",
+          "src/main/resources/assets/limonata/blockstates/lemon_leaves.json",
           "src/main/java/limonata/block/LemonLeavesBlock.java",
           "src/main/resources/assets/limonata/models/item/lemon_leaves.json",
-          "src/main/resources/assets/limonata/blockstates/lemon_leaves.json"
+          "src/main/resources/assets/limonata/models/block/lemon_leaves.json"
         ]
       },
       "path": "~/lemonCrop"
@@ -646,8 +597,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/limonata/neoforge/biome_modifier/lemon_tree_biome_modifier.json",
-          "src/main/resources/data/limonata/worldgen/placed_feature/lemon_tree.json",
-          "src/main/resources/data/limonata/worldgen/configured_feature/lemon_tree.json"
+          "src/main/resources/data/limonata/worldgen/configured_feature/lemon_tree.json",
+          "src/main/resources/data/limonata/worldgen/placed_feature/lemon_tree.json"
         ]
       },
       "path": "~/lemonCrop"
@@ -794,8 +745,8 @@
       "registry_name": "ice_cubes",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/models/item/ice_cubes.json",
-          "src/main/java/limonata/item/IceCubesItem.java"
+          "src/main/java/limonata/item/IceCubesItem.java",
+          "src/main/resources/assets/limonata/models/item/ice_cubes.json"
         ]
       },
       "path": "~/other_items"
@@ -853,12 +804,12 @@
       "registry_name": "lemonade_stand",
       "metadata": {
         "files": [
-          "src/main/resources/data/limonata/loot_table/blocks/lemonade_stand.json",
-          "src/main/resources/assets/limonata/blockstates/lemonade_stand.json",
-          "src/main/resources/assets/limonata/models/block/lemonade_stand.json",
-          "src/main/resources/assets/limonata/models/item/lemonade_stand.json",
           "src/main/java/limonata/block/LemonadeStandBlock.java",
-          "src/main/java/limonata/block/entity/LemonadeStandBlockEntity.java"
+          "src/main/resources/assets/limonata/models/block/lemonade_stand.json",
+          "src/main/java/limonata/block/entity/LemonadeStandBlockEntity.java",
+          "src/main/resources/assets/limonata/models/item/lemonade_stand.json",
+          "src/main/resources/assets/limonata/blockstates/lemonade_stand.json",
+          "src/main/resources/data/limonata/loot_table/blocks/lemonade_stand.json"
         ]
       },
       "path": "~/lemonadeStand"
@@ -884,8 +835,8 @@
       "registry_name": "lemonade_achievement_item",
       "metadata": {
         "files": [
-          "src/main/java/limonata/item/LemonadeAchievementItemItem.java",
-          "src/main/resources/assets/limonata/models/item/lemonade_achievement_item.json"
+          "src/main/resources/assets/limonata/models/item/lemonade_achievement_item.json",
+          "src/main/java/limonata/item/LemonadeAchievementItemItem.java"
         ]
       },
       "path": "~/achievements"
@@ -1007,8 +958,8 @@
       "registry_name": "draft_lemonade",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/models/item/draft_lemonade.json",
-          "src/main/java/limonata/item/DraftLemonadeItem.java"
+          "src/main/java/limonata/item/DraftLemonadeItem.java",
+          "src/main/resources/assets/limonata/models/item/draft_lemonade.json"
         ]
       },
       "path": "~/lemonadeStand"
@@ -1738,8 +1689,8 @@
       "registry_name": "lemonade_stand_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/limonata/recipe/lemonade_stand_recipe.json",
-          "src/main/resources/data/limonata/advancement/recipes/lemonade_stand_recipe.json"
+          "src/main/resources/data/limonata/advancement/recipes/lemonade_stand_recipe.json",
+          "src/main/resources/data/limonata/recipe/lemonade_stand_recipe.json"
         ]
       },
       "path": "~/lemonadeStand"
@@ -1752,8 +1703,8 @@
       "registry_name": "lemonade_stand_achievement_item",
       "metadata": {
         "files": [
-          "src/main/java/limonata/item/LemonadeStandAchievementItemItem.java",
-          "src/main/resources/assets/limonata/models/item/lemonade_stand_achievement_item.json"
+          "src/main/resources/assets/limonata/models/item/lemonade_stand_achievement_item.json",
+          "src/main/java/limonata/item/LemonadeStandAchievementItemItem.java"
         ]
       },
       "path": "~/achievements"
@@ -1766,11 +1717,11 @@
       "registry_name": "lemon_crate",
       "metadata": {
         "files": [
-          "src/main/java/limonata/block/LemonCrateBlock.java",
-          "src/main/resources/assets/limonata/models/item/lemon_crate.json",
-          "src/main/resources/assets/limonata/models/block/lemon_crate.json",
           "src/main/resources/assets/limonata/blockstates/lemon_crate.json",
-          "src/main/resources/data/limonata/loot_table/blocks/lemon_crate.json"
+          "src/main/resources/assets/limonata/models/block/lemon_crate.json",
+          "src/main/java/limonata/block/LemonCrateBlock.java",
+          "src/main/resources/data/limonata/loot_table/blocks/lemon_crate.json",
+          "src/main/resources/assets/limonata/models/item/lemon_crate.json"
         ]
       },
       "path": "~/lemons"
@@ -1797,8 +1748,8 @@
       "registry_name": "lemoncrate_to_lemons",
       "metadata": {
         "files": [
-          "src/main/resources/data/limonata/advancement/recipes/lemoncrate_to_lemons.json",
-          "src/main/resources/data/limonata/recipe/lemoncrate_to_lemons.json"
+          "src/main/resources/data/limonata/recipe/lemoncrate_to_lemons.json",
+          "src/main/resources/data/limonata/advancement/recipes/lemoncrate_to_lemons.json"
         ]
       },
       "path": "~/lemons"
@@ -1841,8 +1792,8 @@
       "registry_name": "golden_lemon",
       "metadata": {
         "files": [
-          "src/main/java/limonata/item/GoldenLemonItem.java",
-          "src/main/resources/assets/limonata/models/item/golden_lemon.json"
+          "src/main/resources/assets/limonata/models/item/golden_lemon.json",
+          "src/main/java/limonata/item/GoldenLemonItem.java"
         ]
       },
       "path": "~/lemons"
@@ -1855,8 +1806,8 @@
       "registry_name": "golden_lemon_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/limonata/advancement/recipes/golden_lemon_recipe.json",
-          "src/main/resources/data/limonata/recipe/golden_lemon_recipe.json"
+          "src/main/resources/data/limonata/recipe/golden_lemon_recipe.json",
+          "src/main/resources/data/limonata/advancement/recipes/golden_lemon_recipe.json"
         ]
       },
       "path": "~/lemons"
@@ -1968,8 +1919,8 @@
       "registry_name": "quintuple_lemonade",
       "metadata": {
         "files": [
-          "src/main/java/limonata/item/QuintupleLemonadeItem.java",
-          "src/main/resources/assets/limonata/models/item/quintuple_lemonade.json"
+          "src/main/resources/assets/limonata/models/item/quintuple_lemonade.json",
+          "src/main/java/limonata/item/QuintupleLemonadeItem.java"
         ]
       },
       "path": "~/glasses_limonata"
@@ -2100,8 +2051,8 @@
       "registry_name": "bricks_lemonade",
       "metadata": {
         "files": [
-          "src/main/java/limonata/item/BricksLemonadeItem.java",
-          "src/main/resources/assets/limonata/models/item/bricks_lemonade.json"
+          "src/main/resources/assets/limonata/models/item/bricks_lemonade.json",
+          "src/main/java/limonata/item/BricksLemonadeItem.java"
         ]
       },
       "path": "~/glasses_limonata"
@@ -2232,8 +2183,8 @@
       "registry_name": "lemonade_fluid_drip",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/particles/lemonade_fluid_drip.json",
-          "src/main/java/limonata/client/particle/LemonadeFluidDripParticle.java"
+          "src/main/java/limonata/client/particle/LemonadeFluidDripParticle.java",
+          "src/main/resources/assets/limonata/particles/lemonade_fluid_drip.json"
         ]
       },
       "path": "~/lemonade_fluid"
@@ -2246,13 +2197,13 @@
       "registry_name": "lemonade",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/blockstates/lemonade.json",
-          "src/main/resources/assets/limonata/models/item/lemonade_bucket.json",
-          "src/main/java/limonata/fluid/types/LemonadeFluidType.java",
+          "src/main/java/limonata/block/LemonadeBlock.java",
           "src/main/java/limonata/item/LemonadeItem.java",
-          "src/main/java/limonata/fluid/LemonadeFluid.java",
+          "src/main/resources/assets/limonata/models/item/lemonade_bucket.json",
           "src/main/resources/assets/limonata/models/block/lemonade.json",
-          "src/main/java/limonata/block/LemonadeBlock.java"
+          "src/main/resources/assets/limonata/blockstates/lemonade.json",
+          "src/main/java/limonata/fluid/LemonadeFluid.java",
+          "src/main/java/limonata/fluid/types/LemonadeFluidType.java"
         ]
       },
       "path": "~/lemonade_fluid"
@@ -2291,8 +2242,8 @@
       "registry_name": "lemonade_bottle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/models/item/lemonade_bottle.json",
-          "src/main/java/limonata/item/LemonadeBottleItem.java"
+          "src/main/java/limonata/item/LemonadeBottleItem.java",
+          "src/main/resources/assets/limonata/models/item/lemonade_bottle.json"
         ]
       },
       "path": "~/lemonade_fluid"
@@ -2356,11 +2307,11 @@
       "registry_name": "lemonshroom",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/models/item/lemonshroom.json",
-          "src/main/resources/data/limonata/loot_table/blocks/lemonshroom.json",
           "src/main/resources/assets/limonata/blockstates/lemonshroom.json",
           "src/main/resources/assets/limonata/models/block/lemonshroom.json",
-          "src/main/java/limonata/block/LemonfungusBlock.java"
+          "src/main/java/limonata/block/LemonfungusBlock.java",
+          "src/main/resources/assets/limonata/models/item/lemonshroom.json",
+          "src/main/resources/data/limonata/loot_table/blocks/lemonshroom.json"
         ]
       },
       "path": "~/lemonshroom"
@@ -2373,11 +2324,11 @@
       "registry_name": "hatchling_lemonshroom",
       "metadata": {
         "files": [
-          "src/main/resources/assets/limonata/models/block/hatchling_lemonshroom.json",
-          "src/main/resources/data/limonata/loot_table/blocks/hatchling_lemonshroom.json",
           "src/main/resources/assets/limonata/blockstates/hatchling_lemonshroom.json",
           "src/main/resources/assets/limonata/models/item/hatchling_lemonshroom.json",
-          "src/main/java/limonata/block/LemonFungusStage2Block.java"
+          "src/main/java/limonata/block/LemonFungusStage2Block.java",
+          "src/main/resources/data/limonata/loot_table/blocks/hatchling_lemonshroom.json",
+          "src/main/resources/assets/limonata/models/block/hatchling_lemonshroom.json"
         ]
       },
       "path": "~/lemonshroom"
@@ -2390,10 +2341,10 @@
       "registry_name": "grown_lemonshroom",
       "metadata": {
         "files": [
-          "src/main/java/limonata/block/LemonFungusStage3Block.java",
-          "src/main/resources/assets/limonata/models/item/grown_lemonshroom.json",
           "src/main/resources/assets/limonata/blockstates/grown_lemonshroom.json",
-          "src/main/resources/assets/limonata/models/block/grown_lemonshroom.json"
+          "src/main/resources/assets/limonata/models/block/grown_lemonshroom.json",
+          "src/main/resources/assets/limonata/models/item/grown_lemonshroom.json",
+          "src/main/java/limonata/block/LemonFungusStage3Block.java"
         ]
       },
       "path": "~/lemonshroom"
@@ -2407,9 +2358,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/limonata/models/block/adult_lemonshroom.json",
-          "src/main/resources/assets/limonata/blockstates/adult_lemonshroom.json",
+          "src/main/java/limonata/block/LemonFungusStage4Block.java",
           "src/main/resources/assets/limonata/models/item/adult_lemonshroom.json",
-          "src/main/java/limonata/block/LemonFungusStage4Block.java"
+          "src/main/resources/assets/limonata/blockstates/adult_lemonshroom.json"
         ]
       },
       "path": "~/lemonshroom"
@@ -2548,9 +2499,9 @@
       "registry_name": "lemon_tree_crop_spawn",
       "metadata": {
         "files": [
+          "src/main/resources/data/limonata/worldgen/configured_feature/lemon_tree_crop_spawn.json",
           "src/main/resources/data/limonata/neoforge/biome_modifier/lemon_tree_crop_spawn_biome_modifier.json",
-          "src/main/resources/data/limonata/worldgen/placed_feature/lemon_tree_crop_spawn.json",
-          "src/main/resources/data/limonata/worldgen/configured_feature/lemon_tree_crop_spawn.json"
+          "src/main/resources/data/limonata/worldgen/placed_feature/lemon_tree_crop_spawn.json"
         ]
       },
       "path": "~/lemonCrop"
@@ -2564,8 +2515,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/limonata/neoforge/biome_modifier/lemonshroom_gen_feature_biome_modifier.json",
-          "src/main/resources/data/limonata/worldgen/placed_feature/lemonshroom_gen_feature.json",
-          "src/main/resources/data/limonata/worldgen/configured_feature/lemonshroom_gen_feature.json"
+          "src/main/resources/data/limonata/worldgen/configured_feature/lemonshroom_gen_feature.json",
+          "src/main/resources/data/limonata/worldgen/placed_feature/lemonshroom_gen_feature.json"
         ]
       },
       "path": "~/lemonshroom"
@@ -2846,7 +2797,6 @@
     "ITEMS:c:animal_foods": [
       "CUSTOM:Lemon",
       "CUSTOM:Cutlemon",
-      "CUSTOM:Lemonseeds",
       "CUSTOM:GoldenLemon",
       "CUSTOM:Lemonfungus"
     ],
@@ -2854,14 +2804,8 @@
       "CUSTOM:Lemon",
       "CUSTOM:Cutlemon"
     ],
-    "ITEMS:minecraft:villager_plantable_seeds": [
-      "CUSTOM:Lemonseeds"
-    ],
     "ITEMS:c:crops": [
       "CUSTOM:Lemon"
-    ],
-    "ITEMS:minecraft:parrot_food": [
-      "CUSTOM:Lemonseeds"
     ],
     "ITEMS:createaddition:plant_food": [
       "CUSTOM:Lemon",
@@ -2972,17 +2916,17 @@
       "LemonFungusStage4",
       "LemonadeStand",
       "Glass",
+      "Limonataglass",
       "DoubleLemonade",
       "TripleLemonade",
       "QuadrupleLemonade",
       "QuintupleLemonade",
       "CementLemonade",
+      "BricksLemonade",
       "NetherBricksLemonade",
       "PowderLemonade",
-      "BricksLemonade",
       "GoldenLemonade",
-      "EnchantedGoldenLemonade",
-      "Limonataglass"
+      "EnchantedGoldenLemonade"
     ]
   },
   "language_map": {
@@ -3062,7 +3006,6 @@
       "item.limonata.lemonade_bottle": "Lemonade Bottle",
       "gamerule.doLemonTreesGrowFinalStage": "Lemon Tree grows to the final stage",
       "gamerule.doLemonTreesGrowFinalStage.description": "Allows the Lemon Tree to grow to its final stage.",
-      "item.limonata.lemon_seeds_old": "Lemon Seeds (old, deprecated)",
       "block.limonata.lemon_seeds": "Lemon Seeds",
       "block.limonata.lemonshroom": "Lemonshroom",
       "block.limonata.hatchling_lemonshroom": "Hatchling Lemonshroom",
@@ -3145,7 +3088,6 @@
       "item.limonata.lemonade_bottle": "Boccetta di Limonata",
       "gamerule.doLemonTreesGrowFinalStage": "L\u0027albero di Limoni cresce fino all\u0027ultimo stadio.",
       "gamerule.doLemonTreesGrowFinalStage.description": "Lascia che l\u0027albero di Limoni cresca fino all\u0027ultimo stadio.",
-      "item.limonata.lemon_seeds_old": "Lemon Seeds (old, deprecated)",
       "block.limonata.lemon_seeds": "Semi di limone",
       "block.limonata.lemonshroom": "Limonino",
       "block.limonata.hatchling_lemonshroom": "Limonino appena nato",
@@ -3155,8 +3097,8 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/limonata/init/LimonataModFluids.java",
       "src/main/java/limonata/init/LimonataModFluidTypes.java",
+      "src/main/java/limonata/init/LimonataModFluids.java",
       "src/main/java/limonata/init/LimonataModScreens.java",
       "src/main/java/limonata/init/LimonataModMenus.java",
       "src/main/java/limonata/network/MenuStateUpdateMessage.java",
@@ -3167,13 +3109,13 @@
       "src/main/java/limonata/init/LimonataModBlocks.java",
       "src/main/java/limonata/init/LimonataModBlockEntities.java",
       "src/main/java/limonata/init/LimonataModItems.java",
+      "src/main/java/limonata/LimonataMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/limonata/init/LimonataModSounds.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/limonata/sounds.json",
       "src/main/java/limonata/init/LimonataModTabs.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/resources/assets/limonata/sounds.json",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/limonata/LimonataMod.java"
+      "src/main/java/limonata/init/LimonataModSounds.java"
     ]
   },
   "foldersRoot": {
@@ -3222,17 +3164,13 @@
       {
         "name": "lemonshroom",
         "children": []
-      },
-      {
-        "name": "DEPRECATED_TO-REMOVE",
-        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "limonata",
     "modName": "limonata",
-    "version": "1.4.1",
+    "version": "1.5.0",
     "description": "Limonari-made mod, destined to friend use. Adds various little lemonade-inspired things.",
     "author": "nery",
     "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",
