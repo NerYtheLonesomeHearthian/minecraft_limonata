@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "limonata:block/lemonshroomstem",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "limonata:block/lemonshroomstem"
+    },
+    "axis=z": {
+      "model": "limonata:block/lemonshroomstem",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "limonata:block/lemonshroom_block",
+    "up": "limonata:block/lemonshroom_block",
+    "north": "limonata:block/lemonshroom_block",
+    "east": "limonata:block/lemonshroom_block",
+    "south": "limonata:block/lemonshroom_block",
+    "west": "limonata:block/lemonshroom_block",
+    "particle": "limonata:block/lemonshroom_block"
+  },
+  "render_type": "solid"
+}

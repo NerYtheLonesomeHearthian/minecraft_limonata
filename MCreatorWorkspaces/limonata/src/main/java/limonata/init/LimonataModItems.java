@@ -60,6 +60,8 @@ public class LimonataModItems {
 	public static final DeferredItem<Item> HATCHLING_LEMONSHROOM;
 	public static final DeferredItem<Item> GROWN_LEMONSHROOM;
 	public static final DeferredItem<Item> ADULT_LEMONSHROOM;
+	public static final DeferredItem<Item> LEMONSHROOMBLOCK;
+	public static final DeferredItem<Item> LEMONSHROOMSTEM;
 	static {
 		MUSIC_DISC_LIMONATA_CHIAMATA = REGISTRY.register("music_disc_limonata_chiamata", MusicDiscLimonataChiamataItem::new);
 		GLASS = REGISTRY.register("glass", GlassItem::new);
@@ -100,6 +102,8 @@ public class LimonataModItems {
 		HATCHLING_LEMONSHROOM = block(LimonataModBlocks.HATCHLING_LEMONSHROOM);
 		GROWN_LEMONSHROOM = block(LimonataModBlocks.GROWN_LEMONSHROOM);
 		ADULT_LEMONSHROOM = block(LimonataModBlocks.ADULT_LEMONSHROOM);
+		LEMONSHROOMBLOCK = block(LimonataModBlocks.LEMONSHROOMBLOCK);
+		LEMONSHROOMSTEM = block(LimonataModBlocks.LEMONSHROOMSTEM);
 	}
 
 	// Start of user code block custom items

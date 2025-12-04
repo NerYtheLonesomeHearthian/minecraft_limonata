@@ -2660,6 +2660,177 @@
         "files": []
       },
       "path": "~/lemons"
+    },
+    {
+      "name": "Lemonshroomblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonshroomblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/models/block/lemonshroomblock.json",
+          "src/main/java/limonata/block/LemonshroomblockBlock.java",
+          "src/main/resources/assets/limonata/models/item/lemonshroomblock.json",
+          "src/main/resources/assets/limonata/blockstates/lemonshroomblock.json"
+        ]
+      },
+      "path": "~/lemonshroom"
+    },
+    {
+      "name": "Lemonshroomblockloottable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonshroomblockloottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/loot_table/blocks/lemonshroomblock.json"
+        ]
+      },
+      "path": "~/lemonshroom"
+    },
+    {
+      "name": "Lemonshroomblockext",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonshroomblockext",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/lemonshroom"
+    },
+    {
+      "name": "Lemonshroomstem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonshroomstem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/limonata/blockstates/lemonshroomstem.json",
+          "src/main/resources/assets/limonata/models/block/lemonshroomstem.json",
+          "src/main/java/limonata/block/LemonshroomstemBlock.java",
+          "src/main/resources/assets/limonata/models/item/lemonshroomstem.json"
+        ]
+      },
+      "path": "~/lemonshroom"
+    },
+    {
+      "name": "Lemonshroomstemloottable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonshroomstemloottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/loot_table/blocks/lemonshroomstem.json"
+        ]
+      },
+      "path": "~/lemonshroom"
+    },
+    {
+      "name": "Lemonshroomstemext",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonshroomstemext",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/lemonshroom"
+    },
+    {
+      "name": "LemonFungusStage4BoneMealUseCond",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_fungus_stage_4_bone_meal_use_cond",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LemonFungusStage4BoneMealUseCondProcedure.java"
+        ]
+      },
+      "path": "~/lemonshroom"
+    },
+    {
+      "name": "LemonFungusStage4BoneMealSuccessCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_fungus_stage_4_bone_meal_success_condition",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/limonata/procedures/LemonFungusStage4BoneMealSuccessConditionProcedure.java"
+        ]
+      },
+      "path": "~/lemonshroom"
+    },
+    {
+      "name": "LemonFungusStage4OnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_fungus_stage_4_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/limonata/procedures/LemonFungusStage4OnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/lemonshroom"
+    },
+    {
+      "name": "Lemonshroombig",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonshroombig",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/worldgen/configured_feature/lemonshroombig.json"
+        ]
+      },
+      "path": "~/lemonshroom"
     }
   ],
   "variable_elements": [],
@@ -2742,6 +2913,8 @@
       "CUSTOM:LemonFungusStage4"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Lemonshroomstem",
+      "~CUSTOM:Lemonshroomblock",
       "~CUSTOM:LemonCrate",
       "CUSTOM:LemonCrop0",
       "CUSTOM:LemonCrop2",
@@ -2926,7 +3099,9 @@
       "NetherBricksLemonade",
       "PowderLemonade",
       "GoldenLemonade",
-      "EnchantedGoldenLemonade"
+      "EnchantedGoldenLemonade",
+      "Lemonshroomblock",
+      "Lemonshroomstem"
     ]
   },
   "language_map": {
@@ -3010,7 +3185,9 @@
       "block.limonata.lemonshroom": "Lemonshroom",
       "block.limonata.hatchling_lemonshroom": "Hatchling Lemonshroom",
       "block.limonata.grown_lemonshroom": "Grown Lemonshroom",
-      "block.limonata.adult_lemonshroom": "Adult Lemonshroom"
+      "block.limonata.adult_lemonshroom": "Adult Lemonshroom",
+      "block.limonata.lemonshroomblock": "Lemonshroom Block",
+      "block.limonata.lemonshroomstem": "Lemonshroom Stem"
     },
     "it_it": {
       "subtitles.music_disc_limonata_chiamata": "limonata chiamata",
@@ -3092,7 +3269,9 @@
       "block.limonata.lemonshroom": "Limonino",
       "block.limonata.hatchling_lemonshroom": "Limonino appena nato",
       "block.limonata.grown_lemonshroom": "Limonino cresciuto",
-      "block.limonata.adult_lemonshroom": "Limonino adulto"
+      "block.limonata.adult_lemonshroom": "Limonino adulto",
+      "block.limonata.lemonshroomblock": "Lemonshroom Block",
+      "block.limonata.lemonshroomstem": "Lemonshroom Stem"
     }
   },
   "metadata": {
@@ -3170,7 +3349,7 @@
   "workspaceSettings": {
     "modid": "limonata",
     "modName": "limonata",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "description": "Limonari-made mod, destined to friend use. Adds various little lemonade-inspired things.",
     "author": "nery",
     "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",

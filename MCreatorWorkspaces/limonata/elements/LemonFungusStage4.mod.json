@@ -120,7 +120,16 @@
     "placingCondition": {
       "name": "LemonFungusPlaceCondition"
     },
-    "isBonemealable": false,
+    "isBonemealable": true,
+    "isBonemealTargetCondition": {
+      "name": "LemonFungusStage4BoneMealUseCond"
+    },
+    "bonemealSuccessCondition": {
+      "name": "LemonFungusStage4BoneMealSuccessCondition"
+    },
+    "onBonemealSuccess": {
+      "name": "LemonFungusStage4OnBoneMealSuccess"
+    },
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
     "vibrationSensitivityRadius": {

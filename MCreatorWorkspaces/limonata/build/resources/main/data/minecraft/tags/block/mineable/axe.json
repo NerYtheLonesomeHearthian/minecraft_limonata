@@ -3,6 +3,7 @@
   "values": [
     "limonata:lemon_crop_1",
     "limonata:lemon_seeds",
+    "limonata:lemonshroomblock",
     "limonata:lemon_crop_5_5",
     "limonata:hatchling_lemonshroom",
     "limonata:grown_lemonshroom",
@@ -13,6 +14,7 @@
     "limonata:lemon_crop_4",
     "limonata:lemon_crate",
     "limonata:lemon_crop_3",
-    "limonata:lemon_crop_2"
+    "limonata:lemon_crop_2",
+    "limonata:lemonshroomstem"
   ]
 }

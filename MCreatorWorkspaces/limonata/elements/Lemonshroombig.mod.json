@@ -1,0 +1,10 @@
+{
+  "_fv": 79,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": true,
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_huge_red_mushroom\"><field name=\"radius\">2</field><value name=\"cap\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:Lemonshroomblock</field></block></value><value name=\"stem\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:Lemonshroomstem</field></block></value></block></value><next><block type=\"placement_block_survival_filter\"><value name=\"block\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:LemonFungusStage4</field></block></value></block></next></block></xml>"
+  }
+}

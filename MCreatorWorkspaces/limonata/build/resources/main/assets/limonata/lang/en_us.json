@@ -78,5 +78,7 @@
   "block.limonata.lemonshroom": "Lemonshroom",
   "block.limonata.hatchling_lemonshroom": "Hatchling Lemonshroom",
   "block.limonata.grown_lemonshroom": "Grown Lemonshroom",
-  "block.limonata.adult_lemonshroom": "Adult Lemonshroom"
+  "block.limonata.adult_lemonshroom": "Adult Lemonshroom",
+  "block.limonata.lemonshroomblock": "Lemonshroom Block",
+  "block.limonata.lemonshroomstem": "Lemonshroom Stem"
 }

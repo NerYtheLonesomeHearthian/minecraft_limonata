@@ -31,6 +31,8 @@ public class LimonataModBlocks {
 	public static final DeferredBlock<Block> HATCHLING_LEMONSHROOM;
 	public static final DeferredBlock<Block> GROWN_LEMONSHROOM;
 	public static final DeferredBlock<Block> ADULT_LEMONSHROOM;
+	public static final DeferredBlock<Block> LEMONSHROOMBLOCK;
+	public static final DeferredBlock<Block> LEMONSHROOMSTEM;
 	static {
 		LEMON_SEEDS = REGISTRY.register("lemon_seeds", LemonCrop0Block::new);
 		LEMON_CROP_2 = REGISTRY.register("lemon_crop_2", LemonCrop2Block::new);
@@ -49,6 +51,8 @@ public class LimonataModBlocks {
 		HATCHLING_LEMONSHROOM = REGISTRY.register("hatchling_lemonshroom", LemonFungusStage2Block::new);
 		GROWN_LEMONSHROOM = REGISTRY.register("grown_lemonshroom", LemonFungusStage3Block::new);
 		ADULT_LEMONSHROOM = REGISTRY.register("adult_lemonshroom", LemonFungusStage4Block::new);
+		LEMONSHROOMBLOCK = REGISTRY.register("lemonshroomblock", LemonshroomblockBlock::new);
+		LEMONSHROOMSTEM = REGISTRY.register("lemonshroomstem", LemonshroomstemBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

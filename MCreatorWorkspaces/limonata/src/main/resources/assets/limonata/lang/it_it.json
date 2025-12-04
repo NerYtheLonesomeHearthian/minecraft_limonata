@@ -78,5 +78,7 @@
   "block.limonata.lemonshroom": "Limonino",
   "block.limonata.hatchling_lemonshroom": "Limonino appena nato",
   "block.limonata.grown_lemonshroom": "Limonino cresciuto",
-  "block.limonata.adult_lemonshroom": "Limonino adulto"
+  "block.limonata.adult_lemonshroom": "Limonino adulto",
+  "block.limonata.lemonshroomblock": "Lemonshroom Block",
+  "block.limonata.lemonshroomstem": "Lemonshroom Stem"
 }

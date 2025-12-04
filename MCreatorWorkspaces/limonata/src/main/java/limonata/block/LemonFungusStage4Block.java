@@ -10,6 +10,7 @@ import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.BonemealableBlock;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelReader;
@@ -22,11 +23,9 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import limonata.procedures.LemonFungusPlaceConditionProcedure;
-import limonata.procedures.LemonFungusOnTickUpdateProcedure;
-import limonata.procedures.LemonFungusNeighbourBlockChangesProcedure;
+import limonata.procedures.*;
 
-public class LemonFungusStage4Block extends Block {
+public class LemonFungusStage4Block extends Block implements BonemealableBlock {
 	public LemonFungusStage4Block() {
 		super(BlockBehaviour.Properties.of().mapColor(MapColor.GOLD).sound(SoundType.GRASS).instabreak().noCollission().noOcclusion().pushReaction(PushReaction.DESTROY).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
 				.isRedstoneConductor((bs, br, bp) -> false).offsetType(Block.OffsetType.XZ));
@@ -84,5 +83,23 @@ public class LemonFungusStage4Block extends Block {
 	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		super.tick(blockstate, world, pos, random);
 		LemonFungusOnTickUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@Override
+	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate) {
+		if (worldIn instanceof LevelAccessor world) {
+			return LemonFungusStage4BoneMealUseCondProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		}
+		return false;
+	}
+
+	@Override
+	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
+		return LemonFungusStage4BoneMealSuccessConditionProcedure.execute();
+	}
+
+	@Override
+	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
+		LemonFungusStage4OnBoneMealSuccessProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

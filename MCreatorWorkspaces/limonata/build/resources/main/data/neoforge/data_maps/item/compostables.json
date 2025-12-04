@@ -17,6 +17,12 @@
     },
     "limonata:cut_lemon": {
       "chance": 0.75
+    },
+    "limonata:lemonshroomblock": {
+      "chance": 0.85
+    },
+    "limonata:lemonshroomstem": {
+      "chance": 0.65
     }
   }
 }

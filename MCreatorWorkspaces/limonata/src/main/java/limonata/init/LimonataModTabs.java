@@ -51,6 +51,8 @@ public class LimonataModTabs {
 				tabData.accept(LimonataModItems.POWDER_LEMONADE.get());
 				tabData.accept(LimonataModItems.GOLDEN_LEMONADE.get());
 				tabData.accept(LimonataModItems.ENCHANTED_GOLDEN_LEMONADE.get());
+				tabData.accept(LimonataModBlocks.LEMONSHROOMBLOCK.get().asItem());
+				tabData.accept(LimonataModBlocks.LEMONSHROOMSTEM.get().asItem());
 			}).build());
 
 	@SubscribeEvent
