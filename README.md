@@ -28,6 +28,6 @@ There probably will not be any big addition such as new dimensions or game-break
 
 My intention with this mod is to add small cute additions that are a kind of inside jokes between me and my friends, but also some little features in the themes of lemon&lemonade, which everybody can enjoy. More content is coming.
 
-This mod was made with MCreator.
+This mod was made with [MCreator](https://mcreator.net/).
 
 Hope you enjoy!
