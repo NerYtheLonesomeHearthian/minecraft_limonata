@@ -2818,6 +2818,19 @@
         ]
       },
       "path": "~/lemonshroom"
+    },
+    {
+      "name": "Lemonshroombig",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemonshroombig",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/limonata/worldgen/configured_feature/lemonshroombig.json"
+        ]
+      },
+      "path": "~/lemonshroom"
     }
   ],
   "variable_elements": [],
@@ -3263,8 +3276,8 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/limonata/init/LimonataModFluidTypes.java",
       "src/main/java/limonata/init/LimonataModFluids.java",
+      "src/main/java/limonata/init/LimonataModFluidTypes.java",
       "src/main/java/limonata/init/LimonataModScreens.java",
       "src/main/java/limonata/init/LimonataModMenus.java",
       "src/main/java/limonata/network/MenuStateUpdateMessage.java",
@@ -3275,13 +3288,13 @@
       "src/main/java/limonata/init/LimonataModBlocks.java",
       "src/main/java/limonata/init/LimonataModBlockEntities.java",
       "src/main/java/limonata/init/LimonataModItems.java",
-      "src/main/java/limonata/LimonataMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
-      "src/main/resources/assets/limonata/sounds.json",
+      "src/main/java/limonata/init/LimonataModSounds.java",
       "src/main/java/limonata/init/LimonataModTabs.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/limonata/init/LimonataModSounds.java"
+      "src/main/resources/assets/limonata/sounds.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/limonata/LimonataMod.java"
     ]
   },
   "foldersRoot": {
@@ -3336,7 +3349,7 @@
   "workspaceSettings": {
     "modid": "limonata",
     "modName": "limonata",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "description": "Limonari-made mod, destined to friend use. Adds various little lemonade-inspired things.",
     "author": "nery",
     "websiteURL": "https://github.com/NerYtheLonesomeHearthian/minecraft_limonata",

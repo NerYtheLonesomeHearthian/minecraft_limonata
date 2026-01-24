@@ -5,17 +5,29 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2025-08-08 12:44:27 +0200"
-    },
-    "done": true
-  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:plains": "2025-08-08 12:43:14 +0200"
     },
     "done": false
+  },
+  "limonata:recipes/lemontocutlemon": {
+    "criteria": {
+      "has_ingredient_1": "2025-08-08 12:44:13 +0200"
+    },
+    "done": true
+  },
+  "limonata:recipes/cutlemontolemonseeds": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-08 12:44:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-08-08 12:44:27 +0200"
+    },
+    "done": true
   },
   "minecraft:recipes/misc/stick_from_bamboo_item": {
     "criteria": {
@@ -35,15 +47,93 @@
     },
     "done": true
   },
-  "limonata:recipes/lemontocutlemon": {
+  "limonata:obtain_lemonade_stand": {
     "criteria": {
-      "has_ingredient_1": "2025-08-08 12:44:13 +0200"
+      "obtain_lemonade_stand_0": "2026-01-24 17:08:00 +0100"
     },
     "done": true
   },
-  "limonata:recipes/cutlemontolemonseeds": {
+  "create:root": {
     "criteria": {
-      "has_ingredient_0": "2025-08-08 12:44:13 +0200"
+      "0": "2026-01-24 17:08:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-01-24 17:09:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-01-24 17:09:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-01-24 17:09:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-01-24 17:09:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-01-24 17:09:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-01-24 17:09:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-01-24 17:09:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-01-24 17:09:25 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2026-01-24 17:08:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-01-24 17:09:25 +0100"
+    },
+    "done": true
+  },
+  "limonata:obtain_lemonade": {
+    "criteria": {
+      "obtain_lemonade_0": "2026-01-24 17:08:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-01-24 17:09:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-01-24 17:09:25 +0100"
     },
     "done": true
   },
