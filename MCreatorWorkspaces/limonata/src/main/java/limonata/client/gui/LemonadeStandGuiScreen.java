@@ -21,6 +21,48 @@ public class LemonadeStandGuiScreen extends AbstractContainerScreen<LemonadeStan
 	private final int x, y, z;
 	private final Player entity;
 	private boolean menuStateUpdateActive = false;
+	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("limonata:textures/screens/lemonade_stand_gui.png");
+	private static final ResourceLocation IMAGE_0 = ResourceLocation.parse("limonata:textures/screens/icecubes_gui.png");
+	private static final ResourceLocation IMAGE_1 = ResourceLocation.parse("limonata:textures/screens/glass_gui.png");
+	private static final ResourceLocation IMAGE_2 = ResourceLocation.parse("limonata:textures/screens/bamboo_gui.png");
+	private static final ResourceLocation IMAGE_3 = ResourceLocation.parse("limonata:textures/screens/sugar_gui.png");
+	private static final ResourceLocation IMAGE_4 = ResourceLocation.parse("limonata:textures/screens/cutlemon_gui.png");
+	private static final ResourceLocation IMAGE_5 = ResourceLocation.parse("limonata:textures/screens/water_bucket_gui.png");
+	private static final ResourceLocation IMAGE_6 = ResourceLocation.parse("limonata:textures/screens/questionmark_gui.png");
+	private static final ResourceLocation IMAGE_7 = ResourceLocation.parse("limonata:textures/screens/glassoflemonade_gui.png");
+	private static final ResourceLocation IMAGE_8 = ResourceLocation.parse("limonata:textures/screens/glass1_gui.png");
+	private static final ResourceLocation IMAGE_9 = ResourceLocation.parse("limonata:textures/screens/lemonadestandgui_waterlevel.png");
+	private static final ResourceLocation IMAGE_10 = ResourceLocation.parse("limonata:textures/screens/water_fuel_length_33.png");
+	private static final ResourceLocation IMAGE_11 = ResourceLocation.parse("limonata:textures/screens/water_fuel_length_66.png");
+	private static final ResourceLocation IMAGE_12 = ResourceLocation.parse("limonata:textures/screens/water_fuel_length.png");
+	private static final ResourceLocation IMAGE_13 = ResourceLocation.parse("limonata:textures/screens/cooking_pot_mestolo.png");
+	private static final ResourceLocation IMAGE_14 = ResourceLocation.parse("limonata:textures/screens/furnace_gui_big-slot.png");
+	private static final ResourceLocation IMAGE_15 = ResourceLocation.parse("limonata:textures/screens/lemonadestandgui_coil.png");
+	private static final ResourceLocation IMAGE_16 = ResourceLocation.parse("limonata:textures/screens/lemonadestandgui_finisharow.png");
+	private static final ResourceLocation IMAGE_17 = ResourceLocation.parse("limonata:textures/screens/furnace.png");
+	private static final ResourceLocation IMAGE_18 = ResourceLocation.parse("limonata:textures/screens/burn_progress_0.png");
+	private static final ResourceLocation IMAGE_19 = ResourceLocation.parse("limonata:textures/screens/burn_progress_1.png");
+	private static final ResourceLocation IMAGE_20 = ResourceLocation.parse("limonata:textures/screens/burn_progress_2.png");
+	private static final ResourceLocation IMAGE_21 = ResourceLocation.parse("limonata:textures/screens/burn_progress_3.png");
+	private static final ResourceLocation IMAGE_22 = ResourceLocation.parse("limonata:textures/screens/burn_progress_4.png");
+	private static final ResourceLocation IMAGE_23 = ResourceLocation.parse("limonata:textures/screens/burn_progress_5.png");
+	private static final ResourceLocation IMAGE_24 = ResourceLocation.parse("limonata:textures/screens/burn_progress_6.png");
+	private static final ResourceLocation IMAGE_25 = ResourceLocation.parse("limonata:textures/screens/burn_progress_7.png");
+	private static final ResourceLocation IMAGE_26 = ResourceLocation.parse("limonata:textures/screens/burn_progress_8.png");
+	private static final ResourceLocation IMAGE_27 = ResourceLocation.parse("limonata:textures/screens/burn_progress_9.png");
+	private static final ResourceLocation IMAGE_28 = ResourceLocation.parse("limonata:textures/screens/burn_progress_10.png");
+	private static final ResourceLocation IMAGE_29 = ResourceLocation.parse("limonata:textures/screens/burn_progress_11.png");
+	private static final ResourceLocation IMAGE_30 = ResourceLocation.parse("limonata:textures/screens/burn_progress_12.png");
+	private static final ResourceLocation IMAGE_31 = ResourceLocation.parse("limonata:textures/screens/burn_progress_13.png");
+	private static final ResourceLocation IMAGE_32 = ResourceLocation.parse("limonata:textures/screens/burn_progress_14.png");
+	private static final ResourceLocation IMAGE_33 = ResourceLocation.parse("limonata:textures/screens/burn_progress_15.png");
+	private static final ResourceLocation IMAGE_34 = ResourceLocation.parse("limonata:textures/screens/burn_progress_16.png");
+	private static final ResourceLocation IMAGE_35 = ResourceLocation.parse("limonata:textures/screens/burn_progress_17.png");
+	private static final ResourceLocation IMAGE_36 = ResourceLocation.parse("limonata:textures/screens/burn_progress_18.png");
+	private static final ResourceLocation IMAGE_37 = ResourceLocation.parse("limonata:textures/screens/burn_progress_19.png");
+	private static final ResourceLocation IMAGE_38 = ResourceLocation.parse("limonata:textures/screens/burn_progress_20.png");
+	private static final ResourceLocation IMAGE_39 = ResourceLocation.parse("limonata:textures/screens/burn_progress_21.png");
+	private static final ResourceLocation IMAGE_40 = ResourceLocation.parse("limonata:textures/screens/lemonadestandgui_addspecialingredientarrow.png");
 
 	public LemonadeStandGuiScreen(LemonadeStandGuiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -39,8 +81,6 @@ public class LemonadeStandGuiScreen extends AbstractContainerScreen<LemonadeStan
 		menuStateUpdateActive = false;
 	}
 
-	private static final ResourceLocation texture = ResourceLocation.parse("limonata:textures/screens/lemonade_stand_gui.png");
-
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -52,98 +92,98 @@ public class LemonadeStandGuiScreen extends AbstractContainerScreen<LemonadeStan
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/icecubes_gui.png"), this.leftPos + 20, this.topPos + 21, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/glass_gui.png"), this.leftPos + 116, this.topPos + 105, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/bamboo_gui.png"), this.leftPos + 68, this.topPos + 21, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/sugar_gui.png"), this.leftPos + 70, this.topPos + 65, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/cutlemon_gui.png"), this.leftPos + 18, this.topPos + 65, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/water_bucket_gui.png"), this.leftPos + 8, this.topPos + 105, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/questionmark_gui.png"), this.leftPos + 80, this.topPos + 105, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/glassoflemonade_gui.png"), this.leftPos + 152, this.topPos + 105, 0, 0, 16, 16, 16, 16);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/glass1_gui.png"), this.leftPos + 34, this.topPos + 36, 0, 0, 36, 57, 36, 57);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/lemonadestandgui_waterlevel.png"), this.leftPos + 25, this.topPos + 111, 0, 0, 21, 6, 21, 6);
+		guiGraphics.blit(BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(IMAGE_0, this.leftPos + 20, this.topPos + 21, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(IMAGE_1, this.leftPos + 116, this.topPos + 105, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(IMAGE_2, this.leftPos + 68, this.topPos + 21, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(IMAGE_3, this.leftPos + 70, this.topPos + 65, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(IMAGE_4, this.leftPos + 18, this.topPos + 65, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(IMAGE_5, this.leftPos + 8, this.topPos + 105, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(IMAGE_6, this.leftPos + 80, this.topPos + 105, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(IMAGE_7, this.leftPos + 152, this.topPos + 105, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(IMAGE_8, this.leftPos + 34, this.topPos + 36, 0, 0, 36, 57, 36, 57);
+		guiGraphics.blit(IMAGE_9, this.leftPos + 25, this.topPos + 111, 0, 0, 21, 6, 21, 6);
 		if (LmnstandGUIwaterBar0Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/water_fuel_length_33.png"), this.leftPos + 27, this.topPos + 112, 0, 0, 18, 4, 18, 4);
+			guiGraphics.blit(IMAGE_10, this.leftPos + 27, this.topPos + 112, 0, 0, 18, 4, 18, 4);
 		}
 		if (LmnstandGUIwaterBar1Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/water_fuel_length_66.png"), this.leftPos + 27, this.topPos + 112, 0, 0, 18, 4, 18, 4);
+			guiGraphics.blit(IMAGE_11, this.leftPos + 27, this.topPos + 112, 0, 0, 18, 4, 18, 4);
 		}
 		if (LmnstandGUIwaterBar2Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/water_fuel_length.png"), this.leftPos + 27, this.topPos + 112, 0, 0, 18, 4, 18, 4);
+			guiGraphics.blit(IMAGE_12, this.leftPos + 27, this.topPos + 112, 0, 0, 18, 4, 18, 4);
 		}
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/cooking_pot_mestolo.png"), this.leftPos + 138, this.topPos + 106, 0, 0, 9, 14, 9, 14);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/furnace_gui_big-slot.png"), this.leftPos + 129, this.topPos + 39, 0, 0, 26, 25, 26, 25);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/lemonadestandgui_coil.png"), this.leftPos + 46, this.topPos + 92, 0, 0, 12, 24, 12, 24);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/lemonadestandgui_finisharow.png"), this.leftPos + 141, this.topPos + 64, 0, 0, 22, 40, 22, 40);
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/furnace.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 15, 22, 15);
+		guiGraphics.blit(IMAGE_13, this.leftPos + 138, this.topPos + 106, 0, 0, 9, 14, 9, 14);
+		guiGraphics.blit(IMAGE_14, this.leftPos + 129, this.topPos + 39, 0, 0, 26, 25, 26, 25);
+		guiGraphics.blit(IMAGE_15, this.leftPos + 46, this.topPos + 92, 0, 0, 12, 24, 12, 24);
+		guiGraphics.blit(IMAGE_16, this.leftPos + 141, this.topPos + 64, 0, 0, 22, 40, 22, 40);
+		guiGraphics.blit(IMAGE_17, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 15, 22, 15);
 		if (LmnstandGUIbrewingProgress0Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_0.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_18, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress1Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_1.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_19, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress2Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_2.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_20, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress3Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_3.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_21, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress4Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_4.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_22, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress5Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_5.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_23, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress6Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_6.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_24, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress7Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_7.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_25, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress8Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_8.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_26, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress9Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_9.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_27, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress10Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_10.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_28, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress11Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_11.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_29, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress12Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_12.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_30, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress13Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_13.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_31, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress14Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_14.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_32, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress15Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_15.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_33, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress16Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_16.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_34, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress17Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_17.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_35, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress18Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_18.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_36, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress19Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_19.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_37, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress20Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_20.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_38, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
 		if (LmnstandGUIbrewingProgress21Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/burn_progress_21.png"), this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
+			guiGraphics.blit(IMAGE_39, this.leftPos + 95, this.topPos + 44, 0, 0, 22, 16, 22, 16);
 		}
-		guiGraphics.blit(ResourceLocation.parse("limonata:textures/screens/lemonadestandgui_addspecialingredientarrow.png"), this.leftPos + 96, this.topPos + 81, 0, 0, 43, 22, 43, 22);
+		guiGraphics.blit(IMAGE_40, this.leftPos + 96, this.topPos + 81, 0, 0, 43, 22, 43, 22);
 		RenderSystem.disableBlend();
 	}
 

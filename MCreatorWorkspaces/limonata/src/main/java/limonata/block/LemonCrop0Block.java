@@ -29,28 +29,20 @@ import limonata.procedures.LemonCropBoneMealSuccessConditionProcedure;
 import limonata.procedures.LemonCrop0OnBoneMealSuccessProcedure;
 
 public class LemonCrop0Block extends Block implements BonemealableBlock {
+	private static final VoxelShape SHAPE = box(5.9, -1, 7.25, 10.1, 1, 9.1);
+
 	public LemonCrop0Block() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.CROP).instabreak().noCollission().noOcclusion().randomTicks().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.CROP).instabreak().noCollission().randomTicks().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
-	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
-		return true;
-	}
-
-	@Override
-	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 0;
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return SHAPE;
 	}
 
 	@Override
 	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return Shapes.empty();
-	}
-
-	@Override
-	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return box(5.9, -1, 7.25, 10.1, 1, 9.1);
 	}
 
 	@Override

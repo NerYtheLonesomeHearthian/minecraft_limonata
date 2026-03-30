@@ -37,41 +37,40 @@ import limonata.block.entity.LemonadeStandBlockEntity;
 
 import io.netty.buffer.Unpooled;
 
+import com.google.common.collect.ImmutableMap;
+
 public class LemonadeStandBlock extends Block implements EntityBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
+	private final ImmutableMap<BlockState, VoxelShape> shapes = this.makeShapes();
 
 	public LemonadeStandBlock() {
 		super(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).sound(SoundType.WOOD).strength(2.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).ignitedByLava().instrument(NoteBlockInstrument.BASS));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
-	@Override
-	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
-		return true;
+	private ImmutableMap<BlockState, VoxelShape> makeShapes() {
+		return this.getShapeForEachState(state -> {
+			return switch (state.getValue(FACING)) {
+				default -> Shapes.or(box(10, 0.1, 2, 13, 12.1, 5), box(10, 0, 11, 13, 12, 14), box(10.5, 2, 5, 12.5, 4, 11), box(-9, 0, 2, -6, 12, 5), box(-9, 0, 11, -6, 12, 14), box(-8.5, 2, 5, -6.5, 4, 11), box(-8.5, 8, 5, -6.5, 10, 11),
+						box(0, 12, 1, 16, 16, 15), box(-16, 12, 1, 0, 16, 15));
+				case NORTH -> Shapes.or(box(3, 0.1, 11, 6, 12.1, 14), box(3, 0, 2, 6, 12, 5), box(3.5, 2, 5, 5.5, 4, 11), box(22, 0, 11, 25, 12, 14), box(22, 0, 2, 25, 12, 5), box(22.5, 2, 5, 24.5, 4, 11), box(22.5, 8, 5, 24.5, 10, 11),
+						box(0, 12, 1, 16, 16, 15), box(16, 12, 1, 32, 16, 15));
+				case EAST -> Shapes.or(box(2, 0.1, 3, 5, 12.1, 6), box(11, 0, 3, 14, 12, 6), box(5, 2, 3.5, 11, 4, 5.5), box(2, 0, 22, 5, 12, 25), box(11, 0, 22, 14, 12, 25), box(5, 2, 22.5, 11, 4, 24.5), box(5, 8, 22.5, 11, 10, 24.5),
+						box(1, 12, 0, 15, 16, 16), box(1, 12, 16, 15, 16, 32));
+				case WEST -> Shapes.or(box(11, 0.1, 10, 14, 12.1, 13), box(2, 0, 10, 5, 12, 13), box(5, 2, 10.5, 11, 4, 12.5), box(11, 0, -9, 14, 12, -6), box(2, 0, -9, 5, 12, -6), box(5, 2, -8.5, 11, 4, -6.5), box(5, 8, -8.5, 11, 10, -6.5),
+						box(1, 12, 0, 15, 16, 16), box(1, 12, -16, 15, 16, 0));
+			};
+		});
 	}
 
 	@Override
-	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 0;
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return shapes.get(state);
 	}
 
 	@Override
 	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return Shapes.empty();
-	}
-
-	@Override
-	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(10, 0.1, 2, 13, 12.1, 5), box(10, 0, 11, 13, 12, 14), box(10.5, 2, 5, 12.5, 4, 11), box(-9, 0, 2, -6, 12, 5), box(-9, 0, 11, -6, 12, 14), box(-8.5, 2, 5, -6.5, 4, 11), box(-8.5, 8, 5, -6.5, 10, 11),
-					box(0, 12, 1, 16, 16, 15), box(-16, 12, 1, 0, 16, 15));
-			case NORTH -> Shapes.or(box(3, 0.1, 11, 6, 12.1, 14), box(3, 0, 2, 6, 12, 5), box(3.5, 2, 5, 5.5, 4, 11), box(22, 0, 11, 25, 12, 14), box(22, 0, 2, 25, 12, 5), box(22.5, 2, 5, 24.5, 4, 11), box(22.5, 8, 5, 24.5, 10, 11),
-					box(0, 12, 1, 16, 16, 15), box(16, 12, 1, 32, 16, 15));
-			case EAST -> Shapes.or(box(2, 0.1, 3, 5, 12.1, 6), box(11, 0, 3, 14, 12, 6), box(5, 2, 3.5, 11, 4, 5.5), box(2, 0, 22, 5, 12, 25), box(11, 0, 22, 14, 12, 25), box(5, 2, 22.5, 11, 4, 24.5), box(5, 8, 22.5, 11, 10, 24.5),
-					box(1, 12, 0, 15, 16, 16), box(1, 12, 16, 15, 16, 32));
-			case WEST -> Shapes.or(box(11, 0.1, 10, 14, 12.1, 13), box(2, 0, 10, 5, 12, 13), box(5, 2, 10.5, 11, 4, 12.5), box(11, 0, -9, 14, 12, -6), box(2, 0, -9, 5, 12, -6), box(5, 2, -8.5, 11, 4, -6.5), box(5, 8, -8.5, 11, 10, -6.5),
-					box(1, 12, 0, 15, 16, 16), box(1, 12, -16, 15, 16, 0));
-		};
 	}
 
 	@Override
