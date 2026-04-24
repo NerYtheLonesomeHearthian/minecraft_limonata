@@ -14,7 +14,7 @@ import limonata.init.LimonataModBlocks;
 
 public abstract class LemonadeFluid extends BaseFlowingFluid {
 	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> LimonataModFluidTypes.LEMONADE_TYPE.get(), () -> LimonataModFluids.LEMONADE.get(), () -> LimonataModFluids.FLOWING_LEMONADE.get())
-			.explosionResistance(100f).tickRate(4).slopeFindDistance(8).bucket(() -> LimonataModItems.LEMONADE_BUCKET.get()).block(() -> (LiquidBlock) LimonataModBlocks.LEMONADE.get());
+			.explosionResistance(100f).tickRate(6).bucket(() -> LimonataModItems.LEMONADE_BUCKET.get()).block(() -> (LiquidBlock) LimonataModBlocks.LEMONADE.get());
 
 	private LemonadeFluid() {
 		super(PROPERTIES);

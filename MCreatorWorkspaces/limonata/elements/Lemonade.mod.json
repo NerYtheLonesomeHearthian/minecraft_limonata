@@ -20,9 +20,9 @@
     },
     "tintType": "No tint",
     "canMultiply": false,
-    "flowRate": 4,
+    "flowRate": 6,
     "levelDecrease": 1,
-    "slopeFindDistance": 8,
+    "slopeFindDistance": 4,
     "spawnParticles": false,
     "dripParticle": {
       "value": "CUSTOM:LemonadeFluidDrip"
@@ -32,7 +32,7 @@
     "density": 1000,
     "viscosity": 1000,
     "temperature": 300,
-    "type": "WATER",
+    "type": "LAVA",
     "generateBucket": true,
     "textureBucket": "lemonade_bucket",
     "creativeTabs": [
