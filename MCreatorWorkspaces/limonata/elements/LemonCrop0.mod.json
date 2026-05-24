@@ -14,14 +14,284 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "states": [],
+    "states": [
+      {
+        "texture": "lemon_crop",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "lemon_crop_0:default",
+        "particleTexture": "all_crop_green",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 7,
+              "name": "AGE_7",
+              "type": "integer"
+            },
+            "value": 0
+          }
+        ]
+      },
+      {
+        "texture": "lemon_crop_1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "lemon_crop_1:default",
+        "particleTexture": "all_crop_green",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 6.25,
+            "my": -1.0,
+            "mz": 6.75,
+            "Mx": 9.75,
+            "My": 3.0,
+            "Mz": 9.25,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 7,
+              "name": "AGE_7",
+              "type": "integer"
+            },
+            "value": 1
+          }
+        ]
+      },
+      {
+        "texture": "lemon_crop_2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "lemon_crop_2:default",
+        "particleTexture": "all_crop_green",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 6.5,
+            "my": -1.0,
+            "mz": 7.0,
+            "Mx": 9.5,
+            "My": 4.5,
+            "Mz": 9.5,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 7,
+              "name": "AGE_7",
+              "type": "integer"
+            },
+            "value": 2
+          }
+        ]
+      },
+      {
+        "texture": "lemon_crop_3",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "lemon_crop_3:default",
+        "particleTexture": "all_crop_green",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 5.8,
+            "my": -1.0,
+            "mz": 7.0,
+            "Mx": 10.2,
+            "My": 6.5,
+            "Mz": 10.2,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 7,
+              "name": "AGE_7",
+              "type": "integer"
+            },
+            "value": 3
+          }
+        ]
+      },
+      {
+        "texture": "lemon_crop_4",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "lemon_crop_4:default",
+        "particleTexture": "all_crop_green",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 5.7,
+            "my": -1.0,
+            "mz": 5.7,
+            "Mx": 10.3,
+            "My": 10.0,
+            "Mz": 10.3,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 7,
+              "name": "AGE_7",
+              "type": "integer"
+            },
+            "value": 4
+          }
+        ]
+      },
+      {
+        "texture": "lemon_crop_5",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "lemon_crop_5:default",
+        "particleTexture": "all_crop_green",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 5.7,
+            "my": -1.0,
+            "mz": 5.7,
+            "Mx": 10.3,
+            "My": 14.0,
+            "Mz": 10.3,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 7,
+              "name": "AGE_7",
+              "type": "integer"
+            },
+            "value": 5
+          }
+        ]
+      },
+      {
+        "texture": "lemon_crop_5-5",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "lemon_crop_5-5:default",
+        "particleTexture": "all_crop_green",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 4.0,
+            "my": -1.0,
+            "mz": 4.0,
+            "Mx": 12.0,
+            "My": 14.0,
+            "Mz": 12.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 7,
+              "name": "AGE_7",
+              "type": "integer"
+            },
+            "value": 6
+          }
+        ]
+      },
+      {
+        "texture": "lemon_crop_6",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "lemon_crop_6:default",
+        "particleTexture": "all_crop_green",
+        "hasCustomBoundingBox": true,
+        "boundingBoxes": [
+          {
+            "mx": 1.8,
+            "my": -1.0,
+            "mz": 1.8,
+            "Mx": 14.1,
+            "My": 14.0,
+            "Mz": 14.1,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 7,
+              "name": "AGE_7",
+              "type": "integer"
+            },
+            "value": 7
+          }
+        ]
+      }
+    ],
     "animations": [],
     "itemTexture": "lemon_seeds",
     "particleTexture": "all_crop_green",
     "blockSetType": "OAK",
-    "pottedPlant": {
-      "value": ""
-    },
     "leavesParticleChance": 0.0,
     "tintType": "No tint",
     "isItemTinted": false,
@@ -40,7 +310,15 @@
         "subtract": false
       }
     ],
-    "customProperties": [],
+    "customProperties": [
+      {
+        "min": 0,
+        "max": 7,
+        "name": "AGE_7",
+        "type": "integer",
+        "value": 0
+      }
+    ],
     "name": "Lemon Seeds",
     "specialInformation": {
       "fixedValue": []
@@ -60,7 +338,7 @@
     ],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Lemonseeds"
+      "value": ""
     },
     "dropAmount": 1,
     "xpAmountMin": 0,
@@ -126,11 +404,14 @@
       "name": "LemonSeedsCropPlacementCondition"
     },
     "isBonemealable": true,
+    "isBonemealTargetCondition": {
+      "name": "LemonCrop0CanBoneMealBeUsedOnThisBlockBLOCKSTATES"
+    },
     "bonemealSuccessCondition": {
       "name": "LemonCropBoneMealSuccessCondition"
     },
     "onBonemealSuccess": {
-      "name": "LemonCrop0OnBoneMealSuccess"
+      "name": "LemonCropOnBonemealSuccessBLOCKSTATES"
     },
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
@@ -157,7 +438,7 @@
       "name": "LemonCropNeighbourBlockChanges"
     },
     "onTickUpdate": {
-      "name": "LemonCropOnTickUpdate"
+      "name": "LemonCropOnTickUpdateBLOCKSTATES"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

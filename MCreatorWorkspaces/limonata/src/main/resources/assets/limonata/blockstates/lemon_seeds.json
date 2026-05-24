@@ -1,7 +1,28 @@
 {
   "variants": {
-    "": {
-      "model": "limonata:block/lemon_seeds"
+    "age=0": {
+      "model": "limonata:block/lemon_seeds_0"
+    },
+    "age=1": {
+      "model": "limonata:block/lemon_seeds_1"
+    },
+    "age=2": {
+      "model": "limonata:block/lemon_seeds_2"
+    },
+    "age=3": {
+      "model": "limonata:block/lemon_seeds_3"
+    },
+    "age=4": {
+      "model": "limonata:block/lemon_seeds_4"
+    },
+    "age=5": {
+      "model": "limonata:block/lemon_seeds_5"
+    },
+    "age=6": {
+      "model": "limonata:block/lemon_seeds_6"
+    },
+    "age=7": {
+      "model": "limonata:block/lemon_seeds_7"
     }
   }
 }

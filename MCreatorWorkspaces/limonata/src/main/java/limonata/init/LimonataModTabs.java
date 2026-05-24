@@ -24,7 +24,6 @@ public class LimonataModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.limonata.limonata_creative_tab")).icon(() -> new ItemStack(LimonataModItems.LEMONADE_ACHIEVEMENT_ITEM.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(LimonataModItems.MUSIC_DISC_LIMONATA_CHIAMATA.get());
 				tabData.accept(LimonataModItems.ICE_CUBES.get());
-				tabData.accept(LimonataModBlocks.LEMON_SEEDS.get().asItem());
 				tabData.accept(LimonataModItems.LEMON.get());
 				tabData.accept(LimonataModItems.CUT_LEMON.get());
 				tabData.accept(LimonataModItems.GOLDEN_LEMON.get());
@@ -53,6 +52,7 @@ public class LimonataModTabs {
 				tabData.accept(LimonataModItems.ENCHANTED_GOLDEN_LEMONADE.get());
 				tabData.accept(LimonataModBlocks.LEMONSHROOMBLOCK.get().asItem());
 				tabData.accept(LimonataModBlocks.LEMONSHROOMSTEM.get().asItem());
+				tabData.accept(LimonataModBlocks.LEMON_SEEDS.get().asItem());
 			}).build());
 
 	@SubscribeEvent

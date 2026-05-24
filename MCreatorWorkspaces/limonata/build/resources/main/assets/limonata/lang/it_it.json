@@ -74,11 +74,11 @@
   "item.limonata.lemonade_bottle": "Boccetta di Limonata",
   "gamerule.doLemonTreesGrowFinalStage": "L\u0027albero di Limoni cresce fino all\u0027ultimo stadio.",
   "gamerule.doLemonTreesGrowFinalStage.description": "Lascia che l\u0027albero di Limoni cresca fino all\u0027ultimo stadio.",
-  "block.limonata.lemon_seeds": "Semi di limone",
   "block.limonata.lemonshroom": "Limonino",
   "block.limonata.hatchling_lemonshroom": "Limonino appena nato",
   "block.limonata.grown_lemonshroom": "Limonino cresciuto",
   "block.limonata.adult_lemonshroom": "Limonino adulto",
   "block.limonata.lemonshroomblock": "Lemonshroom Block",
-  "block.limonata.lemonshroomstem": "Lemonshroom Stem"
+  "block.limonata.lemonshroomstem": "Lemonshroom Stem",
+  "block.limonata.lemon_seeds": "Lemon Seeds"
 }

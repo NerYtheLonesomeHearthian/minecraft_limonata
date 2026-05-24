@@ -74,11 +74,11 @@
   "item.limonata.lemonade_bottle": "Lemonade Bottle",
   "gamerule.doLemonTreesGrowFinalStage": "Lemon Tree grows to the final stage",
   "gamerule.doLemonTreesGrowFinalStage.description": "Allows the Lemon Tree to grow to its final stage.",
-  "block.limonata.lemon_seeds": "Lemon Seeds",
   "block.limonata.lemonshroom": "Lemonshroom",
   "block.limonata.hatchling_lemonshroom": "Hatchling Lemonshroom",
   "block.limonata.grown_lemonshroom": "Grown Lemonshroom",
   "block.limonata.adult_lemonshroom": "Adult Lemonshroom",
   "block.limonata.lemonshroomblock": "Lemonshroom Block",
-  "block.limonata.lemonshroomstem": "Lemonshroom Stem"
+  "block.limonata.lemonshroomstem": "Lemonshroom Stem",
+  "block.limonata.lemon_seeds": "Lemon Seeds"
 }

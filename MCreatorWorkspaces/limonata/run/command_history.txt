@@ -1,8 +1,3 @@
-/gamerule randomTickSpeed 190000
-/neoforge tps
-/gamerule randomTickSpeed 290000
-/neoforge tps
-/gamerule randomTickSpeed 3
 /neoforge tps
 /gamerule randomTickSpeed 290000
 /gamerule randomTickSpeed 3
@@ -48,3 +43,8 @@
 /tick unfreeze
 /data get block 276 63 896
 /weather clear
+/give @p minecraft:debug_stick
+/gamerule randomTickSpeed 90
+/time set day
+/gamerule randomTickSpeed 900
+/gamerule randomTickSpeed 3

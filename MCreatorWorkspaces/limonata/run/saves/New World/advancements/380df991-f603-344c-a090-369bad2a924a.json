@@ -264,5 +264,35 @@
     },
     "done": true
   },
+  "limonata:recipes/lemonade_stand_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-23 20:29:28 +0200"
+    },
+    "done": true
+  },
+  "limonata:recipes/lemons_to_lemoncrate": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-23 20:29:28 +0200"
+    },
+    "done": true
+  },
+  "limonata:obtainlemon": {
+    "criteria": {
+      "obtainlemon_0": "2026-05-23 20:29:28 +0200"
+    },
+    "done": true
+  },
+  "limonata:recipes/golden_lemon_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-23 20:29:28 +0200"
+    },
+    "done": true
+  },
+  "limonata:recipes/lemontocutlemon": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-23 20:29:28 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

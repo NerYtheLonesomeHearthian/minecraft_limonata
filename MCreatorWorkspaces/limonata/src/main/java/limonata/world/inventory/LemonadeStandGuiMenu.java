@@ -35,7 +35,7 @@ public class LemonadeStandGuiMenu extends AbstractContainerMenu implements Limon
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 52)
+			if (!this.containsKey(key) && this.size() >= 84)
 				return null;
 			return super.put(key, value);
 		}
@@ -167,20 +167,10 @@ public class LemonadeStandGuiMenu extends AbstractContainerMenu implements Limon
 				return false;
 			}
 		}));
-		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 134, 44) {
+		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 186, 5) {
 			private final int slot = 8;
 			private int x = LemonadeStandGuiMenu.this.x;
 			private int y = LemonadeStandGuiMenu.this.y;
-
-			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
-			}
-
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

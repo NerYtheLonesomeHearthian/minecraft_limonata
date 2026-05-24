@@ -139,7 +139,7 @@
           "image": "sugar_gui.png",
           "use1Xscale": false,
           "x": 196,
-          "y": 78,
+          "y": 77,
           "locked": false
         }
       },
@@ -336,29 +336,6 @@
           "use1Xscale": false,
           "x": 264,
           "y": 119,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "furnace_gui_big-slot.png",
-          "use1Xscale": false,
-          "x": 255,
-          "y": 52,
-          "locked": false
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 8,
-          "disablePickup": {
-            "fixedValue": true
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 259,
-          "y": 56,
           "locked": false
         }
       },
@@ -683,8 +660,357 @@
         "data": {
           "image": "lemonadestandgui_addspecialingredientarrow.png",
           "use1Xscale": false,
-          "x": 222,
-          "y": 94,
+          "x": 223,
+          "y": 93,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui01.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui02.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui03.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui04.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui05.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui06.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui07.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui08.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui09.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui10.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui11.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui12.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui13.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui14.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui15.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui16.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui17.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui18.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui19.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui20.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui21.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui22.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui23.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui24.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui25.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui26.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui27.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui28.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui29.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui30.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui31.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lemonadejuggui32full.png",
+          "use1Xscale": false,
+          "x": 253,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 8,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 311,
+          "y": 17,
           "locked": false
         }
       }
