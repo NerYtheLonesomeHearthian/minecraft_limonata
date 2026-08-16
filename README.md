@@ -34,4 +34,4 @@ Hope you enjoy!
 
 ## Notes
 
-*Note: on 16/08/2026 I restructured all releases to use the correct semantic versioning method. the order and version names are now correct. This means that the mod version in-game often won't correspond to the name of the file: I apologize for the inconvenience. All files released after 16/08/2026 will have the correct name and version.*
+*Note: on 16/08/2026 I restructured all releases to use the correct semantic versioning method. The order and version names are now correct. This means that the mod version in-game often won't correspond to the name of the file: I apologize for the inconvenience. All files released after 16/08/2026 will have the correct name and version.*
