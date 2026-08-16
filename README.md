@@ -3,7 +3,7 @@ Repository for the Minecraft mod Limonata (1.21.1).
 
 This mod was made with MCreator.
 
-Description (from Modrinth): ↓
+## Description (from Modrinth)
 
 This is a mod primarily made for me and my group of friends, the Limonari.
 
@@ -31,3 +31,7 @@ My intention with this mod is to add small cute additions that are a kind of ins
 This mod was made with [MCreator](https://mcreator.net/).
 
 Hope you enjoy!
+
+## Notes
+
+*Note: on 16/08/2026 I restructured all releases to use the correct semantic versioning method. the order and version names are now correct. This means that the mod version in-game often won't correspond to the name of the file: I apologize for the inconvenience. All files released after 16/08/2026 will have the correct name and version.*
