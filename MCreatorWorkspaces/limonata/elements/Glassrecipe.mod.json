@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 8,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Blocks.GLASS"
-      }
+      "Blocks.GLASS"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.GLASS"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.GLASS"
-      },
-      {
-        "value": "Blocks.GLASS"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.GLASS"
-      },
-      {
-        "value": "Blocks.GLASS"
-      },
-      {
-        "value": "Blocks.GLASS"
-      },
-      {
-        "value": "Blocks.GLASS"
-      }
+      "Blocks.GLASS",
+      "",
+      "Blocks.GLASS",
+      "Blocks.GLASS",
+      "",
+      "Blocks.GLASS",
+      "Blocks.GLASS",
+      "Blocks.GLASS",
+      "Blocks.GLASS"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Glass"
-    },
+    "recipeReturnStack": "CUSTOM:Glass",
     "name": "glassrecipe",
     "namespace": "mod"
   }

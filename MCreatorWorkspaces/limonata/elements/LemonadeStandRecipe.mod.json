@@ -1,17 +1,13 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:Lemon"
-      },
-      {
-        "value": "CUSTOM:Cutlemon"
-      }
+      "CUSTOM:Lemon",
+      "CUSTOM:Cutlemon"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -19,37 +15,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Glass"
-      },
-      {
-        "value": "Items.SUGAR"
-      },
-      {
-        "value": "Blocks.BAMBOO"
-      },
-      {
-        "value": "TAG:minecraft:wooden_slabs"
-      },
-      {
-        "value": "TAG:minecraft:wooden_slabs"
-      },
-      {
-        "value": "CUSTOM:Cutlemon"
-      },
-      {
-        "value": "TAG:minecraft:wooden_fences"
-      },
-      {
-        "value": "TAG:minecraft:wooden_fences"
-      },
-      {
-        "value": "CUSTOM:IceCubes"
-      }
+      "CUSTOM:Glass",
+      "Items.SUGAR",
+      "Blocks.BAMBOO",
+      "TAG:minecraft:wooden_slabs",
+      "TAG:minecraft:wooden_slabs",
+      "CUSTOM:Cutlemon",
+      "TAG:minecraft:wooden_fences",
+      "TAG:minecraft:wooden_fences",
+      "CUSTOM:IceCubes"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:LemonadeStand"
-    },
+    "recipeReturnStack": "CUSTOM:LemonadeStand",
     "name": "lemonade_stand_recipe",
     "namespace": "mod"
   }

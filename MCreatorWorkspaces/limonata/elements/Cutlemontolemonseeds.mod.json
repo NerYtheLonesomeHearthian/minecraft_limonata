@@ -1,17 +1,13 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:Cutlemon"
-      },
-      {
-        "value": "CUSTOM:LemonCrop0"
-      }
+      "CUSTOM:Cutlemon",
+      "CUSTOM:LemonCrop0"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -19,37 +15,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Cutlemon"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:Cutlemon",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:LemonCrop0"
-    },
+    "recipeReturnStack": "CUSTOM:LemonCrop0",
     "name": "cutlemontolemonseeds",
     "namespace": "mod"
   }

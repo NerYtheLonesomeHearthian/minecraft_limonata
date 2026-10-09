@@ -14,5 +14,5 @@ import limonata.LimonataMod;
 
 public class LimonataModFluidTypes {
 	public static final DeferredRegister<FluidType> REGISTRY = DeferredRegister.create(NeoForgeRegistries.FLUID_TYPES, LimonataMod.MODID);
-	public static final DeferredHolder<FluidType, FluidType> LEMONADE_TYPE = REGISTRY.register("lemonade", () -> new LemonadeFluidType());
+	public static final DeferredHolder<FluidType, FluidType> LEMONADE_TYPE = REGISTRY.register("lemonade", LemonadeFluidType::new);
 }

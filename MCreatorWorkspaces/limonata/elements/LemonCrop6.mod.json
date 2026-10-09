@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "block",
   "definition": {
     "texture": "lemon_crop_6",
@@ -52,9 +52,7 @@
     "immuneToFire": false,
     "creativeTabs": [],
     "destroyTool": "Not specified",
-    "customDrop": {
-      "value": "CUSTOM:LemonCrop0"
-    },
+    "customDrop": "CUSTOM:LemonCrop0",
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
@@ -74,14 +72,10 @@
     },
     "colorOnMap": "FOLIAGE",
     "noteBlockInstrument": "harp",
-    "creativePickItem": {
-      "value": "CUSTOM:LemonCrop0"
-    },
+    "creativePickItem": "CUSTOM:LemonCrop0",
     "offsetType": "NONE",
     "aiPathNodeType": "OPEN",
-    "strippingResult": {
-      "value": ""
-    },
+    "strippingResult": "",
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -91,25 +85,13 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "DESTROY",
     "isNotColidable": true,
+    "soundOnStep": "CROP",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "CROP"
-    },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
     "luminance": {
       "fixedValue": 0.0
     },
@@ -137,18 +119,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onNeighbourBlockChanges": {
-      "name": "LemonCropNeighbourBlockChanges"
-    },
-    "onTickUpdate": {
-      "name": "LemonCropOnTickUpdate"
-    },
+    "onNeighbourBlockChanges": "LemonCropNeighbourBlockChanges",
+    "onTickUpdate": "LemonCropOnTickUpdate",
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      }
+      "TAG:stone_ore_replaceables"
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -12,18 +12,14 @@
     "name": "Lemonade Bottle",
     "rarity": "COMMON",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:LimonataCreativeTab"
-      }
+      "CUSTOM:LimonataCreativeTab"
     ],
     "stackSize": 16,
     "enchantability": 0,
     "useDuration": 32,
     "toolType": 1.0,
     "damageCount": 0,
-    "recipeRemainder": {
-      "value": ""
-    },
+    "recipeRemainder": "",
     "destroyAnyBlock": false,
     "immuneToFire": false,
     "isPiglinCurrency": false,
@@ -47,23 +43,17 @@
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
-    "projectile": {
-      "value": "Arrow"
-    },
+    "projectile": "Arrow",
     "projectileDisableAmmoCheck": false,
     "isFood": true,
     "nutritionalValue": 2,
     "saturation": 0.19999999999999998,
-    "eatResultItem": {
-      "value": "Items.GLASS_BOTTLE"
-    },
+    "eatResultItem": "Items.GLASS_BOTTLE",
     "isMeat": false,
     "isAlwaysEdible": false,
     "animation": "eat",
     "isMusicDisc": false,
-    "musicDiscMusic": {
-      "value": ""
-    },
+    "musicDiscMusic": "",
     "musicDiscDescription": "",
     "musicDiscLengthInTicks": 100,
     "musicDiscAnalogOutput": 0,

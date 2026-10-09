@@ -1,11 +1,9 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tab",
   "definition": {
     "name": "Limonata",
-    "icon": {
-      "value": "CUSTOM:LemonadeAchievementItem"
-    },
+    "icon": "CUSTOM:LemonadeAchievementItem",
     "showSearch": false
   }
 }

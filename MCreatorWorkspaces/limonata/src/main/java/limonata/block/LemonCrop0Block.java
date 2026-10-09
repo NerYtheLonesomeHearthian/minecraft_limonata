@@ -78,7 +78,10 @@ public class LemonCrop0Block extends Block implements BonemealableBlock {
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		return super.getStateForPlacement(context).setValue(AGE_7, 0);
+		BlockState state = super.getStateForPlacement(context);
+		if (state == null)
+			return null;
+		return state.setValue(AGE_7, 0);
 	}
 
 	@Override

@@ -2965,9 +2965,6 @@
     "ITEMS:minecraft:creeper_drop_music_discs": [
       "CUSTOM:MusicDiscLimonataChiamata"
     ],
-    "ITEMS:minecraft:music_discs": [
-      "~CUSTOM:MusicDiscLimonataChiamata"
-    ],
     "BLOCKS:limonata:lemon_crop": [
       "CUSTOM:LemonCrop0",
       "CUSTOM:LemonCrop2",
@@ -2977,14 +2974,6 @@
       "CUSTOM:LemonCrop5",
       "CUSTOM:LemonCrop6",
       "CUSTOM:LemonCrop55"
-    ],
-    "BLOCKS:minecraft:leaves": [
-      "~CUSTOM:LemonLeavesLemon",
-      "~CUSTOM:LemonLeaves"
-    ],
-    "BLOCKS:minecraft:mineable/hoe": [
-      "~CUSTOM:LemonLeavesLemon",
-      "~CUSTOM:LemonLeaves"
     ],
     "BLOCKS:minecraft:bee_growables": [
       "CUSTOM:LemonCrop0",
@@ -3011,9 +3000,9 @@
       "CUSTOM:LemonFungusStage4"
     ],
     "BLOCKS:minecraft:mineable/axe": [
-      "~CUSTOM:Lemonshroomstem",
-      "~CUSTOM:Lemonshroomblock",
-      "~CUSTOM:LemonCrate",
+      "~Lemonshroomstem@CUSTOM:Lemonshroomstem",
+      "~Lemonshroomblock@CUSTOM:Lemonshroomblock",
+      "~LemonCrate@CUSTOM:LemonCrate",
       "CUSTOM:LemonCrop0",
       "CUSTOM:LemonCrop2",
       "CUSTOM:LemonCrop1",
@@ -3114,9 +3103,6 @@
       "CUSTOM:Test.bucket",
       "CUSTOM:Lemonade.bucket"
     ],
-    "BLOCKS:minecraft:replaceable": [
-      "~CUSTOM:Lemonade"
-    ],
     "ITEMS:c:mushrooms": [
       "CUSTOM:Lemonfungus",
       "CUSTOM:LemonFungusStage2",
@@ -3144,6 +3130,20 @@
       "CUSTOM:LemonFungusStage2",
       "CUSTOM:LemonFungusStage3",
       "CUSTOM:LemonFungusStage4"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~MusicDiscLimonataChiamata@CUSTOM:MusicDiscLimonataChiamata"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~LemonLeavesLemon@CUSTOM:LemonLeavesLemon",
+      "~LemonLeaves@CUSTOM:LemonLeaves"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~LemonLeavesLemon@CUSTOM:LemonLeavesLemon",
+      "~LemonLeaves@CUSTOM:LemonLeaves"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~Lemonade@CUSTOM:Lemonade"
     ]
   },
   "tab_element_order": {
@@ -3467,5 +3467,5 @@
     "credits": "Made with passion - and using mod maker MCreator (https://mcreator.net/about)",
     "modElementsPackage": "limonata"
   },
-  "mcreatorVersion": 202600114619
+  "mcreatorVersion": 202600233518
 }

@@ -1,10 +1,8 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "itemextension",
   "definition": {
-    "item": {
-      "value": "CUSTOM:LemonFungusStage4"
-    },
+    "item": "CUSTOM:LemonFungusStage4",
     "enableFuel": false,
     "fuelPower": {
       "fixedValue": 1600.0

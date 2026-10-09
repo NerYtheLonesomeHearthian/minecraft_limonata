@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "fluid",
   "definition": {
     "name": "Lemonade",
@@ -24,9 +24,7 @@
     "levelDecrease": 1,
     "slopeFindDistance": 4,
     "spawnParticles": false,
-    "dripParticle": {
-      "value": "CUSTOM:LemonadeFluidDrip"
-    },
+    "dripParticle": "CUSTOM:LemonadeFluidDrip",
     "flowStrength": 1.0,
     "luminosity": 1,
     "density": 1000,
@@ -36,13 +34,9 @@
     "generateBucket": true,
     "textureBucket": "lemonade_bucket",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:LimonataCreativeTab"
-      }
+      "CUSTOM:LimonataCreativeTab"
     ],
-    "emptySound": {
-      "value": "item.bucket.empty"
-    },
+    "emptySound": "item.bucket.empty",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []

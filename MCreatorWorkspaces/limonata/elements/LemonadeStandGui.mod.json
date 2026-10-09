@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -295,9 +295,7 @@
         "data": {
           "image": "water_fuel_length_33.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIwaterBar0"
-          },
+          "displayCondition": "LmnstandGUIwaterBar0",
           "x": 153,
           "y": 125,
           "locked": false
@@ -308,9 +306,7 @@
         "data": {
           "image": "water_fuel_length_66.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIwaterBar1"
-          },
+          "displayCondition": "LmnstandGUIwaterBar1",
           "x": 153,
           "y": 125,
           "locked": false
@@ -321,9 +317,7 @@
         "data": {
           "image": "water_fuel_length.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIwaterBar2"
-          },
+          "displayCondition": "LmnstandGUIwaterBar2",
           "x": 153,
           "y": 125,
           "locked": false
@@ -374,9 +368,7 @@
         "data": {
           "image": "burn_progress_0.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress0"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress0",
           "x": 221,
           "y": 57,
           "locked": false
@@ -387,9 +379,7 @@
         "data": {
           "image": "burn_progress_1.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress1"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress1",
           "x": 221,
           "y": 57,
           "locked": false
@@ -400,9 +390,7 @@
         "data": {
           "image": "burn_progress_2.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress2"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress2",
           "x": 221,
           "y": 57,
           "locked": false
@@ -413,9 +401,7 @@
         "data": {
           "image": "burn_progress_3.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress3"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress3",
           "x": 221,
           "y": 57,
           "locked": false
@@ -426,9 +412,7 @@
         "data": {
           "image": "burn_progress_4.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress4"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress4",
           "x": 221,
           "y": 57,
           "locked": false
@@ -439,9 +423,7 @@
         "data": {
           "image": "burn_progress_5.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress5"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress5",
           "x": 221,
           "y": 57,
           "locked": false
@@ -452,9 +434,7 @@
         "data": {
           "image": "burn_progress_6.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress6"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress6",
           "x": 221,
           "y": 57,
           "locked": false
@@ -465,9 +445,7 @@
         "data": {
           "image": "burn_progress_7.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress7"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress7",
           "x": 221,
           "y": 57,
           "locked": false
@@ -478,9 +456,7 @@
         "data": {
           "image": "burn_progress_8.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress8"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress8",
           "x": 221,
           "y": 57,
           "locked": false
@@ -491,9 +467,7 @@
         "data": {
           "image": "burn_progress_9.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress9"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress9",
           "x": 221,
           "y": 57,
           "locked": false
@@ -504,9 +478,7 @@
         "data": {
           "image": "burn_progress_10.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress10"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress10",
           "x": 221,
           "y": 57,
           "locked": false
@@ -517,9 +489,7 @@
         "data": {
           "image": "burn_progress_11.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress11"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress11",
           "x": 221,
           "y": 57,
           "locked": false
@@ -530,9 +500,7 @@
         "data": {
           "image": "burn_progress_12.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress12"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress12",
           "x": 221,
           "y": 57,
           "locked": false
@@ -543,9 +511,7 @@
         "data": {
           "image": "burn_progress_13.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress13"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress13",
           "x": 221,
           "y": 57,
           "locked": false
@@ -556,9 +522,7 @@
         "data": {
           "image": "burn_progress_14.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress14"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress14",
           "x": 221,
           "y": 57,
           "locked": false
@@ -569,9 +533,7 @@
         "data": {
           "image": "burn_progress_15.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress15"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress15",
           "x": 221,
           "y": 57,
           "locked": false
@@ -582,9 +544,7 @@
         "data": {
           "image": "burn_progress_16.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress16"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress16",
           "x": 221,
           "y": 57,
           "locked": false
@@ -595,9 +555,7 @@
         "data": {
           "image": "burn_progress_17.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress17"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress17",
           "x": 221,
           "y": 57,
           "locked": false
@@ -608,9 +566,7 @@
         "data": {
           "image": "burn_progress_18.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress18"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress18",
           "x": 221,
           "y": 57,
           "locked": false
@@ -621,9 +577,7 @@
         "data": {
           "image": "burn_progress_19.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress19"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress19",
           "x": 221,
           "y": 57,
           "locked": false
@@ -634,9 +588,7 @@
         "data": {
           "image": "burn_progress_20.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress20"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress20",
           "x": 221,
           "y": 57,
           "locked": false
@@ -647,9 +599,7 @@
         "data": {
           "image": "burn_progress_21.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "LmnstandGUIbrewingProgress21"
-          },
+          "displayCondition": "LmnstandGUIbrewingProgress21",
           "x": 221,
           "y": 57,
           "locked": false

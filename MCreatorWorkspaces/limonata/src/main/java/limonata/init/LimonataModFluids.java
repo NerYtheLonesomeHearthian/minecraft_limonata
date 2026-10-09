@@ -22,8 +22,8 @@ import limonata.LimonataMod;
 
 public class LimonataModFluids {
 	public static final DeferredRegister<Fluid> REGISTRY = DeferredRegister.create(BuiltInRegistries.FLUID, LimonataMod.MODID);
-	public static final DeferredHolder<Fluid, FlowingFluid> LEMONADE = REGISTRY.register("lemonade", () -> new LemonadeFluid.Source());
-	public static final DeferredHolder<Fluid, FlowingFluid> FLOWING_LEMONADE = REGISTRY.register("flowing_lemonade", () -> new LemonadeFluid.Flowing());
+	public static final DeferredHolder<Fluid, FlowingFluid> LEMONADE = REGISTRY.register("lemonade", LemonadeFluid.Source::new);
+	public static final DeferredHolder<Fluid, FlowingFluid> FLOWING_LEMONADE = REGISTRY.register("flowing_lemonade", LemonadeFluid.Flowing::new);
 
 	@EventBusSubscriber(Dist.CLIENT)
 	public static class FluidsClientSideHandler {

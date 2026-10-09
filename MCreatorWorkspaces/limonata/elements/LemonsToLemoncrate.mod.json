@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:Lemon"
-      }
+      "CUSTOM:Lemon"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Lemon"
-      },
-      {
-        "value": "CUSTOM:Lemon"
-      },
-      {
-        "value": "CUSTOM:Lemon"
-      },
-      {
-        "value": "CUSTOM:Lemon"
-      },
-      {
-        "value": "CUSTOM:Lemon"
-      },
-      {
-        "value": "CUSTOM:Lemon"
-      },
-      {
-        "value": "CUSTOM:Lemon"
-      },
-      {
-        "value": "CUSTOM:Lemon"
-      },
-      {
-        "value": "CUSTOM:Lemon"
-      }
+      "CUSTOM:Lemon",
+      "CUSTOM:Lemon",
+      "CUSTOM:Lemon",
+      "CUSTOM:Lemon",
+      "CUSTOM:Lemon",
+      "CUSTOM:Lemon",
+      "CUSTOM:Lemon",
+      "CUSTOM:Lemon",
+      "CUSTOM:Lemon"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:LemonCrate"
-    },
+    "recipeReturnStack": "CUSTOM:LemonCrate",
     "name": "lemons_to_lemoncrate",
     "namespace": "mod"
   }

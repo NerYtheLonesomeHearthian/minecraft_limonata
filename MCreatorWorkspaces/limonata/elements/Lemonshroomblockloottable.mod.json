@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "loottable",
   "definition": {
     "type": "Block",
@@ -13,9 +13,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:Lemonfungus"
-            },
+            "item": "CUSTOM:Lemonfungus",
             "weight": 1,
             "minCount": 0,
             "maxCount": 2,
@@ -27,9 +25,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "Blocks.AIR"
-            },
+            "item": "Blocks.AIR",
             "weight": 2,
             "minCount": 1,
             "maxCount": 1,
@@ -50,9 +46,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:Lemonshroomblock"
-            },
+            "item": "CUSTOM:Lemonshroomblock",
             "weight": 1,
             "minCount": 1,
             "maxCount": 1,
